@@ -264,11 +264,26 @@ async function fetchDB(db,s,e){
   }while(cursor);
   return all.map(p=>{
     const pr=p.properties;
+    // Check all properties for status/select values — catches any field with done keywords or "evento"
     const sf=db.sf||'Status';
-    const statusName=pr[sf]?.status?.name||pr[sf]?.select?.name||'';
-    // Also check Formato field — if "Evento", treat as done
-    const formatoName=pr['Formato']?.select?.name||pr['Formato']?.status?.name||'';
-    const done=isDone(statusName)||formatoName.toLowerCase()==='evento';
+    let statusName='',formatoName='';
+    for(const [k,v] of Object.entries(pr)){
+      if(!v)continue;
+      const n=v?.status?.name||v?.select?.name||'';
+      if(!n)continue;
+      if(k===sf||k==='Andamento')statusName=n;
+      if(k==='Formato')formatoName=n;
+    }
+    // Fallback: scan ALL properties for done keywords or "evento"
+    const anyEvento=Object.values(pr).some(v=>{
+      const n=v?.status?.name||v?.select?.name||'';
+      return n.toLowerCase()==='evento';
+    });
+    const done=isDone(statusName)||isDone(formatoName)||anyEvento;
+    // Debug: log every event to see raw status values
+    if(title.toLowerCase().includes('pais')||title.toLowerCase().includes('evento')){
+      console.log('[DEBUG]',title,'| status:',statusName,'| formato:',formatoName,'| anyEvento:',anyEvento,'| done:',done);
+    }
     return{title:pr[db.tf]?.title?.[0]?.plain_text||'(sem título)',date:pr[db.df]?.date?.start?.substring(0,10)||null,bg:db.bg,fg:db.fg,name:db.name,done,url:`https://notion.so/${p.id.replace(/-/g,'')}`};
   }).filter(x=>x.date);
 }
