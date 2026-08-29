@@ -198,8 +198,8 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
 </div>
 
 <script>
-// ── Cole aqui o token da integração do Notion ──────────────────
-// Só precisa editar esta linha. Deixe '' para usar a tela de login.
+// ── TOKEN FIXO — edite apenas esta linha ─────────────────────────
+// Cole o token entre as aspas. Deixe '' para usar tela de login.
 const HARDCODED_TOKEN = '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';
 
 const PROXIES=[
@@ -326,10 +326,8 @@ function makeEv(ev,isPast){
   }
   a.title=ev.name+': '+ev.title+(done?' (concluído)':isPast?' (atrasado)':'');
   a.href=ev.url;
-  // _top: faz o app Notion interceptar e abrir in-app
-  // Em embed Notion web: navega no próprio Notion
-  // Em browser direto: abre na mesma aba (aceitável)
-  a.target='_top';
+  a.target='_blank';
+  a.rel='noopener noreferrer';
   const dot=document.createElement('div');dot.className='ev-dot';dot.style.background=ev.fg;
   if(done)dot.style.opacity='0.4';
   const txt=document.createElement('span');txt.className='ev-txt';txt.textContent=ev.title;
@@ -477,7 +475,6 @@ function render(){
 
 // ── Boot ──────────────────────────────────────────────────────────
 if(HARDCODED_TOKEN){
-  // Token fixo — carrega direto sem pedir login
   TOKEN=HARDCODED_TOKEN;
   showCal();renderLegend();load();
 }else{
