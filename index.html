@@ -262,28 +262,22 @@ const loader=show=>{
 };
 const showBanner=msg=>{const b=document.getElementById('errBanner');if(msg){b.textContent=msg;b.style.display='block';}else b.style.display='none';};
 
-// ── Smart Notion link opener ──────────────────────────────────────
-// Detects: Notion desktop app (Electron), Notion mobile, or browser
-function openNotionLink(e, url){
-  e.preventDefault();e.stopPropagation();
-  const isElectron=/Electron/i.test(navigator.userAgent);
-  const isMobile=/notion.*mobile|notion.*ios|notion.*android/i.test(navigator.userAgent);
-  const pageId=url.replace('https://notion.so/','');
-  if(isElectron||isMobile){
-    // Notion desktop or mobile app → use notion:// scheme (opens in-app)
-    window.location.href=`notion://www.notion.so/${pageId}`;
-  }else{
-    // Browser (including Notion web embed) → new tab
-    window.open(url,'_blank','noopener');
-  }
-}
-
 function makeEv(ev){
   const a=document.createElement('a');
   a.className='ev '+ev.cls;
-  a.href=ev.url;
   a.title=ev.name+': '+ev.title;
-  a.onclick=e=>openNotionLink(e,ev.url);
+  // Notion desktop app (Electron) → notion:// scheme, opens in-app
+  // Everywhere else (browser, Notion web embed) → new tab via target=_blank
+  const isElectron=/Electron/i.test(navigator.userAgent);
+  if(isElectron){
+    const pageId=ev.url.replace('https://notion.so/','');
+    a.href=`notion://www.notion.so/${pageId}`;
+    a.target='_self';
+  }else{
+    a.href=ev.url;
+    a.target='_blank';
+    a.rel='noopener noreferrer';
+  }
   const dot=document.createElement('div');dot.className='ev-dot';
   dot.style.background=getComputedStyle(document.documentElement).getPropertyValue('--'+ev.cls+'-t').trim();
   const txt=document.createElement('span');txt.className='ev-txt';txt.textContent=ev.title;
