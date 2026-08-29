@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T18:53:10.469Z",
+  "updated": "2026-08-29T19:09:32.906Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -1250,6 +1250,150 @@
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "casa amelis",
+      "done": true
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Reunião de ajustes",
+      "url": "https://notion.so/3cb82cfc4f0a8038823cca68dd35cc0f",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": false
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Benchmarking",
+      "url": "https://notion.so/edc82cfc4f0a83c988d68130ab7521dc",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Análise mercadológica",
+      "url": "https://notion.so/0b682cfc4f0a83e88a1781c9050240a1",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Montagem de proposta",
+      "url": "https://notion.so/e5882cfc4f0a82ecae5f01b77d2ae0ef",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Escolha de mockups",
+      "url": "https://notion.so/45a82cfc4f0a83b6b06181a6bb5aba00",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Direção de fotografia",
+      "url": "https://notion.so/d3c82cfc4f0a8275a6ab8192d652ff67",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-06",
+      "title": "Protótipos e testes",
+      "url": "https://notion.so/e5582cfc4f0a82d68aba81af6546513c",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-04",
+      "title": "Estudo de direcionamento",
+      "url": "https://notion.so/de282cfc4f0a8269b2d481467ebb5e6c",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Análise de referências",
+      "url": "https://notion.so/59282cfc4f0a829ba6e781dab3d74099",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Direcionamento visual",
+      "url": "https://notion.so/08b82cfc4f0a83d08a6981255e031238",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Apresentação visual",
+      "url": "https://notion.so/9e182cfc4f0a828993178104e3cd859f",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-07-16",
+      "title": "Debriefing",
+      "url": "https://notion.so/cd082cfc4f0a82e08110011461d89654",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Itens de ativação",
+      "url": "https://notion.so/ad282cfc4f0a8229978e011c8a1bed36",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Itens impressos",
+      "url": "https://notion.so/64c82cfc4f0a8399bdd901168f5a7a04",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Itens visuais",
+      "url": "https://notion.so/48182cfc4f0a820c914981e50d71b807",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-06-14",
+      "title": "Briefing inicial",
+      "url": "https://notion.so/84982cfc4f0a823b8b8b011db779a9e6",
+      "bg": "#fdecc8",
+      "fg": "#8a4e00",
+      "name": "ch representações",
       "done": true
     }
   ]
