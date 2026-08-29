@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendário Editorial — PATI & Co.</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#ffffff;
+  --bg-alt:#f7f7f5;
+  --border:#e9e9e7;
+  --text:#1a1a1a;
+  --muted:#9b9b9b;
+  --light:#c8c8c6;
+  --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  /* Notion palette */
+  --eko:#d3e5ef;       --eko-t:#2e7dc7;
+  --jocil:#dbeddb;     --jocil-t:#448361;
+  --ppg:#fadec9;       --ppg-t:#c47615;
+  --movelaria:#e8deee; --movelaria-t:#9065b0;
+  --amelis:#f5e0e9;    --amelis-t:#c04274;
+}
+body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13px;min-height:100vh}
+
+/* SETUP */
+#setup{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;gap:14px;padding:24px}
+#setup h2{font-size:15px;font-weight:600;letter-spacing:-.01em}
+.sub{font-size:12px;color:var(--muted);text-align:center;max-width:340px;line-height:1.65}
+#tokenInput{width:340px;padding:8px 12px;border:1px solid var(--border);border-radius:4px;font-family:var(--font);font-size:12px;background:var(--bg-alt);outline:none;color:var(--text)}
+#tokenInput:focus{border-color:#aaa}
+#startBtn{padding:7px 20px;background:var(--text);color:#fff;border:none;border-radius:4px;font-family:var(--font);font-size:12px;font-weight:500;cursor:pointer}
+#startBtn:hover{opacity:.82}
+#errMsg{font-size:11px;color:#c0392b;min-height:14px;text-align:center;max-width:340px;line-height:1.5}
+.hint{font-size:11px;color:#ccc;margin-top:2px;text-align:center;max-width:340px;line-height:1.6}
+
+/* CAL */
+#cal{display:none;flex-direction:column;height:100vh}
+.hdr{display:flex;align-items:center;gap:10px;padding:12px 18px 8px;border-bottom:1px solid var(--border)}
+.hdr-title{font-size:14px;font-weight:500;flex:1}
+.nav-btn{width:24px;height:24px;border:1px solid var(--border);background:var(--bg);border-radius:4px;cursor:pointer;font-size:14px;color:var(--muted);display:flex;align-items:center;justify-content:center}
+.nav-btn:hover{background:var(--bg-alt);color:var(--text)}
+.today-btn{padding:3px 10px;border:1px solid var(--border);background:var(--bg);border-radius:4px;cursor:pointer;font-family:var(--font);font-size:11px;color:var(--muted)}
+.today-btn:hover{background:var(--bg-alt);color:var(--text)}
+.nav-row{display:flex;gap:2px}
+
+.err-banner{background:#fff5f5;border:1px solid #fecaca;border-radius:4px;padding:7px 14px;font-size:11px;color:#c0392b;margin:8px 18px 0;line-height:1.6;display:none}
+
+.legend{display:flex;gap:10px;padding:6px 18px;border-bottom:1px solid var(--border);flex-wrap:wrap;align-items:center}
+.leg-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--muted)}
+.leg-dot{width:8px;height:8px;border-radius:2px;flex-shrink:0}
+
+.wdays{display:grid;grid-template-columns:repeat(7,1fr);border-bottom:1px solid var(--border)}
+.wdays span{padding:5px 0 4px;text-align:center;font-size:11px;font-weight:500;color:var(--muted);letter-spacing:.02em}
+
+.grid{display:grid;grid-template-columns:repeat(7,1fr);flex:1;overflow-y:auto}
+.cell{border-right:1px solid var(--border);border-bottom:1px solid var(--border);min-height:96px;padding:5px 4px 4px;display:flex;flex-direction:column;gap:2px}
+.cell:nth-child(7n){border-right:none}
+.cell.other{background:var(--bg-alt)}
+.cell.other .dnum{color:var(--light)}
+.dnum{font-size:12px;color:var(--muted);width:22px;height:22px;display:flex;align-items:center;justify-content:center;border-radius:50%;flex-shrink:0;margin-bottom:1px}
+.cell.today .dnum{background:var(--text);color:#fff;font-weight:600}
+
+.ev{display:flex;align-items:center;gap:4px;padding:2px 5px;border-radius:3px;font-size:11px;line-height:1.3;overflow:hidden;white-space:nowrap;cursor:default;flex-shrink:0}
+.ev-dot{width:5px;height:5px;border-radius:50%;flex-shrink:0;opacity:.8}
+.ev-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ev.eko{background:var(--eko);color:var(--eko-t)}
+.ev.jocil{background:var(--jocil);color:var(--jocil-t)}
+.ev.ppg{background:var(--ppg);color:var(--ppg-t)}
+.ev.movelaria{background:var(--movelaria);color:var(--movelaria-t)}
+.ev.amelis{background:var(--amelis);color:var(--amelis-t)}
+.more{font-size:10px;color:var(--muted);padding:1px 5px;cursor:pointer}
+.more:hover{color:var(--text)}
+
+.loader{position:fixed;inset:0;background:rgba(255,255,255,.88);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;z-index:999}
+.spinner{width:18px;height:18px;border:2px solid var(--border);border-top-color:var(--text);border-radius:50%;animation:spin .6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loader-txt{font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<div id="setup">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <rect width="24" height="24" rx="5" fill="#1a1a1a"/>
+    <rect x="4" y="8" width="16" height="11" rx="1.5" fill="white" opacity=".12"/>
+    <rect x="4" y="4" width="16" height="6" rx="1.5" fill="white"/>
+    <circle cx="8.5" cy="17" r="1.2" fill="white" opacity=".5"/>
+    <circle cx="12" cy="17" r="1.2" fill="white" opacity=".5"/>
+    <circle cx="15.5" cy="17" r="1.2" fill="white" opacity=".5"/>
+  </svg>
+  <h2>calendário editorial — pati & co.</h2>
+  <p class="sub">cole o token da sua integração do notion. ele começa com <code>secret_</code> ou <code>ntn_</code>.</p>
+  <input id="tokenInput" type="password" placeholder="secret_xxxxxxxxxxxxxxxxxxxx"/>
+  <button id="startBtn">carregar calendário</button>
+  <p id="errMsg"></p>
+  <p class="hint">
+    notion.so/my-integrations → nova integração → copie o token<br>
+    depois adicione a integração nos 5 bancos de dados
+  </p>
+</div>
+
+<div id="cal">
+  <div class="hdr">
+    <span class="hdr-title" id="hdrTitle"></span>
+    <div class="nav-row">
+      <button class="nav-btn" id="prevBtn">‹</button>
+      <button class="nav-btn" id="nextBtn">›</button>
+    </div>
+    <button class="today-btn" id="todayBtn">hoje</button>
+  </div>
+  <div class="err-banner" id="errBanner"></div>
+  <div class="legend">
+    <div class="leg-item"><div class="leg-dot" style="background:var(--eko-t)"></div>eko natal</div>
+    <div class="leg-item"><div class="leg-dot" style="background:var(--jocil-t)"></div>jocil</div>
+    <div class="leg-item"><div class="leg-dot" style="background:var(--ppg-t)"></div>pousada pedra grande</div>
+    <div class="leg-item"><div class="leg-dot" style="background:var(--movelaria-t)"></div>movelaria</div>
+    <div class="leg-item"><div class="leg-dot" style="background:var(--amelis-t)"></div>casa amelis</div>
+  </div>
+  <div class="wdays">
+    <span>dom</span><span>seg</span><span>ter</span><span>qua</span><span>qui</span><span>sex</span><span>sáb</span>
+  </div>
+  <div class="grid" id="grid"></div>
+</div>
+
+<script>
+// ── Proxies em ordem de tentativa ───────────────────────────────────────────
+const PROXIES = [
+  url => `https://corsproxy.io/?url=${encodeURIComponent(url)}`,
+  url => `https://proxy.cors.sh/${url}`,
+  url => `https://cors-anywhere-pati.glitch.me/${url}`,
+];
+
+const NV = '2022-06-28';
+const DBS = [
+  {id:'19482cfc4f0a81bb9190fd33c430d1d8',name:'eko natal',      cls:'eko',      df:'Data de Entrega', tf:'Atividade/Post'},
+  {id:'47a82cfc4f0a8388ac5281849c62cf04',name:'jocil',          cls:'jocil',    df:'Postar em',       tf:'Pauta'},
+  {id:'27d82cfc4f0a818a92f0d3670f743d6f',name:'pousada pedra grande', cls:'ppg',df:'Postar em',       tf:'Pauta'},
+  {id:'19482cfc4f0a8054b79bd137dfdc8dda',name:'movelaria',      cls:'movelaria',df:'Postar em',       tf:'Pauta'},
+  {id:'2bf82cfc4f0a81ddb9afdfcc90f54f8f',name:'casa amelis',    cls:'amelis',   df:'Data de entrega', tf:'Pauta'}
+];
+const MONTHS=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+
+let TOKEN='', curY, curM, evMap={};
+const NOW=new Date();
+curY=NOW.getFullYear(); curM=NOW.getMonth();
+
+function iso(d){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`}
+
+async function notionPost(path, body) {
+  const target = 'https://api.notion.com' + path;
+  let lastErr;
+  for (const proxy of PROXIES) {
+    try {
+      const res = await fetch(proxy(target), {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer ' + TOKEN,
+          'Notion-Version': NV,
+          'Content-Type': 'application/json',
+          'x-requested-with': 'XMLHttpRequest'
+        },
+        body: JSON.stringify(body)
+      });
+      if (res.status === 401 || res.status === 403) {
+        throw new Error('AUTH:' + res.status);
+      }
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return await res.json();
+    } catch(e) {
+      if (e.message.startsWith('AUTH:')) throw e;
+      lastErr = e;
+    }
+  }
+  throw lastErr;
+}
+
+async function fetchDB(db, s, e) {
+  const body = {
+    filter:{and:[
+      {property:db.df,date:{on_or_after:s}},
+      {property:db.df,date:{before:e}}
+    ]},
+    page_size:100
+  };
+  let cursor, all=[];
+  do {
+    if(cursor) body.start_cursor=cursor;
+    const j = await notionPost(`/v1/databases/${db.id}/query`, body);
+    all=all.concat(j.results||[]);
+    cursor=j.has_more?j.next_cursor:null;
+  } while(cursor);
+
+  return all.map(p=>{
+    const pr=p.properties;
+    const tp=pr[db.tf];
+    const title=tp?.title?.[0]?.plain_text||'(sem título)';
+    const dp=pr[db.df];
+    const date=dp?.date?.start?.substring(0,10)||null;
+    return{title,date,cls:db.cls,name:db.name};
+  }).filter(e=>e.date);
+}
+
+// ── UI ──────────────────────────────────────────────────────────────────────
+let loaderEl=null;
+function loader(show){
+  if(show){if(loaderEl)return;loaderEl=document.createElement('div');loaderEl.className='loader';loaderEl.innerHTML='<div class="spinner"></div><div class="loader-txt">carregando eventos…</div>';document.body.appendChild(loaderEl);}
+  else{if(loaderEl){loaderEl.remove();loaderEl=null;}}
+}
+function showBanner(msg){const b=document.getElementById('errBanner');if(msg){b.textContent=msg;b.style.display='block';}else b.style.display='none';}
+
+document.getElementById('startBtn').onclick=async()=>{
+  const t=document.getElementById('tokenInput').value.trim();
+  const err=document.getElementById('errMsg');
+  if(!t.startsWith('secret_')&&!t.startsWith('ntn_')){err.textContent='token inválido — deve começar com secret_ ou ntn_';return;}
+  TOKEN=t;err.textContent='';
+  document.getElementById('setup').style.display='none';
+  document.getElementById('cal').style.display='flex';
+  await load();
+};
+document.getElementById('prevBtn').onclick=()=>{curM--;if(curM<0){curM=11;curY--;}load();};
+document.getElementById('nextBtn').onclick=()=>{curM++;if(curM>11){curM=0;curY++;}load();};
+document.getElementById('todayBtn').onclick=()=>{curY=NOW.getFullYear();curM=NOW.getMonth();load();};
+
+async function load(){
+  loader(true);showBanner('');
+  const s=iso(new Date(curY,curM,1));
+  const e=iso(new Date(curY,curM+1,1));
+  evMap={};
+  const errors=[];
+  const res=await Promise.allSettled(DBS.map(db=>fetchDB(db,s,e)));
+  res.forEach((r,i)=>{
+    if(r.status==='fulfilled'){
+      r.value.forEach(ev=>{if(!evMap[ev.date])evMap[ev.date]=[];evMap[ev.date].push(ev);});
+    }else{
+      const msg=r.reason?.message||'erro';
+      errors.push({name:DBS[i].name,msg});
+      console.warn(DBS[i].name,r.reason);
+    }
+  });
+  if(errors.length){
+    const authErr=errors.some(e=>e.msg.includes('AUTH'));
+    if(authErr){showBanner('⚠️ token sem acesso a alguns bancos — adicione a integração como convidada em cada banco no notion.');}
+    else if(errors.length===DBS.length){showBanner('⚠️ erro de conexão — abra a página em https (não via file://). se o erro persistir, o proxy cors pode estar fora do ar.');}
+    else{showBanner('⚠️ alguns bancos não carregaram: '+errors.map(e=>e.name).join(', '));}
+  }
+  render();loader(false);
+}
+
+function render(){
+  document.getElementById('hdrTitle').textContent=`${MONTHS[curM]} de ${curY}`;
+  const grid=document.getElementById('grid');grid.innerHTML='';
+  const first=new Date(curY,curM,1).getDay();
+  const dim=new Date(curY,curM+1,0).getDate();
+  const dipm=new Date(curY,curM,0).getDate();
+  const todayStr=iso(NOW);
+  const cells=[];
+  for(let i=first-1;i>=0;i--){const m=curM-1<0?11:curM-1,y=curM-1<0?curY-1:curY;cells.push({d:dipm-i,m,y,cur:false});}
+  for(let d=1;d<=dim;d++)cells.push({d,m:curM,y:curY,cur:true});
+  const rem=42-cells.length;
+  for(let d=1;d<=rem;d++){const m=curM+1>11?0:curM+1,y=curM+1>11?curY+1:curY;cells.push({d,m,y,cur:false});}
+  cells.forEach(c=>{
+    const ds=`${c.y}-${String(c.m+1).padStart(2,'0')}-${String(c.d).padStart(2,'0')}`;
+    const isT=ds===todayStr;
+    const evs=evMap[ds]||[];
+    const cell=document.createElement('div');
+    cell.className='cell'+(c.cur?'':' other')+(isT?' today':'');
+    const dn=document.createElement('div');dn.className='dnum';dn.textContent=c.d;cell.appendChild(dn);
+    const MAX=3;
+    evs.slice(0,MAX).forEach(ev=>{
+      const el=document.createElement('div');el.className='ev '+ev.cls;el.title=ev.name+': '+ev.title;
+      const dot=document.createElement('div');dot.className='ev-dot';
+      dot.style.background=getComputedStyle(document.documentElement).getPropertyValue('--'+ev.cls+'-t').trim();
+      const txt=document.createElement('span');txt.className='ev-txt';txt.textContent=ev.title;
+      el.appendChild(dot);el.appendChild(txt);cell.appendChild(el);
+    });
+    if(evs.length>MAX){const m=document.createElement('div');m.className='more';m.textContent=`+${evs.length-MAX} mais`;cell.appendChild(m);}
+    grid.appendChild(cell);
+  });
+}
+</script>
+</body>
+</html>
