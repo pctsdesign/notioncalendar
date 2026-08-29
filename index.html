@@ -9,20 +9,7 @@
 html{height:100%;overflow:hidden}
 body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;background:#fff;color:#1a1a1a}
 :root{--b:#e9e9e7;--muted:#9b9b9b;--alt:#f7f7f5;--light:#d0d0ce}
-
-/* SETUP */
-#setup{display:none;flex-direction:column;align-items:center;justify-content:center;height:100vh;gap:14px;padding:24px}
-#setup h2{font-size:14px;font-weight:600}
-.sub{font-size:12px;color:var(--muted);text-align:center;max-width:340px;line-height:1.7}
-#tokenInput{width:320px;padding:7px 11px;border:1px solid var(--b);border-radius:4px;font-size:12px;background:var(--alt);outline:none}
-#tokenInput:focus{border-color:#bbb}
-#startBtn{padding:6px 18px;background:#1a1a1a;color:#fff;border:none;border-radius:4px;font-size:12px;font-weight:500;cursor:pointer}
-#startBtn:hover{opacity:.82}
-#errMsg{font-size:11px;color:#c0392b;text-align:center;max-width:320px}
-.hint{font-size:11px;color:#ccc;text-align:center;max-width:340px;line-height:1.7;margin-top:-4px}
-
-/* CAL */
-#cal{display:none;flex-direction:column;position:fixed;inset:0;overflow:hidden}
+#cal{display:flex;flex-direction:column;position:fixed;inset:0;overflow:hidden}
 .hdr{display:flex;align-items:center;gap:6px;padding:9px 14px 7px;border-bottom:1px solid var(--b);flex-shrink:0}
 .hdr-title{font-size:14px;font-weight:500;flex:1}
 .nav-row{display:flex;gap:2px}
@@ -31,8 +18,7 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
 .today-btn{padding:3px 9px;font-size:11px}
 .gear-btn{width:24px;height:24px}
 .nav-btn:hover,.today-btn:hover,.gear-btn:hover{background:var(--alt);color:#1a1a1a}
-.change-token{font-size:10px;color:var(--muted);text-decoration:underline;cursor:pointer}
-.change-token:hover{color:#1a1a1a}
+.updated{font-size:10px;color:var(--light);letter-spacing:-.01em}
 .err-banner{background:#fff5f5;border-bottom:1px solid #fecaca;padding:5px 14px;font-size:11px;color:#c0392b;line-height:1.5;display:none;flex-shrink:0}
 .legend{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:5px 14px;border-bottom:1px solid var(--b);flex-shrink:0}
 .leg-item{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--muted)}
@@ -54,16 +40,12 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
 .ev-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0}
 .more{font-size:10px;color:var(--muted);padding:1px 3px;cursor:pointer;display:inline-block;margin-top:1px}
 .more:hover{color:#1a1a1a}
-
-/* POPOVER */
 .popover{position:fixed;z-index:200;background:#fff;border:1px solid var(--b);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.12);padding:10px;min-width:220px;max-width:280px}
 .popover-title{font-size:11px;font-weight:600;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
 .popover-close{position:absolute;top:8px;right:10px;cursor:pointer;font-size:14px;color:var(--muted);background:none;border:none;line-height:1}
 .popover-close:hover{color:#1a1a1a}
 .popover .ev{margin-bottom:3px;max-width:100%}
 #pop-overlay{position:fixed;inset:0;z-index:199;display:none}
-
-/* SETTINGS */
 #sp-overlay{position:fixed;inset:0;background:rgba(0,0,0,.25);z-index:300;display:none}
 #sp{position:fixed;top:0;right:0;bottom:0;width:320px;background:#fff;border-left:1px solid var(--b);z-index:301;display:none;flex-direction:column;box-shadow:-4px 0 20px rgba(0,0,0,.08)}
 .sp-hdr{display:flex;align-items:center;padding:13px 14px 11px;border-bottom:1px solid var(--b);flex-shrink:0}
@@ -80,16 +62,7 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
 .db-meta{font-size:10px;color:var(--muted);font-family:monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .db-del{background:none;border:none;font-size:15px;color:var(--muted);cursor:pointer;flex-shrink:0;padding:0 2px;line-height:1}
 .db-del:hover{color:#c0392b}
-.add-form{display:flex;flex-direction:column;gap:7px;padding:10px;border:1px solid var(--b);border-radius:6px;background:var(--alt)}
-.add-form label{font-size:11px;color:var(--muted);display:block;margin-bottom:2px}
-.add-form input,.add-form select{width:100%;padding:5px 8px;border:1px solid var(--b);border-radius:4px;font-size:12px;background:#fff;outline:none;font-family:inherit}
-.add-form input:focus,.add-form select:focus{border-color:#aaa}
-.add-row{display:grid;grid-template-columns:1fr 1fr;gap:7px}
-.add-btn{padding:6px;background:#1a1a1a;color:#fff;border:none;border-radius:4px;font-size:12px;font-weight:500;cursor:pointer;width:100%;margin-top:2px}
-.add-btn:hover{opacity:.82}
-.add-err{font-size:11px;color:#c0392b;min-height:14px}
-
-/* LOADER */
+.sp-info{font-size:11px;color:var(--muted);line-height:1.6;padding:10px;background:var(--alt);border-radius:5px;border:1px solid var(--b)}
 .loader{position:fixed;inset:0;background:rgba(255,255,255,.88);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;z-index:99}
 .spinner{width:18px;height:18px;border:2px solid var(--b);border-top-color:#1a1a1a;border-radius:50%;animation:spin .6s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -99,25 +72,6 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
 </head>
 <body>
 
-<!-- SETUP -->
-<div id="setup">
-  <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
-    <rect width="22" height="22" rx="4" fill="#1a1a1a"/>
-    <rect x="3" y="7" width="16" height="11" rx="1.5" fill="white" opacity=".12"/>
-    <rect x="3" y="3" width="16" height="6" rx="1.5" fill="white"/>
-    <circle cx="7.5" cy="16" r="1.1" fill="white" opacity=".5"/>
-    <circle cx="11" cy="16" r="1.1" fill="white" opacity=".5"/>
-    <circle cx="14.5" cy="16" r="1.1" fill="white" opacity=".5"/>
-  </svg>
-  <h2>calendário editorial — pati & co.</h2>
-  <p class="sub">cole o token da integração do notion. ele só será solicitado uma vez.</p>
-  <input id="tokenInput" type="password" placeholder="secret_xxxxxxxxxxxxxxxxxxxx"/>
-  <button id="startBtn">carregar calendário</button>
-  <p id="errMsg"></p>
-  <p class="hint">notion.so/my-integrations → nova integração → copie o token<br>adicione a integração nos 5 bancos de dados</p>
-</div>
-
-<!-- CALENDAR -->
 <div id="cal">
   <div class="hdr">
     <span class="hdr-title" id="hdrTitle"></span>
@@ -132,7 +86,7 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
         <path d="M8 1.5v1M8 13.5v1M1.5 8h1M13.5 8h1M3.4 3.4l.7.7M11.9 11.9l.7.7M3.4 12.6l.7-.7M11.9 4.1l.7-.7"/>
       </svg>
     </button>
-    <span class="change-token" id="changeToken">trocar token</span>
+    <span class="updated" id="updatedAt"></span>
   </div>
   <div class="err-banner" id="errBanner"></div>
   <div class="legend" id="legend"></div>
@@ -144,10 +98,7 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
   </div>
 </div>
 
-<!-- POPOVER OVERLAY -->
 <div id="pop-overlay"></div>
-
-<!-- SETTINGS PANEL -->
 <div id="sp-overlay"></div>
 <div id="sp">
   <div class="sp-hdr">
@@ -157,144 +108,20 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
   <div class="sp-body">
     <span class="sp-label">ativos</span>
     <div id="db-list"></div>
-
-    <span class="sp-label">adicionar novo</span>
-    <div class="add-form">
-      <div>
-        <label>nome do cliente</label>
-        <input id="f-name" placeholder="ex: casa amelis"/>
-      </div>
-      <div>
-        <label>id do banco (notion)</label>
-        <input id="f-id" placeholder="ex: 2bf82cfc4f0a81dd…"/>
-      </div>
-      <div class="add-row">
-        <div>
-          <label>campo de data</label>
-          <input id="f-date" placeholder="Postar em"/>
-        </div>
-        <div>
-          <label>campo de título</label>
-          <input id="f-title" placeholder="Pauta"/>
-        </div>
-      </div>
-      <div>
-        <label>cor</label>
-        <select id="f-color">
-          <option value="#d3e5ef|#2e7dc7">azul</option>
-          <option value="#dbeddb|#448361">verde</option>
-          <option value="#fadec9|#c47615">laranja</option>
-          <option value="#e8deee|#9065b0">roxo</option>
-          <option value="#f5e0e9|#c04274">rosa</option>
-          <option value="#fdecc8|#8a4e00">amarelo</option>
-          <option value="#e3e2e0|#666">cinza</option>
-          <option value="#ffe2dd|#a12e2e">vermelho</option>
-        </select>
-      </div>
-      <p class="add-err" id="add-err"></p>
-      <button class="add-btn" id="addDbBtn">+ adicionar banco</button>
+    <div class="sp-info">
+      Para adicionar ou remover bancos, edite o arquivo <strong>fetch-notion.js</strong> no GitHub e adicione o novo banco no array <code>DATABASES</code>.
     </div>
   </div>
 </div>
 
 <script>
-// ── TOKEN FIXO — edite apenas esta linha ─────────────────────────
-const HARDCODED_TOKEN = '';
-
-const PROXIES=[
-  u=>`https://corsproxy.io/?url=${encodeURIComponent(u)}`,
-  u=>`https://proxy.cors.sh/${u}`,
-  u=>`https://api.cors.lol/?url=${encodeURIComponent(u)}`,
-  u=>`https://yacdn.org/proxy/${u}`,
-  u=>`https://cors-proxy.htmldriven.com/?url=${encodeURIComponent(u)}`,
-  u=>`https://corsproxy.org/?${encodeURIComponent(u)}`,
-];
-const NV='2022-06-28';
 const MONTHS=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
-let TOKEN='',curY,curM,evMap={};
+let curY,curM,allEvents=[],evMap={};
 const NOW=new Date();
 curY=NOW.getFullYear();curM=NOW.getMonth();
 const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 
-// ── Storage helpers ───────────────────────────────────────────────
-const LS={
-  get:k=>{try{return JSON.parse(localStorage.getItem(k));}catch{return null;}},
-  set:(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch{}},
-  rm:k=>{try{localStorage.removeItem(k);}catch{}}
-};
-
-// ── Default databases ─────────────────────────────────────────────
-const DEFAULT_DBS=[
-  {id:'19482cfc4f0a81bb9190fd33c430d1d8',name:'eko natal',           bg:'#d3e5ef',fg:'#2e7dc7',df:'Data de Entrega',tf:'Atividade/Post',sf:'Andamento'},
-  {id:'47a82cfc4f0a8388ac5281849c62cf04',name:'jocil',               bg:'#dbeddb',fg:'#448361',df:'Postar em',tf:'Pauta',sf:'Status'},
-  {id:'27d82cfc4f0a818a92f0d3670f743d6f',name:'pousada pedra grande',bg:'#fadec9',fg:'#c47615',df:'Postar em',tf:'Pauta',sf:'Status'},
-  {id:'19482cfc4f0a8054b79bd137dfdc8dda',name:'movelaria',           bg:'#e8deee',fg:'#9065b0',df:'Postar em',tf:'Pauta',sf:'Status'},
-  {id:'2bf82cfc4f0a81ddb9afdfcc90f54f8f',name:'casa amelis',         bg:'#f5e0e9',fg:'#c04274',df:'Data de entrega',tf:'Pauta',sf:'Status'},
-];
-
-// Status names considered "done"
-const DONE=['concluido','concluído','entregue','finalizado','feito','aprovado','fail','evento','done','complete','pronto'];
-function isDone(s){return s?DONE.some(d=>s.toLowerCase().includes(d)):false;}
-
-function getDbs(){return LS.get('pati_dbs')||DEFAULT_DBS;}
-function saveDbs(dbs){LS.set('pati_dbs',dbs);}
-
-// ── Token ─────────────────────────────────────────────────────────
-function savedToken(){return LS.get('pati_token')||'';}
-function saveToken(t){LS.set('pati_token',t);}
-function clearToken(){LS.rm('pati_token');}
-
-function showSetup(){document.getElementById('setup').style.display='flex';document.getElementById('cal').style.display='none';}
-function showCal(){document.getElementById('setup').style.display='none';document.getElementById('cal').style.display='flex';}
-
-// ── Notion API ────────────────────────────────────────────────────
-async function notionPost(path,body){
-  const target='https://api.notion.com'+path;
-  let last;
-  for(const px of PROXIES){
-    try{
-      const r=await fetch(px(target),{method:'POST',headers:{'Authorization':'Bearer '+TOKEN,'Notion-Version':NV,'Content-Type':'application/json'},body:JSON.stringify(body)});
-      if(!r.ok){
-        const txt=await r.text().catch(()=>'');
-        throw new Error('HTTP '+r.status+' '+txt.substring(0,60));
-      }
-      return await r.json();
-    }catch(e){last=e;}
-  }
-  throw last;
-}
-async function fetchDB(db,s,e){
-  const body={filter:{and:[{property:db.df,date:{on_or_after:s}},{property:db.df,date:{before:e}}]},page_size:100};
-  let cursor,all=[];
-  do{
-    if(cursor)body.start_cursor=cursor;
-    const j=await notionPost(`/v1/databases/${db.id}/query`,body);
-    all=all.concat(j.results||[]);
-    cursor=j.has_more?j.next_cursor:null;
-  }while(cursor);
-  return all.map(p=>{
-    const pr=p.properties;
-    // Check all properties for status/select values — catches any field with done keywords or "evento"
-    const sf=db.sf||'Status';
-    let statusName='',formatoName='';
-    for(const [k,v] of Object.entries(pr)){
-      if(!v)continue;
-      const n=v?.status?.name||v?.select?.name||'';
-      if(!n)continue;
-      if(k===sf||k==='Andamento')statusName=n;
-      if(k==='Formato')formatoName=n;
-    }
-    // Fallback: scan ALL properties for done keywords or "evento"
-    const anyEvento=Object.values(pr).some(v=>{
-      const n=v?.status?.name||v?.select?.name||'';
-      return n.toLowerCase()==='evento';
-    });
-    const done=isDone(statusName)||isDone(formatoName)||anyEvento;
-    return{title:pr[db.tf]?.title?.[0]?.plain_text||'(sem título)',date:pr[db.df]?.date?.start?.substring(0,10)||null,bg:db.bg,fg:db.fg,name:db.name,done,url:`https://notion.so/${p.id.replace(/-/g,'')}`};
-  }).filter(x=>x.date);
-}
-
-// ── UI helpers ────────────────────────────────────────────────────
+// ── Load data.json ─────────────────────────────────────────────────
 let loaderEl=null;
 const loader=show=>{
   if(show){if(loaderEl)return;loaderEl=document.createElement('div');loaderEl.className='loader';loaderEl.innerHTML='<div class="spinner"></div><div class="loader-txt">carregando eventos…</div>';document.body.appendChild(loaderEl);}
@@ -302,52 +129,92 @@ const loader=show=>{
 };
 const showBanner=msg=>{const b=document.getElementById('errBanner');if(msg){b.textContent=msg;b.style.display='block';}else b.style.display='none';};
 
+async function loadData(){
+  loader(true);
+  try{
+    const r=await fetch(`data.json?t=${Date.now()}`);
+    if(!r.ok)throw new Error('data.json não encontrado');
+    const d=await r.json();
+    allEvents=d.events||[];
+    // Show last update time
+    if(d.updated){
+      const mins=Math.round((Date.now()-new Date(d.updated).getTime())/60000);
+      document.getElementById('updatedAt').textContent=
+        mins<2?'atualizado agora':mins<60?`há ${mins}min`:`há ${Math.round(mins/60)}h`;
+    }
+    showBanner('');
+  }catch(e){
+    showBanner('⚠️ dados não carregados — o GitHub Actions ainda não gerou o data.json. Aguarde alguns minutos e recarregue.');
+    console.error(e);
+  }
+  buildEvMap();
+  render();
+  loader(false);
+}
+
+function buildEvMap(){
+  evMap={};
+  allEvents.forEach(ev=>{
+    if(!evMap[ev.date])evMap[ev.date]=[];
+    evMap[ev.date].push(ev);
+  });
+}
+
+// ── Legend from events ─────────────────────────────────────────────
 function renderLegend(){
+  const seen=new Set();
   const leg=document.getElementById('legend');leg.innerHTML='';
-  getDbs().forEach(db=>{
+  allEvents.forEach(ev=>{
+    if(seen.has(ev.name))return;seen.add(ev.name);
     const item=document.createElement('div');item.className='leg-item';
-    item.innerHTML=`<div class="leg-dot" style="background:${db.fg}"></div>${db.name}`;
+    item.innerHTML=`<div class="leg-dot" style="background:${ev.fg}"></div>${ev.name}`;
     leg.appendChild(item);
   });
 }
 
+// ── Settings panel ─────────────────────────────────────────────────
+function renderDbList(){
+  const seen=new Map();
+  allEvents.forEach(ev=>seen.set(ev.name,ev));
+  const list=document.getElementById('db-list');list.innerHTML='';
+  seen.forEach((ev,name)=>{
+    const item=document.createElement('div');item.className='db-item';
+    item.innerHTML=`<div class="db-swatch" style="background:${ev.fg}"></div><div class="db-info"><div class="db-name">${name}</div></div>`;
+    list.appendChild(item);
+  });
+}
+document.getElementById('gearBtn').onclick=()=>{renderDbList();document.getElementById('sp').style.display='flex';document.getElementById('sp-overlay').style.display='block';};
+document.getElementById('spClose').onclick=closeSettings;
+document.getElementById('sp-overlay').onclick=closeSettings;
+function closeSettings(){document.getElementById('sp').style.display='none';document.getElementById('sp-overlay').style.display='none';}
+
+// ── Events ─────────────────────────────────────────────────────────
 function makeEv(ev,isPast){
   const a=document.createElement('a');
   a.className='ev';
-  const done=ev.done;
-  // done: low opacity + strikethrough
-  // past + not done (overdue): full opacity, slight red left border
-  if(done){
-    a.style.background=ev.bg;a.style.color=ev.fg;
-    a.style.opacity='0.38';
-  }else if(isPast){
-    a.style.background=ev.bg;a.style.color=ev.fg;
-    a.style.borderLeft='2px solid '+ev.fg;
-    a.style.paddingLeft='2px';
-  }else{
-    a.style.background=ev.bg;a.style.color=ev.fg;
-  }
-  a.title=ev.name+': '+ev.title+(done?' (concluído)':isPast?' (atrasado)':'');
-  a.href=ev.url;
-  a.target='_blank';
-  a.rel='noopener noreferrer';
+  if(ev.done){a.style.background=ev.bg;a.style.color=ev.fg;a.style.opacity='0.38';}
+  else if(isPast){a.style.background=ev.bg;a.style.color=ev.fg;a.style.borderLeft='2px solid '+ev.fg;a.style.paddingLeft='2px';}
+  else{a.style.background=ev.bg;a.style.color=ev.fg;}
+  a.title=ev.name+': '+ev.title+(ev.done?' (concluído)':isPast?' (atrasado)':'');
+  a.href=ev.url;a.target='_blank';a.rel='noopener noreferrer';
   const dot=document.createElement('div');dot.className='ev-dot';dot.style.background=ev.fg;
-  if(done)dot.style.opacity='0.4';
+  if(ev.done)dot.style.opacity='0.4';
   const txt=document.createElement('span');txt.className='ev-txt';txt.textContent=ev.title;
-  if(done)txt.style.textDecoration='line-through';
+  if(ev.done)txt.style.textDecoration='line-through';
   a.appendChild(dot);a.appendChild(txt);
   return a;
 }
 
-// ── Popover ───────────────────────────────────────────────────────
+// ── Popover ─────────────────────────────────────────────────────────
 let pop=null;
 function closePopover(){if(pop){pop.remove();pop=null;}document.getElementById('pop-overlay').style.display='none';}
 function openPopover(evs,dateStr,anchorEl){
   closePopover();
   const [y,m,d]=dateStr.split('-').map(Number);
   pop=document.createElement('div');pop.className='popover';
+  const _isPast=dateStr<iso(NOW);
   pop.innerHTML=`<button class="popover-close" id="popClose">&#215;</button><div class="popover-title">${d} de ${MONTHS[m-1]}</div>`;
-  const _isPast=dateStr<iso(NOW);evs.forEach(ev=>pop.appendChild(makeEv(ev,_isPast)));
+  evs.forEach(ev=>pop.appendChild(makeEv(ev,_isPast)));
   document.body.appendChild(pop);
   document.getElementById('popClose').onclick=closePopover;
   const r=anchorEl.getBoundingClientRect();
@@ -358,83 +225,12 @@ function openPopover(evs,dateStr,anchorEl){
   const ov=document.getElementById('pop-overlay');ov.style.display='block';ov.onclick=closePopover;
 }
 
-// ── Settings panel ────────────────────────────────────────────────
-function openSettings(){
-  renderDbList();
-  document.getElementById('sp').style.display='flex';
-  document.getElementById('sp-overlay').style.display='block';
-}
-function closeSettings(){
-  document.getElementById('sp').style.display='none';
-  document.getElementById('sp-overlay').style.display='none';
-}
-function renderDbList(){
-  const list=document.getElementById('db-list');list.innerHTML='';
-  getDbs().forEach((db,i)=>{
-    const item=document.createElement('div');item.className='db-item';
-    item.innerHTML=`
-      <div class="db-swatch" style="background:${db.fg}"></div>
-      <div class="db-info">
-        <div class="db-name">${db.name}</div>
-        <div class="db-meta">data: ${db.df} · título: ${db.tf}</div>
-      </div>
-      <button class="db-del" title="remover">&#215;</button>`;
-    item.querySelector('.db-del').onclick=()=>{
-      if(!confirm(`remover "${db.name}" do calendário?`))return;
-      const dbs=getDbs();dbs.splice(i,1);saveDbs(dbs);
-      renderDbList();renderLegend();load();
-    };
-    list.appendChild(item);
-  });
-}
-document.getElementById('gearBtn').onclick=openSettings;
-document.getElementById('spClose').onclick=closeSettings;
-document.getElementById('sp-overlay').onclick=closeSettings;
-document.getElementById('addDbBtn').onclick=()=>{
-  const err=document.getElementById('add-err');
-  const name=document.getElementById('f-name').value.trim();
-  const id=document.getElementById('f-id').value.trim().replace(/-/g,'');
-  const df=document.getElementById('f-date').value.trim()||'Postar em';
-  const tf=document.getElementById('f-title').value.trim()||'Pauta';
-  const [bg,fg]=document.getElementById('f-color').value.split('|');
-  if(!name){err.textContent='informe o nome do cliente.';return;}
-  if(id.length<32){err.textContent='id inválido — cole o id completo do banco.';return;}
-  err.textContent='';
-  const dbs=getDbs();
-  dbs.push({id,name,bg,fg,df,tf});
-  saveDbs(dbs);
-  renderDbList();renderLegend();
-  // reset form
-  ['f-name','f-id','f-date','f-title'].forEach(k=>document.getElementById(k).value='');
-  load();
-};
+// ── Nav ─────────────────────────────────────────────────────────────
+document.getElementById('prevBtn').onclick=()=>{curM--;if(curM<0){curM=11;curY--;}render();};
+document.getElementById('nextBtn').onclick=()=>{curM++;if(curM>11){curM=0;curY++;}render();};
+document.getElementById('todayBtn').onclick=()=>{curY=NOW.getFullYear();curM=NOW.getMonth();render();};
 
-// ── Load & Render ─────────────────────────────────────────────────
-document.getElementById('startBtn').onclick=async()=>{
-  const t=document.getElementById('tokenInput').value.trim();
-  if(!t.startsWith('secret_')&&!t.startsWith('ntn_')){document.getElementById('errMsg').textContent='token inválido';return;}
-  saveToken(t);TOKEN=t;document.getElementById('errMsg').textContent='';
-  showCal();renderLegend();await load();
-};
-document.getElementById('changeToken').onclick=()=>{clearToken();showSetup();};
-if(HARDCODED_TOKEN)document.getElementById('changeToken').style.display='none';
-document.getElementById('prevBtn').onclick=()=>{curM--;if(curM<0){curM=11;curY--;}load();};
-document.getElementById('nextBtn').onclick=()=>{curM++;if(curM>11){curM=0;curY++;}load();};
-document.getElementById('todayBtn').onclick=()=>{curY=NOW.getFullYear();curM=NOW.getMonth();load();};
-
-async function load(){
-  loader(true);showBanner('');closePopover();
-  const s=iso(new Date(curY,curM,1)),e=iso(new Date(curY,curM+1,1));
-  evMap={};const errors=[];
-  (await Promise.allSettled(getDbs().map(db=>fetchDB(db,s,e)))).forEach((r,i)=>{
-    if(r.status==='fulfilled')r.value.forEach(ev=>{if(!evMap[ev.date])evMap[ev.date]=[];evMap[ev.date].push(ev);});
-    else{errors.push(getDbs()[i]?.name||'?');console.warn(r.reason);}
-  });
-  if(errors.length===getDbs().length)showBanner('⚠️ erro de conexão — proxy CORS indisponível ou token inválido. Tente recarregar em alguns minutos.');
-  else if(errors.length)showBanner('⚠️ alguns bancos não carregaram: '+errors.join(', '));
-  render();loader(false);
-}
-
+// ── Render ──────────────────────────────────────────────────────────
 function render(){
   document.getElementById('hdrTitle').textContent=`${MONTHS[curM]} de ${curY}`;
   const grid=document.getElementById('grid');grid.innerHTML='';
@@ -450,14 +246,13 @@ function render(){
       const c=allCells[row*7+col];
       const ds=`${c.y}-${String(c.m+1).padStart(2,'0')}-${String(c.d).padStart(2,'0')}`;
       const evs=evMap[ds]||[];
-      const isPast2=c.cur&&ds<todayStr;
+      const isPast=c.cur&&ds<todayStr;
       const allDone=evs.length>0&&evs.every(e=>e.done);
       const cell=document.createElement('div');
       cell.className='cell'+(c.cur?'':' other')+(ds===todayStr?' today':'');
-      if(isPast2&&allDone)cell.style.background='#fafafa';
+      if(isPast&&allDone)cell.style.background='#fafafa';
       const dn=document.createElement('div');dn.className='dnum';dn.textContent=c.d;cell.appendChild(dn);
       const MAX=3;
-      const isPast=c.cur&&ds<todayStr;
       evs.slice(0,MAX).forEach(ev=>cell.appendChild(makeEv(ev,isPast)));
       if(evs.length>MAX){
         const btn=document.createElement('span');btn.className='more';
@@ -476,14 +271,8 @@ function render(){
   document.querySelectorAll('.cell').forEach(c=>c.style.height=rowH+'px');
 }
 
-// ── Boot ──────────────────────────────────────────────────────────
-if(HARDCODED_TOKEN){
-  TOKEN=HARDCODED_TOKEN;showCal();renderLegend();load();
-}else{
-  const saved=savedToken();
-  if(saved){TOKEN=saved;showCal();renderLegend();load();}
-  else showSetup();
-}
+// ── Boot ────────────────────────────────────────────────────────────
+loadData().then(renderLegend);
 </script>
 </body>
 </html>
