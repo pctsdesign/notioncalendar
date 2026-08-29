@@ -266,7 +266,9 @@ async function fetchDB(db,s,e){
     const pr=p.properties;
     const sf=db.sf||'Status';
     const statusName=pr[sf]?.status?.name||pr[sf]?.select?.name||'';
-    const done=isDone(statusName);
+    // Also check Formato field — if "Evento", treat as done
+    const formatoName=pr['Formato']?.select?.name||pr['Formato']?.status?.name||'';
+    const done=isDone(statusName)||formatoName.toLowerCase()==='evento';
     return{title:pr[db.tf]?.title?.[0]?.plain_text||'(sem título)',date:pr[db.df]?.date?.start?.substring(0,10)||null,bg:db.bg,fg:db.fg,name:db.name,done,url:`https://notion.so/${p.id.replace(/-/g,'')}`};
   }).filter(x=>x.date);
 }
