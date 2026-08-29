@@ -198,6 +198,10 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
 </div>
 
 <script>
+// ── Cole aqui o token da integração do Notion ──────────────────
+// Só precisa editar esta linha. Deixe '' para usar a tela de login.
+const HARDCODED_TOKEN = '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';
+
 const PROXIES=[
   u=>`https://corsproxy.io/?url=${encodeURIComponent(u)}`,
   u=>`https://corsproxy.org/?${encodeURIComponent(u)}`,
@@ -322,8 +326,10 @@ function makeEv(ev,isPast){
   }
   a.title=ev.name+': '+ev.title+(done?' (concluído)':isPast?' (atrasado)':'');
   a.href=ev.url;
-  a.target='_blank';
-  a.rel='noopener noreferrer';
+  // _top: faz o app Notion interceptar e abrir in-app
+  // Em embed Notion web: navega no próprio Notion
+  // Em browser direto: abre na mesma aba (aceitável)
+  a.target='_top';
   const dot=document.createElement('div');dot.className='ev-dot';dot.style.background=ev.fg;
   if(done)dot.style.opacity='0.4';
   const txt=document.createElement('span');txt.className='ev-txt';txt.textContent=ev.title;
@@ -410,6 +416,7 @@ document.getElementById('startBtn').onclick=async()=>{
   showCal();renderLegend();await load();
 };
 document.getElementById('changeToken').onclick=()=>{clearToken();showSetup();};
+if(HARDCODED_TOKEN)document.getElementById('changeToken').style.display='none';
 document.getElementById('prevBtn').onclick=()=>{curM--;if(curM<0){curM=11;curY--;}load();};
 document.getElementById('nextBtn').onclick=()=>{curM++;if(curM>11){curM=0;curY++;}load();};
 document.getElementById('todayBtn').onclick=()=>{curY=NOW.getFullYear();curM=NOW.getMonth();load();};
@@ -469,9 +476,15 @@ function render(){
 }
 
 // ── Boot ──────────────────────────────────────────────────────────
-const saved=savedToken();
-if(saved){TOKEN=saved;showCal();renderLegend();load();}
-else showSetup();
+if(HARDCODED_TOKEN){
+  // Token fixo — carrega direto sem pedir login
+  TOKEN=HARDCODED_TOKEN;
+  showCal();renderLegend();load();
+}else{
+  const saved=savedToken();
+  if(saved){TOKEN=saved;showCal();renderLegend();load();}
+  else showSetup();
+}
 </script>
 </body>
 </html>
