@@ -199,8 +199,7 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
 
 <script>
 // ── TOKEN FIXO — edite apenas esta linha ─────────────────────────
-// Cole o token entre as aspas. Deixe '' para usar tela de login.
-const HARDCODED_TOKEN = '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';
+const HARDCODED_TOKEN = '';
 
 const PROXIES=[
   u=>`https://corsproxy.io/?url=${encodeURIComponent(u)}`,
@@ -253,8 +252,11 @@ async function notionPost(path,body){
   let last;
   for(const px of PROXIES){
     try{
-      const r=await fetch(px(target),{method:'POST',headers:{'Authorization':'Bearer '+TOKEN,'Notion-Version':NV,'Content-Type':'application/json','x-requested-with':'XMLHttpRequest'},body:JSON.stringify(body)});
-      if(!r.ok)throw new Error('HTTP '+r.status);
+      const r=await fetch(px(target),{method:'POST',headers:{'Authorization':'Bearer '+TOKEN,'Notion-Version':NV,'Content-Type':'application/json'},body:JSON.stringify(body)});
+      if(!r.ok){
+        const txt=await r.text().catch(()=>'');
+        throw new Error('HTTP '+r.status+' '+txt.substring(0,60));
+      }
       return await r.json();
     }catch(e){last=e;}
   }
@@ -427,7 +429,7 @@ async function load(){
     if(r.status==='fulfilled')r.value.forEach(ev=>{if(!evMap[ev.date])evMap[ev.date]=[];evMap[ev.date].push(ev);});
     else{errors.push(getDbs()[i]?.name||'?');console.warn(r.reason);}
   });
-  if(errors.length===getDbs().length)showBanner('⚠️ erro de conexão — verifique o token e se a integração está adicionada nos bancos.');
+  if(errors.length===getDbs().length)showBanner('⚠️ erro de conexão — proxy CORS indisponível ou token inválido. Tente recarregar em alguns minutos.');
   else if(errors.length)showBanner('⚠️ alguns bancos não carregaram: '+errors.join(', '));
   render();loader(false);
 }
@@ -475,8 +477,7 @@ function render(){
 
 // ── Boot ──────────────────────────────────────────────────────────
 if(HARDCODED_TOKEN){
-  TOKEN=HARDCODED_TOKEN;
-  showCal();renderLegend();load();
+  TOKEN=HARDCODED_TOKEN;showCal();renderLegend();load();
 }else{
   const saved=savedToken();
   if(saved){TOKEN=saved;showCal();renderLegend();load();}
