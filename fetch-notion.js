@@ -10,11 +10,34 @@ if (!TOKEN) { console.error('NOTION_TOKEN não definido'); process.exit(1); }
 const NV = '2022-06-28';
 
 const DATABASES = [
+  // ── Clientes principais ────────────────────────────────────────
   { id: '19482cfc4f0a81bb9190fd33c430d1d8', name: 'eko natal',           bg: '#d3e5ef', fg: '#2e7dc7', df: 'Data de Entrega', tf: 'Atividade/Post', sf: 'Andamento' },
   { id: '47a82cfc4f0a8388ac5281849c62cf04', name: 'jocil',               bg: '#dbeddb', fg: '#448361', df: 'Postar em',       tf: 'Pauta',          sf: 'Status'    },
   { id: '27d82cfc4f0a818a92f0d3670f743d6f', name: 'pousada pedra grande',bg: '#fadec9', fg: '#c47615', df: 'Postar em',       tf: 'Pauta',          sf: 'Status'    },
   { id: '19482cfc4f0a8054b79bd137dfdc8dda', name: 'movelaria',           bg: '#e8deee', fg: '#9065b0', df: 'Postar em',       tf: 'Pauta',          sf: 'Status'    },
   { id: '2bf82cfc4f0a81ddb9afdfcc90f54f8f', name: 'casa amelis',         bg: '#f5e0e9', fg: '#c04274', df: 'Data de entrega', tf: 'Pauta',          sf: 'Status'    },
+
+  // ── Clientes adicionais ────────────────────────────────────────
+  {
+    id: '3cb82cfc4f0a8054a9d9f443b8642c25',
+    name: 'ch representações',
+    bg: '#fdecc8', fg: '#8a4e00',
+    df: 'Data de entrega', tf: 'Pauta', sf: 'Status'
+  },
+  {
+    id: 'c15d158586754fd7af71071ef04711d5',
+    name: 'oito sais',
+    bg: '#ffe2dd', fg: '#a12e2e',
+    df: 'Data de Entrega', tf: 'Atividade/Post', sf: 'Andamento',
+    // Filtra só tarefas do cliente Oito Sais nesse banco compartilhado
+    extraFilter: { property: 'Cliente', select: { equals: 'Oito Sais' } }
+  },
+  {
+    id: '8fb18bcaaa2d413b8028c7e904493444',
+    name: 'yure silva',
+    bg: '#e3e2e0', fg: '#444',
+    df: 'Data de Entrega', tf: 'Atividade/Post', sf: 'Andamento'
+  },
 ];
 
 const DONE = ['concluido','concluído','entregue','finalizado','feito','aprovado','fail','evento','done','complete','pronto'];
@@ -52,13 +75,19 @@ function notionRequest(path, body) {
 }
 
 async function fetchDB(db, start, end) {
-  const body = {
-    filter: { and: [
+  // Build filter: date range + optional extra filter (e.g. Cliente = X)
+  const dateFilter = {
+    and: [
       { property: db.df, date: { on_or_after: start } },
       { property: db.df, date: { before: end } }
-    ]},
-    page_size: 100
+    ]
   };
+
+  const filter = db.extraFilter
+    ? { and: [dateFilter, db.extraFilter] }
+    : dateFilter;
+
+  const body = { filter, page_size: 100 };
   let cursor, all = [];
   do {
     if (cursor) body.start_cursor = cursor;
@@ -91,13 +120,12 @@ async function fetchDB(db, start, end) {
 
 async function main() {
   const now = new Date();
-  // 2 meses atrás até 3 meses à frente
   const start = new Date(now.getFullYear(), now.getMonth() - 2, 1);
   const end   = new Date(now.getFullYear(), now.getMonth() + 4, 1);
   const startISO = iso(start);
   const endISO   = iso(end);
 
-  console.log(`Buscando de ${startISO} a ${endISO}...`);
+  console.log(`Buscando de ${startISO} a ${endISO}...\n`);
 
   const events = [];
   for (const db of DATABASES) {
