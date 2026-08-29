@@ -218,12 +218,16 @@ const LS={
 
 // ── Default databases ─────────────────────────────────────────────
 const DEFAULT_DBS=[
-  {id:'19482cfc4f0a81bb9190fd33c430d1d8',name:'eko natal',           bg:'#d3e5ef',fg:'#2e7dc7',df:'Data de Entrega',tf:'Atividade/Post'},
-  {id:'47a82cfc4f0a8388ac5281849c62cf04',name:'jocil',               bg:'#dbeddb',fg:'#448361',df:'Postar em',tf:'Pauta'},
-  {id:'27d82cfc4f0a818a92f0d3670f743d6f',name:'pousada pedra grande',bg:'#fadec9',fg:'#c47615',df:'Postar em',tf:'Pauta'},
-  {id:'19482cfc4f0a8054b79bd137dfdc8dda',name:'movelaria',           bg:'#e8deee',fg:'#9065b0',df:'Postar em',tf:'Pauta'},
-  {id:'2bf82cfc4f0a81ddb9afdfcc90f54f8f',name:'casa amelis',         bg:'#f5e0e9',fg:'#c04274',df:'Data de entrega',tf:'Pauta'},
+  {id:'19482cfc4f0a81bb9190fd33c430d1d8',name:'eko natal',           bg:'#d3e5ef',fg:'#2e7dc7',df:'Data de Entrega',tf:'Atividade/Post',sf:'Andamento'},
+  {id:'47a82cfc4f0a8388ac5281849c62cf04',name:'jocil',               bg:'#dbeddb',fg:'#448361',df:'Postar em',tf:'Pauta',sf:'Status'},
+  {id:'27d82cfc4f0a818a92f0d3670f743d6f',name:'pousada pedra grande',bg:'#fadec9',fg:'#c47615',df:'Postar em',tf:'Pauta',sf:'Status'},
+  {id:'19482cfc4f0a8054b79bd137dfdc8dda',name:'movelaria',           bg:'#e8deee',fg:'#9065b0',df:'Postar em',tf:'Pauta',sf:'Status'},
+  {id:'2bf82cfc4f0a81ddb9afdfcc90f54f8f',name:'casa amelis',         bg:'#f5e0e9',fg:'#c04274',df:'Data de entrega',tf:'Pauta',sf:'Status'},
 ];
+
+// Status names considered "done"
+const DONE=['concluido','concluído','entregue','finalizado','feito','aprovado','fail','evento','done','complete','pronto'];
+function isDone(s){return s?DONE.some(d=>s.toLowerCase().includes(d)):false;}
 
 function getDbs(){return LS.get('pati_dbs')||DEFAULT_DBS;}
 function saveDbs(dbs){LS.set('pati_dbs',dbs);}
@@ -260,7 +264,10 @@ async function fetchDB(db,s,e){
   }while(cursor);
   return all.map(p=>{
     const pr=p.properties;
-    return{title:pr[db.tf]?.title?.[0]?.plain_text||'(sem título)',date:pr[db.df]?.date?.start?.substring(0,10)||null,bg:db.bg,fg:db.fg,name:db.name,url:`https://notion.so/${p.id.replace(/-/g,'')}`};
+    const sf=db.sf||'Status';
+    const statusName=pr[sf]?.status?.name||pr[sf]?.select?.name||'';
+    const done=isDone(statusName);
+    return{title:pr[db.tf]?.title?.[0]?.plain_text||'(sem título)',date:pr[db.df]?.date?.start?.substring(0,10)||null,bg:db.bg,fg:db.fg,name:db.name,done,url:`https://notion.so/${p.id.replace(/-/g,'')}`};
   }).filter(x=>x.date);
 }
 
@@ -281,16 +288,30 @@ function renderLegend(){
   });
 }
 
-function makeEv(ev){
+function makeEv(ev,isPast){
   const a=document.createElement('a');
   a.className='ev';
-  a.style.background=ev.bg;a.style.color=ev.fg;
-  a.title=ev.name+': '+ev.title;
-  const isElectron=/Electron/i.test(navigator.userAgent);
-  if(isElectron){a.href=`notion://www.notion.so/${ev.url.replace('https://notion.so/','')}`;a.target='_self';}
-  else{a.href=ev.url;a.target='_blank';a.rel='noopener noreferrer';}
+  const done=ev.done;
+  // done: low opacity + strikethrough
+  // past + not done (overdue): full opacity, slight red left border
+  if(done){
+    a.style.background=ev.bg;a.style.color=ev.fg;
+    a.style.opacity='0.38';
+  }else if(isPast){
+    a.style.background=ev.bg;a.style.color=ev.fg;
+    a.style.borderLeft='2px solid '+ev.fg;
+    a.style.paddingLeft='2px';
+  }else{
+    a.style.background=ev.bg;a.style.color=ev.fg;
+  }
+  a.title=ev.name+': '+ev.title+(done?' (concluído)':isPast?' (atrasado)':'');
+  a.href=ev.url;
+  a.target='_blank';
+  a.rel='noopener noreferrer';
   const dot=document.createElement('div');dot.className='ev-dot';dot.style.background=ev.fg;
+  if(done)dot.style.opacity='0.4';
   const txt=document.createElement('span');txt.className='ev-txt';txt.textContent=ev.title;
+  if(done)txt.style.textDecoration='line-through';
   a.appendChild(dot);a.appendChild(txt);
   return a;
 }
@@ -303,7 +324,7 @@ function openPopover(evs,dateStr,anchorEl){
   const [y,m,d]=dateStr.split('-').map(Number);
   pop=document.createElement('div');pop.className='popover';
   pop.innerHTML=`<button class="popover-close" id="popClose">&#215;</button><div class="popover-title">${d} de ${MONTHS[m-1]}</div>`;
-  evs.forEach(ev=>pop.appendChild(makeEv(ev)));
+  const _isPast=dateStr<iso(NOW);evs.forEach(ev=>pop.appendChild(makeEv(ev,_isPast)));
   document.body.appendChild(pop);
   document.getElementById('popClose').onclick=closePopover;
   const r=anchorEl.getBoundingClientRect();
@@ -405,11 +426,15 @@ function render(){
       const c=allCells[row*7+col];
       const ds=`${c.y}-${String(c.m+1).padStart(2,'0')}-${String(c.d).padStart(2,'0')}`;
       const evs=evMap[ds]||[];
+      const isPast2=c.cur&&ds<todayStr;
+      const allDone=evs.length>0&&evs.every(e=>e.done);
       const cell=document.createElement('div');
       cell.className='cell'+(c.cur?'':' other')+(ds===todayStr?' today':'');
+      if(isPast2&&allDone)cell.style.background='#fafafa';
       const dn=document.createElement('div');dn.className='dnum';dn.textContent=c.d;cell.appendChild(dn);
       const MAX=3;
-      evs.slice(0,MAX).forEach(ev=>cell.appendChild(makeEv(ev)));
+      const isPast=c.cur&&ds<todayStr;
+      evs.slice(0,MAX).forEach(ev=>cell.appendChild(makeEv(ev,isPast)));
       if(evs.length>MAX){
         const btn=document.createElement('span');btn.className='more';
         btn.textContent=`+${evs.length-MAX} mais`;
