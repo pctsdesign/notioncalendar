@@ -6,133 +6,87 @@
 <title>calendário editorial — pati & co.</title>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html,body{
-  width:100%;height:100%;
-  overflow:hidden;
+html{height:100%;overflow:hidden}
+body{
+  height:100%;overflow:hidden;
   font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
-  font-size:12px;
-  background:#fff;
-  color:#1a1a1a;
+  font-size:12px;background:#fff;color:#1a1a1a;
 }
 :root{
-  --border:#e9e9e7;
-  --muted:#9b9b9b;
-  --light:#d0d0ce;
-  --bg-alt:#f7f7f5;
-  --eko:#d3e5ef;   --eko-t:#2e7dc7;
-  --jocil:#dbeddb; --jocil-t:#448361;
-  --ppg:#fadec9;   --ppg-t:#c47615;
-  --mov:#e8deee;   --mov-t:#9065b0;
-  --ame:#f5e0e9;   --ame-t:#c04274;
+  --b:#e9e9e7;--muted:#9b9b9b;--alt:#f7f7f5;--light:#d0d0ce;
+  --eko:#d3e5ef;--eko-t:#2e7dc7;
+  --jocil:#dbeddb;--jocil-t:#448361;
+  --ppg:#fadec9;--ppg-t:#c47615;
+  --mov:#e8deee;--mov-t:#9065b0;
+  --ame:#f5e0e9;--ame-t:#c04274;
 }
 
 /* ── SETUP ── */
-#setup{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;gap:14px;padding:24px}
+#setup{display:none;flex-direction:column;align-items:center;justify-content:center;height:100vh;gap:14px;padding:24px}
 #setup h2{font-size:14px;font-weight:600}
 .sub{font-size:12px;color:var(--muted);text-align:center;max-width:340px;line-height:1.7}
-#tokenInput{width:320px;padding:7px 11px;border:1px solid var(--border);border-radius:4px;font-size:12px;background:var(--bg-alt);outline:none}
+#tokenInput{width:320px;padding:7px 11px;border:1px solid var(--b);border-radius:4px;font-size:12px;background:var(--alt);outline:none}
 #tokenInput:focus{border-color:#bbb}
 #startBtn{padding:6px 18px;background:#1a1a1a;color:#fff;border:none;border-radius:4px;font-size:12px;font-weight:500;cursor:pointer}
 #startBtn:hover{opacity:.82}
 #errMsg{font-size:11px;color:#c0392b;text-align:center;max-width:320px}
 .hint{font-size:11px;color:#ccc;text-align:center;max-width:340px;line-height:1.7;margin-top:-4px}
 
-/* ── CALENDAR SHELL ── */
+/* ── CAL ── */
 #cal{
-  display:none;
-  flex-direction:column;
-  width:100vw;
-  height:100vh;
+  display:none;flex-direction:column;
+  position:fixed;inset:0;
   overflow:hidden;
 }
+.hdr{display:flex;align-items:center;gap:8px;padding:9px 14px 7px;border-bottom:1px solid var(--b);flex-shrink:0}
+.hdr-title{font-size:14px;font-weight:500;flex:1}
+.nav-row{display:flex;gap:2px}
+.nav-btn,.today-btn{border:1px solid var(--b);background:#fff;border-radius:3px;cursor:pointer;font-size:11px;color:var(--muted);display:flex;align-items:center;justify-content:center}
+.nav-btn{width:24px;height:24px;font-size:14px}
+.today-btn{padding:3px 9px}
+.nav-btn:hover,.today-btn:hover{background:var(--alt);color:#1a1a1a}
 
-/* header */
-.hdr{
-  display:flex;align-items:center;gap:8px;
-  padding:9px 16px 7px;
-  border-bottom:1px solid var(--border);
-  flex-shrink:0;
-  width:100%;
-}
-.hdr-title{font-size:14px;font-weight:500;flex:1;min-width:0}
-.nav-row{display:flex;gap:2px;flex-shrink:0}
-.nav-btn{
-  width:24px;height:24px;
-  border:1px solid var(--border);background:#fff;border-radius:3px;
-  cursor:pointer;font-size:14px;color:var(--muted);
-  display:flex;align-items:center;justify-content:center;
-}
-.nav-btn:hover{background:var(--bg-alt);color:#1a1a1a}
-.today-btn{
-  padding:3px 9px;border:1px solid var(--border);background:#fff;
-  border-radius:3px;cursor:pointer;font-size:11px;color:var(--muted);
-  flex-shrink:0;
-}
-.today-btn:hover{background:var(--bg-alt);color:#1a1a1a}
+.err-banner{background:#fff5f5;border-bottom:1px solid #fecaca;padding:5px 14px;font-size:11px;color:#c0392b;line-height:1.5;display:none;flex-shrink:0}
+.change-token{font-size:10px;color:var(--muted);text-decoration:underline;cursor:pointer;margin-left:6px}
+.change-token:hover{color:#1a1a1a}
 
-/* error */
-.err-banner{
-  background:#fff5f5;border-bottom:1px solid #fecaca;
-  padding:5px 16px;font-size:11px;color:#c0392b;line-height:1.6;
-  display:none;flex-shrink:0;
-}
-
-/* legend */
-.legend{
-  display:flex;gap:10px;align-items:center;flex-wrap:wrap;
-  padding:5px 16px;border-bottom:1px solid var(--border);
-  flex-shrink:0;
-}
+.legend{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:5px 14px;border-bottom:1px solid var(--b);flex-shrink:0}
 .leg-item{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--muted)}
 .leg-dot{width:7px;height:7px;border-radius:2px;flex-shrink:0}
 
-/* weekday labels */
-.wdays{
-  display:grid;
-  grid-template-columns:repeat(7,minmax(0,1fr));
-  border-bottom:1px solid var(--border);
-  flex-shrink:0;
-  width:100%;
-}
-.wdays span{
-  padding:4px 0;text-align:center;
-  font-size:11px;font-weight:500;color:var(--muted);
-}
+/* weekdays */
+.wdays{display:table;width:100%;table-layout:fixed;border-bottom:1px solid var(--b);flex-shrink:0}
+.wdays span{display:table-cell;padding:4px 0;text-align:center;font-size:11px;font-weight:500;color:var(--muted)}
 
-/* ── GRID ── */
+/* grid — table-layout:fixed guarantees exact 7 equal cols, no overflow */
 .grid{
-  display:grid;
-  grid-template-columns:repeat(7,minmax(0,1fr));
-  grid-auto-rows:minmax(0,1fr);
-  flex:1;
+  display:table;
   width:100%;
-  overflow:hidden;
+  table-layout:fixed;
+  flex:1;
   min-height:0;
-}
-
-/* cells */
-.cell{
-  border-right:1px solid var(--border);
-  border-bottom:1px solid var(--border);
-  padding:4px 3px 2px;
-  display:flex;flex-direction:column;gap:1px;
+  border-collapse:collapse;
   overflow:hidden;
-  min-width:0;min-height:0;
 }
-/* remove right border on last column */
-.cell:nth-child(7n){border-right:none}
-/* last row: remove bottom border */
-.cell:nth-last-child(-n+7){border-bottom:none}
-
-.cell.other{background:var(--bg-alt)}
+.grid-row{display:table-row}
+.cell{
+  display:table-cell;
+  width:calc(100% / 7);
+  border-right:1px solid var(--b);
+  border-bottom:1px solid var(--b);
+  vertical-align:top;
+  padding:4px 3px 2px;
+  overflow:hidden;
+  /* height managed by parent flex */
+}
+.cell:last-child{border-right:none}
+.grid-row:last-child .cell{border-bottom:none}
+.cell.other{background:var(--alt)}
 .cell.other .dnum{color:var(--light)}
-
 .dnum{
   font-size:11px;color:var(--muted);
-  width:18px;height:18px;min-width:18px;
-  display:flex;align-items:center;justify-content:center;
-  border-radius:50%;flex-shrink:0;margin-bottom:1px;
-  align-self:flex-start;
+  width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center;
+  border-radius:50%;margin-bottom:1px;
 }
 .cell.today .dnum{background:#1a1a1a;color:#fff;font-weight:600}
 
@@ -141,32 +95,48 @@ html,body{
   display:flex;align-items:center;gap:3px;
   padding:1px 4px;border-radius:3px;
   font-size:11px;line-height:1.4;
-  overflow:hidden;
-  cursor:pointer;flex-shrink:0;
-  text-decoration:none;
+  overflow:hidden;white-space:nowrap;
+  text-decoration:none;cursor:pointer;
+  margin-bottom:1px;
   max-width:100%;
-  min-width:0;
 }
-.ev:hover{filter:brightness(.94)}
+.ev:hover{filter:brightness(.93)}
 .ev-dot{width:5px;height:5px;min-width:5px;border-radius:50%;opacity:.8}
-.ev-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;flex:1}
+.ev-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0}
 .ev.eko{background:var(--eko);color:var(--eko-t)}
 .ev.jocil{background:var(--jocil);color:var(--jocil-t)}
 .ev.ppg{background:var(--ppg);color:var(--ppg-t)}
 .ev.mov{background:var(--mov);color:var(--mov-t)}
 .ev.ame{background:var(--ame);color:var(--ame-t)}
-.more{font-size:10px;color:var(--muted);padding:1px 4px;cursor:pointer;flex-shrink:0;align-self:flex-start}
+.more{font-size:10px;color:var(--muted);padding:1px 3px;cursor:pointer;display:inline-block;margin-top:1px}
 .more:hover{color:#1a1a1a}
+
+/* ── POPOVER ── */
+.popover{
+  position:fixed;z-index:200;
+  background:#fff;border:1px solid var(--b);border-radius:6px;
+  box-shadow:0 4px 16px rgba(0,0,0,.12);
+  padding:10px;min-width:220px;max-width:280px;
+}
+.popover-title{font-size:11px;font-weight:600;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.popover-close{position:absolute;top:8px;right:10px;cursor:pointer;font-size:14px;color:var(--muted);background:none;border:none;line-height:1}
+.popover-close:hover{color:#1a1a1a}
+.popover .ev{margin-bottom:3px;max-width:100%}
+#overlay{position:fixed;inset:0;z-index:199;display:none}
 
 /* loader */
 .loader{position:fixed;inset:0;background:rgba(255,255,255,.88);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;z-index:99}
-.spinner{width:18px;height:18px;border:2px solid var(--border);border-top-color:#1a1a1a;border-radius:50%;animation:spin .6s linear infinite}
+.spinner{width:18px;height:18px;border:2px solid var(--b);border-top-color:#1a1a1a;border-radius:50%;animation:spin .6s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .loader-txt{font-size:12px;color:var(--muted)}
+
+/* ── flex layout for cal ── */
+#cal-body{display:flex;flex-direction:column;flex:1;min-height:0;overflow:hidden}
 </style>
 </head>
 <body>
 
+<!-- SETUP -->
 <div id="setup">
   <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
     <rect width="22" height="22" rx="4" fill="#1a1a1a"/>
@@ -177,13 +147,14 @@ html,body{
     <circle cx="14.5" cy="16" r="1.1" fill="white" opacity=".5"/>
   </svg>
   <h2>calendário editorial — pati & co.</h2>
-  <p class="sub">cole o token da sua integração do notion para carregar os bancos de dados.</p>
+  <p class="sub">cole o token da integração do notion. ele só será solicitado uma vez.</p>
   <input id="tokenInput" type="password" placeholder="secret_xxxxxxxxxxxxxxxxxxxx"/>
   <button id="startBtn">carregar calendário</button>
   <p id="errMsg"></p>
   <p class="hint">notion.so/my-integrations → nova integração → copie o token<br>adicione a integração nos 5 bancos de dados</p>
 </div>
 
+<!-- CALENDAR -->
 <div id="cal">
   <div class="hdr">
     <span class="hdr-title" id="hdrTitle"></span>
@@ -192,6 +163,7 @@ html,body{
       <button class="nav-btn" id="nextBtn">›</button>
     </div>
     <button class="today-btn" id="todayBtn">hoje</button>
+    <span class="change-token" id="changeToken">trocar token</span>
   </div>
   <div class="err-banner" id="errBanner"></div>
   <div class="legend">
@@ -201,11 +173,16 @@ html,body{
     <div class="leg-item"><div class="leg-dot" style="background:var(--mov-t)"></div>movelaria</div>
     <div class="leg-item"><div class="leg-dot" style="background:var(--ame-t)"></div>casa amelis</div>
   </div>
-  <div class="wdays">
-    <span>dom</span><span>seg</span><span>ter</span><span>qua</span><span>qui</span><span>sex</span><span>sáb</span>
+  <div id="cal-body">
+    <div class="wdays">
+      <span>dom</span><span>seg</span><span>ter</span><span>qua</span><span>qui</span><span>sex</span><span>sáb</span>
+    </div>
+    <div class="grid" id="grid"></div>
   </div>
-  <div class="grid" id="grid"></div>
 </div>
+
+<!-- popover overlay -->
+<div id="overlay"></div>
 
 <script>
 const PROXIES=[
@@ -226,6 +203,21 @@ const NOW=new Date();
 curY=NOW.getFullYear();curM=NOW.getMonth();
 const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 
+// ── Token persistence ─────────────────────────────────────────────
+function savedToken(){try{return localStorage.getItem('pati_cal_token')||'';}catch{return '';}}
+function saveToken(t){try{localStorage.setItem('pati_cal_token',t);}catch{}}
+function clearToken(){try{localStorage.removeItem('pati_cal_token');}catch{}}
+
+function showSetup(){
+  document.getElementById('setup').style.display='flex';
+  document.getElementById('cal').style.display='none';
+}
+function showCal(){
+  document.getElementById('setup').style.display='none';
+  document.getElementById('cal').style.display='flex';
+}
+
+// ── Notion API ────────────────────────────────────────────────────
 async function notionPost(path,body){
   const target='https://api.notion.com'+path;
   let last;
@@ -242,7 +234,6 @@ async function notionPost(path,body){
   }
   throw last;
 }
-
 async function fetchDB(db,s,e){
   const body={filter:{and:[{property:db.df,date:{on_or_after:s}},{property:db.df,date:{before:e}}]},page_size:100};
   let cursor,all=[];
@@ -254,45 +245,22 @@ async function fetchDB(db,s,e){
   }while(cursor);
   return all.map(p=>{
     const pr=p.properties;
-    const title=pr[db.tf]?.title?.[0]?.plain_text||'(sem título)';
-    const date=pr[db.df]?.date?.start?.substring(0,10)||null;
-    const url=`https://notion.so/${p.id.replace(/-/g,'')}`;
-    return{title,date,cls:db.cls,name:db.name,url};
+    return{
+      title:pr[db.tf]?.title?.[0]?.plain_text||'(sem título)',
+      date:pr[db.df]?.date?.start?.substring(0,10)||null,
+      cls:db.cls,name:db.name,
+      url:`https://notion.so/${p.id.replace(/-/g,'')}`
+    };
   }).filter(x=>x.date);
 }
 
+// ── UI helpers ────────────────────────────────────────────────────
 let loaderEl=null;
 const loader=show=>{
   if(show){if(loaderEl)return;loaderEl=document.createElement('div');loaderEl.className='loader';loaderEl.innerHTML='<div class="spinner"></div><div class="loader-txt">carregando eventos…</div>';document.body.appendChild(loaderEl);}
   else if(loaderEl){loaderEl.remove();loaderEl=null;}
 };
 const showBanner=msg=>{const b=document.getElementById('errBanner');if(msg){b.textContent=msg;b.style.display='block';}else b.style.display='none';};
-
-document.getElementById('startBtn').onclick=async()=>{
-  const t=document.getElementById('tokenInput').value.trim();
-  if(!t.startsWith('secret_')&&!t.startsWith('ntn_')){document.getElementById('errMsg').textContent='token inválido';return;}
-  TOKEN=t;document.getElementById('errMsg').textContent='';
-  document.getElementById('setup').style.display='none';
-  document.getElementById('cal').style.display='flex';
-  await load();
-};
-document.getElementById('prevBtn').onclick=()=>{curM--;if(curM<0){curM=11;curY--;}load();};
-document.getElementById('nextBtn').onclick=()=>{curM++;if(curM>11){curM=0;curY++;}load();};
-document.getElementById('todayBtn').onclick=()=>{curY=NOW.getFullYear();curM=NOW.getMonth();load();};
-
-async function load(){
-  loader(true);showBanner('');
-  const s=iso(new Date(curY,curM,1)),e=iso(new Date(curY,curM+1,1));
-  evMap={};
-  const errors=[];
-  (await Promise.allSettled(DBS.map(db=>fetchDB(db,s,e)))).forEach((r,i)=>{
-    if(r.status==='fulfilled')r.value.forEach(ev=>{if(!evMap[ev.date])evMap[ev.date]=[];evMap[ev.date].push(ev);});
-    else{errors.push(DBS[i].name);console.warn(DBS[i].name,r.reason);}
-  });
-  if(errors.length===DBS.length)showBanner('⚠️ erro de conexão — verifique se a integração foi adicionada nos 5 bancos e se o token está correto.');
-  else if(errors.length)showBanner('⚠️ alguns bancos não carregaram: '+errors.join(', '));
-  render();loader(false);
-}
 
 function makeEv(ev){
   const a=document.createElement('a');
@@ -304,6 +272,57 @@ function makeEv(ev){
   return a;
 }
 
+// ── Popover ────────────────────────────────────────────────────────
+let pop=null;
+function closePopover(){if(pop){pop.remove();pop=null;}document.getElementById('overlay').style.display='none';}
+
+function openPopover(evs,dateStr,anchorEl){
+  closePopover();
+  const [y,m,d]=dateStr.split('-').map(Number);
+  const label=`${d} de ${MONTHS[m-1]}`;
+  pop=document.createElement('div');pop.className='popover';
+  pop.innerHTML=`<button class="popover-close" id="popClose">×</button><div class="popover-title">${label}</div>`;
+  evs.forEach(ev=>pop.appendChild(makeEv(ev)));
+  document.body.appendChild(pop);
+  document.getElementById('popClose').onclick=closePopover;
+  // position
+  const r=anchorEl.getBoundingClientRect();
+  let top=r.bottom+4,left=r.left;
+  if(left+280>window.innerWidth)left=window.innerWidth-288;
+  if(top+200>window.innerHeight)top=r.top-pop.offsetHeight-4;
+  pop.style.top=top+'px';pop.style.left=left+'px';
+  const ov=document.getElementById('overlay');ov.style.display='block';
+  ov.onclick=closePopover;
+}
+
+// ── Events ────────────────────────────────────────────────────────
+document.getElementById('startBtn').onclick=async()=>{
+  const t=document.getElementById('tokenInput').value.trim();
+  if(!t.startsWith('secret_')&&!t.startsWith('ntn_')){document.getElementById('errMsg').textContent='token inválido';return;}
+  saveToken(t);TOKEN=t;
+  document.getElementById('errMsg').textContent='';
+  showCal();await load();
+};
+document.getElementById('changeToken').onclick=()=>{clearToken();showSetup();};
+document.getElementById('prevBtn').onclick=()=>{curM--;if(curM<0){curM=11;curY--;}load();};
+document.getElementById('nextBtn').onclick=()=>{curM++;if(curM>11){curM=0;curY++;}load();};
+document.getElementById('todayBtn').onclick=()=>{curY=NOW.getFullYear();curM=NOW.getMonth();load();};
+
+// ── Load ──────────────────────────────────────────────────────────
+async function load(){
+  loader(true);showBanner('');closePopover();
+  const s=iso(new Date(curY,curM,1)),e=iso(new Date(curY,curM+1,1));
+  evMap={};const errors=[];
+  (await Promise.allSettled(DBS.map(db=>fetchDB(db,s,e)))).forEach((r,i)=>{
+    if(r.status==='fulfilled')r.value.forEach(ev=>{if(!evMap[ev.date])evMap[ev.date]=[];evMap[ev.date].push(ev);});
+    else{errors.push(DBS[i].name);console.warn(DBS[i].name,r.reason);}
+  });
+  if(errors.length===DBS.length)showBanner('⚠️ erro de conexão — verifique o token e se a integração está adicionada nos 5 bancos.');
+  else if(errors.length)showBanner('⚠️ alguns bancos não carregaram: '+errors.join(', '));
+  render();loader(false);
+}
+
+// ── Render ─────────────────────────────────────────────────────────
 function render(){
   document.getElementById('hdrTitle').textContent=`${MONTHS[curM]} de ${curY}`;
   const grid=document.getElementById('grid');grid.innerHTML='';
@@ -311,27 +330,46 @@ function render(){
   const dim=new Date(curY,curM+1,0).getDate();
   const dipm=new Date(curY,curM,0).getDate();
   const todayStr=iso(NOW);
-  const cells=[];
-  for(let i=first-1;i>=0;i--){const m=curM-1<0?11:curM-1,y=curM-1<0?curY-1:curY;cells.push({d:dipm-i,m,y,cur:false});}
-  for(let d=1;d<=dim;d++)cells.push({d,m:curM,y:curY,cur:true});
-  for(let d=1,rem=42-cells.length;d<=rem;d++){const m=curM+1>11?0:curM+1,y=curM+1>11?curY+1:curY;cells.push({d,m,y,cur:false});}
+  const allCells=[];
+  for(let i=first-1;i>=0;i--){const m=curM-1<0?11:curM-1,y=curM-1<0?curY-1:curY;allCells.push({d:dipm-i,m,y,cur:false});}
+  for(let d=1;d<=dim;d++)allCells.push({d,m:curM,y:curY,cur:true});
+  for(let d=1,rem=42-allCells.length;d<=rem;d++){const m=curM+1>11?0:curM+1,y=curM+1>11?curY+1:curY;allCells.push({d,m,y,cur:false});}
 
-  cells.forEach(c=>{
-    const ds=`${c.y}-${String(c.m+1).padStart(2,'0')}-${String(c.d).padStart(2,'0')}`;
-    const evs=evMap[ds]||[];
-    const cell=document.createElement('div');
-    cell.className='cell'+(c.cur?'':' other')+(ds===todayStr?' today':'');
-    const dn=document.createElement('div');dn.className='dnum';dn.textContent=c.d;cell.appendChild(dn);
-    const MAX=3;
-    evs.slice(0,MAX).forEach(ev=>cell.appendChild(makeEv(ev)));
-    if(evs.length>MAX){
-      const m=document.createElement('div');m.className='more';m.textContent=`+${evs.length-MAX} mais`;
-      m.onclick=()=>{m.remove();evs.slice(MAX).forEach(ev=>cell.appendChild(makeEv(ev)));};
-      cell.appendChild(m);
+  // render as table rows of 7
+  for(let row=0;row<6;row++){
+    const tr=document.createElement('div');tr.className='grid-row';
+    for(let col=0;col<7;col++){
+      const c=allCells[row*7+col];
+      const ds=`${c.y}-${String(c.m+1).padStart(2,'0')}-${String(c.d).padStart(2,'0')}`;
+      const evs=evMap[ds]||[];
+      const cell=document.createElement('div');
+      cell.className='cell'+(c.cur?'':' other')+(ds===todayStr?' today':'');
+      const dn=document.createElement('div');dn.className='dnum';dn.textContent=c.d;cell.appendChild(dn);
+      const MAX=3;
+      evs.slice(0,MAX).forEach(ev=>cell.appendChild(makeEv(ev)));
+      if(evs.length>MAX){
+        const btn=document.createElement('span');btn.className='more';
+        btn.textContent=`+${evs.length-MAX} mais`;
+        btn.onclick=e=>{e.stopPropagation();openPopover(evs,ds,btn);};
+        cell.appendChild(btn);
+      }
+      tr.appendChild(cell);
     }
-    grid.appendChild(cell);
-  });
+    grid.appendChild(tr);
+  }
+
+  // set equal row heights via JS
+  const calBody=document.getElementById('cal-body');
+  const available=calBody.offsetHeight-document.querySelector('.wdays').offsetHeight;
+  const rowH=Math.floor(available/6);
+  document.querySelectorAll('.grid-row').forEach(r=>r.style.height=rowH+'px');
+  document.querySelectorAll('.cell').forEach(c=>c.style.height=rowH+'px');
 }
+
+// ── Boot ──────────────────────────────────────────────────────────
+const saved=savedToken();
+if(saved){TOKEN=saved;showCal();load();}
+else showSetup();
 </script>
 </body>
 </html>
