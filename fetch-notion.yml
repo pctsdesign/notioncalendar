@@ -1,0 +1,33 @@
+name: Atualizar dados do Notion
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # a cada 30 minutos
+  workflow_dispatch:           # disparo manual
+  push:
+    branches: [main]          # também ao subir arquivo
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Buscar dados do Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: node fetch-notion.js
+
+      - name: Salvar data.json no repositório
+        run: |
+          git config user.name "notion-sync"
+          git config user.email "notion-sync@pati.co"
+          git add data.json
+          git diff --staged --quiet || git commit -m "sync: atualizar dados do Notion"
+          git push
