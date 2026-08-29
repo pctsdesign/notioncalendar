@@ -200,7 +200,10 @@ body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'S
 <script>
 const PROXIES=[
   u=>`https://corsproxy.io/?url=${encodeURIComponent(u)}`,
+  u=>`https://corsproxy.org/?${encodeURIComponent(u)}`,
   u=>`https://proxy.cors.sh/${u}`,
+  u=>`https://cors.eu.org/${u}`,
+  u=>`https://test.cors.workers.dev/?${encodeURIComponent(u)}`,
 ];
 const NV='2022-06-28';
 const MONTHS=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
@@ -280,10 +283,6 @@ async function fetchDB(db,s,e){
       return n.toLowerCase()==='evento';
     });
     const done=isDone(statusName)||isDone(formatoName)||anyEvento;
-    // Debug: log every event to see raw status values
-    if(title.toLowerCase().includes('pais')||title.toLowerCase().includes('evento')){
-      console.log('[DEBUG]',title,'| status:',statusName,'| formato:',formatoName,'| anyEvento:',anyEvento,'| done:',done);
-    }
     return{title:pr[db.tf]?.title?.[0]?.plain_text||'(sem título)',date:pr[db.df]?.date?.start?.substring(0,10)||null,bg:db.bg,fg:db.fg,name:db.name,done,url:`https://notion.so/${p.id.replace(/-/g,'')}`};
   }).filter(x=>x.date);
 }
