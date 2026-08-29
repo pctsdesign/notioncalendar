@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T21:30:30.079Z",
+  "updated": "2026-08-29T22:17:33.412Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -8,7 +8,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko natal",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-20",
@@ -26,7 +26,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko natal",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-19",
@@ -62,7 +62,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko natal",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-11",
@@ -242,7 +242,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-20",
@@ -605,7 +605,7 @@
       "done": false
     },
     {
-      "date": "2026-08-14",
+      "date": "2026-09-04",
       "title": "Reels — O que melhora a sua sexta-feira? | Moinho",
       "url": "https://notion.so/3ca82cfc4f0a81d7b666f4d43da6f641",
       "bg": "#fadec9",
@@ -623,7 +623,7 @@
       "done": true
     },
     {
-      "date": "2026-07-31",
+      "date": "2026-09-02",
       "title": "Stories — Poltrona Harper | Kleisa + Movelaria",
       "url": "https://notion.so/3ca82cfc4f0a8105943ce08bc66231cd",
       "bg": "#e8deee",
@@ -641,7 +641,7 @@
       "done": true
     },
     {
-      "date": "2026-07-28",
+      "date": "2026-08-03",
       "title": "Stories — Projeto Infinity | Bruna Gosson x Movelaria",
       "url": "https://notion.so/3ca82cfc4f0a81ec96ecda91b93b0170",
       "bg": "#e8deee",
@@ -650,7 +650,7 @@
       "done": false
     },
     {
-      "date": "2026-07-29",
+      "date": "2026-09-01",
       "title": "Stories — Curadoria de Poltronas | Movelaria",
       "url": "https://notion.so/3ca82cfc4f0a81fc8d58dcecc00de0ce",
       "bg": "#e8deee",
@@ -1136,7 +1136,7 @@
       "done": true
     },
     {
-      "date": "2026-08-08",
+      "date": "2026-08-31",
       "title": "[10/08] [10] Inegociáveis — o cuidado que vira escolha de vida",
       "url": "https://notion.so/36c82cfc4f0a813797cad7e343b7eaf8",
       "bg": "#f5e0e9",
@@ -1394,6 +1394,33 @@
       "bg": "#fdecc8",
       "fg": "#8a4e00",
       "name": "ch representações",
+      "done": true
+    },
+    {
+      "date": "2026-06-05",
+      "title": "[portfólio yure]",
+      "url": "https://notion.so/37482cfc4f0a803c92f6ffd9f1c2416c",
+      "bg": "#e3e2e0",
+      "fg": "#444",
+      "name": "yure silva",
+      "done": true
+    },
+    {
+      "date": "2026-06-05",
+      "title": "[layout para Notion - consultoria]",
+      "url": "https://notion.so/37482cfc4f0a80ffa4eeda3fd1668e26",
+      "bg": "#e3e2e0",
+      "fg": "#444",
+      "name": "yure silva",
+      "done": true
+    },
+    {
+      "date": "2026-06-03",
+      "title": "F01 - ",
+      "url": "https://notion.so/37482cfc4f0a80fa9cd8e2611939c210",
+      "bg": "#e3e2e0",
+      "fg": "#444",
+      "name": "yure silva",
       "done": true
     }
   ]
