@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T18:55:54.259Z",
+  "updated": "2026-08-30T21:22:06.814Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -38,7 +38,7 @@
       "done": true
     },
     {
-      "date": "2026-07-27",
+      "date": "2026-08-17",
       "title": "[EKO] - S21/07 - Integrar ambientes é criar continuidade entre diferentes espaços da casa.",
       "url": "https://notion.so/3ca82cfc4f0a818984c4c696815244e1",
       "bg": "#d3e5ef",
@@ -594,6 +594,114 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-09-18",
+      "title": "[reels]",
+      "url": "https://notion.so/3cc82cfc4f0a80d18365c76da90e32cc",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-16",
+      "title": "[carrossel de fotos]",
+      "url": "https://notion.so/3cc82cfc4f0a802c9cecd29dc4034739",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[arte] carrossel",
+      "url": "https://notion.so/3cc82cfc4f0a80c38b2cea6332983ebc",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-12",
+      "title": "[musica ao vivo]",
+      "url": "https://notion.so/3cc82cfc4f0a80cb8b63fa958243b8da",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-13",
+      "title": "[day use] chamar as pessoas para aproveitar o dia na vila",
+      "url": "https://notion.so/3cc82cfc4f0a8098bfe8f3d758d195c1",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[pausa na vila] - promoção",
+      "url": "https://notion.so/3cc82cfc4f0a80fab144dd3438243eea",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-08",
+      "title": "[venda da oktoberfest]",
+      "url": "https://notion.so/3cc82cfc4f0a80d185d3c9b1086fa636",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[musica ao vivo]",
+      "url": "https://notion.so/3cc82cfc4f0a80189952e0af11f07b04",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-07",
+      "title": "[programaçao  semana]",
+      "url": "https://notion.so/3cc82cfc4f0a80c4903cdc1c10b26cbb",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[divulgar musica da semana]",
+      "url": "https://notion.so/3cc82cfc4f0a8026a7e7cb4faf472186",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-21",
+      "title": "[s3 e s4] S01 - todos os serviços (1)",
+      "url": "https://notion.so/3cc82cfc4f0a803f956bd208f7bf6334",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-07",
+      "title": "[s1 e s2] S01 - todos os serviços",
+      "url": "https://notion.so/3cc82cfc4f0a8025a53ff8a90f3fa1d4",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-09-04",
