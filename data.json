@@ -1,6 +1,222 @@
 {
-  "updated": "2026-08-30T18:24:59.872Z",
+  "updated": "2026-08-30T18:54:45.654Z",
   "events": [
+    {
+      "date": "2026-08-07",
+      "title": "[EKO] - S31/07 - A área gourmet se tornou um dos principais espaços de convivência da casa.",
+      "url": "https://notion.so/3ca82cfc4f0a8101b740e4164469ff6c",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-09-04",
+      "title": "[EKO] - S22/08",
+      "url": "https://notion.so/3ca82cfc4f0a812b8d64cac8f13ade50",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-08-07",
+      "title": "[EKO] - S24/07 - Em cozinhas planejadas, cada detalhe da marcenaria é pensado para facilitar a rotina.",
+      "url": "https://notion.so/3ca82cfc4f0a814999e9dec33cd69e4b",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-08-19",
+      "title": "[EKO] - S03/08 - Uma sala integrada convida naturalmente para os encontros.",
+      "url": "https://notion.so/3ca82cfc4f0a817195e3f93181730773",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-07-27",
+      "title": "[EKO] - S21/07 - Integrar ambientes é criar continuidade entre diferentes espaços da casa.",
+      "url": "https://notion.so/3ca82cfc4f0a818984c4c696815244e1",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-08-31",
+      "title": "[EKO] - S11/08 - Os encontros passam. As lembranças permanecem.",
+      "url": "https://notion.so/3ca82cfc4f0a81b2add1db01ef86b503",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-08-11",
+      "title": "[EKO] - S12/08 - Cada material escolhido contribui para a identidade do projeto.",
+      "url": "https://notion.so/3ca82cfc4f0a81ea98e1e483b6d8e0f0",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[EKO] - S26/08",
+      "url": "https://notion.so/3ca82cfc4f0a8116a325fdbbf03970f7",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-08",
+      "title": "[EKO] - S31/08",
+      "url": "https://notion.so/3ca82cfc4f0a812eb440d6a254695deb",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[EKO] - S25/08",
+      "url": "https://notion.so/3ca82cfc4f0a814d92a8eb6f577b209b",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[EKO] - S21/08",
+      "url": "https://notion.so/3ca82cfc4f0a8190bcf1d2ea8b1c4739",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[EKO] - S24/08",
+      "url": "https://notion.so/3ca82cfc4f0a81cbb90cecc03c896764",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-07",
+      "title": "[EKO] - S28/08",
+      "url": "https://notion.so/3ca82cfc4f0a81d09edefaff293841bb",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-02",
+      "title": "[EKO] - S27/08",
+      "url": "https://notion.so/3ca82cfc4f0a81808f17cf0da3e2ac6d",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-08-31",
+      "title": "[EKO] - S19/08 - A escolha dos materiais interfere diretamente no resultado da marcenaria.",
+      "url": "https://notion.so/3ca82cfc4f0a8183ade9cce486f4296b",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-09-03",
+      "title": "[EKO] - S29/08",
+      "url": "https://notion.so/3ca82cfc4f0a81bea3f8e9a19a87a7b5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-01",
+      "title": "[EKO] - S15/08 - Cada projeto executado pela Eko é desenvolvido para refletir a proposta do arquiteto.",
+      "url": "https://notion.so/3ca82cfc4f0a81e684b7c25006dd94b1",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-08-26",
+      "title": "[EKO] - S06/08 - Os ambientes sociais ganharam ainda mais importância nos últimos anos.",
+      "url": "https://notion.so/3ca82cfc4f0a8120b5ffd851a7bab814",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-08-25",
+      "title": "[EKO] - S14/08 - O acabamento certo valoriza todo o conjunto.",
+      "url": "https://notion.so/3ca82cfc4f0a8144b24ffed863e7781c",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-08-27",
+      "title": "[EKO] - S17/08 - A marcenaria pode acompanhar a arquitetura desde a primeira definição do projeto.",
+      "url": "https://notion.so/3ca82cfc4f0a818698bbf5f37ef6e1b2",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-08-24",
+      "title": "[EKO] - S20/08 - A paleta de cores ajuda a definir a leitura de todo o ambiente.",
+      "url": "https://notion.so/3ca82cfc4f0a81a3bb65ca504be15eba",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-08-28",
+      "title": "[EKO] - S18/08 - Móveis planejados permitem aproveitar melhor as características de cada ambiente.",
+      "url": "https://notion.so/3ca82cfc4f0a81d38aced27ef759ecf7",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-07-28",
+      "title": "voucher - panfletagem",
+      "url": "https://notion.so/3ab82cfc4f0a8064864ce82f8804d36c",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-08-09",
+      "title": "[dia dos pais]",
+      "url": "https://notion.so/3ab82cfc4f0a8068b395daf0eae88c2a",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
     {
       "date": "2026-09-07",
       "title": "[independência do brasil]",
@@ -385,7 +601,7 @@
       "url": "https://notion.so/3ca82cfc4f0a8134b9fdc0d6a062a6d9",
       "bg": "#fadec9",
       "fg": "#c47615",
-      "name": "pousada pedra grande",
+      "name": "ppg",
       "done": false
     },
     {
@@ -394,7 +610,7 @@
       "url": "https://notion.so/3ca82cfc4f0a81739956c9860e53c8e7",
       "bg": "#fadec9",
       "fg": "#c47615",
-      "name": "pousada pedra grande",
+      "name": "ppg",
       "done": false
     },
     {
@@ -403,7 +619,7 @@
       "url": "https://notion.so/3ca82cfc4f0a81d7b666f4d43da6f641",
       "bg": "#fadec9",
       "fg": "#c47615",
-      "name": "pousada pedra grande",
+      "name": "ppg",
       "done": false
     },
     {
@@ -412,7 +628,7 @@
       "url": "https://notion.so/3ca82cfc4f0a812682aac16219dc78a5",
       "bg": "#fadec9",
       "fg": "#c47615",
-      "name": "pousada pedra grande",
+      "name": "ppg",
       "done": true
     },
     {
@@ -557,6 +773,492 @@
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
+      "done": true
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Produção de Material para Parceria Institucional (ASSEJUF-RN) — Casa Amelis",
+      "url": "https://notion.so/3ca82cfc4f0a804aa25bf6b81bec5583",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
+    },
+    {
+      "date": "2026-09-07",
+      "title": "[EXTRA] - KUR - Refil",
+      "url": "https://notion.so/3c682cfc4f0a8027bb18c5595840b434",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
+    },
+    {
+      "date": "2026-09-04",
+      "title": "[EXTRA] Loção kur",
+      "url": "https://notion.so/3c682cfc4f0a8090acc2f8081813c5de",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
+    },
+    {
+      "date": "2026-08-24",
+      "title": "[EXTRA] - Kur - Composto Karitê",
+      "url": "https://notion.so/3c682cfc4f0a807b8c54ca86fb7600e4",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-24",
+      "title": "[22/08] Stories — Wellness & Spa Amelis",
+      "url": "https://notion.so/3c282cfc4f0a81429159f44add3aaffc",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-21",
+      "title": "[21/08] Stories — Amelis Talk",
+      "url": "https://notion.so/3c282cfc4f0a81548692f7b70c664910",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-09-01",
+      "title": "[25/08] Stories — Especialidade + Amelis Talk urgente",
+      "url": "https://notion.so/3c282cfc4f0a8157b05acbf4b95e5a13",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
+    },
+    {
+      "date": "2026-08-20",
+      "title": "[20/08] Stories — Saúde mental integrada",
+      "url": "https://notion.so/3c282cfc4f0a81b9b21ac287c0393d22",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-20",
+      "title": "Post do Evento Singular Virada",
+      "url": "https://notion.so/3a382cfc4f0a80d69897ca6ecd627716",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-10",
+      "title": "[07/08] [31] B-roll Spa Amelis — conteúdo sensorial pós-lançamento",
+      "url": "https://notion.so/39c82cfc4f0a8156961df92447ba9aaf",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-15",
+      "title": "[15/08] [33] Seu sábado na Amelis — spa + yoga",
+      "url": "https://notion.so/39c82cfc4f0a8159bab5d58aca671e7d",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-27",
+      "title": "[18/08] [34] Ginecologia 40+ — saúde da mulher como jornada, não como urgência",
+      "url": "https://notion.so/39c82cfc4f0a816180eaf0052dc9ef1b",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-06",
+      "title": "[05/08] [30] Depoimento de Thierry sobre o Spa Amelis",
+      "url": "https://notion.so/39c82cfc4f0a8167968cc64ae7b56983",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-31",
+      "title": "[30/08] [36] Fechamento de agosto — o mês que abriu o spa",
+      "url": "https://notion.so/39c82cfc4f0a819b8718ea275b4f4cdf",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
+    },
+    {
+      "date": "2026-08-25",
+      "title": "[25/08] [35] Amelis Talk — lembrete / últimas vagas",
+      "url": "https://notion.so/39c82cfc4f0a81c09778f21cd64e9e97",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-14",
+      "title": "Gravação com Aladim",
+      "url": "https://notion.so/39c82cfc4f0a8073918ef20a6d9ef875",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-13",
+      "title": "Nomes das Salas em pdf",
+      "url": "https://notion.so/39c82cfc4f0a8061ab02e31cb3353e36",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-08",
+      "title": "[planejamento de agosto] reunião",
+      "url": "https://notion.so/39282cfc4f0a80b29fd1e556787de666",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-03",
+      "title": "Entregáveis Profissionais — Casa Amelis",
+      "url": "https://notion.so/39282cfc4f0a80c8bbf8d3a42144e50b",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Reunião — Amelis",
+      "url": "https://notion.so/38282cfc4f0a807d8d22e4ea269d3458",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-09",
+      "title": "Vaga Massoterapia",
+      "url": "https://notion.so/37a82cfc4f0a80b8990febdffa379f31",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-20",
+      "title": "[20/07] [24] Lista de espera Spa Amelis — abertura",
+      "url": "https://notion.so/37282cfc4f0a80bda8edd06860595f69",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-10",
+      "title": "[03/08] [29] Lançamento Spa Amelis 🚀",
+      "url": "https://notion.so/37282cfc4f0a80c6bb05e1f56e8cd35f",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-07",
+      "title": "[entrega do SPA]",
+      "url": "https://notion.so/37282cfc4f0a801ba1b8c1cf80ce3391",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-01",
+      "title": "produção dos materiais",
+      "url": "https://notion.so/37282cfc4f0a80d4849bc7ecd0f3d074",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-04",
+      "title": "[feriado de corpus christi]",
+      "url": "https://notion.so/37282cfc4f0a80348445ffb1d46f91c2",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-12",
+      "title": "[dia dos namorados]",
+      "url": "https://notion.so/37282cfc4f0a801ca9b0e3e8c4aaf3e9",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-04",
+      "title": "[24/07] [26] Bruxismo → Serena SPA — você trata o sintoma, a gente trata a origem",
+      "url": "https://notion.so/36c82cfc4f0a810998c0d223044efa31",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-29",
+      "title": "[27/07] [27] Jornada do cliente no Spa Amelis — carrossel",
+      "url": "https://notion.so/36c82cfc4f0a811cadc5f3fc3f10d7f7",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-31",
+      "title": "[31/07] [28] Video convite — Spa Amelis com Dra. Karla + Cecília",
+      "url": "https://notion.so/36c82cfc4f0a811d9328e3675a1892e3",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-12",
+      "title": "[20/08] [21] Conteúdo de valor — tema relativo ao Amelis Talk",
+      "url": "https://notion.so/36c82cfc4f0a8127957ced5f89a0478f",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-26",
+      "title": "[18/07] [20] Aquecimento Amélis Talk — convite + tema",
+      "url": "https://notion.so/36c82cfc4f0a8134998ec64659630327",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-22",
+      "title": "[22/07] [25] Video ASMR — Spa Amelis",
+      "url": "https://notion.so/36c82cfc4f0a8147a980f6a04f07d8a8",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-09-03",
+      "title": "[07/07] [15] Spa — o ritual, não o resultado",
+      "url": "https://notion.so/36c82cfc4f0a8147be8acd6ef81f7e7c",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
+    },
+    {
+      "date": "2026-08-20",
+      "title": "[11/08] [16] Saúde mental — ansiedade não é personalidade, é sinal",
+      "url": "https://notion.so/36c82cfc4f0a814aa133d76c43c1355b",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-22",
+      "title": "[22/08] [22] Amelis Talk — aquecimento + convite",
+      "url": "https://notion.so/36c82cfc4f0a814fbffac5c61ad804c1",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-04",
+      "title": "[01/07] [13] Pós-lançamento Essenza — cada fórmula começa com uma pergunta",
+      "url": "https://notion.so/36c82cfc4f0a8170b86af08bb73bda88",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-08-28",
+      "title": "[28/08] [23] Amelis Talk — cobertura do evento",
+      "url": "https://notion.so/36c82cfc4f0a8197870eeb06e0e1eb03",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-20",
+      "title": "[03/07] [14] Pele + prevenção — a pele é o espelho do que acontece dentro",
+      "url": "https://notion.so/36c82cfc4f0a81c897e9d720b431fadf",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-08",
+      "title": "[15/06] [07] Arquitetura que cuida pt.2 — o espaço que desacelera",
+      "url": "https://notion.so/36c82cfc4f0a810c8a5ded3c02126435",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-13",
+      "title": "[08/06] [04] Sono como pilar da longevidade",
+      "url": "https://notion.so/36c82cfc4f0a812dafc1cc6248250f9e",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-09-02",
+      "title": "[10/08] [10] Inegociáveis — o cuidado que vira escolha de vida",
+      "url": "https://notion.so/36c82cfc4f0a813797cad7e343b7eaf8",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
+    },
+    {
+      "date": "2026-06-10",
+      "title": "[05/06] [03] Dia dos Namorados — O presente que fica no corpo",
+      "url": "https://notion.so/36c82cfc4f0a8139aae5ce3c05b5bd9d",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-29",
+      "title": "[24/06] [11] Teaser 2 Essenza — molecular, individual, único — lista de espera",
+      "url": "https://notion.so/36c82cfc4f0a8144bdc5db034fc69773",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-03",
+      "title": "[03/06] [02] Detalhe sensorial — luz, textura, silêncio",
+      "url": "https://notion.so/36c82cfc4f0a81599029f092831cf1d7",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-06",
+      "title": "[10/06] [05] Intestino + saúde mental — 90% da serotonina é produzida no intestino",
+      "url": "https://notion.so/36c82cfc4f0a815b83cec6f1d30c5868",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-24",
+      "title": "[19/06] [09] Teaser Protocolo Essenza — primeiro movimento público",
+      "url": "https://notion.so/36c82cfc4f0a815ca685e0899f3ad47b",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-24",
+      "title": "[12/06] [06] Idade cronológica x idade biológica — longevidade",
+      "url": "https://notion.so/36c82cfc4f0a815db4efdbf9d8c86b5d",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-10",
+      "title": "[17/06] [08] Hormônios + energia — cansaço crônico não é frescura, é sinal",
+      "url": "https://notion.so/36c82cfc4f0a81c3835fee8134f17d25",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-07-01",
+      "title": "[26/06] [12] Lançamento Protocolo Essenza — abertura oficial",
+      "url": "https://notion.so/36c82cfc4f0a81c48a2fee521692dbbb",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-01",
+      "title": "[01/06] [01] O espaço que já começa a te cuidar antes de você sentar",
+      "url": "https://notion.so/36c82cfc4f0a81d7a7bdd7046076d5da",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Produção dos Slides Amelis Talks",
+      "url": "https://notion.so/36482cfc4f0a805a8b23c8f2955dc5de",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": true
+    },
+    {
+      "date": "2026-06-01",
+      "title": "S01 - Agendamento",
+      "url": "https://notion.so/36482cfc4f0a8068bb98fdd965137212",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
+    },
+    {
+      "date": "2026-06-25",
+      "title": "AMELIS TALK — SUA MELHOR MORADA",
+      "url": "https://notion.so/33a82cfc4f0a809a8b87ed8bc2977295",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
       "done": true
     },
     {
