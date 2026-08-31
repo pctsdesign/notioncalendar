@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T23:41:43.329Z",
+  "updated": "2026-08-31T03:48:52.722Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -596,8 +596,179 @@
       "done": true
     },
     {
+      "date": "2026-08-30",
+      "title": "Briefing / Estratégia de Setembro",
+      "url": "https://notion.so/3cd82cfc4f0a81faa0e2d4da1c76e98d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-25",
+      "title": "[evento] rodrigo lacaz",
+      "url": "https://notion.so/3cd82cfc4f0a81118593dc2fd343e0a8",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-09-26",
+      "title": "[evento] kauany e banda dover",
+      "url": "https://notion.so/3cd82cfc4f0a81258372f1b5b61baa12",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
       "date": "2026-09-18",
-      "title": "[reels]",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/3cd82cfc4f0a81348bede512a8504d23",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-09-06",
+      "title": "[evento] kauany",
+      "url": "https://notion.so/3cd82cfc4f0a8158af76cf40a71cb636",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-09-04",
+      "title": "[evento] vitor sanfoneiro",
+      "url": "https://notion.so/3cd82cfc4f0a819b89c2c58a2a59908e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-09-05",
+      "title": "[evento] casamento bruna e higor",
+      "url": "https://notion.so/3cd82cfc4f0a81b999a3caf4b190e44a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-09-19",
+      "title": "[evento] zé sanfoneiro",
+      "url": "https://notion.so/3cd82cfc4f0a81d49571c8cbcc5783f4",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-09-12",
+      "title": "[evento] kauany",
+      "url": "https://notion.so/3cd82cfc4f0a81dd98b3d1248ca85938",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/3cd82cfc4f0a81f6b581f9eb75df72d7",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-08-21",
+      "title": "[evento] kauany",
+      "url": "https://notion.so/3cd82cfc4f0a811aa3c9d4d188d0f04e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-08-22",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/3cd82cfc4f0a8123abc2ec5afa5e694c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-07-31",
+      "title": "[evento] vitor sanfoneiro",
+      "url": "https://notion.so/3cd82cfc4f0a812b8db1c6922506fe0a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-08-07",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/3cd82cfc4f0a8149a3b7ffcb3197ea76",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-08-28",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/3cd82cfc4f0a814da6bce7a8c8a846c7",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-08-08",
+      "title": "[evento] kauany",
+      "url": "https://notion.so/3cd82cfc4f0a815294d7e5b18895335b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-08-01",
+      "title": "[evento] festival de serra de são bento — kauany e banda",
+      "url": "https://notion.so/3cd82cfc4f0a8194912bdcd535005e7e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-08-15",
+      "title": "[evento] kauany",
+      "url": "https://notion.so/3cd82cfc4f0a81a88701d13aa199817c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-08-29",
+      "title": "[evento] kauany",
+      "url": "https://notion.so/3cd82cfc4f0a81ffaa88e74c21dbc78f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-09-18",
+      "title": "ex.: [reels]",
       "url": "https://notion.so/3cc82cfc4f0a80d18365c76da90e32cc",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -606,7 +777,7 @@
     },
     {
       "date": "2026-09-16",
-      "title": "[carrossel de fotos]",
+      "title": "ex.: [carrossel de fotos]",
       "url": "https://notion.so/3cc82cfc4f0a802c9cecd29dc4034739",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -614,8 +785,8 @@
       "done": false
     },
     {
-      "date": "2026-09-14",
-      "title": "[arte] carrossel",
+      "date": "2026-09-07",
+      "title": "ex.: [arte] carrossel",
       "url": "https://notion.so/3cc82cfc4f0a80c38b2cea6332983ebc",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -623,26 +794,8 @@
       "done": false
     },
     {
-      "date": "2026-09-12",
-      "title": "[musica ao vivo]",
-      "url": "https://notion.so/3cc82cfc4f0a80cb8b63fa958243b8da",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-09-13",
-      "title": "[day use] chamar as pessoas para aproveitar o dia na vila",
-      "url": "https://notion.so/3cc82cfc4f0a8098bfe8f3d758d195c1",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
       "date": "2026-09-10",
-      "title": "[pausa na vila] - promoção",
+      "title": "ex.: [pausa na vila] - promoção",
       "url": "https://notion.so/3cc82cfc4f0a80fab144dd3438243eea",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -651,7 +804,7 @@
     },
     {
       "date": "2026-09-08",
-      "title": "[venda da oktoberfest]",
+      "title": "ex.: [venda da oktoberfest]",
       "url": "https://notion.so/3cc82cfc4f0a80d185d3c9b1086fa636",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -659,26 +812,8 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
-      "title": "[musica ao vivo]",
-      "url": "https://notion.so/3cc82cfc4f0a80189952e0af11f07b04",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-09-07",
-      "title": "[programaçao  semana]",
-      "url": "https://notion.so/3cc82cfc4f0a80c4903cdc1c10b26cbb",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
       "date": "2026-09-09",
-      "title": "[divulgar musica da semana]",
+      "title": "ex.: [divulgar musica da semana]",
       "url": "https://notion.so/3cc82cfc4f0a8026a7e7cb4faf472186",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -686,25 +821,7 @@
       "done": false
     },
     {
-      "date": "2026-09-21",
-      "title": "[s3 e s4] S01 - todos os serviços (1)",
-      "url": "https://notion.so/3cc82cfc4f0a803f956bd208f7bf6334",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-09-07",
-      "title": "[s1 e s2] S01 - todos os serviços",
-      "url": "https://notion.so/3cc82cfc4f0a8025a53ff8a90f3fa1d4",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-09-04",
+      "date": "2026-09-02",
       "title": "[PPG] F01 — 03 pratos que você precisa experimentar",
       "url": "https://notion.so/3ca82cfc4f0a8134b9fdc0d6a062a6d9",
       "bg": "#fadec9",
@@ -723,7 +840,7 @@
     },
     {
       "date": "2026-09-04",
-      "title": "Reels — O que melhora a sua sexta-feira? | Moinho",
+      "title": "[PPG] Reels — O que melhora a sua sexta-feira? | Moinho",
       "url": "https://notion.so/3ca82cfc4f0a81d7b666f4d43da6f641",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -882,6 +999,15 @@
       "fg": "#9065b0",
       "name": "movelaria",
       "done": true
+    },
+    {
+      "date": "2026-08-31",
+      "title": "[briefing da amelis]",
+      "url": "https://notion.so/3cc82cfc4f0a8074a200cf0404e35fb9",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
     },
     {
       "date": "2026-08-28",
@@ -1514,7 +1640,7 @@
       "done": true
     },
     {
-      "date": "2026-06-05",
+      "date": "2026-09-03",
       "title": "[portfólio yure]",
       "url": "https://notion.so/37482cfc4f0a803c92f6ffd9f1c2416c",
       "bg": "#e3e2e0",
@@ -1523,7 +1649,7 @@
       "done": true
     },
     {
-      "date": "2026-06-05",
+      "date": "2026-09-01",
       "title": "[layout para Notion - consultoria]",
       "url": "https://notion.so/37482cfc4f0a80ffa4eeda3fd1668e26",
       "bg": "#e3e2e0",
