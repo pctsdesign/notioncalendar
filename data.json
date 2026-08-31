@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T03:48:52.722Z",
+  "updated": "2026-08-31T10:34:14.878Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -1001,9 +1001,9 @@
       "done": true
     },
     {
-      "date": "2026-08-31",
-      "title": "[briefing da amelis]",
-      "url": "https://notion.so/3cc82cfc4f0a8074a200cf0404e35fb9",
+      "date": "2026-09-07",
+      "title": "[feriado]",
+      "url": "https://notion.so/3cd82cfc4f0a803d9924e79ce89aedca",
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
@@ -1019,7 +1019,7 @@
       "done": false
     },
     {
-      "date": "2026-09-07",
+      "date": "2026-09-02",
       "title": "[EXTRA] - KUR - Refil",
       "url": "https://notion.so/3c682cfc4f0a8027bb18c5595840b434",
       "bg": "#f5e0e9",
@@ -1064,13 +1064,13 @@
       "done": true
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-08-31",
       "title": "[25/08] Stories — Especialidade + Amelis Talk urgente",
       "url": "https://notion.so/3c282cfc4f0a8157b05acbf4b95e5a13",
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-20",
@@ -1379,7 +1379,7 @@
       "done": true
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-09-01",
       "title": "[10/08] [10] Inegociáveis — o cuidado que vira escolha de vida",
       "url": "https://notion.so/36c82cfc4f0a813797cad7e343b7eaf8",
       "bg": "#f5e0e9",
