@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T12:21:48.939Z",
+  "updated": "2026-09-01T16:49:28.130Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -866,9 +866,45 @@
       "done": true
     },
     {
+      "date": "2026-09-05",
+      "title": "[CM] S05/09 - A campanha termina. As experiências continuam.",
+      "url": "https://notion.so/3ce82cfc4f0a81eeba94c20b09f82ac3",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
       "date": "2026-09-01",
-      "title": "Stories - Sobre campanha do Clube",
-      "url": "https://notion.so/3ce82cfc4f0a80378053e4d07632e6a5",
+      "title": "[CM] S01/09 - Para onde seus pontos podem te levar?",
+      "url": "https://notion.so/3ce82cfc4f0a817499d9eef7b87503b5",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-09-04",
+      "title": "[CM] S04/09 - Último dia + próximos destinos",
+      "url": "https://notion.so/3ce82cfc4f0a819682fef5887d7a27a8",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-09-03",
+      "title": "[CM] S03/09 - Ainda dá tempo de viver 2026",
+      "url": "https://notion.so/3ce82cfc4f0a81b88321e78e2983ae6c",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-09-02",
+      "title": "[CM] S02/09 - Milão 2027 + Destino Surpresa",
+      "url": "https://notion.so/3ce82cfc4f0a81d3ac94f4958793b6c2",
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
@@ -881,7 +917,7 @@
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-03",
@@ -1046,6 +1082,15 @@
       "done": true
     },
     {
+      "date": "2026-09-01",
+      "title": "[01/09] Stories — Rituais do Spa Amelis",
+      "url": "https://notion.so/3ce82cfc4f0a81f587d6ddccbbe059b9",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
+    },
+    {
       "date": "2026-08-31",
       "title": "[AMELIS] Saúde Materno-infantil",
       "url": "https://notion.so/3cd82cfc4f0a80e284a1c8d40c4b2358",
@@ -1064,7 +1109,7 @@
       "done": false
     },
     {
-      "date": "2026-08-28",
+      "date": "2026-09-01",
       "title": "Produção de Material para Parceria Institucional (ASSEJUF-RN) — Casa Amelis",
       "url": "https://notion.so/3ca82cfc4f0a804aa25bf6b81bec5583",
       "bg": "#f5e0e9",
@@ -1431,6 +1476,15 @@
       "fg": "#c04274",
       "name": "amelis",
       "done": true
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Tag do Chá/Café",
+      "url": "https://notion.so/32c82cfc4f0a80128c8de727e94f5f90",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
     },
     {
       "date": "2026-09-02",
