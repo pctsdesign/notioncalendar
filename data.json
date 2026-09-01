@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T22:29:23.995Z",
+  "updated": "2026-09-01T01:22:42.084Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -866,7 +866,25 @@
       "done": true
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-09-01",
+      "title": "Stories - Sobre campanha do Clube",
+      "url": "https://notion.so/3ce82cfc4f0a80378053e4d07632e6a5",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Stories - Sequencia sobre apartamento de Mário",
+      "url": "https://notion.so/3ce82cfc4f0a80d3ba68c7fc0635e87a",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-09-03",
       "title": "Stories — Poltrona Harper | Kleisa + Movelaria",
       "url": "https://notion.so/3ca82cfc4f0a8105943ce08bc66231cd",
       "bg": "#e8deee",
@@ -893,13 +911,22 @@
       "done": false
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-02",
       "title": "Stories — Curadoria de Poltronas | Movelaria",
       "url": "https://notion.so/3ca82cfc4f0a81fc8d58dcecc00de0ce",
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
       "done": false
+    },
+    {
+      "date": "2026-12-01",
+      "title": "[TOP 20 CLUBE MOVELARIA]",
+      "url": "https://notion.so/3c982cfc4f0a8097bbc9f11993d234c4",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": true
     },
     {
       "date": "2026-11-02",
@@ -914,6 +941,15 @@
       "date": "2026-11-02",
       "title": "CASACOR 2026 - FLO/RJ",
       "url": "https://notion.so/3c982cfc4f0a80be9154d49cfc19f61f",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": true
+    },
+    {
+      "date": "2026-12-14",
+      "title": "[GANHADOR ORA]",
+      "url": "https://notion.so/3c982cfc4f0a802f8701f9e91503c96a",
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
@@ -1145,7 +1181,7 @@
       "done": true
     },
     {
-      "date": "2026-08-31",
+      "date": "2026-09-01",
       "title": "[30/08] [36] Fechamento de agosto — o mês que abriu o spa",
       "url": "https://notion.so/39c82cfc4f0a819b8718ea275b4f4cdf",
       "bg": "#f5e0e9",
@@ -1199,24 +1235,6 @@
       "done": true
     },
     {
-      "date": "2026-06-17",
-      "title": "Reunião — Amelis",
-      "url": "https://notion.so/38282cfc4f0a807d8d22e4ea269d3458",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-09",
-      "title": "Vaga Massoterapia",
-      "url": "https://notion.so/37a82cfc4f0a80b8990febdffa379f31",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-07-20",
       "title": "[20/07] [24] Lista de espera Spa Amelis — abertura",
       "url": "https://notion.so/37282cfc4f0a80bda8edd06860595f69",
@@ -1238,33 +1256,6 @@
       "date": "2026-07-07",
       "title": "[entrega do SPA]",
       "url": "https://notion.so/37282cfc4f0a801ba1b8c1cf80ce3391",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-01",
-      "title": "produção dos materiais",
-      "url": "https://notion.so/37282cfc4f0a80d4849bc7ecd0f3d074",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-04",
-      "title": "[feriado de corpus christi]",
-      "url": "https://notion.so/37282cfc4f0a80348445ffb1d46f91c2",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-12",
-      "title": "[dia dos namorados]",
-      "url": "https://notion.so/37282cfc4f0a801ca9b0e3e8c4aaf3e9",
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
@@ -1406,45 +1397,9 @@
       "done": false
     },
     {
-      "date": "2026-06-10",
-      "title": "[05/06] [03] Dia dos Namorados — O presente que fica no corpo",
-      "url": "https://notion.so/36c82cfc4f0a8139aae5ce3c05b5bd9d",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-29",
-      "title": "[24/06] [11] Teaser 2 Essenza — molecular, individual, único — lista de espera",
-      "url": "https://notion.so/36c82cfc4f0a8144bdc5db034fc69773",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-03",
-      "title": "[03/06] [02] Detalhe sensorial — luz, textura, silêncio",
-      "url": "https://notion.so/36c82cfc4f0a81599029f092831cf1d7",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-07-06",
       "title": "[10/06] [05] Intestino + saúde mental — 90% da serotonina é produzida no intestino",
       "url": "https://notion.so/36c82cfc4f0a815b83cec6f1d30c5868",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-24",
-      "title": "[19/06] [09] Teaser Protocolo Essenza — primeiro movimento público",
-      "url": "https://notion.so/36c82cfc4f0a815ca685e0899f3ad47b",
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
@@ -1472,42 +1427,6 @@
       "date": "2026-07-01",
       "title": "[26/06] [12] Lançamento Protocolo Essenza — abertura oficial",
       "url": "https://notion.so/36c82cfc4f0a81c48a2fee521692dbbb",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-01",
-      "title": "[01/06] [01] O espaço que já começa a te cuidar antes de você sentar",
-      "url": "https://notion.so/36c82cfc4f0a81d7a7bdd7046076d5da",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-17",
-      "title": "Produção dos Slides Amelis Talks",
-      "url": "https://notion.so/36482cfc4f0a805a8b23c8f2955dc5de",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-06-01",
-      "title": "S01 - Agendamento",
-      "url": "https://notion.so/36482cfc4f0a8068bb98fdd965137212",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": false
-    },
-    {
-      "date": "2026-06-25",
-      "title": "AMELIS TALK — SUA MELHOR MORADA",
-      "url": "https://notion.so/33a82cfc4f0a809a8b87ed8bc2977295",
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
@@ -1649,15 +1568,6 @@
       "done": true
     },
     {
-      "date": "2026-06-14",
-      "title": "Briefing inicial",
-      "url": "https://notion.so/84982cfc4f0a823b8b8b011db779a9e6",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
       "date": "2026-09-03",
       "title": "[portfólio yure]",
       "url": "https://notion.so/37482cfc4f0a803c92f6ffd9f1c2416c",
@@ -1670,15 +1580,6 @@
       "date": "2026-09-01",
       "title": "[layout para Notion - consultoria]",
       "url": "https://notion.so/37482cfc4f0a80ffa4eeda3fd1668e26",
-      "bg": "#e3e2e0",
-      "fg": "#444",
-      "name": "yure silva",
-      "done": true
-    },
-    {
-      "date": "2026-06-03",
-      "title": "F01 - ",
-      "url": "https://notion.so/37482cfc4f0a80fa9cd8e2611939c210",
       "bg": "#e3e2e0",
       "fg": "#444",
       "name": "yure silva",
