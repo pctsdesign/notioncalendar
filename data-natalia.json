@@ -1,0 +1,293 @@
+{
+  "updated": "2026-09-03T13:24:49.802Z",
+  "events": [
+    {
+      "date": "2026-09-04",
+      "title": "[EKO] - S22/08",
+      "url": "https://notion.so/3ca82cfc4f0a812b8d64cac8f13ade50",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-08-17",
+      "title": "[EKO] - S21/07 - Integrar ambientes é criar continuidade entre diferentes espaços da casa.",
+      "url": "https://notion.so/3ca82cfc4f0a818984c4c696815244e1",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[EKO] - S26/08",
+      "url": "https://notion.so/3ca82cfc4f0a8116a325fdbbf03970f7",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-08",
+      "title": "[EKO] - S31/08",
+      "url": "https://notion.so/3ca82cfc4f0a812eb440d6a254695deb",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[EKO] - S25/08",
+      "url": "https://notion.so/3ca82cfc4f0a814d92a8eb6f577b209b",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[EKO] - S21/08",
+      "url": "https://notion.so/3ca82cfc4f0a8190bcf1d2ea8b1c4739",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[EKO] - S24/08",
+      "url": "https://notion.so/3ca82cfc4f0a81cbb90cecc03c896764",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-07",
+      "title": "[EKO] - S28/08",
+      "url": "https://notion.so/3ca82cfc4f0a81d09edefaff293841bb",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-02",
+      "title": "[EKO] - S27/08",
+      "url": "https://notion.so/3ca82cfc4f0a81808f17cf0da3e2ac6d",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-03",
+      "title": "[EKO] - S29/08",
+      "url": "https://notion.so/3ca82cfc4f0a81bea3f8e9a19a87a7b5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-08-20",
+      "title": "[JOC] - S30/07 - Uma casa não é feita apenas de ambientes.",
+      "url": "https://notion.so/3ca82cfc4f0a81e7b5fbe7d7ebbb3667",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[JOC] - S14/08 - Em um bom projeto, nada acontece por acaso.",
+      "url": "https://notion.so/3ca82cfc4f0a8107952fc65312cf6870",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-17",
+      "title": "[JOC] - S18/08",
+      "url": "https://notion.so/3ca82cfc4f0a81278e0acd4a0f612123",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-16",
+      "title": "[JOC] - S19/08",
+      "url": "https://notion.so/3ca82cfc4f0a8149b560e356be49eb4f",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-24",
+      "title": "[JOC] - S29/08",
+      "url": "https://notion.so/3ca82cfc4f0a814fb816e17d0b1dc6c4",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[JOC] - S30/08",
+      "url": "https://notion.so/3ca82cfc4f0a81549cd8ed07b1a1f122",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-23",
+      "title": "[JOC] - S28/08",
+      "url": "https://notion.so/3ca82cfc4f0a8168bb69ec0bfa9994d6",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-25",
+      "title": "[JOC] - S31/08",
+      "url": "https://notion.so/3ca82cfc4f0a8173a20dc5afb09de86b",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-28",
+      "title": "[JOC] - S27/08",
+      "url": "https://notion.so/3ca82cfc4f0a8177a45feef6018e1afa",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[JOC] - S23/08",
+      "url": "https://notion.so/3ca82cfc4f0a818680bad282f2b53815",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-22",
+      "title": "[JOC] - S25/08",
+      "url": "https://notion.so/3ca82cfc4f0a81918bd1d3b75f79501f",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-21",
+      "title": "[JOC] - S24/08",
+      "url": "https://notion.so/3ca82cfc4f0a81a88470f02e432a704d",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[JOC] - S26/08",
+      "url": "https://notion.so/3ca82cfc4f0a81aca0f9cd194b452d33",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-18",
+      "title": "[JOC] - S20/08",
+      "url": "https://notion.so/3ca82cfc4f0a81baac5af2d24946bbc3",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-15",
+      "title": "[JOC] - S22/08",
+      "url": "https://notion.so/3ca82cfc4f0a81be80f1f6db40a80793",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[JOC] - S15/08 - Algumas escolhas permanecem atuais porque unem simplicidade e funcionalidade.",
+      "url": "https://notion.so/3ca82cfc4f0a81d186b7fbdb4a2275fb",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[JOC] - S16/08",
+      "url": "https://notion.so/3ca82cfc4f0a81d9af2bf9d7923b8567",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[JOC] - S17/08",
+      "url": "https://notion.so/3ca82cfc4f0a81df9109dee9a32a2457",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-08-31",
+      "title": "[JOC] - S09/08 - O quarto pode até ser silencioso.",
+      "url": "https://notion.so/3ca82cfc4f0a812a8de9eb0bbe4ec294",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-01",
+      "title": "[JOC] - S13/08 - Existem materiais que atravessam o tempo sem perder a beleza.",
+      "url": "https://notion.so/3ca82cfc4f0a815588e1f6a2c16ab0f6",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-02",
+      "title": "[JOC] - S21/08",
+      "url": "https://notion.so/3ca82cfc4f0a8193a6efd095249610d5",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Briefing / Estratégia de Setembro",
+      "url": "https://notion.so/3cd82cfc4f0a81faa0e2d4da1c76e98d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    }
+  ]
+}
