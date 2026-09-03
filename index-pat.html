@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>calendário editorial — pat</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{height:100%;overflow:hidden}
+body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:12px;background:#fff;color:#1a1a1a}
+:root{--b:#e9e9e7;--muted:#9b9b9b;--alt:#f7f7f5;--light:#d0d0ce}
+#cal{display:flex;flex-direction:column;position:fixed;inset:0;overflow:hidden}
+.hdr{display:flex;align-items:center;gap:6px;padding:9px 14px 7px;border-bottom:1px solid var(--b);flex-shrink:0}
+.hdr-title{font-size:14px;font-weight:500;flex:1}
+.nav-row{display:flex;gap:2px}
+.nav-btn,.today-btn,.gear-btn{border:1px solid var(--b);background:#fff;border-radius:3px;cursor:pointer;color:var(--muted);display:flex;align-items:center;justify-content:center}
+.nav-btn{width:24px;height:24px;font-size:14px}
+.today-btn{padding:3px 9px;font-size:11px}
+.gear-btn{width:24px;height:24px}
+.nav-btn:hover,.today-btn:hover,.gear-btn:hover{background:var(--alt);color:#1a1a1a}
+.updated{font-size:10px;color:var(--light);letter-spacing:-.01em}
+.err-banner{background:#fff5f5;border-bottom:1px solid #fecaca;padding:5px 14px;font-size:11px;color:#c0392b;line-height:1.5;display:none;flex-shrink:0}
+.legend{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:5px 14px;border-bottom:1px solid var(--b);flex-shrink:0}
+.leg-item{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--muted)}
+.leg-dot{width:7px;height:7px;border-radius:2px;flex-shrink:0}
+.wdays{display:table;width:100%;table-layout:fixed;border-bottom:1px solid var(--b);flex-shrink:0}
+.wdays span{display:table-cell;padding:4px 0;text-align:center;font-size:11px;font-weight:500;color:var(--muted)}
+.grid{display:table;width:100%;table-layout:fixed;flex:1;min-height:0;border-collapse:collapse;overflow:hidden}
+.grid-row{display:table-row}
+.cell{display:table-cell;width:calc(100%/7);border-right:1px solid var(--b);border-bottom:1px solid var(--b);vertical-align:top;padding:4px 3px 2px;overflow:hidden}
+.cell:last-child{border-right:none}
+.grid-row:last-child .cell{border-bottom:none}
+.cell.other{background:var(--alt)}
+.cell.other .dnum{color:var(--light)}
+.dnum{font-size:11px;color:var(--muted);width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;margin-bottom:1px}
+.cell.today .dnum{background:#1a1a1a;color:#fff;font-weight:600}
+.ev{display:flex;align-items:center;gap:3px;padding:1px 4px;border-radius:3px;font-size:11px;line-height:1.4;overflow:hidden;white-space:nowrap;text-decoration:none;cursor:pointer;margin-bottom:1px;max-width:100%}
+.ev:hover{filter:brightness(.93)}
+.ev-dot{width:5px;height:5px;min-width:5px;border-radius:50%;opacity:.8}
+.ev-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0}
+.more{font-size:10px;color:var(--muted);padding:1px 3px;cursor:pointer;display:inline-block;margin-top:1px}
+.more:hover{color:#1a1a1a}
+.popover{position:fixed;z-index:200;background:#fff;border:1px solid var(--b);border-radius:6px;box-shadow:0 4px 16px rgba(0,0,0,.12);padding:10px;min-width:220px;max-width:280px}
+.popover-title{font-size:11px;font-weight:600;color:var(--muted);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.popover-close{position:absolute;top:8px;right:10px;cursor:pointer;font-size:14px;color:var(--muted);background:none;border:none;line-height:1}
+.popover-close:hover{color:#1a1a1a}
+.popover .ev{margin-bottom:3px;max-width:100%}
+#pop-overlay{position:fixed;inset:0;z-index:199;display:none}
+#sp-overlay{position:fixed;inset:0;background:rgba(0,0,0,.25);z-index:300;display:none}
+#sp{position:fixed;top:0;right:0;bottom:0;width:320px;background:#fff;border-left:1px solid var(--b);z-index:301;display:none;flex-direction:column;box-shadow:-4px 0 20px rgba(0,0,0,.08)}
+.sp-hdr{display:flex;align-items:center;padding:13px 14px 11px;border-bottom:1px solid var(--b);flex-shrink:0}
+.sp-hdr h3{font-size:13px;font-weight:600;flex:1}
+.sp-close{background:none;border:none;font-size:18px;color:var(--muted);cursor:pointer;line-height:1}
+.sp-close:hover{color:#1a1a1a}
+.sp-body{flex:1;overflow-y:auto;padding:12px 14px}
+.sp-label{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin:14px 0 8px;display:block}
+.sp-label:first-child{margin-top:0}
+.db-item{display:flex;align-items:center;gap:8px;padding:6px 8px;border:1px solid var(--b);border-radius:5px;margin-bottom:5px}
+.db-swatch{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+.db-info{flex:1;min-width:0}
+.db-name{font-size:12px;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.db-meta{font-size:10px;color:var(--muted);font-family:monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.db-del{background:none;border:none;font-size:15px;color:var(--muted);cursor:pointer;flex-shrink:0;padding:0 2px;line-height:1}
+.db-del:hover{color:#c0392b}
+.sp-info{font-size:11px;color:var(--muted);line-height:1.6;padding:10px;background:var(--alt);border-radius:5px;border:1px solid var(--b)}
+.loader{position:fixed;inset:0;background:rgba(255,255,255,.88);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;z-index:99}
+.spinner{width:18px;height:18px;border:2px solid var(--b);border-top-color:#1a1a1a;border-radius:50%;animation:spin .6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loader-txt{font-size:12px;color:var(--muted)}
+#cal-body{display:flex;flex-direction:column;flex:1;min-height:0;overflow:hidden}
+</style>
+</head>
+<body>
+
+<div id="cal">
+  <div class="hdr">
+    <span class="hdr-title" id="hdrTitle"></span>
+    <div class="nav-row">
+      <button class="nav-btn" id="prevBtn">&#8249;</button>
+      <button class="nav-btn" id="nextBtn">&#8250;</button>
+    </div>
+    <button class="today-btn" id="todayBtn">hoje</button>
+    <button class="gear-btn" id="gearBtn" title="configurar bancos de dados">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="8" cy="8" r="2.2"/>
+        <path d="M8 1.5v1M8 13.5v1M1.5 8h1M13.5 8h1M3.4 3.4l.7.7M11.9 11.9l.7.7M3.4 12.6l.7-.7M11.9 4.1l.7-.7"/>
+      </svg>
+    </button>
+    <span class="updated" id="updatedAt"></span>
+  </div>
+  <div class="err-banner" id="errBanner"></div>
+  <div class="legend" id="legend"></div>
+  <div id="cal-body">
+    <div class="wdays">
+      <span>dom</span><span>seg</span><span>ter</span><span>qua</span><span>qui</span><span>sex</span><span>sáb</span>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+</div>
+
+<div id="pop-overlay"></div>
+<div id="sp-overlay"></div>
+<div id="sp">
+  <div class="sp-hdr">
+    <h3>bancos de dados</h3>
+    <button class="sp-close" id="spClose">&#215;</button>
+  </div>
+  <div class="sp-body">
+    <span class="sp-label">ativos</span>
+    <div id="db-list"></div>
+    <div class="sp-info">
+      Para adicionar ou remover bancos, edite o arquivo <strong>fetch-notion.js</strong> no GitHub e adicione o novo banco no array <code>DATABASES</code>.
+    </div>
+  </div>
+</div>
+
+<script>
+const MONTHS=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+let curY,curM,allEvents=[],evMap={};
+const NOW=new Date();
+curY=NOW.getFullYear();curM=NOW.getMonth();
+const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+
+// ── Load data-pat.json ─────────────────────────────────────────────────
+let loaderEl=null;
+const loader=show=>{
+  if(show){if(loaderEl)return;loaderEl=document.createElement('div');loaderEl.className='loader';loaderEl.innerHTML='<div class="spinner"></div><div class="loader-txt">carregando eventos…</div>';document.body.appendChild(loaderEl);}
+  else if(loaderEl){loaderEl.remove();loaderEl=null;}
+};
+const showBanner=msg=>{const b=document.getElementById('errBanner');if(msg){b.textContent=msg;b.style.display='block';}else b.style.display='none';};
+
+async function loadData(){
+  loader(true);
+  try{
+    const r=await fetch(`data-pat.json?t=${Date.now()}`);
+    if(!r.ok)throw new Error('data-pat.json não encontrado');
+    const d=await r.json();
+    allEvents=d.events||[];
+    // Show last update time
+    if(d.updated){
+      const mins=Math.round((Date.now()-new Date(d.updated).getTime())/60000);
+      document.getElementById('updatedAt').textContent=
+        mins<2?'atualizado agora':mins<60?`há ${mins}min`:`há ${Math.round(mins/60)}h`;
+    }
+    showBanner('');
+  }catch(e){
+    showBanner('⚠️ dados não carregados — o GitHub Actions ainda não gerou o data-pat.json. Aguarde alguns minutos e recarregue.');
+    console.error(e);
+  }
+  buildEvMap();
+  render();
+  loader(false);
+}
+
+function buildEvMap(){
+  evMap={};
+  allEvents.forEach(ev=>{
+    if(!evMap[ev.date])evMap[ev.date]=[];
+    evMap[ev.date].push(ev);
+  });
+}
+
+// ── Legend from events ─────────────────────────────────────────────
+function renderLegend(){
+  const seen=new Set();
+  const leg=document.getElementById('legend');leg.innerHTML='';
+  allEvents.forEach(ev=>{
+    if(seen.has(ev.name))return;seen.add(ev.name);
+    const item=document.createElement('div');item.className='leg-item';
+    item.innerHTML=`<div class="leg-dot" style="background:${ev.fg}"></div>${ev.name}`;
+    leg.appendChild(item);
+  });
+}
+
+// ── Settings panel ─────────────────────────────────────────────────
+function renderDbList(){
+  const seen=new Map();
+  allEvents.forEach(ev=>seen.set(ev.name,ev));
+  const list=document.getElementById('db-list');list.innerHTML='';
+  seen.forEach((ev,name)=>{
+    const item=document.createElement('div');item.className='db-item';
+    item.innerHTML=`<div class="db-swatch" style="background:${ev.fg}"></div><div class="db-info"><div class="db-name">${name}</div></div>`;
+    list.appendChild(item);
+  });
+}
+document.getElementById('gearBtn').onclick=()=>{renderDbList();document.getElementById('sp').style.display='flex';document.getElementById('sp-overlay').style.display='block';};
+document.getElementById('spClose').onclick=closeSettings;
+document.getElementById('sp-overlay').onclick=closeSettings;
+function closeSettings(){document.getElementById('sp').style.display='none';document.getElementById('sp-overlay').style.display='none';}
+
+// ── Events ─────────────────────────────────────────────────────────
+function makeEv(ev,isPast){
+  const a=document.createElement('a');
+  a.className='ev';
+  if(ev.done){a.style.background=ev.bg;a.style.color=ev.fg;a.style.opacity='0.38';}
+  else if(isPast){a.style.background=ev.bg;a.style.color=ev.fg;a.style.borderLeft='2px solid '+ev.fg;a.style.paddingLeft='2px';}
+  else{a.style.background=ev.bg;a.style.color=ev.fg;}
+  a.title=ev.name+': '+ev.title+(ev.done?' (concluído)':isPast?' (atrasado)':'');
+  a.href=ev.url;a.target='_blank';a.rel='noopener noreferrer';
+  const dot=document.createElement('div');dot.className='ev-dot';dot.style.background=ev.fg;
+  if(ev.done)dot.style.opacity='0.4';
+  const txt=document.createElement('span');txt.className='ev-txt';txt.textContent=ev.title;
+  if(ev.done)txt.style.textDecoration='line-through';
+  a.appendChild(dot);a.appendChild(txt);
+  return a;
+}
+
+// ── Popover ─────────────────────────────────────────────────────────
+let pop=null;
+function closePopover(){if(pop){pop.remove();pop=null;}document.getElementById('pop-overlay').style.display='none';}
+function openPopover(evs,dateStr,anchorEl){
+  closePopover();
+  const [y,m,d]=dateStr.split('-').map(Number);
+  pop=document.createElement('div');pop.className='popover';
+  const _isPast=dateStr<iso(NOW);
+  pop.innerHTML=`<button class="popover-close" id="popClose">&#215;</button><div class="popover-title">${d} de ${MONTHS[m-1]}</div>`;
+  evs.forEach(ev=>pop.appendChild(makeEv(ev,_isPast)));
+  document.body.appendChild(pop);
+  document.getElementById('popClose').onclick=closePopover;
+  const r=anchorEl.getBoundingClientRect();
+  let top=r.bottom+4,left=r.left;
+  if(left+280>window.innerWidth)left=window.innerWidth-288;
+  if(top+200>window.innerHeight)top=r.top-pop.offsetHeight-4;
+  pop.style.top=top+'px';pop.style.left=left+'px';
+  const ov=document.getElementById('pop-overlay');ov.style.display='block';ov.onclick=closePopover;
+}
+
+// ── Nav ─────────────────────────────────────────────────────────────
+document.getElementById('prevBtn').onclick=()=>{curM--;if(curM<0){curM=11;curY--;}render();};
+document.getElementById('nextBtn').onclick=()=>{curM++;if(curM>11){curM=0;curY++;}render();};
+document.getElementById('todayBtn').onclick=()=>{curY=NOW.getFullYear();curM=NOW.getMonth();render();};
+
+// ── Render ──────────────────────────────────────────────────────────
+function render(){
+  document.getElementById('hdrTitle').textContent=`${MONTHS[curM]} de ${curY} · Pat`;
+  const grid=document.getElementById('grid');grid.innerHTML='';
+  const first=new Date(curY,curM,1).getDay(),dim=new Date(curY,curM+1,0).getDate(),dipm=new Date(curY,curM,0).getDate();
+  const todayStr=iso(NOW);
+  const allCells=[];
+  for(let i=first-1;i>=0;i--){const m=curM-1<0?11:curM-1,y=curM-1<0?curY-1:curY;allCells.push({d:dipm-i,m,y,cur:false});}
+  for(let d=1;d<=dim;d++)allCells.push({d,m:curM,y:curY,cur:true});
+  for(let d=1,rem=42-allCells.length;d<=rem;d++){const m=curM+1>11?0:curM+1,y=curM+1>11?curY+1:curY;allCells.push({d,m,y,cur:false});}
+  for(let row=0;row<6;row++){
+    const tr=document.createElement('div');tr.className='grid-row';
+    for(let col=0;col<7;col++){
+      const c=allCells[row*7+col];
+      const ds=`${c.y}-${String(c.m+1).padStart(2,'0')}-${String(c.d).padStart(2,'0')}`;
+      const evs=evMap[ds]||[];
+      const isPast=c.cur&&ds<todayStr;
+      const allDone=evs.length>0&&evs.every(e=>e.done);
+      const cell=document.createElement('div');
+      cell.className='cell'+(c.cur?'':' other')+(ds===todayStr?' today':'');
+      if(isPast&&allDone)cell.style.background='#fafafa';
+      const dn=document.createElement('div');dn.className='dnum';dn.textContent=c.d;cell.appendChild(dn);
+      const MAX=3;
+      evs.slice(0,MAX).forEach(ev=>cell.appendChild(makeEv(ev,isPast)));
+      if(evs.length>MAX){
+        const btn=document.createElement('span');btn.className='more';
+        btn.textContent=`+${evs.length-MAX} mais`;
+        btn.onclick=e=>{e.stopPropagation();openPopover(evs,ds,btn);};
+        cell.appendChild(btn);
+      }
+      tr.appendChild(cell);
+    }
+    grid.appendChild(tr);
+  }
+  const calBody=document.getElementById('cal-body');
+  const available=calBody.offsetHeight-document.querySelector('.wdays').offsetHeight;
+  const rowH=Math.floor(available/6);
+  document.querySelectorAll('.grid-row').forEach(r=>r.style.height=rowH+'px');
+  document.querySelectorAll('.cell').forEach(c=>c.style.height=rowH+'px');
+}
+
+// ── Boot ────────────────────────────────────────────────────────────
+loadData().then(renderLegend);
+</script>
+</body>
+</html>
