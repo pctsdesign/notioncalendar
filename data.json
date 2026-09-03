@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T15:49:33.782Z",
+  "updated": "2026-09-03T19:06:28.948Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -603,6 +603,15 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-09-03",
+      "title": "(sem título)",
+      "url": "https://notion.so/3d082cfc4f0a80acb935f6e5012f9972",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-08-30",
