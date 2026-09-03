@@ -1,10 +1,19 @@
 {
-  "updated": "2026-09-03T14:00:09.974Z",
+  "updated": "2026-09-03T15:49:33.782Z",
   "events": [
     {
       "date": "2026-08-28",
       "title": "[JOC] - S05/08 - Toda casa guarda histórias.",
       "url": "https://notion.so/3ca82cfc4f0a8122856af02282c5abe0",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[JOC] - S28/07 - [TECIDOS] - Escolher um tecido é escolher como um ambiente será vivido.",
+      "url": "https://notion.so/3ca82cfc4f0a81649f5ddd33f52c6a96",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
@@ -18,6 +27,24 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-09-08",
+      "title": "[JOC] - S02/08 - Existem projetos que impressionam no primeiro olhar.",
+      "url": "https://notion.so/3ca82cfc4f0a81d7a79afc321c1e609c",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[JOC] - S07/08 - Os melhores momentos quase sempre acontecem sem planejamento.",
+      "url": "https://notion.so/3ca82cfc4f0a81ddbed2cce851a6de2b",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
     },
     {
       "date": "2026-09-03",
