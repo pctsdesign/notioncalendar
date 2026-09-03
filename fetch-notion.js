@@ -9,26 +9,30 @@ if (!TOKEN) { console.error('NOTION_TOKEN não definido'); process.exit(1); }
 
 const NV = '2022-06-28';
 
+// IDs de usuário no Notion (confirmados via workspace)
+const JECKSON_ID = '3cad872b-594c-81be-afb9-0002dc0ee28b';
+const NATALIA_ID = 'f09dd7e8-67ce-4b92-a8ab-614d2c68b129';
+
 const DATABASES = [
   // ── Clientes principais ────────────────────────────────────────
-  { id: '19482cfc4f0a81bb9190fd33c430d1d8', name: 'eko',           bg: '#d3e5ef', fg: '#2e7dc7', df: 'Postar em', tf: 'Atividade/Post', sf: 'Andamento' },
-  { id: '47a82cfc4f0a8388ac5281849c62cf04', name: 'jocil',               bg: '#dbeddb', fg: '#448361', df: 'Postar em',       tf: 'Pauta',          sf: 'Status'    },
-  { id: '27d82cfc4f0a818a92f0d3670f743d6f', name: 'ppg',bg: '#fadec9', fg: '#c47615', df: 'Postar em',       tf: 'Pauta',          sf: 'Status'    },
-  { id: '19482cfc4f0a8054b79bd137dfdc8dda', name: 'movelaria',           bg: '#e8deee', fg: '#9065b0', df: 'Postar em',       tf: 'Pauta',          sf: 'Status'    },
-  { id: '2bf82cfc4f0a81ddb9afdfcc90f54f8f', name: 'amelis',         bg: '#f5e0e9', fg: '#c04274', df: 'Postar em', tf: 'Pauta',          sf: 'Status'    },
+  { id: '19482cfc4f0a81bb9190fd33c430d1d8', name: 'eko',           bg: '#d3e5ef', fg: '#2e7dc7', df: 'Postar em', tf: 'Atividade/Post', sf: 'Andamento', pf: 'Responsável' },
+  { id: '47a82cfc4f0a8388ac5281849c62cf04', name: 'jocil',               bg: '#dbeddb', fg: '#448361', df: 'Postar em',       tf: 'Pauta',          sf: 'Status',    pf: 'Responsável' },
+  { id: '27d82cfc4f0a818a92f0d3670f743d6f', name: 'ppg',bg: '#fadec9', fg: '#c47615', df: 'Postar em',       tf: 'Pauta',          sf: 'Status',    pf: 'Responsável no momento' },
+  { id: '19482cfc4f0a8054b79bd137dfdc8dda', name: 'movelaria',           bg: '#e8deee', fg: '#9065b0', df: 'Postar em',       tf: 'Pauta',          sf: 'Status',    pf: 'Responsável' },
+  { id: '2bf82cfc4f0a81ddb9afdfcc90f54f8f', name: 'amelis',         bg: '#f5e0e9', fg: '#c04274', df: 'Postar em', tf: 'Pauta',          sf: 'Status',    pf: 'Responsável' },
 
   // ── Clientes adicionais ────────────────────────────────────────
   {
     id: '3cb82cfc4f0a8054a9d9f443b8642c25',
     name: 'ch representações',
     bg: '#fdecc8', fg: '#8a4e00',
-    df: 'Data de entrega', tf: 'Pauta', sf: 'Status'
+    df: 'Data de entrega', tf: 'Pauta', sf: 'Status', pf: 'Responsável'
   },
   {
     id: 'c15d158586754fd7af71071ef04711d5',
     name: 'oito sais',
     bg: '#ffe2dd', fg: '#a12e2e',
-    df: 'Data de Entrega', tf: 'Atividade/Post', sf: 'Andamento',
+    df: 'Data de Entrega', tf: 'Atividade/Post', sf: 'Andamento', pf: 'Responsável no momento',
     // Filtra só tarefas do cliente Oito Sais nesse banco compartilhado
     extraFilter: { property: 'Cliente', select: { equals: 'Oito Sais' } }
   },
@@ -36,7 +40,7 @@ const DATABASES = [
     id: '8fb18bcaaa2d413b8028c7e904493444',
     name: 'yure silva',
     bg: '#e3e2e0', fg: '#444',
-    df: 'Data de Entrega', tf: 'Atividade/Post', sf: 'Andamento'
+    df: 'Data de Entrega', tf: 'Atividade/Post', sf: 'Andamento', pf: 'Responsável no momento'
   },
 ];
 
@@ -114,7 +118,8 @@ async function fetchDB(db, start, end) {
     const date = pr[db.df]?.date?.start?.substring(0, 10) || null;
     const title = pr[db.tf]?.title?.[0]?.plain_text || '(sem título)';
     const url = `https://notion.so/${p.id.replace(/-/g, '')}`;
-    return { date, title, url, bg: db.bg, fg: db.fg, name: db.name, done };
+    const people = (db.pf && pr[db.pf]?.people ? pr[db.pf].people.map(u => u.id) : []);
+    return { date, title, url, bg: db.bg, fg: db.fg, name: db.name, done, people };
   }).filter(e => e.date);
 }
 
@@ -138,9 +143,18 @@ async function main() {
     }
   }
 
-  const output = { updated: new Date().toISOString(), events };
+  const output = { updated: new Date().toISOString(), events: events.map(({ people, ...rest }) => rest) };
   fs.writeFileSync('data.json', JSON.stringify(output, null, 2));
   console.log(`\n✅ data.json salvo com ${events.length} eventos totais.`);
+
+  // ── Arquivos por pessoa (mesmos dados, filtrados por Responsável) ──
+  const strip = e => { const { people, ...rest } = e; return rest; };
+  const jeckson = { updated: output.updated, events: events.filter(e => e.people.includes(JECKSON_ID)).map(strip) };
+  const natalia = { updated: output.updated, events: events.filter(e => e.people.includes(NATALIA_ID)).map(strip) };
+  fs.writeFileSync('data-jeckson.json', JSON.stringify(jeckson, null, 2));
+  fs.writeFileSync('data-natalia.json', JSON.stringify(natalia, null, 2));
+  console.log(`✅ data-jeckson.json salvo com ${jeckson.events.length} eventos.`);
+  console.log(`✅ data-natalia.json salvo com ${natalia.events.length} eventos.`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
