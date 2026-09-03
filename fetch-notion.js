@@ -10,6 +10,7 @@ if (!TOKEN) { console.error('NOTION_TOKEN não definido'); process.exit(1); }
 const NV = '2022-06-28';
 
 // IDs de usuário no Notion (confirmados via workspace)
+const PAT_ID = '9803a758-bc90-43b3-b6e0-f958307d1461';
 const JECKSON_ID = '3cad872b-594c-81be-afb9-0002dc0ee28b';
 const NATALIA_ID = 'f09dd7e8-67ce-4b92-a8ab-614d2c68b129';
 
@@ -149,10 +150,13 @@ async function main() {
 
   // ── Arquivos por pessoa (mesmos dados, filtrados por Responsável) ──
   const strip = e => { const { people, ...rest } = e; return rest; };
+  const pat = { updated: output.updated, events: events.filter(e => e.people.includes(PAT_ID)).map(strip) };
   const jeckson = { updated: output.updated, events: events.filter(e => e.people.includes(JECKSON_ID)).map(strip) };
   const natalia = { updated: output.updated, events: events.filter(e => e.people.includes(NATALIA_ID)).map(strip) };
+  fs.writeFileSync('data-pat.json', JSON.stringify(pat, null, 2));
   fs.writeFileSync('data-jeckson.json', JSON.stringify(jeckson, null, 2));
   fs.writeFileSync('data-natalia.json', JSON.stringify(natalia, null, 2));
+  console.log(`✅ data-pat.json salvo com ${pat.events.length} eventos.`);
   console.log(`✅ data-jeckson.json salvo com ${jeckson.events.length} eventos.`);
   console.log(`✅ data-natalia.json salvo com ${natalia.events.length} eventos.`);
 }
