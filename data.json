@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T13:26:58.268Z",
+  "updated": "2026-09-03T13:59:37.183Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -1493,7 +1493,7 @@
       "bg": "#fdecc8",
       "fg": "#8a4e00",
       "name": "ch representações",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-03",
