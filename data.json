@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T12:50:19.220Z",
+  "updated": "2026-09-04T16:44:12.890Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -605,6 +605,15 @@
       "done": true
     },
     {
+      "date": "2026-09-04",
+      "title": "[PPG] 4.09 - 5 MOTIVOS PARA VIVER A OKTOBER NA VILA",
+      "url": "https://notion.so/3d182cfc4f0a809dae68fef22c16ff0c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-09-03",
       "title": "(sem título)",
       "url": "https://notion.so/3d082cfc4f0a80acb935f6e5012f9972",
@@ -651,7 +660,7 @@
     },
     {
       "date": "2026-09-06",
-      "title": "[evento] kauany",
+      "title": "[evento] zé sanfoneiro",
       "url": "https://notion.so/3cd82cfc4f0a8158af76cf40a71cb636",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -660,7 +669,7 @@
     },
     {
       "date": "2026-09-04",
-      "title": "[evento] vitor sanfoneiro",
+      "title": "[evento] roberto sanfoneiro",
       "url": "https://notion.so/3cd82cfc4f0a819b89c2c58a2a59908e",
       "bg": "#fadec9",
       "fg": "#c47615",
