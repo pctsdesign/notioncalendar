@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T14:38:07.111Z",
+  "updated": "2026-09-05T17:09:36.748Z",
   "events": [
     {
       "date": "2026-08-07",
@@ -603,6 +603,24 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-09-08",
+      "title": "(sem título)",
+      "url": "https://notion.so/3d282cfc4f0a80daa7f5fcd5ebcc7ac8",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-07",
+      "title": "[ST] - ",
+      "url": "https://notion.so/3d282cfc4f0a802fa2dbf797ebe7252c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-09-04",
