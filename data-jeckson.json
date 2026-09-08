@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T08:58:43.540Z",
+  "updated": "2026-09-08T13:29:28.854Z",
   "events": [
     {
       "date": "2026-08-28",
@@ -81,6 +81,15 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-09-08",
+      "title": "[PPG] 08.09 - Feriado acabou",
+      "url": "https://notion.so/3d482cfc4f0a8037a403ff1395b71308",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-09-09",
