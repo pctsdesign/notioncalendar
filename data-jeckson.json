@@ -1,6 +1,96 @@
 {
-  "updated": "2026-09-08T20:05:37.867Z",
+  "updated": "2026-09-08T22:53:05.644Z",
   "events": [
+    {
+      "date": "2026-09-12",
+      "title": "[EKO] - 12/09 - A parte interna da marcenaria merece tanta atenção quanto a externa.",
+      "url": "https://notion.so/3d582cfc4f0a805b9963d8abacba27f7",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-04",
+      "title": "[EKO] - S22/08 - Entre o desenho e o ambiente pronto existem muitas decisões.",
+      "url": "https://notion.so/3ca82cfc4f0a812b8d64cac8f13ade50",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[EKO] - S26/08 - Uma paleta bem definida ajuda a organizar visualmente o ambiente.",
+      "url": "https://notion.so/3ca82cfc4f0a8116a325fdbbf03970f7",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-08",
+      "title": "[EKO] - S31/08 - Um mesmo desenho pode ter resultados completamente diferentes dependendo do acabamento escolhido.",
+      "url": "https://notion.so/3ca82cfc4f0a812eb440d6a254695deb",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[EKO] - S25/08 - A luz incorporada à marcenaria precisa ser pensada junto com o desenho do móvel.",
+      "url": "https://notion.so/3ca82cfc4f0a814d92a8eb6f577b209b",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[EKO] - S21/08 - Em espaços integrados, a continuidade também acontece através dos materiais.",
+      "url": "https://notion.so/3ca82cfc4f0a8190bcf1d2ea8b1c4739",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[EKO] - S24/08 - Nem sempre as medidas convencionais atendem às necessidades de um ambiente.",
+      "url": "https://notion.so/3ca82cfc4f0a81cbb90cecc03c896764",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-07",
+      "title": "[EKO] - S28/08 - A marcenaria pode assumir diferentes funções dentro de um mesmo ambiente.",
+      "url": "https://notion.so/3ca82cfc4f0a81d09edefaff293841bb",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-02",
+      "title": "[EKO] - S27/08 - Um projeto de marcenaria envolve muito mais do que a escolha de um móvel.",
+      "url": "https://notion.so/3ca82cfc4f0a81808f17cf0da3e2ac6d",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-03",
+      "title": "[EKO] - S29/08 - A forma de abertura também interfere no desenho do mobiliário.",
+      "url": "https://notion.so/3ca82cfc4f0a81bea3f8e9a19a87a7b5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
     {
       "date": "2026-08-28",
       "title": "[JOC] - S05/08 - Toda casa guarda histórias.",
@@ -9,6 +99,15 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-08-31",
+      "title": "[JOC] - S09/08 - O quarto pode até ser silencioso.",
+      "url": "https://notion.so/3ca82cfc4f0a812a8de9eb0bbe4ec294",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
     },
     {
       "date": "2026-09-11",
