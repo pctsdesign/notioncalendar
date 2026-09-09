@@ -16,11 +16,11 @@ const NATALIA_ID = 'f09dd7e8-67ce-4b92-a8ab-614d2c68b129';
 
 const DATABASES = [
   // ── Clientes principais ────────────────────────────────────────
-  { id: '19482cfc4f0a81bb9190fd33c430d1d8', name: 'eko',           bg: '#d3e5ef', fg: '#2e7dc7', df: 'Postar em', tf: 'Atividade/Post', sf: 'Andamento', pf: 'Responsável' },
-  { id: '47a82cfc4f0a8388ac5281849c62cf04', name: 'jocil',               bg: '#dbeddb', fg: '#448361', df: 'Postar em',       tf: 'Pauta',          sf: 'Status',    pf: 'Responsável' },
-  { id: '27d82cfc4f0a818a92f0d3670f743d6f', name: 'ppg',bg: '#fadec9', fg: '#c47615', df: 'Postar em',       tf: 'Pauta',          sf: 'Status',    pf: 'Responsável no momento' },
-  { id: '19482cfc4f0a8054b79bd137dfdc8dda', name: 'movelaria',           bg: '#e8deee', fg: '#9065b0', df: 'Postar em',       tf: 'Pauta',          sf: 'Status',    pf: 'Responsável' },
-  { id: '2bf82cfc4f0a81ddb9afdfcc90f54f8f', name: 'amelis',         bg: '#f5e0e9', fg: '#c04274', df: 'Postar em', tf: 'Pauta',          sf: 'Status',    pf: 'Responsável' },
+  { id: '19482cfc4f0a81bb9190fd33c430d1d8', name: 'eko',           bg: '#d3e5ef', fg: '#2e7dc7', df: 'Postar em', ef: 'Entrega', tf: 'Atividade/Post', sf: 'Andamento', pf: 'Responsável' },
+  { id: '47a82cfc4f0a8388ac5281849c62cf04', name: 'jocil',               bg: '#dbeddb', fg: '#448361', df: 'Postar em', ef: 'Entrega',       tf: 'Pauta',          sf: 'Status',    pf: 'Responsável' },
+  { id: '27d82cfc4f0a818a92f0d3670f743d6f', name: 'ppg',bg: '#fadec9', fg: '#c47615', df: 'Postar em', ef: 'Entrega',       tf: 'Pauta',          sf: 'Status',    pf: 'Responsável no momento' },
+  { id: '19482cfc4f0a8054b79bd137dfdc8dda', name: 'movelaria',           bg: '#e8deee', fg: '#9065b0', df: 'Postar em', ef: 'Entrega',       tf: 'Pauta',          sf: 'Status',    pf: 'Responsável' },
+  { id: '2bf82cfc4f0a81ddb9afdfcc90f54f8f', name: 'amelis',         bg: '#f5e0e9', fg: '#c04274', df: 'Postar em', ef: 'Entrega', tf: 'Pauta',          sf: 'Status',    pf: 'Responsável' },
 
   // ── Clientes adicionais ────────────────────────────────────────
   {
@@ -79,12 +79,12 @@ function notionRequest(path, body) {
   });
 }
 
-async function fetchDB(db, start, end) {
+async function fetchDB(db, start, end, dateField) {
   // Build filter: date range + optional extra filter (e.g. Cliente = X)
   const dateFilter = {
     and: [
-      { property: db.df, date: { on_or_after: start } },
-      { property: db.df, date: { before: end } }
+      { property: dateField, date: { on_or_after: start } },
+      { property: dateField, date: { before: end } }
     ]
   };
 
@@ -116,7 +116,7 @@ async function fetchDB(db, start, end) {
       return n.toLowerCase() === 'evento';
     });
     const done = isDone(statusName) || isDone(formatoName) || anyEvento;
-    const date = pr[db.df]?.date?.start?.substring(0, 10) || null;
+    const date = pr[dateField]?.date?.start?.substring(0, 10) || null;
     const title = pr[db.tf]?.title?.[0]?.plain_text || '(sem título)';
     const url = `https://notion.so/${p.id.replace(/-/g, '')}`;
     const people = (db.pf && pr[db.pf]?.people ? pr[db.pf].people.map(u => u.id) : []);
@@ -133,14 +133,15 @@ async function main() {
 
   console.log(`Buscando de ${startISO} a ${endISO}...\n`);
 
+  // ── Passada 1: por "Postar em" — alimenta o data.json geral ────────
   const events = [];
   for (const db of DATABASES) {
     try {
-      const items = await fetchDB(db, startISO, endISO);
+      const items = await fetchDB(db, startISO, endISO, db.df);
       events.push(...items);
-      console.log(`✓ ${db.name}: ${items.length} eventos`);
+      console.log(`✓ ${db.name} (Postar em): ${items.length} eventos`);
     } catch (e) {
-      console.error(`✗ ${db.name}:`, e.message);
+      console.error(`✗ ${db.name} (Postar em):`, e.message);
     }
   }
 
@@ -148,11 +149,23 @@ async function main() {
   fs.writeFileSync('data.json', JSON.stringify(output, null, 2));
   console.log(`\n✅ data.json salvo com ${events.length} eventos totais.`);
 
-  // ── Arquivos por pessoa (mesmos dados, filtrados por Responsável) ──
+  // ── Passada 2: por "Entrega" — alimenta os arquivos por pessoa ─────
+  const eventsEntrega = [];
+  for (const db of DATABASES) {
+    try {
+      const items = await fetchDB(db, startISO, endISO, db.ef || db.df);
+      eventsEntrega.push(...items);
+      console.log(`✓ ${db.name} (Entrega): ${items.length} eventos`);
+    } catch (e) {
+      console.error(`✗ ${db.name} (Entrega):`, e.message);
+    }
+  }
+
+  // ── Arquivos por pessoa (baseados na Entrega, filtrados por Responsável) ──
   const strip = e => { const { people, ...rest } = e; return rest; };
-  const pat = { updated: output.updated, events: events.filter(e => e.people.includes(PAT_ID)).map(strip) };
-  const jeckson = { updated: output.updated, events: events.filter(e => e.people.includes(JECKSON_ID)).map(strip) };
-  const natalia = { updated: output.updated, events: events.filter(e => e.people.includes(NATALIA_ID)).map(strip) };
+  const pat = { updated: output.updated, events: eventsEntrega.filter(e => e.people.includes(PAT_ID)).map(strip) };
+  const jeckson = { updated: output.updated, events: eventsEntrega.filter(e => e.people.includes(JECKSON_ID)).map(strip) };
+  const natalia = { updated: output.updated, events: eventsEntrega.filter(e => e.people.includes(NATALIA_ID)).map(strip) };
   fs.writeFileSync('data-pat.json', JSON.stringify(pat, null, 2));
   fs.writeFileSync('data-jeckson.json', JSON.stringify(jeckson, null, 2));
   fs.writeFileSync('data-natalia.json', JSON.stringify(natalia, null, 2));
