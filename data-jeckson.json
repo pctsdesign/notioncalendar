@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-09T11:42:54.500Z",
+  "updated": "2026-09-09T12:43:46.252Z",
   "events": [
     {
-      "date": "2026-09-12",
+      "date": "2026-09-09",
       "title": "[EKO] - 12/09 - A parte interna da marcenaria merece tanta atenção quanto a externa.",
       "url": "https://notion.so/3d582cfc4f0a805b9963d8abacba27f7",
       "bg": "#d3e5ef",
@@ -11,7 +11,7 @@
       "done": false
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-16",
       "title": "[EKO] - S22/08 - Entre o desenho e o ambiente pronto existem muitas decisões.",
       "url": "https://notion.so/3ca82cfc4f0a812b8d64cac8f13ade50",
       "bg": "#d3e5ef",
@@ -20,7 +20,7 @@
       "done": false
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-16",
       "title": "[EKO] - S26/08 - Uma paleta bem definida ajuda a organizar visualmente o ambiente.",
       "url": "https://notion.so/3ca82cfc4f0a8116a325fdbbf03970f7",
       "bg": "#d3e5ef",
@@ -29,7 +29,7 @@
       "done": false
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-09-17",
       "title": "[EKO] - S31/08 - Um mesmo desenho pode ter resultados completamente diferentes dependendo do acabamento escolhido.",
       "url": "https://notion.so/3ca82cfc4f0a812eb440d6a254695deb",
       "bg": "#d3e5ef",
@@ -38,7 +38,7 @@
       "done": false
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-18",
       "title": "[EKO] - S25/08 - A luz incorporada à marcenaria precisa ser pensada junto com o desenho do móvel.",
       "url": "https://notion.so/3ca82cfc4f0a814d92a8eb6f577b209b",
       "bg": "#d3e5ef",
@@ -47,7 +47,7 @@
       "done": false
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-15",
       "title": "[EKO] - S21/08 - Em espaços integrados, a continuidade também acontece através dos materiais.",
       "url": "https://notion.so/3ca82cfc4f0a8190bcf1d2ea8b1c4739",
       "bg": "#d3e5ef",
@@ -56,7 +56,7 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-19",
       "title": "[EKO] - S24/08 - Nem sempre as medidas convencionais atendem às necessidades de um ambiente.",
       "url": "https://notion.so/3ca82cfc4f0a81cbb90cecc03c896764",
       "bg": "#d3e5ef",
@@ -65,7 +65,7 @@
       "done": false
     },
     {
-      "date": "2026-09-07",
+      "date": "2026-09-14",
       "title": "[EKO] - S28/08 - A marcenaria pode assumir diferentes funções dentro de um mesmo ambiente.",
       "url": "https://notion.so/3ca82cfc4f0a81d09edefaff293841bb",
       "bg": "#d3e5ef",
@@ -74,7 +74,7 @@
       "done": false
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-09-11",
       "title": "[EKO] - S27/08 - Um projeto de marcenaria envolve muito mais do que a escolha de um móvel.",
       "url": "https://notion.so/3ca82cfc4f0a81808f17cf0da3e2ac6d",
       "bg": "#d3e5ef",
@@ -83,22 +83,13 @@
       "done": false
     },
     {
-      "date": "2026-09-03",
+      "date": "2026-09-10",
       "title": "[EKO] - S29/08 - A forma de abertura também interfere no desenho do mobiliário.",
       "url": "https://notion.so/3ca82cfc4f0a81bea3f8e9a19a87a7b5",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
       "done": false
-    },
-    {
-      "date": "2026-08-28",
-      "title": "[JOC] - S05/08 - Toda casa guarda histórias.",
-      "url": "https://notion.so/3ca82cfc4f0a8122856af02282c5abe0",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
     },
     {
       "date": "2026-08-31",
@@ -110,7 +101,7 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-01",
       "title": "[JOC] - S28/07 - [TECIDOS] - Escolher um tecido é escolher como um ambiente será vivido.",
       "url": "https://notion.so/3ca82cfc4f0a81649f5ddd33f52c6a96",
       "bg": "#dbeddb",
@@ -120,15 +111,6 @@
     },
     {
       "date": "2026-08-31",
-      "title": "[JOC] - S25/07 - A personalidade de uma casa também está nas paredes.",
-      "url": "https://notion.so/3ca82cfc4f0a81d39e05fc48b3584163",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-09-08",
       "title": "[JOC] - S02/08 - Existem projetos que impressionam no primeiro olhar.",
       "url": "https://notion.so/3ca82cfc4f0a81d7a79afc321c1e609c",
       "bg": "#dbeddb",
@@ -137,7 +119,7 @@
       "done": true
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-02",
       "title": "[JOC] - S07/08 - Os melhores momentos quase sempre acontecem sem planejamento.",
       "url": "https://notion.so/3ca82cfc4f0a81ddbed2cce851a6de2b",
       "bg": "#dbeddb",
@@ -146,52 +128,7 @@
       "done": false
     },
     {
-      "date": "2026-09-03",
-      "title": "[JOC] - S27/07 - [ENXOVAL] - Toda boa noite começa muito antes do descanso.",
-      "url": "https://notion.so/3ca82cfc4f0a814fa650f4cc91e50843",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-09-02",
-      "title": "[JOC] - S08/07 - [TAPETES] - O ambiente pode estar completo.",
-      "url": "https://notion.so/3ca82cfc4f0a8199b244c4c618692907",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-09-09",
-      "title": "[JOC] - S01/08 - Antes de iluminar um ambiente, a luz desenha a arquitetura.",
-      "url": "https://notion.so/3ca82cfc4f0a81cda89fd08440bf714f",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-09-01",
-      "title": "[JOC] - S17/07 - Alguns materiais carregam uma beleza que o tempo não modifica.",
-      "url": "https://notion.so/3ca82cfc4f0a81f5a72fe74f4ac6ecf0",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
       "date": "2026-09-08",
-      "title": "[PPG] 08.09 - Feriado acabou",
-      "url": "https://notion.so/3d482cfc4f0a8037a403ff1395b71308",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-09-09",
       "title": "[PGG] LÂMINA 1080x1350 — USO INTERNO / WHATSAPP - Noite de vinhos",
       "url": "https://notion.so/3d482cfc4f0a80fb9b23f6b0f8732d76",
       "bg": "#fadec9",
