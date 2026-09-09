@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T12:44:22.394Z",
+  "updated": "2026-09-09T13:10:19.197Z",
   "events": [
     {
       "date": "2026-09-09",
@@ -65,15 +65,6 @@
       "done": false
     },
     {
-      "date": "2026-08-31",
-      "title": "[JOC] - S14/08 - O quarto é o único ambiente da casa onde o tempo parece desacelerar naturalmente.",
-      "url": "https://notion.so/3ca82cfc4f0a8107952fc65312cf6870",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
       "date": "2026-09-01",
       "title": "[JOC] - S18/08",
       "url": "https://notion.so/3ca82cfc4f0a81278e0acd4a0f612123",
@@ -101,7 +92,7 @@
       "done": false
     },
     {
-      "date": "2026-09-04",
+      "date": "2026-09-10",
       "title": "[JOC] - S30/08 - Nem toda transformação precisa mudar o ambiente inteiro.",
       "url": "https://notion.so/3ca82cfc4f0a81549cd8ed07b1a1f122",
       "bg": "#dbeddb",
@@ -164,15 +155,6 @@
       "done": false
     },
     {
-      "date": "2026-09-04",
-      "title": "[JOC] - S26/08 - A diferença vai muito além da decoração.",
-      "url": "https://notion.so/3ca82cfc4f0a81aca0f9cd194b452d33",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
       "date": "2026-09-02",
       "title": "[JOC] - S20/08",
       "url": "https://notion.so/3ca82cfc4f0a81baac5af2d24946bbc3",
@@ -203,33 +185,6 @@
       "date": "2026-09-01",
       "title": "[JOC] - S16/08",
       "url": "https://notion.so/3ca82cfc4f0a81d9af2bf9d7923b8567",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-09-01",
-      "title": "[JOC] - S17/08  - Um ambiente interessante não entrega tudo de uma vez.",
-      "url": "https://notion.so/3ca82cfc4f0a81df9109dee9a32a2457",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-08-31",
-      "title": "[JOC] - S09/08 - O quarto pode até ser silencioso.",
-      "url": "https://notion.so/3ca82cfc4f0a812a8de9eb0bbe4ec294",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-08-31",
-      "title": "[JOC] - S13/08 - Existem materiais que atravessam o tempo sem perder a beleza.",
-      "url": "https://notion.so/3ca82cfc4f0a815588e1f6a2c16ab0f6",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
