@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-09T13:14:23.915Z",
+  "updated": "2026-09-09T15:57:31.636Z",
   "events": [
     {
       "date": "2026-09-18",
-      "title": "[EKO] - S15/09 - (3)",
+      "title": "[EKO] - S18/09",
       "url": "https://notion.so/3d582cfc4f0a8073bf54fee8f19db0e2",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -12,7 +12,7 @@
     },
     {
       "date": "2026-09-17",
-      "title": "[EKO] - S15/09 - (2)",
+      "title": "[EKO] - S17/09 - ",
       "url": "https://notion.so/3d582cfc4f0a800ab5d6cb9b931586fe",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -21,7 +21,7 @@
     },
     {
       "date": "2026-09-16",
-      "title": "[EKO] - S15/09 - (1)",
+      "title": "[EKO] - S16/09 ",
       "url": "https://notion.so/3d582cfc4f0a8088bf8cef0ed5175e52",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -326,7 +326,7 @@
       "done": true
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-09-18",
       "title": "[JOC] - S14/08 - O quarto é o único ambiente da casa onde o tempo parece desacelerar naturalmente.",
       "url": "https://notion.so/3ca82cfc4f0a8107952fc65312cf6870",
       "bg": "#dbeddb",
@@ -335,7 +335,7 @@
       "done": false
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-29",
       "title": "[JOC] - S18/08",
       "url": "https://notion.so/3ca82cfc4f0a81278e0acd4a0f612123",
       "bg": "#dbeddb",
@@ -344,7 +344,7 @@
       "done": false
     },
     {
-      "date": "2026-09-16",
+      "date": "2026-09-28",
       "title": "[JOC] - S19/08",
       "url": "https://notion.so/3ca82cfc4f0a8149b560e356be49eb4f",
       "bg": "#dbeddb",
@@ -353,7 +353,7 @@
       "done": false
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-10-08",
       "title": "[JOC] - S29/08",
       "url": "https://notion.so/3ca82cfc4f0a814fb816e17d0b1dc6c4",
       "bg": "#dbeddb",
@@ -362,7 +362,7 @@
       "done": false
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-10-02",
       "title": "[JOC] - S30/08 - Nem toda transformação precisa mudar o ambiente inteiro.",
       "url": "https://notion.so/3ca82cfc4f0a81549cd8ed07b1a1f122",
       "bg": "#dbeddb",
@@ -371,7 +371,7 @@
       "done": false
     },
     {
-      "date": "2026-09-23",
+      "date": "2026-10-07",
       "title": "[JOC] - S28/08",
       "url": "https://notion.so/3ca82cfc4f0a8168bb69ec0bfa9994d6",
       "bg": "#dbeddb",
@@ -380,16 +380,16 @@
       "done": false
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-09-04",
       "title": "[JOC] - S12/08 - Alguns ambientes encantam pela arquitetura.",
       "url": "https://notion.so/3ca82cfc4f0a81698698d90cc17fa8dc",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-10-09",
       "title": "[JOC] - S31/08",
       "url": "https://notion.so/3ca82cfc4f0a8173a20dc5afb09de86b",
       "bg": "#dbeddb",
@@ -398,7 +398,7 @@
       "done": false
     },
     {
-      "date": "2026-09-28",
+      "date": "2026-10-10",
       "title": "[JOC] - S27/08",
       "url": "https://notion.so/3ca82cfc4f0a8177a45feef6018e1afa",
       "bg": "#dbeddb",
@@ -407,7 +407,7 @@
       "done": false
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-26",
       "title": "[JOC] - S23/08",
       "url": "https://notion.so/3ca82cfc4f0a818680bad282f2b53815",
       "bg": "#dbeddb",
@@ -422,10 +422,10 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-10-06",
       "title": "[JOC] - S25/08",
       "url": "https://notion.so/3ca82cfc4f0a81918bd1d3b75f79501f",
       "bg": "#dbeddb",
@@ -434,7 +434,7 @@
       "done": false
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-10-03",
       "title": "[JOC] - S24/08",
       "url": "https://notion.so/3ca82cfc4f0a81a88470f02e432a704d",
       "bg": "#dbeddb",
@@ -443,7 +443,7 @@
       "done": false
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-21",
       "title": "[JOC] - S26/08 - A diferença vai muito além da decoração.",
       "url": "https://notion.so/3ca82cfc4f0a81aca0f9cd194b452d33",
       "bg": "#dbeddb",
@@ -452,7 +452,7 @@
       "done": false
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-30",
       "title": "[JOC] - S20/08",
       "url": "https://notion.so/3ca82cfc4f0a81baac5af2d24946bbc3",
       "bg": "#dbeddb",
@@ -461,7 +461,7 @@
       "done": false
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-25",
       "title": "[JOC] - S22/08",
       "url": "https://notion.so/3ca82cfc4f0a81be80f1f6db40a80793",
       "bg": "#dbeddb",
@@ -470,7 +470,7 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-10-01",
       "title": "[JOC] - S15/08 - Algumas escolhas permanecem atuais porque unem simplicidade e funcionalidade.",
       "url": "https://notion.so/3ca82cfc4f0a81d186b7fbdb4a2275fb",
       "bg": "#dbeddb",
@@ -479,7 +479,7 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-24",
       "title": "[JOC] - S16/08",
       "url": "https://notion.so/3ca82cfc4f0a81d9af2bf9d7923b8567",
       "bg": "#dbeddb",
@@ -488,7 +488,7 @@
       "done": false
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-22",
       "title": "[JOC] - S17/08  - Um ambiente interessante não entrega tudo de uma vez.",
       "url": "https://notion.so/3ca82cfc4f0a81df9109dee9a32a2457",
       "bg": "#dbeddb",
@@ -515,7 +515,7 @@
       "done": true
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-09-17",
       "title": "[JOC] - S09/08 - O quarto pode até ser silencioso.",
       "url": "https://notion.so/3ca82cfc4f0a812a8de9eb0bbe4ec294",
       "bg": "#dbeddb",
@@ -524,7 +524,7 @@
       "done": false
     },
     {
-      "date": "2026-09-01",
+      "date": "2026-09-23",
       "title": "[JOC] - S13/08 - Existem materiais que atravessam o tempo sem perder a beleza.",
       "url": "https://notion.so/3ca82cfc4f0a815588e1f6a2c16ab0f6",
       "bg": "#dbeddb",
@@ -542,7 +542,7 @@
       "done": true
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-10-05",
       "title": "[JOC] - S21/08 - ",
       "url": "https://notion.so/3ca82cfc4f0a8193a6efd095249610d5",
       "bg": "#dbeddb",
@@ -650,6 +650,222 @@
       "done": true
     },
     {
+      "date": "2026-09-28",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a80168eb8e4b911f94ce4",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-25",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a80a4a1bcc7c88aea68fb",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-23",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a8020beeddbc736550012",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-21",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a80efacb3eae305166828",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-18",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a80978dcae499b4811e0c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-16",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a8002ae67c648ca081066",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a802084a2c23ea7580671",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-30",
+      "title": "[PPG] S30.09",
+      "url": "https://notion.so/3d682cfc4f0a8019b624cdac1c472fb0",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-26",
+      "title": "[PPG] S26.09",
+      "url": "https://notion.so/3d682cfc4f0a80e395ccc9ab8783f46b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-27",
+      "title": "[PPG] S27.09",
+      "url": "https://notion.so/3d682cfc4f0a80f18e6aca4381513809",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": "[PPG] S29.09",
+      "url": "https://notion.so/3d682cfc4f0a80639777dfb40d720e02",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-28",
+      "title": "[PPG] S28.09",
+      "url": "https://notion.so/3d682cfc4f0a80e7a1aeca726b376ed3",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-25",
+      "title": "[PPG] S25.09",
+      "url": "https://notion.so/3d682cfc4f0a805b8f9fc03e9c8ec0b4",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-24",
+      "title": "[PPG] S24.09",
+      "url": "https://notion.so/3d682cfc4f0a80df9089ec8ca2d08f3b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-21",
+      "title": "[PPG] S21.09",
+      "url": "https://notion.so/3d682cfc4f0a8089bad5f86bafcbaebf",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-23",
+      "title": "[PPG] S23.09",
+      "url": "https://notion.so/3d682cfc4f0a80c8a759d3228ae4b92a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-22",
+      "title": "[PPG] S22.09",
+      "url": "https://notion.so/3d682cfc4f0a8025a180cd7686308118",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-16",
+      "title": "[PPG] S16.09",
+      "url": "https://notion.so/3d682cfc4f0a8037aecacd6ab5aa60fc",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-20",
+      "title": "[PPG] S20.09",
+      "url": "https://notion.so/3d682cfc4f0a80839083fd6f5c3e2961",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-19",
+      "title": "[PPG] S19.09",
+      "url": "https://notion.so/3d682cfc4f0a8048a519f43c19b8b22e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-18",
+      "title": "[PPG] S18.09",
+      "url": "https://notion.so/3d682cfc4f0a801a9114c7dad7fe98ce",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-17",
+      "title": "[PPG] S17.09 ",
+      "url": "https://notion.so/3d682cfc4f0a80edb2a1d9812d205d17",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-15",
+      "title": "[PPG] S15.09 ",
+      "url": "https://notion.so/3d682cfc4f0a80b2881bf0a57e2fdb94",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[PPG] S14.09",
+      "url": "https://notion.so/3d682cfc4f0a803a8083e2dbda8cde0b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-09-08",
       "title": "[PPG] TARIFA ESPECIAL DE SEXTA",
       "url": "https://notion.so/3d582cfc4f0a801e8474e6dea22951c4",
@@ -719,7 +935,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-30",
@@ -899,7 +1115,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-16",
@@ -908,7 +1124,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-07",
@@ -981,6 +1197,33 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[CB] 11.09 — FOCO EM EXPERIÊNCIAS NACIONAIS + PERTENCIMENTO",
+      "url": "https://notion.so/3d682cfc4f0a80c6a58ffa3b52f42b87",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[CB] 10.09 —  FOCO EM EXPERIÊNCIAS INTERNACIONAIS",
+      "url": "https://notion.so/3d682cfc4f0a80ecb681c4b67a45f696",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[CB] 09.09 - FOCO EM MILÃO 2027",
+      "url": "https://notion.so/3d682cfc4f0a80b2bb3edb7ce64068ee",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
     },
     {
       "date": "2026-09-05",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T13:14:23.915Z",
+  "updated": "2026-09-09T15:57:31.636Z",
   "events": [
     {
       "date": "2026-09-09",
@@ -180,6 +180,24 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[CB] 11.09 — FOCO EM EXPERIÊNCIAS NACIONAIS + PERTENCIMENTO",
+      "url": "https://notion.so/3d682cfc4f0a80c6a58ffa3b52f42b87",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[CB] 10.09 —  FOCO EM EXPERIÊNCIAS INTERNACIONAIS",
+      "url": "https://notion.so/3d682cfc4f0a80ecb681c4b67a45f696",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
     }
   ]
 }

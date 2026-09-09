@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T13:14:23.915Z",
+  "updated": "2026-09-09T15:57:31.636Z",
   "events": [
     {
       "date": "2026-09-09",
@@ -162,6 +162,15 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[CB] 09.09 - FOCO EM MILÃO 2027",
+      "url": "https://notion.so/3d682cfc4f0a80b2bb3edb7ce64068ee",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
     },
     {
       "date": "2026-09-02",

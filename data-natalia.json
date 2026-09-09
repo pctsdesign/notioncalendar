@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-09T13:14:23.915Z",
+  "updated": "2026-09-09T15:57:31.636Z",
   "events": [
     {
       "date": "2026-09-09",
-      "title": "[EKO] - S15/09 - (3)",
+      "title": "[EKO] - S18/09",
       "url": "https://notion.so/3d582cfc4f0a8073bf54fee8f19db0e2",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -12,7 +12,7 @@
     },
     {
       "date": "2026-09-09",
-      "title": "[EKO] - S15/09 - (2)",
+      "title": "[EKO] - S17/09 - ",
       "url": "https://notion.so/3d582cfc4f0a800ab5d6cb9b931586fe",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -21,7 +21,7 @@
     },
     {
       "date": "2026-09-09",
-      "title": "[EKO] - S15/09 - (1)",
+      "title": "[EKO] - S16/09 ",
       "url": "https://notion.so/3d582cfc4f0a8088bf8cef0ed5175e52",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -197,6 +197,222 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-23",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a80168eb8e4b911f94ce4",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-21",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a80a4a1bcc7c88aea68fb",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-18",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a8020beeddbc736550012",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-16",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a80efacb3eae305166828",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a80978dcae499b4811e0c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a8002ae67c648ca081066",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[PPG] - Feed (?)",
+      "url": "https://notion.so/3d682cfc4f0a802084a2c23ea7580671",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[PPG] S30.09",
+      "url": "https://notion.so/3d682cfc4f0a8019b624cdac1c472fb0",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[PPG] S26.09",
+      "url": "https://notion.so/3d682cfc4f0a80e395ccc9ab8783f46b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[PPG] S27.09",
+      "url": "https://notion.so/3d682cfc4f0a80f18e6aca4381513809",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[PPG] S29.09",
+      "url": "https://notion.so/3d682cfc4f0a80639777dfb40d720e02",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[PPG] S28.09",
+      "url": "https://notion.so/3d682cfc4f0a80e7a1aeca726b376ed3",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-11",
+      "title": "[PPG] S25.09",
+      "url": "https://notion.so/3d682cfc4f0a805b8f9fc03e9c8ec0b4",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[PPG] S24.09",
+      "url": "https://notion.so/3d682cfc4f0a80df9089ec8ca2d08f3b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[PPG] S21.09",
+      "url": "https://notion.so/3d682cfc4f0a8089bad5f86bafcbaebf",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[PPG] S23.09",
+      "url": "https://notion.so/3d682cfc4f0a80c8a759d3228ae4b92a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[PPG] S22.09",
+      "url": "https://notion.so/3d682cfc4f0a8025a180cd7686308118",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[PPG] S16.09",
+      "url": "https://notion.so/3d682cfc4f0a8037aecacd6ab5aa60fc",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-10",
+      "title": "[PPG] S20.09",
+      "url": "https://notion.so/3d682cfc4f0a80839083fd6f5c3e2961",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[PPG] S19.09",
+      "url": "https://notion.so/3d682cfc4f0a8048a519f43c19b8b22e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[PPG] S18.09",
+      "url": "https://notion.so/3d682cfc4f0a801a9114c7dad7fe98ce",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[PPG] S17.09 ",
+      "url": "https://notion.so/3d682cfc4f0a80edb2a1d9812d205d17",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[PPG] S15.09 ",
+      "url": "https://notion.so/3d682cfc4f0a80b2881bf0a57e2fdb94",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-09",
+      "title": "[PPG] S14.09",
+      "url": "https://notion.so/3d682cfc4f0a803a8083e2dbda8cde0b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
       "done": false
     },
     {
