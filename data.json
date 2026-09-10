@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T13:01:24.960Z",
+  "updated": "2026-09-10T13:57:02.886Z",
   "events": [
     {
       "date": "2026-09-18",
@@ -1214,7 +1214,7 @@
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-09",
