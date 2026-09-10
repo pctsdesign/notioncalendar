@@ -48,6 +48,11 @@ const DATABASES = [
 const DONE = ['concluido','concluído','entregue','finalizado','feito','aprovado','fail','evento','done','complete','pronto'];
 function isDone(s) { return s ? DONE.some(d => s.toLowerCase().includes(d)) : false; }
 
+// Etapas que, pra Jeckson e Natália, já saíram da mão deles — contam como
+// "concluída" no calendário deles mesmo que ainda não esteja finalizada de fato.
+const EXTRA_DONE_JECKSON_NATALIA = ['agendamento', 'revisão', 'revisao'];
+function isExtraDone(s) { return s ? EXTRA_DONE_JECKSON_NATALIA.some(d => s.toLowerCase().includes(d)) : false; }
+
 function iso(d) {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 }
@@ -120,7 +125,7 @@ async function fetchDB(db, start, end, dateField) {
     const title = pr[db.tf]?.title?.[0]?.plain_text || '(sem título)';
     const url = `https://notion.so/${p.id.replace(/-/g, '')}`;
     const people = (db.pf && pr[db.pf]?.people ? pr[db.pf].people.map(u => u.id) : []);
-    return { date, title, url, bg: db.bg, fg: db.fg, name: db.name, done, people };
+    return { date, title, url, bg: db.bg, fg: db.fg, name: db.name, done, people, statusName };
   }).filter(e => e.date);
 }
 
@@ -145,7 +150,7 @@ async function main() {
     }
   }
 
-  const output = { updated: new Date().toISOString(), events: events.map(({ people, ...rest }) => rest) };
+  const output = { updated: new Date().toISOString(), events: events.map(({ people, statusName, ...rest }) => rest) };
   fs.writeFileSync('data.json', JSON.stringify(output, null, 2));
   console.log(`\n✅ data.json salvo com ${events.length} eventos totais.`);
 
@@ -162,10 +167,15 @@ async function main() {
   }
 
   // ── Arquivos por pessoa (baseados na Entrega, filtrados por Responsável) ──
-  const strip = e => { const { people, ...rest } = e; return rest; };
+  const strip = e => { const { people, statusName, ...rest } = e; return rest; };
+  // Jeckson e Natália: marca como concluída também quando a etapa já não é responsabilidade deles
+  const stripAdjustDone = e => {
+    const { people, statusName, done, ...rest } = e;
+    return { ...rest, done: done || isExtraDone(statusName) };
+  };
   const pat = { updated: output.updated, events: eventsEntrega.filter(e => e.people.includes(PAT_ID)).map(strip) };
-  const jeckson = { updated: output.updated, events: eventsEntrega.filter(e => e.people.includes(JECKSON_ID)).map(strip) };
-  const natalia = { updated: output.updated, events: eventsEntrega.filter(e => e.people.includes(NATALIA_ID)).map(strip) };
+  const jeckson = { updated: output.updated, events: eventsEntrega.filter(e => e.people.includes(JECKSON_ID)).map(stripAdjustDone) };
+  const natalia = { updated: output.updated, events: eventsEntrega.filter(e => e.people.includes(NATALIA_ID)).map(stripAdjustDone) };
   fs.writeFileSync('data-pat.json', JSON.stringify(pat, null, 2));
   fs.writeFileSync('data-jeckson.json', JSON.stringify(jeckson, null, 2));
   fs.writeFileSync('data-natalia.json', JSON.stringify(natalia, null, 2));
