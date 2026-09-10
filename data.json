@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T08:19:25.391Z",
+  "updated": "2026-09-10T13:01:24.960Z",
   "events": [
     {
       "date": "2026-09-18",
@@ -170,7 +170,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-31",
@@ -182,7 +182,7 @@
       "done": true
     },
     {
-      "date": "2026-09-03",
+      "date": "2026-09-10",
       "title": "[EKO] - S29/08 - A forma de abertura também interfere no desenho do mobiliário.",
       "url": "https://notion.so/3ca82cfc4f0a81bea3f8e9a19a87a7b5",
       "bg": "#d3e5ef",
