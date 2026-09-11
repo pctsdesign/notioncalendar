@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T14:03:58.743Z",
+  "updated": "2026-09-11T17:49:14.833Z",
   "events": [
     {
       "date": "2026-09-09",
@@ -251,7 +251,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-09-09",
@@ -390,26 +390,8 @@
     },
     {
       "date": "2026-09-09",
-      "title": "[PPG] S17.09 - UM ROTEIRO PARA DOIS",
-      "url": "https://notion.so/3d682cfc4f0a80edb2a1d9812d205d17",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-09-09",
       "title": "[PPG] S15.09 - UM DIA INTEIRO NA VILA",
       "url": "https://notion.so/3d682cfc4f0a80b2881bf0a57e2fdb94",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-09-09",
-      "title": "[PPG] S14.09 - MOTIVOS PARA SUBIR A SERRA",
-      "url": "https://notion.so/3d682cfc4f0a803a8083e2dbda8cde0b",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
