@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-11T20:29:30.053Z",
+  "updated": "2026-09-11T22:44:38.994Z",
   "events": [
+    {
+      "date": "2026-09-16",
+      "title": "[EKO] - S15/09 - Na marcenaria, pequenas definições podem mudar bastante o resultado final.",
+      "url": "https://notion.so/3d582cfc4f0a80a887c3fc0114462db7",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
     {
       "date": "2026-09-09",
       "title": "[EKO] - 12/09 - A parte interna da marcenaria merece tanta atenção quanto a externa.",
@@ -164,7 +173,7 @@
       "done": true
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-18",
       "title": "[PPG] S28.09 - Saudade da serra ",
       "url": "https://notion.so/3d682cfc4f0a80e7a1aeca726b376ed3",
       "bg": "#fadec9",
@@ -173,9 +182,18 @@
       "done": false
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-15",
       "title": "[PPG] S17.09 - UM ROTEIRO PARA DOIS",
       "url": "https://notion.so/3d682cfc4f0a80edb2a1d9812d205d17",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-14",
+      "title": "[PPG] S15.09 - UM DIA INTEIRO NA VILA",
+      "url": "https://notion.so/3d682cfc4f0a80b2881bf0a57e2fdb94",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
