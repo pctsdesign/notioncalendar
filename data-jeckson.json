@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T12:33:07.809Z",
+  "updated": "2026-09-13T16:50:05.928Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -80,7 +80,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-11",
@@ -197,7 +197,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-11",
