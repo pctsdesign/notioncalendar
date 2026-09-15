@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T07:13:11.067Z",
+  "updated": "2026-09-15T12:47:24.377Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -62,7 +62,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-19",
@@ -143,7 +143,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-01",
@@ -182,13 +182,31 @@
       "done": false
     },
     {
+      "date": "2026-09-18",
+      "title": "[PPG] S21.09 - COMECE PELA VILA",
+      "url": "https://notion.so/3d682cfc4f0a8089bad5f86bafcbaebf",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-17",
+      "title": "[PPG] S16.09 - UMA PAUSA NA SERRA",
+      "url": "https://notion.so/3d682cfc4f0a8037aecacd6ab5aa60fc",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-09-15",
       "title": "[PPG] S17.09 - UM ROTEIRO PARA DOIS",
       "url": "https://notion.so/3d682cfc4f0a80edb2a1d9812d205d17",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-14",

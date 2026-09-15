@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T07:13:11.067Z",
+  "updated": "2026-09-15T12:47:24.377Z",
   "events": [
     {
       "date": "2026-09-18",
@@ -776,7 +776,7 @@
       "done": false
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-09-19",
       "title": "[PPG] S21.09 - COMECE PELA VILA",
       "url": "https://notion.so/3d682cfc4f0a8089bad5f86bafcbaebf",
       "bg": "#fadec9",
@@ -872,7 +872,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-08",
@@ -1175,15 +1175,6 @@
       "date": "2026-09-11",
       "title": "[PPG] F01 — Por que nosso café da manhã faz sucesso?",
       "url": "https://notion.so/3ca82cfc4f0a81739956c9860e53c8e7",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-09-18",
-      "title": "[PPG] Reels — O que melhora a sua sexta-feira? | Moinho",
-      "url": "https://notion.so/3ca82cfc4f0a81d7b666f4d43da6f641",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
