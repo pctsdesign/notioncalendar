@@ -1,9 +1,144 @@
 {
-  "updated": "2026-09-15T17:29:06.909Z",
+  "updated": "2026-09-15T20:24:25.979Z",
   "events": [
     {
+      "date": "2026-10-10",
+      "title": "[EKO] - S10/09 - Um bom resultado começa na precisão.",
+      "url": "https://notion.so/3dc82cfc4f0a80b3a598cbc3f14f7e20",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-09",
+      "title": "[EKO] - S09/09 - A marcenaria muda quando a luz acende.",
+      "url": "https://notion.so/3dc82cfc4f0a803081c3e88573ad0114",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[EKO] - S08/09 - A madeira aquece.",
+      "url": "https://notion.so/3dc82cfc4f0a805a82ebfae3f5e3cab0",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-07",
+      "title": "[EKO] - S07/09 - Bonito aos olhos Inteligente no uso.",
+      "url": "https://notion.so/3dc82cfc4f0a80f182a6d3834da4d165",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": "[EKO] - S06/09 - Tendências passam o cuidado permanece.",
+      "url": "https://notion.so/3dc82cfc4f0a8055b4dadf7dd72d1987",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-05",
+      "title": "[EKO] - S05/09 - Existe muito além da superfície.",
+      "url": "https://notion.so/3dc82cfc4f0a80af8616d343a69b4287",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "[EKO] - S03/09 - (7)",
+      "url": "https://notion.so/3dc82cfc4f0a806798d4d1cbf1e7ce95",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-02",
+      "title": "[EKO] - S02/09 - Nem todo projeto é feito apenas para olhar.",
+      "url": "https://notion.so/3dc82cfc4f0a803cadcff2ed30f5edee",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-01",
+      "title": "[EKO] - S01/09 - Milímetros também constroem um projeto.",
+      "url": "https://notion.so/3dc82cfc4f0a8054a27fe8b5e86263a6",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-30",
+      "title": "[EKO] - S30/09 - A luz revela o que a matéria guarda.",
+      "url": "https://notion.so/3dc82cfc4f0a80248f7bd57b2f75907a",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": "[EKO] - S29/09 - Alguns detalhes",
+      "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-25",
+      "title": "[EKO] - S25/09 - (2)",
+      "url": "https://notion.so/3dc82cfc4f0a8085a5b2e9789c73988d",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-28",
+      "title": "[EKO] - S28/09 - Tudo começa no traço.",
+      "url": "https://notion.so/3dc82cfc4f0a803b9a2ad7961d81f8b5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-26",
+      "title": "[EKO] - S26/09 - O arquiteto desenhou.",
+      "url": "https://notion.so/3dc82cfc4f0a8044b1bcd065a6959c73",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-24",
+      "title": "[EKO] - S24/09 - Quer observar a marcenaria além do primeiro olhar?",
+      "url": "https://notion.so/3dc82cfc4f0a8042afaee7a3879fb661",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
       "date": "2026-09-18",
-      "title": "[EKO] - S18/09",
+      "title": "[EKO] - S18/09 - A qualidade da marcenaria também pode ser percebida no movimento.",
       "url": "https://notion.so/3d582cfc4f0a8073bf54fee8f19db0e2",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -12,7 +147,7 @@
     },
     {
       "date": "2026-09-17",
-      "title": "[EKO] - S17/09 - ",
+      "title": "[EKO] - S17/09 - Já percebeu como uma mesma cor pode mudar dependendo do ambiente?",
       "url": "https://notion.so/3d582cfc4f0a800ab5d6cb9b931586fe",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -21,7 +156,7 @@
     },
     {
       "date": "2026-09-16",
-      "title": "[EKO] - S16/09 ",
+      "title": "[EKO] - S16/09  - O PUXADOR MUDA A LEITURA",
       "url": "https://notion.so/3d582cfc4f0a8088bf8cef0ed5175e52",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
