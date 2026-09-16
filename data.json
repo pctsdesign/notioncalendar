@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T01:31:47.520Z",
+  "updated": "2026-09-16T01:46:18.599Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -179,7 +179,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-07",
@@ -893,7 +893,7 @@
       "done": false
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-10-01",
       "title": "[PPG] S25.09 - Hoje, a Vila muda de ritmo",
       "url": "https://notion.so/3d682cfc4f0a805b8f9fc03e9c8ec0b4",
       "bg": "#fadec9",
@@ -902,7 +902,7 @@
       "done": false
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "title": "[PPG] S24.09 - O FIM DE SEMANA É LOGO ALI!",
       "url": "https://notion.so/3d682cfc4f0a80df9089ec8ca2d08f3b",
       "bg": "#fadec9",
@@ -965,7 +965,7 @@
       "done": false
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-24",
       "title": "[PPG] S18.09 - ESCOLHA SEU MOTIVO",
       "url": "https://notion.so/3d682cfc4f0a801a9114c7dad7fe98ce",
       "bg": "#fadec9",

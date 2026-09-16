@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T01:31:47.520Z",
+  "updated": "2026-09-16T01:46:18.599Z",
   "events": [
     {
       "date": "2026-09-17",
@@ -182,9 +182,36 @@
       "done": false
     },
     {
+      "date": "2026-09-23",
+      "title": "[PPG] S24.09 - O FIM DE SEMANA É LOGO ALI!",
+      "url": "https://notion.so/3d682cfc4f0a80df9089ec8ca2d08f3b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-09-18",
       "title": "[PPG] S21.09 - COMECE PELA VILA",
       "url": "https://notion.so/3d682cfc4f0a8089bad5f86bafcbaebf",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-22",
+      "title": "[PPG] S23.09 - O ALMOÇO VIROU DESTINO",
+      "url": "https://notion.so/3d682cfc4f0a80c8a759d3228ae4b92a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-21",
+      "title": "[PPG] S22.09 - O DIA COMEÇA AQUI",
+      "url": "https://notion.so/3d682cfc4f0a8025a180cd7686308118",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
@@ -218,13 +245,22 @@
       "done": false
     },
     {
+      "date": "2026-09-24",
+      "title": "[PPG] S18.09 - ESCOLHA SEU MOTIVO",
+      "url": "https://notion.so/3d682cfc4f0a801a9114c7dad7fe98ce",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-09-16",
       "title": "[PPG] S17.09 - UM ROTEIRO PARA DOIS",
       "url": "https://notion.so/3d682cfc4f0a80edb2a1d9812d205d17",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-14",
