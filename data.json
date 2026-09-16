@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T01:46:18.599Z",
+  "updated": "2026-09-16T07:15:54.426Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -830,7 +830,7 @@
       "done": false
     },
     {
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "title": "[PPG] - Feed - CARROSSEL - Um dia inteiro na Vila",
       "url": "https://notion.so/3d682cfc4f0a8002ae67c648ca081066",
       "bg": "#fadec9",
@@ -839,7 +839,7 @@
       "done": false
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-09-24",
       "title": "[PPG] - Feed - REELS - Tem encontros que a gente espera o ano inteiro.",
       "url": "https://notion.so/3d682cfc4f0a802084a2c23ea7580671",
       "bg": "#fadec9",
@@ -1349,7 +1349,7 @@
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-05",
@@ -1430,7 +1430,7 @@
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-10",
