@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T12:42:50.700Z",
+  "updated": "2026-09-16T17:28:19.918Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -93,7 +93,7 @@
     },
     {
       "date": "2026-09-29",
-      "title": "[EKO] - S29/09 - Alguns detalhes",
+      "title": "[EKO] - S29/09 - Alguns detalhes não pedem atenção.",
       "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -102,7 +102,7 @@
     },
     {
       "date": "2026-09-25",
-      "title": "[EKO] - S25/09 - (2)",
+      "title": "[EKO] - S25/09 - Vamos olhar para o que normalmente não aparece na foto?",
       "url": "https://notion.so/3dc82cfc4f0a8085a5b2e9789c73988d",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -111,7 +111,7 @@
     },
     {
       "date": "2026-09-28",
-      "title": "[EKO] - S28/09 - Tudo começa no traço.",
+      "title": "[EKO] - S28/09 - Trabalhar em casa também pede",
       "url": "https://notion.so/3dc82cfc4f0a803b9a2ad7961d81f8b5",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -785,6 +785,96 @@
       "done": true
     },
     {
+      "date": "2026-10-02",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/3dd82cfc4f0a8127b045f3a4b3380ca1",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-24",
+      "title": "[evento] oktober da vila — dj solon / robinz band / kauany e banda",
+      "url": "https://notion.so/3dd82cfc4f0a81308638c20ddf83ac4b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-11",
+      "title": "[evento] sandrinho rits — forró",
+      "url": "https://notion.so/3dd82cfc4f0a8143b2f5c10a00f87f56",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-03",
+      "title": "[evento] casamento benjamim — robinz band",
+      "url": "https://notion.so/3dd82cfc4f0a816a8541c7c43328bf8c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-10",
+      "title": "[evento] vitor sanfoneiro",
+      "url": "https://notion.so/3dd82cfc4f0a819aa810e899fee1fb7d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-23",
+      "title": "[evento] oktober da vila — dj solon silvestre",
+      "url": "https://notion.so/3dd82cfc4f0a81a2aca6eb1ffbed840d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-09",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/3dd82cfc4f0a81aa80dbdd78db8b3d5b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-17",
+      "title": "[evento] mercinho sanfoneiro",
+      "url": "https://notion.so/3dd82cfc4f0a81b8b229e7cfadc7eb23",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-30",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/3dd82cfc4f0a81bc8022d4736e6b4ab9",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-16",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/3dd82cfc4f0a81e5a7f2c12ad0b68c39",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
       "date": "2026-09-28",
       "title": "[PPG] - Feed - Manual da Oktoberfest",
       "url": "https://notion.so/3d682cfc4f0a80168eb8e4b911f94ce4",
@@ -957,7 +1047,7 @@
     },
     {
       "date": "2026-09-16",
-      "title": "[PPG] S19.09 - ",
+      "title": "[PPG] S19.09 - SÁBADO COM ROBERTO SANFONEIRO",
       "url": "https://notion.so/3d682cfc4f0a8048a519f43c19b8b22e",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -980,7 +1070,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-15",
@@ -1083,7 +1173,7 @@
     },
     {
       "date": "2026-09-25",
-      "title": "[evento] rodrigo lacaz",
+      "title": "[evento] mercinho sanfoneiro",
       "url": "https://notion.so/3cd82cfc4f0a81118593dc2fd343e0a8",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1092,7 +1182,7 @@
     },
     {
       "date": "2026-09-26",
-      "title": "[evento] kauany e banda dover",
+      "title": "[evento] citrika",
       "url": "https://notion.so/3cd82cfc4f0a81258372f1b5b61baa12",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1101,7 +1191,7 @@
     },
     {
       "date": "2026-09-18",
-      "title": "[evento] roberto sanfoneiro",
+      "title": "[evento] mercinho sanfoneiro",
       "url": "https://notion.so/3cd82cfc4f0a81348bede512a8504d23",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1110,7 +1200,7 @@
     },
     {
       "date": "2026-09-06",
-      "title": "[evento] zé sanfoneiro",
+      "title": "[evento] kauany",
       "url": "https://notion.so/3cd82cfc4f0a8158af76cf40a71cb636",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1119,7 +1209,7 @@
     },
     {
       "date": "2026-09-04",
-      "title": "[evento] roberto sanfoneiro",
+      "title": "[evento] vitor sanfoneiro",
       "url": "https://notion.so/3cd82cfc4f0a819b89c2c58a2a59908e",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1137,7 +1227,7 @@
     },
     {
       "date": "2026-09-19",
-      "title": "[evento] zé sanfoneiro",
+      "title": "[evento] roberto sanfoneiro",
       "url": "https://notion.so/3cd82cfc4f0a81d49571c8cbcc5783f4",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1146,7 +1236,7 @@
     },
     {
       "date": "2026-09-12",
-      "title": "[evento] kauany",
+      "title": "[evento] doninho oliveira",
       "url": "https://notion.so/3cd82cfc4f0a81dd98b3d1248ca85938",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1238,15 +1328,6 @@
       "date": "2026-08-29",
       "title": "[evento] kauany",
       "url": "https://notion.so/3cd82cfc4f0a81ffaa88e74c21dbc78f",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-09-18",
-      "title": "ex.: [reels]",
-      "url": "https://notion.so/3cc82cfc4f0a80d18365c76da90e32cc",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
