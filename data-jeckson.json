@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-15T23:02:52.409Z",
+  "updated": "2026-09-16T01:31:47.520Z",
   "events": [
     {
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "title": "[EKO] - S15/09 - Na marcenaria, pequenas definições podem mudar bastante o resultado final.",
       "url": "https://notion.so/3d582cfc4f0a80a887c3fc0114462db7",
       "bg": "#d3e5ef",
@@ -26,10 +26,10 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "title": "[EKO] - S26/08 - Uma paleta bem definida ajuda a organizar visualmente o ambiente.",
       "url": "https://notion.so/3ca82cfc4f0a8116a325fdbbf03970f7",
       "bg": "#d3e5ef",
@@ -38,7 +38,7 @@
       "done": false
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-19",
       "title": "[EKO] - S31/08 - Um mesmo desenho pode ter resultados completamente diferentes dependendo do acabamento escolhido.",
       "url": "https://notion.so/3ca82cfc4f0a812eb440d6a254695deb",
       "bg": "#d3e5ef",
@@ -57,7 +57,7 @@
     },
     {
       "date": "2026-09-15",
-      "title": "[EKO] - S21/08 - Em espaços integrados, a continuidade também acontece através dos materiais.",
+      "title": "[EKO] - S21/08 - Em espaços integrados, a continuidade também acontece através dos materiais",
       "url": "https://notion.so/3ca82cfc4f0a8190bcf1d2ea8b1c4739",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -65,7 +65,7 @@
       "done": true
     },
     {
-      "date": "2026-09-19",
+      "date": "2026-09-21",
       "title": "[EKO] - S24/08 - Nem sempre as medidas convencionais atendem às necessidades de um ambiente.",
       "url": "https://notion.so/3ca82cfc4f0a81cbb90cecc03c896764",
       "bg": "#d3e5ef",
@@ -137,13 +137,13 @@
       "done": true
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "title": "[JOC] - S13/08 - Existem materiais que atravessam o tempo sem perder a beleza.",
       "url": "https://notion.so/3ca82cfc4f0a815588e1f6a2c16ab0f6",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-09-01",
@@ -173,7 +173,7 @@
       "done": true
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-25",
       "title": "[PPG] S28.09 - Saudade da serra ",
       "url": "https://notion.so/3d682cfc4f0a80e7a1aeca726b376ed3",
       "bg": "#fadec9",
@@ -191,7 +191,7 @@
       "done": false
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-21",
       "title": "[PPG] S16.09 - UMA PAUSA NA SERRA",
       "url": "https://notion.so/3d682cfc4f0a8037aecacd6ab5aa60fc",
       "bg": "#fadec9",
@@ -200,13 +200,31 @@
       "done": false
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-17",
+      "title": "[PPG] S20.09 - DOMINGO PEDE CALMA",
+      "url": "https://notion.so/3d682cfc4f0a80839083fd6f5c3e2961",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-16",
+      "title": "[PPG] S19.09 - ",
+      "url": "https://notion.so/3d682cfc4f0a8048a519f43c19b8b22e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-16",
       "title": "[PPG] S17.09 - UM ROTEIRO PARA DOIS",
       "url": "https://notion.so/3d682cfc4f0a80edb2a1d9812d205d17",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-09-14",

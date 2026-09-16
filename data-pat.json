@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-15T23:02:52.409Z",
+  "updated": "2026-09-16T01:31:47.520Z",
   "events": [
     {
       "date": "2026-09-09",
@@ -71,7 +71,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-01",
@@ -128,6 +128,15 @@
       "done": false
     },
     {
+      "date": "2026-09-16",
+      "title": "[PPG] - Feed - Carrossel - \"Preciso de um fim de semana aqui”",
+      "url": "https://notion.so/3d682cfc4f0a80efacb3eae305166828",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-09-15",
       "title": "[PPG] - Feed - REELS - Pausa na Vila",
       "url": "https://notion.so/3d682cfc4f0a80978dcae499b4811e0c",
@@ -146,7 +155,7 @@
       "done": false
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "title": "[PPG] - Feed - REELS - Tem encontros que a gente espera o ano inteiro.",
       "url": "https://notion.so/3d682cfc4f0a802084a2c23ea7580671",
       "bg": "#fadec9",
@@ -209,24 +218,6 @@
       "done": false
     },
     {
-      "date": "2026-09-10",
-      "title": "[PPG] S20.09 - DOMINGO PEDE CALMA",
-      "url": "https://notion.so/3d682cfc4f0a80839083fd6f5c3e2961",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-09-09",
-      "title": "[PPG] S19.09 - ",
-      "url": "https://notion.so/3d682cfc4f0a8048a519f43c19b8b22e",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
       "date": "2026-09-09",
       "title": "[PPG] S18.09 - ESCOLHA SEU MOTIVO",
       "url": "https://notion.so/3d682cfc4f0a801a9114c7dad7fe98ce",
@@ -272,7 +263,7 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-22",
       "title": "[PPG] F01 — Por que nosso café da manhã faz sucesso?",
       "url": "https://notion.so/3ca82cfc4f0a81739956c9860e53c8e7",
       "bg": "#fadec9",
