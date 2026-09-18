@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:37:47.562Z",
+  "updated": "2026-09-18T15:52:37.193Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -1638,6 +1638,15 @@
       "fg": "#9065b0",
       "name": "movelaria",
       "done": true
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Produção de Material para Parceria Institucional (ASSEJUF-RN)",
+      "url": "https://notion.so/3df82cfc4f0a80c5b3edfebec6af35d3",
+      "bg": "#f5e0e9",
+      "fg": "#c04274",
+      "name": "amelis",
+      "done": false
     },
     {
       "date": "2026-09-03",
