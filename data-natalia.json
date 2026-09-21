@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T00:50:53.456Z",
+  "updated": "2026-09-21T05:55:14.209Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -86,24 +86,6 @@
       "date": "2026-09-16",
       "title": "[EKO] - S29/09 - Alguns detalhes não pedem atenção.",
       "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S25/09 - Vamos olhar para o que normalmente não aparece na foto?",
-      "url": "https://notion.so/3dc82cfc4f0a8085a5b2e9789c73988d",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S28/09 - Trabalhar em casa também pede",
-      "url": "https://notion.so/3dc82cfc4f0a803b9a2ad7961d81f8b5",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -290,49 +272,13 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
-      "title": "[PPG] S30.09 - NOTIFICAÇÕES DA SERRA ",
-      "url": "https://notion.so/3d682cfc4f0a8019b624cdac1c472fb0",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-09-11",
+      "date": "2026-09-21",
       "title": "[PPG] S26.09 - SÁBADO PEDE UMA BOA MESA",
       "url": "https://notion.so/3d682cfc4f0a80e395ccc9ab8783f46b",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-09-11",
-      "title": "[PPG] S27.09 - Um convite para sair da rotina sem ir tão longe.",
-      "url": "https://notion.so/3d682cfc4f0a80f18e6aca4381513809",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-09-11",
-      "title": "[PPG] S29.09 - Guia para aproveitar a serra ",
-      "url": "https://notion.so/3d682cfc4f0a80639777dfb40d720e02",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-09-11",
-      "title": "[PPG] S25.09 - Hoje, a Vila muda de ritmo",
-      "url": "https://notion.so/3d682cfc4f0a805b8f9fc03e9c8ec0b4",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-08-30",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T00:50:53.456Z",
+  "updated": "2026-09-21T05:55:14.209Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -170,7 +170,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-12",
@@ -260,7 +260,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-18",
@@ -269,7 +269,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-17",
@@ -287,7 +287,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-14",
@@ -372,7 +372,7 @@
     },
     {
       "date": "2026-08-28",
-      "title": "[EKO] - S18/08 - Móveis planejados permitem aproveitar melhor as caracter��sticas de cada ambiente.",
+      "title": "[EKO] - S18/08 - Móveis planejados permitem aproveitar melhor as características de cada ambiente.",
       "url": "https://notion.so/3ca82cfc4f0a81d38aced27ef759ecf7",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -965,7 +965,7 @@
       "done": false
     },
     {
-      "date": "2026-09-29",
+      "date": "2026-09-25",
       "title": "[PPG] S29.09 - Guia para aproveitar a serra ",
       "url": "https://notion.so/3d682cfc4f0a80639777dfb40d720e02",
       "bg": "#fadec9",

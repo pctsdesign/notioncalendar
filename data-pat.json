@@ -1,24 +1,6 @@
 {
-  "updated": "2026-09-21T00:50:53.456Z",
+  "updated": "2026-09-21T05:55:14.209Z",
   "events": [
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S25/09 - Vamos olhar para o que normalmente não aparece na foto?",
-      "url": "https://notion.so/3dc82cfc4f0a8085a5b2e9789c73988d",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S28/09 - Trabalhar em casa também pede",
-      "url": "https://notion.so/3dc82cfc4f0a803b9a2ad7961d81f8b5",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
     {
       "date": "2026-09-21",
       "title": "[EKO] - S24/09 - Quer observar a marcenaria além do primeiro olhar?",
@@ -38,6 +20,15 @@
       "done": false
     },
     {
+      "date": "2026-09-17",
+      "title": "[EKO] - S15/09 - Na marcenaria, pequenas definições podem mudar bastante o resultado final.",
+      "url": "https://notion.so/3d582cfc4f0a80a887c3fc0114462db7",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
       "date": "2026-09-09",
       "title": "[EKO] - 12/09 - A parte interna da marcenaria merece tanta atenção quanto a externa.",
       "url": "https://notion.so/3d582cfc4f0a805b9963d8abacba27f7",
@@ -45,6 +36,15 @@
       "fg": "#2e7dc7",
       "name": "eko",
       "done": true
+    },
+    {
+      "date": "2026-09-21",
+      "title": "[EKO] - S22/08 - Entre o desenho e o ambiente pronto existem muitas decisões.",
+      "url": "https://notion.so/3ca82cfc4f0a812b8d64cac8f13ade50",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
     },
     {
       "date": "2026-09-01",
@@ -62,7 +62,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-18",
@@ -71,7 +71,16 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
+    },
+    {
+      "date": "2026-09-21",
+      "title": "[EKO] - S24/08 - Nem sempre as medidas convencionais atendem às necessidades de um ambiente.",
+      "url": "https://notion.so/3ca82cfc4f0a81cbb90cecc03c896764",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
     },
     {
       "date": "2026-08-31",
@@ -272,16 +281,7 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
-      "title": "[PPG] S30.09 - NOTIFICAÇÕES DA SERRA ",
-      "url": "https://notion.so/3d682cfc4f0a8019b624cdac1c472fb0",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-09-11",
+      "date": "2026-09-21",
       "title": "[PPG] S26.09 - SÁBADO PEDE UMA BOA MESA",
       "url": "https://notion.so/3d682cfc4f0a80e395ccc9ab8783f46b",
       "bg": "#fadec9",
@@ -290,27 +290,36 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
-      "title": "[PPG] S27.09 - Um convite para sair da rotina sem ir tão longe.",
-      "url": "https://notion.so/3d682cfc4f0a80f18e6aca4381513809",
+      "date": "2026-09-22",
+      "title": "[PPG] S23.09 - O ALMOÇO VIROU DESTINO",
+      "url": "https://notion.so/3d682cfc4f0a80c8a759d3228ae4b92a",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
       "done": false
     },
     {
-      "date": "2026-09-11",
-      "title": "[PPG] S29.09 - Guia para aproveitar a serra ",
-      "url": "https://notion.so/3d682cfc4f0a80639777dfb40d720e02",
+      "date": "2026-09-21",
+      "title": "[PPG] S22.09 - O DIA COMEÇA AQUI",
+      "url": "https://notion.so/3d682cfc4f0a8025a180cd7686308118",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
       "done": false
     },
     {
-      "date": "2026-09-11",
-      "title": "[PPG] S25.09 - Hoje, a Vila muda de ritmo",
-      "url": "https://notion.so/3d682cfc4f0a805b8f9fc03e9c8ec0b4",
+      "date": "2026-09-21",
+      "title": "[PPG] S16.09 - UMA PAUSA NA SERRA",
+      "url": "https://notion.so/3d682cfc4f0a8037aecacd6ab5aa60fc",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-17",
+      "title": "[PPG] S20.09 - DOMINGO PEDE CALMA",
+      "url": "https://notion.so/3d682cfc4f0a80839083fd6f5c3e2961",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
