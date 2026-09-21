@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T05:55:14.209Z",
+  "updated": "2026-09-21T12:04:06.474Z",
   "events": [
     {
       "date": "2026-09-26",
@@ -53,7 +53,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-17",
@@ -80,7 +80,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-22",
@@ -242,7 +242,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-11",
