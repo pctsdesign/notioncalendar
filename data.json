@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T22:36:36.473Z",
+  "updated": "2026-09-21T00:50:53.456Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -137,7 +137,7 @@
       "done": false
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-23",
       "title": "[EKO] - S18/09 - A qualidade da marcenaria também pode ser percebida no movimento.",
       "url": "https://notion.so/3d582cfc4f0a8073bf54fee8f19db0e2",
       "bg": "#d3e5ef",
@@ -372,7 +372,7 @@
     },
     {
       "date": "2026-08-28",
-      "title": "[EKO] - S18/08 - Móveis planejados permitem aproveitar melhor as características de cada ambiente.",
+      "title": "[EKO] - S18/08 - Móveis planejados permitem aproveitar melhor as caracter��sticas de cada ambiente.",
       "url": "https://notion.so/3ca82cfc4f0a81d38aced27ef759ecf7",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -1007,7 +1007,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-23",
@@ -1640,7 +1640,7 @@
       "done": true
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-21",
       "title": "Produção de Material para Parceria Institucional (ASSEJUF-RN)",
       "url": "https://notion.so/3df82cfc4f0a80c5b3edfebec6af35d3",
       "bg": "#f5e0e9",

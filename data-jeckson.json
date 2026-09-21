@@ -1,6 +1,42 @@
 {
-  "updated": "2026-09-20T22:36:36.473Z",
+  "updated": "2026-09-21T00:50:53.456Z",
   "events": [
+    {
+      "date": "2026-09-26",
+      "title": "[EKO] - S30/09 - A luz revela o que a matéria guarda.",
+      "url": "https://notion.so/3dc82cfc4f0a80248f7bd57b2f75907a",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-25",
+      "title": "[EKO] - S26/09 - O arquiteto desenhou.",
+      "url": "https://notion.so/3dc82cfc4f0a8044b1bcd065a6959c73",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-24",
+      "title": "[EKO] - S18/09 - A qualidade da marcenaria também pode ser percebida no movimento.",
+      "url": "https://notion.so/3d582cfc4f0a8073bf54fee8f19db0e2",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-09-23",
+      "title": "[EKO] - S17/09 - Já percebeu como uma mesma cor pode mudar dependendo do ambiente?",
+      "url": "https://notion.so/3d582cfc4f0a800ab5d6cb9b931586fe",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
     {
       "date": "2026-09-17",
       "title": "[EKO] - S15/09 - Na marcenaria, pequenas definições podem mudar bastante o resultado final.",
