@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T18:32:49.253Z",
+  "updated": "2026-09-24T21:58:29.375Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -785,6 +785,168 @@
       "done": true
     },
     {
+      "date": "2026-10-29",
+      "title": "[reunião de alinhamento - 16h]",
+      "url": "https://notion.so/3e582cfc4f0a80d48a93ffa86cc73bc1",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[mantemos o pausa na vila + menu]",
+      "url": "https://notion.so/3e582cfc4f0a804080e4d7186f71ea0b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-05",
+      "title": "[picnic e spa]",
+      "url": "https://notion.so/3e582cfc4f0a8014947ee6e51d2aa20d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-03",
+      "title": "[começar a falar de natal/confraternizações]",
+      "url": "https://notion.so/3e582cfc4f0a8018bbf2e583005ea465",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": "[gravação com Lorena e Junior]",
+      "url": "https://notion.so/3e582cfc4f0a8029a2d0e713248b58ba",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-28",
+      "title": "[falar com saulo sobre o site]",
+      "url": "https://notion.so/3e582cfc4f0a80a9b5d7c43ec1d2757d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-25",
+      "title": "[eleições]",
+      "url": "https://notion.so/3e582cfc4f0a809a9aa4f8d3742bd9f2",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "[eleições]",
+      "url": "https://notion.so/3e582cfc4f0a807b8859c202152187d0",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-27",
+      "title": "[reforçar feriado]",
+      "url": "https://notion.so/3e582cfc4f0a8019b0e5ce4c97b8b174",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-01",
+      "title": "[feriado de finados]",
+      "url": "https://notion.so/3e582cfc4f0a80a68a0de0cb6bdab4be",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-07",
+      "title": "[reforçar hospedagem 13 a 15]",
+      "url": "https://notion.so/3e582cfc4f0a805dae69ee0f0efb6ad6",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-13",
+      "title": "[festival de inverno-primavera]",
+      "url": "https://notion.so/3e582cfc4f0a80768ad0e9386d56ae82",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-21",
+      "title": "[nome para brega]",
+      "url": "https://notion.so/3e582cfc4f0a809ab972d7748f0aec2d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-12",
+      "title": "[DIA DAS CRIANÇA - nossa sra aparecida]",
+      "url": "https://notion.so/3e582cfc4f0a80749fbcc2c18a0c6d43",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-02",
+      "title": "AVISO DE FECHAMENTO",
+      "url": "https://notion.so/3e582cfc4f0a804ea9e2f5aad642bb7a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "[fechada para o público]",
+      "url": "https://notion.so/3e582cfc4f0a80bf9afdd7b225d0e971",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-25",
+      "title": "TEROIR - FALAR MAIS SOBRE",
+      "url": "https://notion.so/3e582cfc4f0a8061addde0bde0190c0b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-24",
+      "title": "[reunião de alinhamento]",
+      "url": "https://notion.so/3e582cfc4f0a804e8208f44455423b9a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-10-02",
       "title": "[evento] roberto sanfoneiro",
       "url": "https://notion.so/3dd82cfc4f0a8127b045f3a4b3380ca1",
@@ -795,7 +957,7 @@
     },
     {
       "date": "2026-10-24",
-      "title": "[evento] oktober da vila — dj solon / robinz band / kauany e banda",
+      "title": "[evento] oktober da vila — dj solon / robinz band / rebecca martins",
       "url": "https://notion.so/3dd82cfc4f0a81308638c20ddf83ac4b",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -831,7 +993,7 @@
     },
     {
       "date": "2026-10-23",
-      "title": "[evento] oktober da vila — dj solon silvestre",
+      "title": "[evento] abertura oktober da vila — dj solon silvestre",
       "url": "https://notion.so/3dd82cfc4f0a81a2aca6eb1ffbed840d",
       "bg": "#fadec9",
       "fg": "#c47615",
