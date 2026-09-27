@@ -1,15 +1,6 @@
 {
-  "updated": "2026-09-27T17:44:02.527Z",
+  "updated": "2026-09-27T17:47:30.727Z",
   "events": [
-    {
-      "date": "2026-09-21",
-      "title": "[EKO] - S24/09 - Quer observar a marcenaria além do primeiro olhar?",
-      "url": "https://notion.so/3dc82cfc4f0a8042afaee7a3879fb661",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
     {
       "date": "2026-09-09",
       "title": "[EKO] - S16/09  - O PUXADOR MUDA A LEITURA",
@@ -17,7 +8,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-17",
@@ -44,7 +35,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-01",

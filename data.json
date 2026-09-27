@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T17:44:02.527Z",
+  "updated": "2026-09-27T17:47:30.727Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -128,7 +128,7 @@
       "done": false
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-10-01",
       "title": "[EKO] - S24/09 - Quer observar a marcenaria além do primeiro olhar?",
       "url": "https://notion.so/3dc82cfc4f0a8042afaee7a3879fb661",
       "bg": "#d3e5ef",
@@ -161,7 +161,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-22",
@@ -197,7 +197,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-07",
