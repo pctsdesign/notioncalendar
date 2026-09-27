@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T17:47:30.727Z",
+  "updated": "2026-09-27T20:17:36.781Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -83,15 +83,6 @@
       "done": false
     },
     {
-      "date": "2026-09-16",
-      "title": "[EKO] - S29/09 - Alguns detalhes não pedem atenção.",
-      "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
       "date": "2026-09-09",
       "title": "[EKO] - S16/09  - O PUXADOR MUDA A LEITURA",
       "url": "https://notion.so/3d582cfc4f0a8088bf8cef0ed5175e52",
@@ -107,7 +98,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-31",
@@ -116,7 +107,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-31",
@@ -165,15 +156,6 @@
     },
     {
       "date": "2026-09-03",
-      "title": "[JOC] - S23/09 - Sofá no lugar.",
-      "url": "https://notion.so/3ca82cfc4f0a818680bad282f2b53815",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-09-03",
       "title": "[JOC] - S25/08",
       "url": "https://notion.so/3ca82cfc4f0a81918bd1d3b75f79501f",
       "bg": "#dbeddb",
@@ -189,15 +171,6 @@
       "fg": "#448361",
       "name": "jocil",
       "done": false
-    },
-    {
-      "date": "2026-09-02",
-      "title": "[JOC] - S30/09  - Algumas escolhas pedem tempo.",
-      "url": "https://notion.so/3ca82cfc4f0a81baac5af2d24946bbc3",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
     },
     {
       "date": "2026-09-02",

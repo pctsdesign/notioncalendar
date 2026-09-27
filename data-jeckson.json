@@ -1,14 +1,23 @@
 {
-  "updated": "2026-09-27T17:47:30.727Z",
+  "updated": "2026-09-27T20:17:36.781Z",
   "events": [
     {
-      "date": "2026-09-26",
+      "date": "2026-09-29",
       "title": "[EKO] - S30/09 - A luz revela o que a matéria guarda.",
       "url": "https://notion.so/3dc82cfc4f0a80248f7bd57b2f75907a",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
+    },
+    {
+      "date": "2026-09-29",
+      "title": "[EKO] - S29/09 - Alguns detalhes não pedem atenção.",
+      "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
     },
     {
       "date": "2026-09-28",
@@ -17,10 +26,10 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
-      "date": "2026-09-29",
+      "date": "2026-09-28",
       "title": "[EKO] - S28/09 - Trabalhar em casa também pede",
       "url": "https://notion.so/3dc82cfc4f0a803b9a2ad7961d81f8b5",
       "bg": "#d3e5ef",
@@ -164,6 +173,15 @@
       "done": true
     },
     {
+      "date": "2026-09-28",
+      "title": "[JOC] - S23/09 - Sofá no lugar. (1)",
+      "url": "https://notion.so/3e882cfc4f0a80729b85c1dc91812374",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
       "date": "2026-09-09",
       "title": "[JOC] - S14/08 - O quarto é o único ambiente da casa onde o tempo parece desacelerar naturalmente.",
       "url": "https://notion.so/3ca82cfc4f0a8107952fc65312cf6870",
@@ -191,7 +209,7 @@
       "done": true
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-09-30",
       "title": "[JOC] - S02/10 - Nem toda transformação precisa mudar o ambiente inteiro.",
       "url": "https://notion.so/3ca82cfc4f0a81549cd8ed07b1a1f122",
       "bg": "#dbeddb",
@@ -207,6 +225,15 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-09-29",
+      "title": "[JOC] - S30/09  - Algumas escolhas pedem tempo.",
+      "url": "https://notion.so/3ca82cfc4f0a81baac5af2d24946bbc3",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
     },
     {
       "date": "2026-09-14",
@@ -269,7 +296,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-22",
@@ -299,13 +326,13 @@
       "done": true
     },
     {
-      "date": "2026-09-28",
+      "date": "2026-09-29",
       "title": "[PPG] S25.09 - Hoje, a Vila muda de ritmo",
       "url": "https://notion.so/3d682cfc4f0a805b8f9fc03e9c8ec0b4",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-23",
