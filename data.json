@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T10:38:22.977Z",
+  "updated": "2026-09-30T16:40:01.919Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -800,7 +800,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-05",
@@ -809,7 +809,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-03",
@@ -818,7 +818,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-06",
@@ -827,7 +827,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-28",
@@ -845,7 +845,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-03",
@@ -854,7 +854,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-27",
@@ -881,7 +881,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-13",
@@ -899,7 +899,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-12",
@@ -917,7 +917,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-03",
@@ -926,7 +926,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-25",
@@ -1610,7 +1610,7 @@
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-03",
@@ -1628,7 +1628,7 @@
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-01",
@@ -1808,7 +1808,7 @@
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-03",
@@ -1862,7 +1862,7 @@
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-02",
@@ -2195,7 +2195,7 @@
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-07-24",
@@ -2231,7 +2231,7 @@
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-02",
