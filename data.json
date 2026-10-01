@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T21:12:52.762Z",
+  "updated": "2026-10-01T00:40:56.199Z",
   "events": [
     {
       "date": "2026-10-10",
@@ -374,15 +374,6 @@
       "date": "2026-08-28",
       "title": "[EKO] - S18/08 - Móveis planejados permitem aproveitar melhor as características de cada ambiente.",
       "url": "https://notion.so/3ca82cfc4f0a81d38aced27ef759ecf7",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-07-28",
-      "title": "voucher - panfletagem",
-      "url": "https://notion.so/3ab82cfc4f0a8064864ce82f8804d36c",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -1433,15 +1424,6 @@
       "done": true
     },
     {
-      "date": "2026-07-31",
-      "title": "[evento] vitor sanfoneiro",
-      "url": "https://notion.so/3cd82cfc4f0a812b8db1c6922506fe0a",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
       "date": "2026-08-07",
       "title": "[evento] roberto sanfoneiro",
       "url": "https://notion.so/3cd82cfc4f0a8149a3b7ffcb3197ea76",
@@ -1928,15 +1910,6 @@
       "done": true
     },
     {
-      "date": "2026-07-20",
-      "title": "Post do Evento Singular Virada",
-      "url": "https://notion.so/3a382cfc4f0a80d69897ca6ecd627716",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-08-10",
       "title": "[07/08] [31] B-roll Spa Amelis — conteúdo sensorial pós-lançamento",
       "url": "https://notion.so/39c82cfc4f0a8156961df92447ba9aaf",
@@ -1991,51 +1964,6 @@
       "done": true
     },
     {
-      "date": "2026-07-14",
-      "title": "Gravação com Aladim",
-      "url": "https://notion.so/39c82cfc4f0a8073918ef20a6d9ef875",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-13",
-      "title": "Nomes das Salas em pdf",
-      "url": "https://notion.so/39c82cfc4f0a8061ab02e31cb3353e36",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-08",
-      "title": "[planejamento de agosto] reunião",
-      "url": "https://notion.so/39282cfc4f0a80b29fd1e556787de666",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-03",
-      "title": "Entregáveis Profissionais — Casa Amelis",
-      "url": "https://notion.so/39282cfc4f0a80c8bbf8d3a42144e50b",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-20",
-      "title": "[20/07] [24] Lista de espera Spa Amelis — abertura",
-      "url": "https://notion.so/37282cfc4f0a80bda8edd06860595f69",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-08-10",
       "title": "[03/08] [29] Lançamento Spa Amelis 🚀",
       "url": "https://notion.so/37282cfc4f0a80c6bb05e1f56e8cd35f",
@@ -2045,36 +1973,9 @@
       "done": true
     },
     {
-      "date": "2026-07-07",
-      "title": "[entrega do SPA]",
-      "url": "https://notion.so/37282cfc4f0a801ba1b8c1cf80ce3391",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-08-04",
       "title": "[24/07] [26] Bruxismo → Serena SPA — você trata o sintoma, a gente trata a origem",
       "url": "https://notion.so/36c82cfc4f0a810998c0d223044efa31",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-29",
-      "title": "[27/07] [27] Jornada do cliente no Spa Amelis — carrossel",
-      "url": "https://notion.so/36c82cfc4f0a811cadc5f3fc3f10d7f7",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-31",
-      "title": "[31/07] [28] Video convite — Spa Amelis com Dra. Karla + Cecília",
-      "url": "https://notion.so/36c82cfc4f0a811d9328e3675a1892e3",
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
@@ -2099,24 +2000,6 @@
       "done": true
     },
     {
-      "date": "2026-07-22",
-      "title": "[22/07] [25] Video ASMR — Spa Amelis",
-      "url": "https://notion.so/36c82cfc4f0a8147a980f6a04f07d8a8",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-15",
-      "title": "[07/07] [15] Spa — o ritual, não o resultado",
-      "url": "https://notion.so/36c82cfc4f0a8147be8acd6ef81f7e7c",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-08-20",
       "title": "[11/08] [16] Saúde mental — ansiedade não é personalidade, é sinal",
       "url": "https://notion.so/36c82cfc4f0a814aa133d76c43c1355b",
@@ -2135,15 +2018,6 @@
       "done": true
     },
     {
-      "date": "2026-07-04",
-      "title": "[01/07] [13] Pós-lançamento Essenza — cada fórmula começa com uma pergunta",
-      "url": "https://notion.so/36c82cfc4f0a8170b86af08bb73bda88",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-08-28",
       "title": "[28/08] [23] Amelis Talk — cobertura do evento",
       "url": "https://notion.so/36c82cfc4f0a8197870eeb06e0e1eb03",
@@ -2153,72 +2027,9 @@
       "done": true
     },
     {
-      "date": "2026-07-20",
-      "title": "[03/07] [14] Pele + prevenção — a pele é o espelho do que acontece dentro",
-      "url": "https://notion.so/36c82cfc4f0a81c897e9d720b431fadf",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-08",
-      "title": "[15/06] [07] Arquitetura que cuida pt.2 — o espaço que desacelera",
-      "url": "https://notion.so/36c82cfc4f0a810c8a5ded3c02126435",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-13",
-      "title": "[08/06] [04] Sono como pilar da longevidade",
-      "url": "https://notion.so/36c82cfc4f0a812dafc1cc6248250f9e",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-09-03",
       "title": "[10/08] [10] Inegociáveis — o cuidado que vira escolha de vida",
       "url": "https://notion.so/36c82cfc4f0a813797cad7e343b7eaf8",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-06",
-      "title": "[10/06] [05] Intestino + saúde mental — 90% da serotonina é produzida no intestino",
-      "url": "https://notion.so/36c82cfc4f0a815b83cec6f1d30c5868",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-24",
-      "title": "[12/06] [06] Idade cronológica x idade biológica — longevidade",
-      "url": "https://notion.so/36c82cfc4f0a815db4efdbf9d8c86b5d",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-10",
-      "title": "[17/06] [08] Hormônios + energia — cansaço crônico não é frescura, é sinal",
-      "url": "https://notion.so/36c82cfc4f0a81c3835fee8134f17d25",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-07-01",
-      "title": "[26/06] [12] Lançamento Protocolo Essenza — abertura oficial",
-      "url": "https://notion.so/36c82cfc4f0a81c48a2fee521692dbbb",
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
@@ -2327,15 +2138,6 @@
       "date": "2026-08-18",
       "title": "Apresentação visual",
       "url": "https://notion.so/9e182cfc4f0a828993178104e3cd859f",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-07-16",
-      "title": "Debriefing",
-      "url": "https://notion.so/cd082cfc4f0a82e08110011461d89654",
       "bg": "#fdecc8",
       "fg": "#8a4e00",
       "name": "ch representações",
