@@ -1,6 +1,258 @@
 {
-  "updated": "2026-10-01T14:11:27.774Z",
+  "updated": "2026-10-01T19:41:03.312Z",
   "events": [
+    {
+      "date": "2026-10-16",
+      "title": "[EKO] - S16/10 - (2)",
+      "url": "https://notion.so/3ec82cfc4f0a80f19ebefcf50171669a",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": "[EKO] - S15/10 - (5)",
+      "url": "https://notion.so/3ec82cfc4f0a808cb3ebc67b3b2258ce",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-14",
+      "title": "[EKO] - S14/10 - (4)",
+      "url": "https://notion.so/3ec82cfc4f0a807faea6e52ccdf570b2",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-21",
+      "title": "[EKO] - S21/10 - Bastidores da gravação ",
+      "url": "https://notion.so/3ec82cfc4f0a80baa11adb818cce70b1",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-20",
+      "title": "[EKO] - S20/10 - (4)",
+      "url": "https://notion.so/3ec82cfc4f0a800d9b37f5fae506ea11",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-19",
+      "title": "[EKO] - S19/10 - (3)",
+      "url": "https://notion.so/3ec82cfc4f0a80249899f85a2cf0f05d",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-23",
+      "title": "[EKO] - S23/10 - (2)",
+      "url": "https://notion.so/3ec82cfc4f0a801ea175d3567dadf988",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-17",
+      "title": "[EKO] - S17/10 - (1)",
+      "url": "https://notion.so/3ec82cfc4f0a80fdb413e6f436b18a04",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": "[EKO] - S13/10 - PAINÉIS",
+      "url": "https://notion.so/3ec82cfc4f0a801ea461f71242a174df",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-30",
+      "title": "[EKO] - F30/10 - ",
+      "url": "https://notion.so/3ec82cfc4f0a80d7b201d700613000f8",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-28",
+      "title": "[EKO] - F28/10 - (4)",
+      "url": "https://notion.so/3ec82cfc4f0a80d69f63fcdcd8dcd44d",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-26",
+      "title": "[EKO] - F26/10 - (3)",
+      "url": "https://notion.so/3ec82cfc4f0a808f8861d7fdf8dfb8c7",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": "[EKO] - F24/10 - (4)",
+      "url": "https://notion.so/3ec82cfc4f0a80e5998fe8af17df42dc",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-22",
+      "title": "[EKO] - F22/10 - ",
+      "url": "https://notion.so/3ec82cfc4f0a8031a078dff060f1cd09",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-20",
+      "title": "[EKO] - F20/10 - ",
+      "url": "https://notion.so/3ec82cfc4f0a80659e4bd496df33fdc9",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-17",
+      "title": "[EKO] - F17/10 - (1)",
+      "url": "https://notion.so/3ec82cfc4f0a802a90b5d06d46376ddd",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": "[EKO] - F15/10 - ",
+      "url": "https://notion.so/3ec82cfc4f0a8054b7b0e7cc3ed1f946",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": "[EKO] - F13/10 - FUNCIONALIDADE QUE NÃO APARECE",
+      "url": "https://notion.so/3ec82cfc4f0a8084b23af21ecf12a692",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-09",
+      "title": "[EKO] - F09/10 - ",
+      "url": "https://notion.so/3ec82cfc4f0a800db0f9cd8fc79b8dad",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-07",
+      "title": "[EKO] - F07/10 - A madeira assume diferentes funções neste ambiente.",
+      "url": "https://notion.so/3ec82cfc4f0a8024ae13c2c1ad8d0122",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-05",
+      "title": "[EKO] - F05/09 - Cozinha nos detalhes",
+      "url": "https://notion.so/3ec82cfc4f0a8048a8edd636ffe6a86c",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-22",
+      "title": "[alinhamento - setembro]",
+      "url": "https://notion.so/3ec82cfc4f0a805593c7cd40ef5b4d7a",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-21",
+      "title": "[gravação com a eko - a definir]",
+      "url": "https://notion.so/3ec82cfc4f0a80768898e3b747347143",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": "[gravação na terça]",
+      "url": "https://notion.so/3ec82cfc4f0a80b0aab0cd83cf4e7464",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-12",
+      "title": "[feriado]",
+      "url": "https://notion.so/3ec82cfc4f0a80aba77de50a80ea5881",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-11-09",
+      "title": "[enviar imagem no wpp]",
+      "url": "https://notion.so/3ec82cfc4f0a809192bee56cf55a92ad",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[gravar no incío]",
+      "url": "https://notion.so/3ec82cfc4f0a804f8693eb1302f1cdc5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-11-16",
+      "title": "[black friday] black eko",
+      "url": "https://notion.so/3ec82cfc4f0a8066a38ffda52106045a",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
     {
       "date": "2026-10-01",
       "title": "[reunião de alinhamento]",
@@ -39,7 +291,7 @@
     },
     {
       "date": "2026-10-07",
-      "title": "[EKO] - S07/09 - Bonito aos olhos Inteligente no uso.",
+      "title": "[EKO] - S07/09 - ",
       "url": "https://notion.so/3dc82cfc4f0a80f182a6d3834da4d165",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -66,7 +318,7 @@
     },
     {
       "date": "2026-10-03",
-      "title": "[EKO] - S03/09 - (7)",
+      "title": "[EKO] - S03/09 - Quando tudo tem seu lugar",
       "url": "https://notion.so/3dc82cfc4f0a806798d4d1cbf1e7ce95",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -75,7 +327,7 @@
     },
     {
       "date": "2026-10-02",
-      "title": "[EKO] - S02/09 - Nem todo projeto é feito apenas para olhar.",
+      "title": "[EKO] - S02/10 - Nem todo projeto é feito apenas para olhar.",
       "url": "https://notion.so/3dc82cfc4f0a803cadcff2ed30f5edee",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -783,6 +1035,258 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-10-31",
+      "title": "[PPG] S03.10 - (13)",
+      "url": "https://notion.so/3ec82cfc4f0a8063b1d4d4fa1824d15f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-29",
+      "title": "[PPG] S03.10 - (12)",
+      "url": "https://notion.so/3ec82cfc4f0a8005a825feff1b05bec1",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-28",
+      "title": "[PPG] S03.10 - (11)",
+      "url": "https://notion.so/3ec82cfc4f0a8027828cf27c87d3eab8",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-27",
+      "title": "[PPG] S03.10 - (10)",
+      "url": "https://notion.so/3ec82cfc4f0a809c8a1cc903687a82cf",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-18",
+      "title": "[PPG] S18.10 - DOMINGO AO AR LIVRE",
+      "url": "https://notion.so/3ec82cfc4f0a80b4a597cf1ad41d468d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-26",
+      "title": "[PPG] S26.10 - ",
+      "url": "https://notion.so/3ec82cfc4f0a807fbdcaf40cb393743f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-24",
+      "title": "[PPG] S24.10 - É HOJE!",
+      "url": "https://notion.so/3ec82cfc4f0a807d89a8ed413ce77268",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-23",
+      "title": "[PPG] S23.10 - ESTÁ ABERTO O oktober da vila — dj solon silvestre",
+      "url": "https://notion.so/3ec82cfc4f0a80519252f90765b83288",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-22",
+      "title": "[PPG] S22.10 - NESTE SÁBADO",
+      "url": "https://notion.so/3ec82cfc4f0a80eb9373d87d3bde4c67",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-21",
+      "title": "[PPG] S21.10 - A VILA JÁ ESTÁ ENTRANDO NO CLIMA",
+      "url": "https://notion.so/3ec82cfc4f0a80799e48db850ac88c4a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-20",
+      "title": "[PPG] S20.10 - VENHA PASSAR O DIA",
+      "url": "https://notion.so/3ec82cfc4f0a8095bcccd011a5025ba5",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-19",
+      "title": "[PPG] S19.10 - A SEMANA COMEÇA NA SERRA",
+      "url": "https://notion.so/3ec82cfc4f0a80ed9892ec097b0a707f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-25",
+      "title": "[PPG] S25.10 - DEPOIS DA FESTA, CALMA",
+      "url": "https://notion.so/3ec82cfc4f0a80aa9410e453c36479b2",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-17",
+      "title": "[PPG] S17.10 - HOJE NA VILA VOCÊ JÁ SABE QUE TEM MÚSICA! ",
+      "url": "https://notion.so/3ec82cfc4f0a806fa2b8e89780bd6114",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-16",
+      "title": "[PPG] S16.10 - SEXTA TEM MÚSICA NA VILA ",
+      "url": "https://notion.so/3ec82cfc4f0a801bbc4fe094dc0e82eb",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-15",
+      "title": "[PPG] S15.10 - A MÚSICA DO FIM DE SEMANA",
+      "url": "https://notion.so/3ec82cfc4f0a805f825ee0c3465630b5",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-14",
+      "title": "[PPG] S14.10 - PRIMEIRO, O CAFÉ",
+      "url": "https://notion.so/3ec82cfc4f0a8016aa89c584314a4420",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": "[PPG] S13.10 - DEIXE O MUNDO LÁ FORA",
+      "url": "https://notion.so/3ec82cfc4f0a804989e6e34403120a18",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-12",
+      "title": "[PPG] S12.10 - HOJE, O DIA É DELAS",
+      "url": "https://notion.so/3ec82cfc4f0a8066b994e0754ad3b50a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-11",
+      "title": "[PPG] S11.10 - Termine com Sandrinho rits — forró",
+      "url": "https://notion.so/3ec82cfc4f0a80f5ad79cff5a04311a6",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-10",
+      "title": "[PPG] S10.10 - HOJE NA VILA - VITOR SANFONEIRO",
+      "url": "https://notion.so/3ec82cfc4f0a806697fbd1879e150b56",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-09",
+      "title": "[PPG] S09.10 - É HOJE - ROBERTO SANFONEIRO",
+      "url": "https://notion.so/3ec82cfc4f0a80f8917bcd374fb01035",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[PPG] S08.10 -  MÚSICA DO FIM DE SEMANA",
+      "url": "https://notion.so/3ec82cfc4f0a80f88680e5bf9e486448",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-07",
+      "title": "[PPG] S07.10 - UM PASSEIO SEM ROTEIRO",
+      "url": "https://notion.so/3ec82cfc4f0a80e3bd9ff006b43a8c4c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": "[PPG] S06.10 - VENHA PASSAR O DIA",
+      "url": "https://notion.so/3ec82cfc4f0a80acaba2cd11e5d7f5a3",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-05",
+      "title": "[PPG] S05.10 - A VILA ESTÁ DE VOLTA",
+      "url": "https://notion.so/3ec82cfc4f0a8040a6b6f84f5139ea70",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "[PPG] S03.10 - ",
+      "url": "https://notion.so/3ec82cfc4f0a80deba1ecb0964b178fe",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-02",
+      "title": "[PPG] S02.10 - OUTUBRO COMEÇA NA SERRA",
+      "url": "https://notion.so/3ec82cfc4f0a80a2b9fff3a137b5a1cc",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-10-29",
