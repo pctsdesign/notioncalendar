@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-01T06:50:53.735Z",
+  "updated": "2026-10-01T14:11:27.774Z",
   "events": [
+    {
+      "date": "2026-10-01",
+      "title": "[reunião de alinhamento]",
+      "url": "https://notion.so/3ec82cfc4f0a80bbaacfdc2a397513fb",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
     {
       "date": "2026-10-10",
       "title": "[EKO] - S10/09 - Um bom resultado começa na precisão.",
