@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T23:41:20.250Z",
+  "updated": "2026-10-02T04:11:28.266Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -209,6 +209,42 @@
       "done": true
     },
     {
+      "date": "2026-08-31",
+      "title": "[JOC] - S30/07 - Uma casa bonita chama atenção.",
+      "url": "https://notion.so/3ca82cfc4f0a81e7b5fbe7d7ebbb3667",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-04",
+      "title": "[JOC] - S29/08 - Uma cortina precisa funcionar em dois momentos.",
+      "url": "https://notion.so/3ca82cfc4f0a814fb816e17d0b1dc6c4",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-04",
+      "title": "[JOC] - S28/08 - Escolher um tecido isoladamente é fácil.",
+      "url": "https://notion.so/3ca82cfc4f0a8168bb69ec0bfa9994d6",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-09-08",
+      "title": "[JOC] - S31/08 - Antes de escolher a cor do enxoval, pense:",
+      "url": "https://notion.so/3ca82cfc4f0a8173a20dc5afb09de86b",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
       "date": "2026-09-02",
       "title": "[JOC] - S22/09 - Tem uma janela bonita aí?",
       "url": "https://notion.so/3ca82cfc4f0a81be80f1f6db40a80793",
@@ -273,7 +309,34 @@
     },
     {
       "date": "2026-10-02",
-      "title": "[PPG] S03.10 - (13)",
+      "title": "[PPG] F05.10 - POV: você veio só almoçar no Moinho.",
+      "url": "https://notion.so/3ed82cfc4f0a8050b675ff19dd7edfb6",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-02",
+      "title": "[PPG] S05.10 - A VILA ESTÁ DE VOLTA",
+      "url": "https://notion.so/3ed82cfc4f0a80198d1bf3151e53191d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-02",
+      "title": "[PPG] S30.10 - SEXTA TEM MÚSICA NA VILA - Roberto Sanfoneiro",
+      "url": "https://notion.so/3ed82cfc4f0a8019a2fbe2f05129e697",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-02",
+      "title": "[PPG] S31.10 - HOJE NA VILA",
       "url": "https://notion.so/3ec82cfc4f0a8063b1d4d4fa1824d15f",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -282,7 +345,7 @@
     },
     {
       "date": "2026-10-02",
-      "title": "[PPG] S03.10 - (12)",
+      "title": "[PPG] S29.10 - A MÚSICA DO FIM DE SEMANA",
       "url": "https://notion.so/3ec82cfc4f0a8005a825feff1b05bec1",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -291,7 +354,7 @@
     },
     {
       "date": "2026-10-02",
-      "title": "[PPG] S03.10 - (11)",
+      "title": "[PPG] S28.10 - OLHE COM MAIS CALMA",
       "url": "https://notion.so/3ec82cfc4f0a8027828cf27c87d3eab8",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -300,7 +363,7 @@
     },
     {
       "date": "2026-10-02",
-      "title": "[PPG] S03.10 - (10)",
+      "title": "[PPG] S27.10 - O FERIADO ESTÁ CHEGANDO",
       "url": "https://notion.so/3ec82cfc4f0a809c8a1cc903687a82cf",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -318,7 +381,7 @@
     },
     {
       "date": "2026-10-02",
-      "title": "[PPG] S26.10 - ",
+      "title": "[PPG] S26.10 - A FESTA PASSOU. A VILA CONTINUA.",
       "url": "https://notion.so/3ec82cfc4f0a807fbdcaf40cb393743f",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -498,7 +561,7 @@
     },
     {
       "date": "2026-10-02",
-      "title": "[PPG] S05.10 - A VILA ESTÁ DE VOLTA",
+      "title": "[PPG] F07.10 - ASMR da Vila",
       "url": "https://notion.so/3ec82cfc4f0a8040a6b6f84f5139ea70",
       "bg": "#fadec9",
       "fg": "#c47615",
