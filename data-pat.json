@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T10:38:57.373Z",
+  "updated": "2026-10-02T16:29:33.742Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -11,7 +11,7 @@
       "done": false
     },
     {
-      "date": "2026-09-16",
+      "date": "2026-10-08",
       "title": "[EKO] - F09/10 - ",
       "url": "https://notion.so/3ec82cfc4f0a800db0f9cd8fc79b8dad",
       "bg": "#d3e5ef",
@@ -39,71 +39,8 @@
     },
     {
       "date": "2026-09-16",
-      "title": "[EKO] - S10/09 - Um bom resultado começa na precisão.",
-      "url": "https://notion.so/3dc82cfc4f0a80b3a598cbc3f14f7e20",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S09/09 - A marcenaria muda quando a luz acende.",
-      "url": "https://notion.so/3dc82cfc4f0a803081c3e88573ad0114",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S08/09 - A madeira aquece.",
-      "url": "https://notion.so/3dc82cfc4f0a805a82ebfae3f5e3cab0",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S06/09 - Tendências passam o cuidado permanece.",
-      "url": "https://notion.so/3dc82cfc4f0a8055b4dadf7dd72d1987",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-10-02",
-      "title": "[EKO] - S05/09 - Existe muito além da superfície.",
-      "url": "https://notion.so/3dc82cfc4f0a80af8616d343a69b4287",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
       "title": "[EKO] - S03/09 - Quando tudo tem seu lugar",
       "url": "https://notion.so/3dc82cfc4f0a806798d4d1cbf1e7ce95",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S02/10 - Nem todo projeto é feito apenas para olhar.",
-      "url": "https://notion.so/3dc82cfc4f0a803cadcff2ed30f5edee",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S01/09 - Milímetros também constroem um projeto.",
-      "url": "https://notion.so/3dc82cfc4f0a8054a27fe8b5e86263a6",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -209,15 +146,6 @@
       "done": true
     },
     {
-      "date": "2026-08-31",
-      "title": "[JOC] - S30/07 - Uma casa bonita chama atenção.",
-      "url": "https://notion.so/3ca82cfc4f0a81e7b5fbe7d7ebbb3667",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
       "date": "2026-09-04",
       "title": "[JOC] - S29/08 - Uma cortina precisa funcionar em dois momentos.",
       "url": "https://notion.so/3ca82cfc4f0a814fb816e17d0b1dc6c4",
@@ -245,16 +173,7 @@
       "done": false
     },
     {
-      "date": "2026-09-02",
-      "title": "[JOC] - S22/09 - Tem uma janela bonita aí?",
-      "url": "https://notion.so/3ca82cfc4f0a81be80f1f6db40a80793",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-09-01",
+      "date": "2026-10-06",
       "title": "[JOC] - S16/08 - A mesma cor nunca é a mesma",
       "url": "https://notion.so/3ca82cfc4f0a81d9af2bf9d7923b8567",
       "bg": "#dbeddb",
@@ -596,7 +515,7 @@
       "done": false
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-09-23",
       "title": "[PPG] - Feed - REELS - Festa eu não garanto…",
       "url": "https://notion.so/3d682cfc4f0a80a4a1bcc7c88aea68fb",
       "bg": "#fadec9",
@@ -605,7 +524,7 @@
       "done": false
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-09-23",
       "title": "[PPG] - Feed - REELS - Repetir é a sua maior certeza! ",
       "url": "https://notion.so/3d682cfc4f0a8020beeddbc736550012",
       "bg": "#fadec9",
@@ -614,7 +533,7 @@
       "done": false
     },
     {
-      "date": "2026-09-16",
+      "date": "2026-09-23",
       "title": "[PPG] - Feed - Carrossel - \"Preciso de um fim de semana aqui”",
       "url": "https://notion.so/3d682cfc4f0a80efacb3eae305166828",
       "bg": "#fadec9",
@@ -623,7 +542,7 @@
       "done": false
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-23",
       "title": "[PPG] - Feed - REELS - Pausa na Vila",
       "url": "https://notion.so/3d682cfc4f0a80978dcae499b4811e0c",
       "bg": "#fadec9",
@@ -632,7 +551,7 @@
       "done": false
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-09-23",
       "title": "[PPG] - Feed - CARROSSEL - Um dia inteiro na Vila",
       "url": "https://notion.so/3d682cfc4f0a8002ae67c648ca081066",
       "bg": "#fadec9",
@@ -641,7 +560,7 @@
       "done": false
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-09-23",
       "title": "[PPG] - Feed - REELS - Tem encontros que a gente espera o ano inteiro.",
       "url": "https://notion.so/3d682cfc4f0a802084a2c23ea7580671",
       "bg": "#fadec9",
@@ -650,7 +569,7 @@
       "done": false
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-09-23",
       "title": "[PPG] S26.09 - SÁBADO PEDE UMA BOA MESA",
       "url": "https://notion.so/3d682cfc4f0a80e395ccc9ab8783f46b",
       "bg": "#fadec9",
@@ -659,7 +578,7 @@
       "done": false
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "title": "[PPG] S23.09 - O ALMOÇO VIROU DESTINO",
       "url": "https://notion.so/3d682cfc4f0a80c8a759d3228ae4b92a",
       "bg": "#fadec9",

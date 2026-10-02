@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T10:38:57.373Z",
+  "updated": "2026-10-02T16:29:33.742Z",
   "events": [
     {
       "date": "2026-10-16",
@@ -197,7 +197,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-21",
@@ -206,7 +206,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-06",
@@ -215,11 +215,11 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-12",
-      "title": "[feriado]",
+      "title": "[feriado] S12.10 - Informamos a todos que retornamos",
       "url": "https://notion.so/3ec82cfc4f0a80aba77de50a80ea5881",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
@@ -233,7 +233,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-02",
@@ -242,7 +242,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-16",
@@ -251,7 +251,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-01",
@@ -260,7 +260,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-10",
@@ -296,7 +296,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-06",
@@ -317,7 +317,7 @@
       "done": false
     },
     {
-      "date": "2026-10-03",
+      "date": "2026-11-03",
       "title": "[EKO] - S03/09 - Quando tudo tem seu lugar",
       "url": "https://notion.so/3dc82cfc4f0a806798d4d1cbf1e7ce95",
       "bg": "#d3e5ef",
@@ -335,7 +335,7 @@
       "done": false
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-07",
       "title": "[EKO] - S01/09 - Milímetros também constroem um projeto.",
       "url": "https://notion.so/3dc82cfc4f0a8054a27fe8b5e86263a6",
       "bg": "#d3e5ef",
@@ -656,7 +656,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-31",
@@ -704,7 +704,7 @@
       "done": true
     },
     {
-      "date": "2026-08-20",
+      "date": "2026-10-05",
       "title": "[JOC] - S30/07 - Uma casa bonita chama atenção.",
       "url": "https://notion.so/3ca82cfc4f0a81e7b5fbe7d7ebbb3667",
       "bg": "#dbeddb",
@@ -764,7 +764,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-07",
@@ -845,10 +845,10 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-10-06",
       "title": "[JOC] - S22/09 - Tem uma janela bonita aí?",
       "url": "https://notion.so/3ca82cfc4f0a81be80f1f6db40a80793",
       "bg": "#dbeddb",
@@ -866,7 +866,7 @@
       "done": false
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-10-06",
       "title": "[JOC] - S16/08 - A mesma cor nunca é a mesma",
       "url": "https://notion.so/3ca82cfc4f0a81d9af2bf9d7923b8567",
       "bg": "#dbeddb",
@@ -1037,7 +1037,7 @@
       "done": true
     },
     {
-      "date": "2026-10-05",
+      "date": "2026-08-26",
       "title": "[PPG] F05.10 - POV: você veio só almoçar no Moinho.",
       "url": "https://notion.so/3ed82cfc4f0a8050b675ff19dd7edfb6",
       "bg": "#fadec9",
@@ -1046,7 +1046,7 @@
       "done": false
     },
     {
-      "date": "2026-10-05",
+      "date": "2026-08-26",
       "title": "[PPG] S05.10 - A VILA ESTÁ DE VOLTA",
       "url": "https://notion.so/3ed82cfc4f0a80198d1bf3151e53191d",
       "bg": "#fadec9",
@@ -1055,7 +1055,7 @@
       "done": false
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-10-23",
       "title": "[PPG] S30.10 - SEXTA TEM MÚSICA NA VILA - Roberto Sanfoneiro",
       "url": "https://notion.so/3ed82cfc4f0a8019a2fbe2f05129e697",
       "bg": "#fadec9",
@@ -1064,7 +1064,7 @@
       "done": false
     },
     {
-      "date": "2026-10-31",
+      "date": "2026-10-23",
       "title": "[PPG] S31.10 - HOJE NA VILA",
       "url": "https://notion.so/3ec82cfc4f0a8063b1d4d4fa1824d15f",
       "bg": "#fadec9",
@@ -1073,7 +1073,7 @@
       "done": false
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-10-23",
       "title": "[PPG] S29.10 - A MÚSICA DO FIM DE SEMANA",
       "url": "https://notion.so/3ec82cfc4f0a8005a825feff1b05bec1",
       "bg": "#fadec9",
@@ -1082,7 +1082,7 @@
       "done": false
     },
     {
-      "date": "2026-10-28",
+      "date": "2026-10-23",
       "title": "[PPG] S28.10 - OLHE COM MAIS CALMA",
       "url": "https://notion.so/3ec82cfc4f0a8027828cf27c87d3eab8",
       "bg": "#fadec9",
@@ -1091,7 +1091,7 @@
       "done": false
     },
     {
-      "date": "2026-10-27",
+      "date": "2026-10-23",
       "title": "[PPG] S27.10 - O FERIADO ESTÁ CHEGANDO",
       "url": "https://notion.so/3ec82cfc4f0a809c8a1cc903687a82cf",
       "bg": "#fadec9",
@@ -1109,7 +1109,7 @@
       "done": false
     },
     {
-      "date": "2026-10-26",
+      "date": "2026-10-23",
       "title": "[PPG] S26.10 - A FESTA PASSOU. A VILA CONTINUA.",
       "url": "https://notion.so/3ec82cfc4f0a807fbdcaf40cb393743f",
       "bg": "#fadec9",
@@ -1118,7 +1118,7 @@
       "done": false
     },
     {
-      "date": "2026-10-24",
+      "date": "2026-10-23",
       "title": "[PPG] S24.10 - É HOJE!",
       "url": "https://notion.so/3ec82cfc4f0a807d89a8ed413ce77268",
       "bg": "#fadec9",
@@ -1172,7 +1172,7 @@
       "done": false
     },
     {
-      "date": "2026-10-25",
+      "date": "2026-10-23",
       "title": "[PPG] S25.10 - DEPOIS DA FESTA, CALMA",
       "url": "https://notion.so/3ec82cfc4f0a80aa9410e453c36479b2",
       "bg": "#fadec9",
@@ -1217,7 +1217,7 @@
       "done": false
     },
     {
-      "date": "2026-10-13",
+      "date": "2026-08-26",
       "title": "[PPG] S13.10 - DEIXE O MUNDO LÁ FORA",
       "url": "https://notion.so/3ec82cfc4f0a804989e6e34403120a18",
       "bg": "#fadec9",
@@ -1226,7 +1226,7 @@
       "done": false
     },
     {
-      "date": "2026-10-12",
+      "date": "2026-08-26",
       "title": "[PPG] S12.10 - HOJE, O DIA É DELAS",
       "url": "https://notion.so/3ec82cfc4f0a8066b994e0754ad3b50a",
       "bg": "#fadec9",
@@ -1235,7 +1235,7 @@
       "done": false
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-08-26",
       "title": "[PPG] S11.10 - Termine com Sandrinho rits — forró",
       "url": "https://notion.so/3ec82cfc4f0a80f5ad79cff5a04311a6",
       "bg": "#fadec9",
@@ -1244,7 +1244,7 @@
       "done": false
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-08-26",
       "title": "[PPG] S10.10 - HOJE NA VILA - VITOR SANFONEIRO",
       "url": "https://notion.so/3ec82cfc4f0a806697fbd1879e150b56",
       "bg": "#fadec9",
@@ -1253,7 +1253,7 @@
       "done": false
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-08-26",
       "title": "[PPG] S09.10 - É HOJE - ROBERTO SANFONEIRO",
       "url": "https://notion.so/3ec82cfc4f0a80f8917bcd374fb01035",
       "bg": "#fadec9",
@@ -1262,7 +1262,7 @@
       "done": false
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-08-26",
       "title": "[PPG] S08.10 -  MÚSICA DO FIM DE SEMANA",
       "url": "https://notion.so/3ec82cfc4f0a80f88680e5bf9e486448",
       "bg": "#fadec9",
@@ -1271,7 +1271,7 @@
       "done": false
     },
     {
-      "date": "2026-10-07",
+      "date": "2026-08-26",
       "title": "[PPG] S07.10 - UM PASSEIO SEM ROTEIRO",
       "url": "https://notion.so/3ec82cfc4f0a80e3bd9ff006b43a8c4c",
       "bg": "#fadec9",
@@ -1280,7 +1280,7 @@
       "done": false
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-08-26",
       "title": "[PPG] S06.10 - VENHA PASSAR O DIA",
       "url": "https://notion.so/3ec82cfc4f0a80acaba2cd11e5d7f5a3",
       "bg": "#fadec9",
@@ -1289,7 +1289,7 @@
       "done": false
     },
     {
-      "date": "2026-10-07",
+      "date": "2026-08-26",
       "title": "[PPG] F07.10 - ASMR da Vila",
       "url": "https://notion.so/3ec82cfc4f0a8040a6b6f84f5139ea70",
       "bg": "#fadec9",
@@ -1298,7 +1298,7 @@
       "done": false
     },
     {
-      "date": "2026-10-03",
+      "date": "2026-08-26",
       "title": "[PPG] S03.10 - ",
       "url": "https://notion.so/3ec82cfc4f0a80deba1ecb0964b178fe",
       "bg": "#fadec9",
@@ -1307,7 +1307,7 @@
       "done": false
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-08-26",
       "title": "[PPG] S02.10 - OUTUBRO COMEÇA NA SERRA",
       "url": "https://notion.so/3ec82cfc4f0a80a2b9fff3a137b5a1cc",
       "bg": "#fadec9",
@@ -1361,7 +1361,7 @@
       "done": true
     },
     {
-      "date": "2026-09-28",
+      "date": "2026-08-26",
       "title": "[falar com saulo sobre o site]",
       "url": "https://notion.so/3e582cfc4f0a80a9b5d7c43ec1d2757d",
       "bg": "#fadec9",
@@ -1460,7 +1460,7 @@
       "done": true
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-08-26",
       "title": "TEROIR - FALAR MAIS SOBRE",
       "url": "https://notion.so/3e582cfc4f0a8061addde0bde0190c0b",
       "bg": "#fadec9",
@@ -1469,7 +1469,7 @@
       "done": false
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-08-26",
       "title": "[reunião de alinhamento]",
       "url": "https://notion.so/3e582cfc4f0a804e8208f44455423b9a",
       "bg": "#fadec9",
@@ -1568,7 +1568,7 @@
       "done": true
     },
     {
-      "date": "2026-09-28",
+      "date": "2026-08-26",
       "title": "[PPG] - Feed - Manual da Oktoberfest",
       "url": "https://notion.so/3d682cfc4f0a80168eb8e4b911f94ce4",
       "bg": "#fadec9",
@@ -1577,7 +1577,7 @@
       "done": false
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-08-26",
       "title": "[PPG] - Feed - REELS - Festa eu não garanto…",
       "url": "https://notion.so/3d682cfc4f0a80a4a1bcc7c88aea68fb",
       "bg": "#fadec9",
@@ -1586,7 +1586,7 @@
       "done": false
     },
     {
-      "date": "2026-09-23",
+      "date": "2026-08-26",
       "title": "[PPG] - Feed - REELS - Repetir é a sua maior certeza! ",
       "url": "https://notion.so/3d682cfc4f0a8020beeddbc736550012",
       "bg": "#fadec9",
@@ -1595,7 +1595,7 @@
       "done": false
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-08-26",
       "title": "[PPG] - Feed - Carrossel - \"Preciso de um fim de semana aqui”",
       "url": "https://notion.so/3d682cfc4f0a80efacb3eae305166828",
       "bg": "#fadec9",
@@ -1604,7 +1604,7 @@
       "done": false
     },
     {
-      "date": "2026-09-18",
+      "date": "2026-08-26",
       "title": "[PPG] - Feed - REELS - Pausa na Vila",
       "url": "https://notion.so/3d682cfc4f0a80978dcae499b4811e0c",
       "bg": "#fadec9",
@@ -1613,7 +1613,7 @@
       "done": false
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-08-26",
       "title": "[PPG] - Feed - CARROSSEL - Um dia inteiro na Vila",
       "url": "https://notion.so/3d682cfc4f0a8002ae67c648ca081066",
       "bg": "#fadec9",
@@ -1622,7 +1622,7 @@
       "done": false
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-08-26",
       "title": "[PPG] - Feed - REELS - Tem encontros que a gente espera o ano inteiro.",
       "url": "https://notion.so/3d682cfc4f0a802084a2c23ea7580671",
       "bg": "#fadec9",
@@ -1631,7 +1631,7 @@
       "done": false
     },
     {
-      "date": "2026-09-30",
+      "date": "2026-08-26",
       "title": "[PPG] S30.09 - NOTIFICAÇÕES DA SERRA ",
       "url": "https://notion.so/3d682cfc4f0a8019b624cdac1c472fb0",
       "bg": "#fadec9",
@@ -1640,7 +1640,7 @@
       "done": false
     },
     {
-      "date": "2026-09-26",
+      "date": "2026-08-26",
       "title": "[PPG] S26.09 - SÁBADO PEDE UMA BOA MESA",
       "url": "https://notion.so/3d682cfc4f0a80e395ccc9ab8783f46b",
       "bg": "#fadec9",
@@ -1649,7 +1649,7 @@
       "done": false
     },
     {
-      "date": "2026-09-27",
+      "date": "2026-08-26",
       "title": "[PPG] S27.09 - Um convite para sair da rotina sem ir tão longe.",
       "url": "https://notion.so/3d682cfc4f0a80f18e6aca4381513809",
       "bg": "#fadec9",
@@ -1658,7 +1658,7 @@
       "done": false
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-08-26",
       "title": "[PPG] S29.09 - Guia para aproveitar a serra ",
       "url": "https://notion.so/3d682cfc4f0a80639777dfb40d720e02",
       "bg": "#fadec9",
@@ -1667,7 +1667,7 @@
       "done": false
     },
     {
-      "date": "2026-09-28",
+      "date": "2026-08-26",
       "title": "[PPG] S28.09 - Saudade da serra ",
       "url": "https://notion.so/3d682cfc4f0a80e7a1aeca726b376ed3",
       "bg": "#fadec9",
@@ -1676,7 +1676,7 @@
       "done": false
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-08-26",
       "title": "[PPG] S25.09 - Hoje, a Vila muda de ritmo",
       "url": "https://notion.so/3d682cfc4f0a805b8f9fc03e9c8ec0b4",
       "bg": "#fadec9",
@@ -1685,7 +1685,7 @@
       "done": false
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-08-26",
       "title": "[PPG] S24.09 - O FIM DE SEMANA É LOGO ALI!",
       "url": "https://notion.so/3d682cfc4f0a80df9089ec8ca2d08f3b",
       "bg": "#fadec9",
@@ -1694,7 +1694,7 @@
       "done": false
     },
     {
-      "date": "2026-09-19",
+      "date": "2026-08-26",
       "title": "[PPG] S21.09 - COMECE PELA VILA",
       "url": "https://notion.so/3d682cfc4f0a8089bad5f86bafcbaebf",
       "bg": "#fadec9",
@@ -1703,7 +1703,7 @@
       "done": true
     },
     {
-      "date": "2026-09-23",
+      "date": "2026-08-26",
       "title": "[PPG] S23.09 - O ALMOÇO VIROU DESTINO",
       "url": "https://notion.so/3d682cfc4f0a80c8a759d3228ae4b92a",
       "bg": "#fadec9",
@@ -1712,7 +1712,7 @@
       "done": false
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-08-26",
       "title": "[PPG] S22.09 - O DIA COMEÇA AQUI",
       "url": "https://notion.so/3d682cfc4f0a8025a180cd7686308118",
       "bg": "#fadec9",
@@ -1721,7 +1721,7 @@
       "done": false
     },
     {
-      "date": "2026-09-21",
+      "date": "2026-08-26",
       "title": "[PPG] S16.09 - UMA PAUSA NA SERRA",
       "url": "https://notion.so/3d682cfc4f0a8037aecacd6ab5aa60fc",
       "bg": "#fadec9",
@@ -1730,7 +1730,7 @@
       "done": false
     },
     {
-      "date": "2026-09-20",
+      "date": "2026-08-26",
       "title": "[PPG] S20.09 - DOMINGO PEDE CALMA",
       "url": "https://notion.so/3d682cfc4f0a80839083fd6f5c3e2961",
       "bg": "#fadec9",
@@ -1739,7 +1739,7 @@
       "done": false
     },
     {
-      "date": "2026-09-16",
+      "date": "2026-08-26",
       "title": "[PPG] S19.09 - SÁBADO COM ROBERTO SANFONEIRO",
       "url": "https://notion.so/3d682cfc4f0a8048a519f43c19b8b22e",
       "bg": "#fadec9",
@@ -1748,7 +1748,7 @@
       "done": true
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-08-26",
       "title": "[PPG] S18.09 - ESCOLHA SEU MOTIVO",
       "url": "https://notion.so/3d682cfc4f0a801a9114c7dad7fe98ce",
       "bg": "#fadec9",
@@ -1757,7 +1757,7 @@
       "done": true
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-08-26",
       "title": "[PPG] S17.09 - UM ROTEIRO PARA DOIS",
       "url": "https://notion.so/3d682cfc4f0a80edb2a1d9812d205d17",
       "bg": "#fadec9",
@@ -1766,7 +1766,7 @@
       "done": true
     },
     {
-      "date": "2026-09-15",
+      "date": "2026-08-26",
       "title": "[PPG] S15.09 - UM DIA INTEIRO NA VILA",
       "url": "https://notion.so/3d682cfc4f0a80b2881bf0a57e2fdb94",
       "bg": "#fadec9",
@@ -1775,7 +1775,7 @@
       "done": true
     },
     {
-      "date": "2026-09-14",
+      "date": "2026-08-26",
       "title": "[PPG] S14.09 - MOTIVOS PARA SUBIR A SERRA",
       "url": "https://notion.so/3d682cfc4f0a803a8083e2dbda8cde0b",
       "bg": "#fadec9",
@@ -1784,7 +1784,7 @@
       "done": true
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-08-26",
       "title": "[PPG] TARIFA ESPECIAL DE SEXTA",
       "url": "https://notion.so/3d582cfc4f0a801e8474e6dea22951c4",
       "bg": "#fadec9",
@@ -1793,7 +1793,7 @@
       "done": true
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-08-26",
       "title": "[PPG] 08.09 - Feriado acabou",
       "url": "https://notion.so/3d482cfc4f0a8037a403ff1395b71308",
       "bg": "#fadec9",
@@ -1802,7 +1802,7 @@
       "done": true
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-08-26",
       "title": "[PGG] LÂMINA 1080x1350 — USO INTERNO / WHATSAPP - Noite de vinhos",
       "url": "https://notion.so/3d482cfc4f0a80fb9b23f6b0f8732d76",
       "bg": "#fadec9",
@@ -1811,7 +1811,7 @@
       "done": true
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-08-26",
       "title": "[PPG] 09.09 - Noite de Vinhos",
       "url": "https://notion.so/3d482cfc4f0a8071bb61dd71b409f502",
       "bg": "#fadec9",
@@ -1820,7 +1820,7 @@
       "done": true
     },
     {
-      "date": "2026-09-07",
+      "date": "2026-08-26",
       "title": "[PPG] 07.09 - Feriado",
       "url": "https://notion.so/3d482cfc4f0a808fafd6dad0a3ac8b74",
       "bg": "#fadec9",
@@ -1838,7 +1838,7 @@
       "done": true
     },
     {
-      "date": "2026-09-09",
+      "date": "2026-08-26",
       "title": "[PPG] 4.09 - 5 MOTIVOS PARA VIVER A OKTOBER NA VILA",
       "url": "https://notion.so/3d182cfc4f0a809dae68fef22c16ff0c",
       "bg": "#fadec9",
@@ -1856,7 +1856,7 @@
       "done": true
     },
     {
-      "date": "2026-08-30",
+      "date": "2026-08-26",
       "title": "Briefing / Estratégia de Setembro",
       "url": "https://notion.so/3cd82cfc4f0a81faa0e2d4da1c76e98d",
       "bg": "#fadec9",
@@ -2054,7 +2054,7 @@
       "done": true
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-08-26",
       "title": "[PPG] F01 — 03 pratos que você precisa experimentar",
       "url": "https://notion.so/3ca82cfc4f0a8134b9fdc0d6a062a6d9",
       "bg": "#fadec9",
@@ -2063,7 +2063,7 @@
       "done": false
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-08-26",
       "title": "[PPG] F01 — Por que nosso café da manhã faz sucesso?",
       "url": "https://notion.so/3ca82cfc4f0a81739956c9860e53c8e7",
       "bg": "#fadec9",

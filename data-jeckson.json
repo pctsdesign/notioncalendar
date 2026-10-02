@@ -1,6 +1,78 @@
 {
-  "updated": "2026-10-02T10:38:57.373Z",
+  "updated": "2026-10-02T16:29:33.742Z",
   "events": [
+    {
+      "date": "2026-10-09",
+      "title": "[feriado] S12.10 - Informamos a todos que retornamos",
+      "url": "https://notion.so/3ec82cfc4f0a80aba77de50a80ea5881",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[EKO] - S10/09 - Um bom resultado começa na precisão.",
+      "url": "https://notion.so/3dc82cfc4f0a80b3a598cbc3f14f7e20",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[EKO] - S09/09 - A marcenaria muda quando a luz acende.",
+      "url": "https://notion.so/3dc82cfc4f0a803081c3e88573ad0114",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-07",
+      "title": "[EKO] - S08/09 - A madeira aquece.",
+      "url": "https://notion.so/3dc82cfc4f0a805a82ebfae3f5e3cab0",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-05",
+      "title": "[EKO] - S06/09 - Tendências passam o cuidado permanece.",
+      "url": "https://notion.so/3dc82cfc4f0a8055b4dadf7dd72d1987",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-05",
+      "title": "[EKO] - S05/09 - Existe muito além da superfície.",
+      "url": "https://notion.so/3dc82cfc4f0a80af8616d343a69b4287",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-03",
+      "title": "[EKO] - S02/10 - Nem todo projeto é feito apenas para olhar.",
+      "url": "https://notion.so/3dc82cfc4f0a803cadcff2ed30f5edee",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": "[EKO] - S01/09 - Milímetros também constroem um projeto.",
+      "url": "https://notion.so/3dc82cfc4f0a8054a27fe8b5e86263a6",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
     {
       "date": "2026-09-29",
       "title": "[EKO] - S30/09 - A luz revela o que a matéria guarda.",
@@ -182,6 +254,15 @@
       "done": true
     },
     {
+      "date": "2026-10-05",
+      "title": "[JOC] - S30/07 - Uma casa bonita chama atenção.",
+      "url": "https://notion.so/3ca82cfc4f0a81e7b5fbe7d7ebbb3667",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
       "date": "2026-09-09",
       "title": "[JOC] - S14/08 - O quarto é o único ambiente da casa onde o tempo parece desacelerar naturalmente.",
       "url": "https://notion.so/3ca82cfc4f0a8107952fc65312cf6870",
@@ -234,6 +315,15 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-10-06",
+      "title": "[JOC] - S22/09 - Tem uma janela bonita aí?",
+      "url": "https://notion.so/3ca82cfc4f0a81be80f1f6db40a80793",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
     },
     {
       "date": "2026-09-14",
@@ -290,7 +380,7 @@
       "done": true
     },
     {
-      "date": "2026-09-28",
+      "date": "2026-09-23",
       "title": "[PPG] S30.09 - NOTIFICAÇÕES DA SERRA ",
       "url": "https://notion.so/3d682cfc4f0a8019b624cdac1c472fb0",
       "bg": "#fadec9",
@@ -299,7 +389,7 @@
       "done": true
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "title": "[PPG] S27.09 - Um convite para sair da rotina sem ir tão longe.",
       "url": "https://notion.so/3d682cfc4f0a80f18e6aca4381513809",
       "bg": "#fadec9",
@@ -308,7 +398,7 @@
       "done": true
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-23",
       "title": "[PPG] S29.09 - Guia para aproveitar a serra ",
       "url": "https://notion.so/3d682cfc4f0a80639777dfb40d720e02",
       "bg": "#fadec9",
@@ -317,7 +407,7 @@
       "done": true
     },
     {
-      "date": "2026-09-25",
+      "date": "2026-09-23",
       "title": "[PPG] S28.09 - Saudade da serra ",
       "url": "https://notion.so/3d682cfc4f0a80e7a1aeca726b376ed3",
       "bg": "#fadec9",
@@ -326,7 +416,7 @@
       "done": true
     },
     {
-      "date": "2026-09-29",
+      "date": "2026-09-23",
       "title": "[PPG] S25.09 - Hoje, a Vila muda de ritmo",
       "url": "https://notion.so/3d682cfc4f0a805b8f9fc03e9c8ec0b4",
       "bg": "#fadec9",
@@ -353,7 +443,7 @@
       "done": true
     },
     {
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "title": "[PPG] S23.09 - O ALMOÇO VIROU DESTINO",
       "url": "https://notion.so/3d682cfc4f0a80c8a759d3228ae4b92a",
       "bg": "#fadec9",
