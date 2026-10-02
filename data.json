@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T16:29:33.742Z",
+  "updated": "2026-10-02T20:54:47.544Z",
   "events": [
     {
       "date": "2026-10-16",
@@ -368,7 +368,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-28",
@@ -1055,7 +1055,7 @@
       "done": false
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-29",
       "title": "[PPG] S30.10 - SEXTA TEM MÚSICA NA VILA - Roberto Sanfoneiro",
       "url": "https://notion.so/3ed82cfc4f0a8019a2fbe2f05129e697",
       "bg": "#fadec9",
@@ -1064,7 +1064,7 @@
       "done": false
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-30",
       "title": "[PPG] S31.10 - HOJE NA VILA",
       "url": "https://notion.so/3ec82cfc4f0a8063b1d4d4fa1824d15f",
       "bg": "#fadec9",
@@ -1073,7 +1073,7 @@
       "done": false
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-29",
       "title": "[PPG] S29.10 - A MÚSICA DO FIM DE SEMANA",
       "url": "https://notion.so/3ec82cfc4f0a8005a825feff1b05bec1",
       "bg": "#fadec9",
@@ -1082,7 +1082,7 @@
       "done": false
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-28",
       "title": "[PPG] S28.10 - OLHE COM MAIS CALMA",
       "url": "https://notion.so/3ec82cfc4f0a8027828cf27c87d3eab8",
       "bg": "#fadec9",
@@ -1091,7 +1091,7 @@
       "done": false
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-27",
       "title": "[PPG] S27.10 - O FERIADO ESTÁ CHEGANDO",
       "url": "https://notion.so/3ec82cfc4f0a809c8a1cc903687a82cf",
       "bg": "#fadec9",
@@ -1109,7 +1109,7 @@
       "done": false
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-26",
       "title": "[PPG] S26.10 - A FESTA PASSOU. A VILA CONTINUA.",
       "url": "https://notion.so/3ec82cfc4f0a807fbdcaf40cb393743f",
       "bg": "#fadec9",
@@ -1118,7 +1118,7 @@
       "done": false
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "title": "[PPG] S24.10 - É HOJE!",
       "url": "https://notion.so/3ec82cfc4f0a807d89a8ed413ce77268",
       "bg": "#fadec9",
@@ -1172,7 +1172,7 @@
       "done": false
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-25",
       "title": "[PPG] S25.10 - DEPOIS DA FESTA, CALMA",
       "url": "https://notion.so/3ec82cfc4f0a80aa9410e453c36479b2",
       "bg": "#fadec9",
