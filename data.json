@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T00:10:07.960Z",
+  "updated": "2026-10-03T05:34:43.077Z",
   "events": [
     {
       "date": "2026-10-16",
@@ -1367,7 +1367,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-25",
@@ -1466,7 +1466,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-26",
@@ -1475,7 +1475,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-02",
@@ -2393,7 +2393,7 @@
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-08",
