@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T11:08:56.496Z",
+  "updated": "2026-10-03T15:11:22.532Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -149,15 +149,6 @@
       "date": "2026-09-04",
       "title": "[JOC] - S29/08 - Uma cortina precisa funcionar em dois momentos.",
       "url": "https://notion.so/3ca82cfc4f0a814fb816e17d0b1dc6c4",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-09-04",
-      "title": "[JOC] - S28/08 - Escolher um tecido isoladamente é fácil.",
-      "url": "https://notion.so/3ca82cfc4f0a8168bb69ec0bfa9994d6",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
@@ -584,7 +575,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-21",

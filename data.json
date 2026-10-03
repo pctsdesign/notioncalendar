@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T11:08:56.496Z",
+  "updated": "2026-10-03T15:11:22.532Z",
   "events": [
     {
       "date": "2026-10-16",
@@ -332,7 +332,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-07",
@@ -350,7 +350,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-29",
@@ -377,7 +377,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-26",
@@ -395,7 +395,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-23",
@@ -704,7 +704,7 @@
       "done": true
     },
     {
-      "date": "2026-10-05",
+      "date": "2026-10-08",
       "title": "[JOC] - S30/07 - Uma casa bonita chama atenção.",
       "url": "https://notion.so/3ca82cfc4f0a81e7b5fbe7d7ebbb3667",
       "bg": "#dbeddb",
@@ -836,7 +836,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-30",
@@ -917,7 +917,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-11",
@@ -1691,7 +1691,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-26",
@@ -1709,7 +1709,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-26",
@@ -1862,7 +1862,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-25",
@@ -2087,7 +2087,7 @@
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-10",

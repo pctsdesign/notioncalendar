@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T11:08:56.496Z",
+  "updated": "2026-10-03T15:11:22.532Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -173,6 +173,15 @@
       "done": true
     },
     {
+      "date": "2026-09-29",
+      "title": "[EKO] - S29/09 - Alguns detalhes não pedem atenção.",
+      "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
       "date": "2026-09-09",
       "title": "[EKO] - S16/09  - O PUXADOR MUDA A LEITURA",
       "url": "https://notion.so/3d582cfc4f0a8088bf8cef0ed5175e52",
@@ -203,15 +212,6 @@
       "date": "2026-09-04",
       "title": "[JOC] - S29/08 - Uma cortina precisa funcionar em dois momentos.",
       "url": "https://notion.so/3ca82cfc4f0a814fb816e17d0b1dc6c4",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-09-04",
-      "title": "[JOC] - S28/08 - Escolher um tecido isoladamente é fácil.",
-      "url": "https://notion.so/3ca82cfc4f0a8168bb69ec0bfa9994d6",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
