@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T14:22:59.658Z",
+  "updated": "2026-10-06T19:42:34.057Z",
   "events": [
     {
       "date": "2026-10-09",
@@ -387,6 +387,24 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-10-06",
+      "title": "Programação do FDS",
+      "url": "https://notion.so/3f182cfc4f0a806fb65dcad9bec7d3d1",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-07",
+      "title": "[PPG] S07.10 - UM PASSEIO SEM ROTEIRO",
+      "url": "https://notion.so/3ec82cfc4f0a80e3bd9ff006b43a8c4c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-09-23",

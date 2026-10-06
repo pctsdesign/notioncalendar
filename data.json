@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T14:22:59.658Z",
+  "updated": "2026-10-06T19:42:34.057Z",
   "events": [
     {
       "date": "2026-10-16",
@@ -1037,7 +1037,16 @@
       "done": true
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-06",
+      "title": "Programação do FDS",
+      "url": "https://notion.so/3f182cfc4f0a806fb65dcad9bec7d3d1",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-09-05",
       "title": "[PPG] F05.10 - POV: você veio só almoçar no Moinho.",
       "url": "https://notion.so/3ed82cfc4f0a8050b675ff19dd7edfb6",
       "bg": "#fadec9",
@@ -1046,7 +1055,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-09-05",
       "title": "[PPG] S05.10 - A VILA ESTÁ DE VOLTA",
       "url": "https://notion.so/3ed82cfc4f0a80198d1bf3151e53191d",
       "bg": "#fadec9",
@@ -1217,7 +1226,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-09-13",
       "title": "[PPG] S13.10 - DEIXE O MUNDO LÁ FORA",
       "url": "https://notion.so/3ec82cfc4f0a804989e6e34403120a18",
       "bg": "#fadec9",
@@ -1226,7 +1235,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-12",
       "title": "[PPG] S12.10 - HOJE, O DIA É DELAS",
       "url": "https://notion.so/3ec82cfc4f0a8066b994e0754ad3b50a",
       "bg": "#fadec9",
@@ -1235,7 +1244,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-11",
       "title": "[PPG] S11.10 - Termine com Sandrinho rits — forró",
       "url": "https://notion.so/3ec82cfc4f0a80f5ad79cff5a04311a6",
       "bg": "#fadec9",
@@ -1244,7 +1253,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-10",
       "title": "[PPG] S10.10 - HOJE NA VILA - VITOR SANFONEIRO",
       "url": "https://notion.so/3ec82cfc4f0a806697fbd1879e150b56",
       "bg": "#fadec9",
@@ -1253,7 +1262,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-09",
       "title": "[PPG] S09.10 - É HOJE - ROBERTO SANFONEIRO",
       "url": "https://notion.so/3ec82cfc4f0a80f8917bcd374fb01035",
       "bg": "#fadec9",
@@ -1262,7 +1271,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-08",
       "title": "[PPG] S08.10 -  MÚSICA DO FIM DE SEMANA",
       "url": "https://notion.so/3ec82cfc4f0a80f88680e5bf9e486448",
       "bg": "#fadec9",
@@ -1271,7 +1280,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-07",
       "title": "[PPG] S07.10 - UM PASSEIO SEM ROTEIRO",
       "url": "https://notion.so/3ec82cfc4f0a80e3bd9ff006b43a8c4c",
       "bg": "#fadec9",
@@ -1280,16 +1289,16 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-06",
       "title": "[PPG] S06.10 - VENHA PASSAR O DIA",
       "url": "https://notion.so/3ec82cfc4f0a80acaba2cd11e5d7f5a3",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-07",
       "title": "[PPG] F07.10 - ASMR da Vila",
       "url": "https://notion.so/3ec82cfc4f0a8040a6b6f84f5139ea70",
       "bg": "#fadec9",
@@ -1298,7 +1307,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-03",
       "title": "[PPG] S03.10 - ",
       "url": "https://notion.so/3ec82cfc4f0a80deba1ecb0964b178fe",
       "bg": "#fadec9",
@@ -1307,7 +1316,7 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-02",
       "title": "[PPG] S02.10 - OUTUBRO COMEÇA NA SERRA",
       "url": "https://notion.so/3ec82cfc4f0a80a2b9fff3a137b5a1cc",
       "bg": "#fadec9",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T14:22:59.658Z",
+  "updated": "2026-10-06T19:42:34.057Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -516,26 +516,8 @@
     },
     {
       "date": "2026-10-02",
-      "title": "[PPG] S07.10 - UM PASSEIO SEM ROTEIRO",
-      "url": "https://notion.so/3ec82cfc4f0a80e3bd9ff006b43a8c4c",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-10-02",
       "title": "[PPG] S06.10 - VENHA PASSAR O DIA",
       "url": "https://notion.so/3ec82cfc4f0a80acaba2cd11e5d7f5a3",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-10-02",
-      "title": "[PPG] F07.10 - ASMR da Vila",
-      "url": "https://notion.so/3ec82cfc4f0a8040a6b6f84f5139ea70",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
