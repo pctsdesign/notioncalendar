@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T23:34:32.439Z",
+  "updated": "2026-10-07T04:27:30.097Z",
   "events": [
     {
       "date": "2026-10-09",
@@ -35,7 +35,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-05",
@@ -260,7 +260,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-09",
@@ -396,6 +396,24 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[PPG] S09.10 - É HOJE - ROBERTO SANFONEIRO",
+      "url": "https://notion.so/3ec82cfc4f0a80f8917bcd374fb01035",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[PPG] S08.10 -  MÚSICA DO FIM DE SEMANA",
+      "url": "https://notion.so/3ec82cfc4f0a80f88680e5bf9e486448",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-10-07",
