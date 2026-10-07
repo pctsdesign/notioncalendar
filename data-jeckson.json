@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T11:16:44.037Z",
+  "updated": "2026-10-07T17:55:10.783Z",
   "events": [
     {
       "date": "2026-10-09",
@@ -11,7 +11,7 @@
       "done": false
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-09",
       "title": "[EKO] - S10/09 - Um bom resultado começa na precisão.",
       "url": "https://notion.so/3dc82cfc4f0a80b3a598cbc3f14f7e20",
       "bg": "#d3e5ef",
@@ -81,15 +81,6 @@
       "fg": "#2e7dc7",
       "name": "eko",
       "done": true
-    },
-    {
-      "date": "2026-09-29",
-      "title": "[EKO] - S29/09 - Alguns detalhes não pedem atenção.",
-      "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
     },
     {
       "date": "2026-09-28",
@@ -398,6 +389,15 @@
       "done": true
     },
     {
+      "date": "2026-10-09",
+      "title": "[PPG] S10.10 - HOJE NA VILA - VITOR SANFONEIRO",
+      "url": "https://notion.so/3ec82cfc4f0a806697fbd1879e150b56",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-10-08",
       "title": "[PPG] S09.10 - É HOJE - ROBERTO SANFONEIRO",
       "url": "https://notion.so/3ec82cfc4f0a80f8917bcd374fb01035",
@@ -407,7 +407,7 @@
       "done": false
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-07",
       "title": "[PPG] S08.10 -  MÚSICA DO FIM DE SEMANA",
       "url": "https://notion.so/3ec82cfc4f0a80f88680e5bf9e486448",
       "bg": "#fadec9",
