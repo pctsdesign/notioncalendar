@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T22:21:58.885Z",
+  "updated": "2026-10-09T02:24:17.742Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -144,33 +144,6 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
-    },
-    {
-      "date": "2026-09-04",
-      "title": "[JOC] - S29/08 - Uma cortina precisa funcionar em dois momentos.",
-      "url": "https://notion.so/3ca82cfc4f0a814fb816e17d0b1dc6c4",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-09-08",
-      "title": "[JOC] - S31/08 - Antes de escolher a cor do enxoval, pense:",
-      "url": "https://notion.so/3ca82cfc4f0a8173a20dc5afb09de86b",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-10-06",
-      "title": "[JOC] - S16/08 - A mesma cor nunca é a mesma",
-      "url": "https://notion.so/3ca82cfc4f0a81d9af2bf9d7923b8567",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
     },
     {
       "date": "2026-09-03",
@@ -408,24 +381,6 @@
     },
     {
       "date": "2026-10-02",
-      "title": "[PPG] S12.10 - HOJE, O DIA É DELAS",
-      "url": "https://notion.so/3ec82cfc4f0a8066b994e0754ad3b50a",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-10-02",
-      "title": "[PPG] S11.10 - Termine com Sandrinho rits — forró",
-      "url": "https://notion.so/3ec82cfc4f0a80f5ad79cff5a04311a6",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-10-02",
       "title": "[PPG] S06.10 - VENHA PASSAR O DIA",
       "url": "https://notion.so/3ec82cfc4f0a80acaba2cd11e5d7f5a3",
       "bg": "#fadec9",
@@ -494,7 +449,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-23",

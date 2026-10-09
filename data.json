@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T22:21:58.885Z",
+  "updated": "2026-10-09T02:24:17.742Z",
   "events": [
     {
       "date": "2026-10-16",
@@ -749,7 +749,7 @@
       "done": true
     },
     {
-      "date": "2026-10-08",
+      "date": "2026-10-14",
       "title": "[JOC] - S29/08 - Uma cortina precisa funcionar em dois momentos.",
       "url": "https://notion.so/3ca82cfc4f0a814fb816e17d0b1dc6c4",
       "bg": "#dbeddb",
@@ -785,7 +785,7 @@
       "done": true
     },
     {
-      "date": "2026-10-09",
+      "date": "2026-10-14",
       "title": "[JOC] - S31/08 - Antes de escolher a cor do enxoval, pense:",
       "url": "https://notion.so/3ca82cfc4f0a8173a20dc5afb09de86b",
       "bg": "#dbeddb",
@@ -866,7 +866,7 @@
       "done": false
     },
     {
-      "date": "2026-10-06",
+      "date": "2026-10-13",
       "title": "[JOC] - S16/08 - A mesma cor nunca é a mesma",
       "url": "https://notion.so/3ca82cfc4f0a81d9af2bf9d7923b8567",
       "bg": "#dbeddb",
@@ -1245,7 +1245,7 @@
     },
     {
       "date": "2026-10-11",
-      "title": "[PPG] S11.10 - Termine com Sandrinho rits — forró",
+      "title": "[PPG] S11.10 - Termine com Citrika",
       "url": "https://notion.so/3ec82cfc4f0a80f5ad79cff5a04311a6",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1268,7 +1268,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-08",
@@ -1277,7 +1277,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-07",
@@ -1286,7 +1286,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-06",
@@ -1604,13 +1604,13 @@
       "done": false
     },
     {
-      "date": "2026-08-26",
+      "date": "2026-10-08",
       "title": "[PPG] - Feed - Carrossel - \"Preciso de um fim de semana aqui”",
       "url": "https://notion.so/3d682cfc4f0a80efacb3eae305166828",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-26",
