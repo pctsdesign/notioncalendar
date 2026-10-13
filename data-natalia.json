@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T08:58:01.742Z",
+  "updated": "2026-10-13T16:50:45.792Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -66,12 +66,12 @@
     },
     {
       "date": "2026-09-01",
-      "title": "[JOC] - S01/10 - ",
+      "title": "[JOC] - S01/10 - [CORTINAS] A elegância do movimento",
       "url": "https://notion.so/3ca82cfc4f0a81d186b7fbdb4a2275fb",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-02",
