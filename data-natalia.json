@@ -1,172 +1,10 @@
 {
-  "updated": "2026-10-12T19:56:05.643Z",
+  "updated": "2026-10-13T01:52:02.510Z",
   "events": [
     {
       "date": "2026-09-16",
-      "title": "[EKO] - S16/10 - (2)",
-      "url": "https://notion.so/3ec82cfc4f0a80f19ebefcf50171669a",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S15/10 - (5)",
-      "url": "https://notion.so/3ec82cfc4f0a808cb3ebc67b3b2258ce",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S14/10 - (4)",
-      "url": "https://notion.so/3ec82cfc4f0a807faea6e52ccdf570b2",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S20/10 - (4)",
-      "url": "https://notion.so/3ec82cfc4f0a800d9b37f5fae506ea11",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S19/10 - (3)",
-      "url": "https://notion.so/3ec82cfc4f0a80249899f85a2cf0f05d",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S23/10 - (2)",
-      "url": "https://notion.so/3ec82cfc4f0a801ea175d3567dadf988",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S17/10 - (1)",
-      "url": "https://notion.so/3ec82cfc4f0a80fdb413e6f436b18a04",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S13/10 - PAINÉIS",
-      "url": "https://notion.so/3ec82cfc4f0a801ea461f71242a174df",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - F30/10 - ",
+      "title": "[EKO] - F30/10 - REELS | DO PROJETO AO AMBIENTE PRONTO",
       "url": "https://notion.so/3ec82cfc4f0a80d7b201d700613000f8",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - F28/10 - (4)",
-      "url": "https://notion.so/3ec82cfc4f0a80d69f63fcdcd8dcd44d",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - F26/10 - (3)",
-      "url": "https://notion.so/3ec82cfc4f0a808f8861d7fdf8dfb8c7",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - F24/10 - (4)",
-      "url": "https://notion.so/3ec82cfc4f0a80e5998fe8af17df42dc",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - F22/10 - ",
-      "url": "https://notion.so/3ec82cfc4f0a8031a078dff060f1cd09",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - F20/10 - ",
-      "url": "https://notion.so/3ec82cfc4f0a80659e4bd496df33fdc9",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - F17/10 - (1)",
-      "url": "https://notion.so/3ec82cfc4f0a802a90b5d06d46376ddd",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - F15/10 - ",
-      "url": "https://notion.so/3ec82cfc4f0a8054b7b0e7cc3ed1f946",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - F13/10 - FUNCIONALIDADE QUE NÃO APARECE",
-      "url": "https://notion.so/3ec82cfc4f0a8084b23af21ecf12a692",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S07/09 - ",
-      "url": "https://notion.so/3dc82cfc4f0a80f182a6d3834da4d165",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S03/09 - Quando tudo tem seu lugar",
-      "url": "https://notion.so/3dc82cfc4f0a806798d4d1cbf1e7ce95",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -179,7 +17,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-09",
@@ -252,15 +90,6 @@
       "fg": "#448361",
       "name": "jocil",
       "done": false
-    },
-    {
-      "date": "2026-10-02",
-      "title": "[PPG] F05.10 - POV: você veio só almoçar no Moinho.",
-      "url": "https://notion.so/3ed82cfc4f0a8050b675ff19dd7edfb6",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
     },
     {
       "date": "2026-10-02",
@@ -401,42 +230,6 @@
       "date": "2026-10-02",
       "title": "[PPG] S17.10 - HOJE NA VILA VOCÊ JÁ SABE QUE TEM MÚSICA! ",
       "url": "https://notion.so/3ec82cfc4f0a806fa2b8e89780bd6114",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-10-02",
-      "title": "[PPG] S16.10 - SEXTA TEM MÚSICA NA VILA ",
-      "url": "https://notion.so/3ec82cfc4f0a801bbc4fe094dc0e82eb",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-10-02",
-      "title": "[PPG] S15.10 - A MÚSICA DO FIM DE SEMANA",
-      "url": "https://notion.so/3ec82cfc4f0a805f825ee0c3465630b5",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-10-02",
-      "title": "[PPG] S14.10 - PRIMEIRO, O CAFÉ",
-      "url": "https://notion.so/3ec82cfc4f0a8016aa89c584314a4420",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-10-02",
-      "title": "[PPG] S13.10 - DEIXE O MUNDO LÁ FORA",
-      "url": "https://notion.so/3ec82cfc4f0a804989e6e34403120a18",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",

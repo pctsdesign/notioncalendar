@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T19:56:05.643Z",
+  "updated": "2026-10-13T01:52:02.510Z",
   "events": [
     {
       "date": "2026-10-09",
@@ -54,6 +54,15 @@
       "fg": "#2e7dc7",
       "name": "eko",
       "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[EKO] - S03/09 - Quando tudo tem seu lugar",
+      "url": "https://notion.so/3dc82cfc4f0a806798d4d1cbf1e7ce95",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
     },
     {
       "date": "2026-10-03",
@@ -407,6 +416,15 @@
       "done": true
     },
     {
+      "date": "2026-10-16",
+      "title": "[PPG] Contagem Regressiva — Oktober da Vila",
+      "url": "https://notion.so/3f782cfc4f0a813584ded95ad3cfc10c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-10-06",
       "title": "Programação do FDS",
       "url": "https://notion.so/3f182cfc4f0a806fb65dcad9bec7d3d1",
@@ -414,6 +432,42 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-10-15",
+      "title": "[PPG] S16.10 - SEXTA TEM MÚSICA NA VILA ",
+      "url": "https://notion.so/3ec82cfc4f0a801bbc4fe094dc0e82eb",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-14",
+      "title": "[PPG] S15.10 - A MÚSICA DO FIM DE SEMANA",
+      "url": "https://notion.so/3ec82cfc4f0a805f825ee0c3465630b5",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": "[PPG] S14.10 - PRIMEIRO, O CAFÉ",
+      "url": "https://notion.so/3ec82cfc4f0a8016aa89c584314a4420",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-13",
+      "title": "[PPG] S13.10 - DEIXE O MUNDO LÁ FORA",
+      "url": "https://notion.so/3ec82cfc4f0a804989e6e34403120a18",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-10-10",
