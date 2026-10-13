@@ -1,19 +1,10 @@
 {
-  "updated": "2026-10-13T01:52:02.510Z",
+  "updated": "2026-10-13T08:58:01.742Z",
   "events": [
     {
       "date": "2026-09-16",
       "title": "[EKO] - S29/10 - Cada negócio tem necessidades próprias.",
       "url": "https://notion.so/3f882cfc4f0a8040a3b4cdad52f44c8a",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S27/10 - Entre o desenho e o espaço pronto, existe um processo. ",
-      "url": "https://notion.so/3f882cfc4f0a8022a0e2cd9e4fa56bf0",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -203,24 +194,6 @@
       "date": "2026-10-05",
       "title": "[EKO] - F05/09 - Cozinha nos detalhes",
       "url": "https://notion.so/3ec82cfc4f0a8048a8edd636ffe6a86c",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S07/09 - ",
-      "url": "https://notion.so/3dc82cfc4f0a80f182a6d3834da4d165",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-29",
-      "title": "[EKO] - S29/09 - Alguns detalhes não pedem atenção.",
-      "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",

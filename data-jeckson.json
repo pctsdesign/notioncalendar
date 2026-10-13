@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-13T01:52:02.510Z",
+  "updated": "2026-10-13T08:58:01.742Z",
   "events": [
+    {
+      "date": "2026-10-16",
+      "title": "[EKO] - S27/10 - Entre o desenho e o espaço pronto, existe um processo. ",
+      "url": "https://notion.so/3f882cfc4f0a8022a0e2cd9e4fa56bf0",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
     {
       "date": "2026-10-09",
       "title": "[feriado] S12.10 - Informamos a todos que retornamos",
@@ -36,6 +45,15 @@
       "fg": "#2e7dc7",
       "name": "eko",
       "done": true
+    },
+    {
+      "date": "2026-10-15",
+      "title": "[EKO] - S07/09 - A boa marcenaria não parece ter sido adicionada depois.",
+      "url": "https://notion.so/3dc82cfc4f0a80f182a6d3834da4d165",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
     },
     {
       "date": "2026-10-05",
@@ -90,6 +108,15 @@
       "fg": "#2e7dc7",
       "name": "eko",
       "done": true
+    },
+    {
+      "date": "2026-10-14",
+      "title": "[EKO] - S29/09 - Alguns detalhes não pedem atenção.",
+      "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
     },
     {
       "date": "2026-09-28",

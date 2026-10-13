@@ -1,19 +1,10 @@
 {
-  "updated": "2026-10-13T01:52:02.510Z",
+  "updated": "2026-10-13T08:58:01.742Z",
   "events": [
     {
       "date": "2026-09-16",
       "title": "[EKO] - F30/10 - REELS | DO PROJETO AO AMBIENTE PRONTO",
       "url": "https://notion.so/3ec82cfc4f0a80d7b201d700613000f8",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-09-29",
-      "title": "[EKO] - S29/09 - Alguns detalhes não pedem atenção.",
-      "url": "https://notion.so/3dc82cfc4f0a802f9e07e471bf7ac6d5",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
