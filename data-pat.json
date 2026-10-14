@@ -1,37 +1,10 @@
 {
-  "updated": "2026-10-13T21:43:42.568Z",
+  "updated": "2026-10-14T00:52:24.755Z",
   "events": [
     {
       "date": "2026-09-16",
       "title": "[EKO] - S29/10 - Cada negócio tem necessidades próprias.",
       "url": "https://notion.so/3f882cfc4f0a8040a3b4cdad52f44c8a",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S16/10 - QUARTO PLANEJADO",
-      "url": "https://notion.so/3ec82cfc4f0a80f19ebefcf50171669a",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S15/10 - O VALOR DO ACABAMENTO",
-      "url": "https://notion.so/3ec82cfc4f0a808cb3ebc67b3b2258ce",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S14/10 - Uma cozinha precisa acompanhar o ritmo de quem a utiliza.",
-      "url": "https://notion.so/3ec82cfc4f0a807faea6e52ccdf570b2",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -50,42 +23,6 @@
       "date": "2026-09-16",
       "title": "[EKO] - S20/10 - A boa marcenaria não parece ter sido adicionada depois.",
       "url": "https://notion.so/3ec82cfc4f0a800d9b37f5fae506ea11",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S19/10 - Organização também é uma questão de planejamento.",
-      "url": "https://notion.so/3ec82cfc4f0a80249899f85a2cf0f05d",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S23/10 -  A MONTAGEM DOS MÓVEIS",
-      "url": "https://notion.so/3ec82cfc4f0a801ea175d3567dadf988",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S17/10 - A luz revela novas camadas da marcenaria.",
-      "url": "https://notion.so/3ec82cfc4f0a80fdb413e6f436b18a04",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-09-16",
-      "title": "[EKO] - S13/10 - A BELEZA DA MADEIRA",
-      "url": "https://notion.so/3ec82cfc4f0a801ea461f71242a174df",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -200,6 +137,60 @@
       "done": false
     },
     {
+      "date": "2026-10-09",
+      "title": "[EKO] - S10/09 - Um bom resultado começa na precisão.",
+      "url": "https://notion.so/3dc82cfc4f0a80b3a598cbc3f14f7e20",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-08",
+      "title": "[EKO] - S09/09 - A marcenaria muda quando a luz acende.",
+      "url": "https://notion.so/3dc82cfc4f0a803081c3e88573ad0114",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-07",
+      "title": "[EKO] - S08/09 - A madeira aquece.",
+      "url": "https://notion.so/3dc82cfc4f0a805a82ebfae3f5e3cab0",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-05",
+      "title": "[EKO] - S06/09 - Tendências passam o cuidado permanece.",
+      "url": "https://notion.so/3dc82cfc4f0a8055b4dadf7dd72d1987",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-05",
+      "title": "[EKO] - S05/09 - Existe muito além da superfície.",
+      "url": "https://notion.so/3dc82cfc4f0a80af8616d343a69b4287",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
+      "date": "2026-10-06",
+      "title": "[EKO] - S01/09 - Milímetros também constroem um projeto.",
+      "url": "https://notion.so/3dc82cfc4f0a8054a27fe8b5e86263a6",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
+    {
       "date": "2026-09-09",
       "title": "[EKO] - S16/09  - O PUXADOR MUDA A LEITURA",
       "url": "https://notion.so/3d582cfc4f0a8088bf8cef0ed5175e52",
@@ -297,15 +288,6 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
-    },
-    {
-      "date": "2026-09-01",
-      "title": "[JOC] - S01/10 - [CORTINAS] A elegância do movimento",
-      "url": "https://notion.so/3ca82cfc4f0a81d186b7fbdb4a2275fb",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
     },
     {
       "date": "2026-09-03",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T21:43:42.568Z",
+  "updated": "2026-10-14T00:52:24.755Z",
   "events": [
     {
       "date": "2026-10-29",
@@ -29,7 +29,7 @@
       "done": false
     },
     {
-      "date": "2026-10-15",
+      "date": "2026-10-20",
       "title": "[EKO] - S15/10 - O VALOR DO ACABAMENTO",
       "url": "https://notion.so/3ec82cfc4f0a808cb3ebc67b3b2258ce",
       "bg": "#d3e5ef",
@@ -38,7 +38,7 @@
       "done": false
     },
     {
-      "date": "2026-10-14",
+      "date": "2026-10-22",
       "title": "[EKO] - S14/10 - Uma cozinha precisa acompanhar o ritmo de quem a utiliza.",
       "url": "https://notion.so/3ec82cfc4f0a807faea6e52ccdf570b2",
       "bg": "#d3e5ef",
@@ -92,7 +92,7 @@
       "done": false
     },
     {
-      "date": "2026-10-13",
+      "date": "2026-10-19",
       "title": "[EKO] - S13/10 - A BELEZA DA MADEIRA",
       "url": "https://notion.so/3ec82cfc4f0a801ea461f71242a174df",
       "bg": "#d3e5ef",
@@ -242,7 +242,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-09",
@@ -875,7 +875,7 @@
       "done": true
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-16",
       "title": "[JOC] - S01/10 - [CORTINAS] A elegância do movimento",
       "url": "https://notion.so/3ca82cfc4f0a81d186b7fbdb4a2275fb",
       "bg": "#dbeddb",
@@ -1673,7 +1673,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-26",
@@ -1691,7 +1691,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-26",
@@ -1700,7 +1700,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-26",
@@ -1709,7 +1709,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-26",
@@ -1718,7 +1718,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-08-26",
