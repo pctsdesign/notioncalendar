@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T17:36:50.222Z",
+  "updated": "2026-10-15T20:57:26.732Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -8,7 +8,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-09",
@@ -57,7 +57,7 @@
     },
     {
       "date": "2026-09-03",
-      "title": "[JOC] - S03/10",
+      "title": "[JOC] - S03/10 ",
       "url": "https://notion.so/3ca82cfc4f0a81a88470f02e432a704d",
       "bg": "#dbeddb",
       "fg": "#448361",
