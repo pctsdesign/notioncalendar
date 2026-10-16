@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T08:24:12.235Z",
+  "updated": "2026-10-16T13:25:25.714Z",
   "events": [
     {
       "date": "2026-10-29",
@@ -1578,7 +1578,7 @@
     },
     {
       "date": "2026-10-17",
-      "title": "[evento] mercinho sanfoneiro",
+      "title": "[evento] kauany - aniv de lorena",
       "url": "https://notion.so/3dd82cfc4f0a81b8b229e7cfadc7eb23",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1589,15 +1589,6 @@
       "date": "2026-10-30",
       "title": "[evento] roberto sanfoneiro",
       "url": "https://notion.so/3dd82cfc4f0a81bc8022d4736e6b4ab9",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-10-16",
-      "title": "[evento] roberto sanfoneiro",
-      "url": "https://notion.so/3dd82cfc4f0a81e5a7f2c12ad0b68c39",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
