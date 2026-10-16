@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T17:36:24.970Z",
+  "updated": "2026-10-16T20:32:14.559Z",
   "events": [
     {
       "date": "2026-10-16",
@@ -467,7 +467,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-10-06",
@@ -477,6 +477,60 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-10-17",
+      "title": "[PPG] S18.10 - DOMINGO AO AR LIVRE",
+      "url": "https://notion.so/3ec82cfc4f0a80b4a597cf1ad41d468d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-22",
+      "title": "[PPG] S23.10 - ESTÁ ABERTO O oktober da vila — dj solon silvestre",
+      "url": "https://notion.so/3ec82cfc4f0a80519252f90765b83288",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-21",
+      "title": "[PPG] S22.10 - NESTE SÁBADO",
+      "url": "https://notion.so/3ec82cfc4f0a80eb9373d87d3bde4c67",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-20",
+      "title": "[PPG] S21.10 - A VILA JÁ ESTÁ ENTRANDO NO CLIMA",
+      "url": "https://notion.so/3ec82cfc4f0a80799e48db850ac88c4a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-19",
+      "title": "[PPG] S20.10 - VENHA PASSAR O DIA",
+      "url": "https://notion.so/3ec82cfc4f0a8095bcccd011a5025ba5",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-19",
+      "title": "[PPG] S19.10 - A SEMANA COMEÇA NA SERRA",
+      "url": "https://notion.so/3ec82cfc4f0a80ed9892ec097b0a707f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-10-15",
