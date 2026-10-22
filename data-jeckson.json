@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-22T14:21:34.326Z",
+  "updated": "2026-10-22T18:42:23.482Z",
   "events": [
+    {
+      "date": "2026-09-28",
+      "title": "[EKO] - S29/10 - Cada negócio tem necessidades próprias.",
+      "url": "https://notion.so/3f882cfc4f0a8040a3b4cdad52f44c8a",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": false
+    },
     {
       "date": "2026-10-16",
       "title": "[EKO] - S27/10 - Entre o desenho e o espaço pronto, existe um processo. ",

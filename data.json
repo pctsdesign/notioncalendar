@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T14:21:34.326Z",
+  "updated": "2026-10-22T18:42:23.482Z",
   "events": [
     {
       "date": "2026-10-29",
@@ -449,7 +449,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-09-12",
@@ -2097,6 +2097,51 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[A CASA DE VERÃO É CONSTRUIDA AGORA]",
+      "url": "https://notion.so/40182cfc4f0a80c09cedf2093b81989d",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-10-26",
+      "title": "[PREÇO DE CUSTO]",
+      "url": "https://notion.so/40182cfc4f0a800b8334c726400f7be4",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-11-09",
+      "title": "[BLACK FRIDAY]",
+      "url": "https://notion.so/40182cfc4f0a80819c4fcc1936a3d995",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-10-28",
+      "title": "JORNAL | AGORA RN - CATÁLOGO — ESQUENTA BLACK FRIDAY",
+      "url": "https://notion.so/40182cfc4f0a800aa7f1daa77df76158",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
+    },
+    {
+      "date": "2026-11-11",
+      "title": "JORNAL | AGORA RN - CATÁLOGO — ESQUENTA BLACK FRIDAY",
+      "url": "https://notion.so/40182cfc4f0a801f9269c054c0e77c01",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
     },
     {
       "date": "2026-09-11",
