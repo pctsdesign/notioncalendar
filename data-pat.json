@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T07:26:05.686Z",
+  "updated": "2026-10-26T20:05:13.464Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -371,18 +371,9 @@
       "done": false
     },
     {
-      "date": "2026-10-02",
+      "date": "2026-10-27",
       "title": "[PPG] S28.10 - OLHE COM MAIS CALMA",
       "url": "https://notion.so/3ec82cfc4f0a8027828cf27c87d3eab8",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-10-02",
-      "title": "[PPG] S27.10 - O FERIADO ESTÁ CHEGANDO",
-      "url": "https://notion.so/3ec82cfc4f0a809c8a1cc903687a82cf",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
