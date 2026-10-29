@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T09:22:39.802Z",
+  "updated": "2026-10-29T16:20:01.908Z",
   "events": [
     {
       "date": "2026-10-29",
@@ -1055,6 +1055,51 @@
       "done": true
     },
     {
+      "date": "2026-10-31",
+      "title": "[PPG] S31.10 — Promoção Junior — Pausa na Vila + Fondue",
+      "url": "https://notion.so/40882cfc4f0a8101a18bd61bfc7c5913",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-01",
+      "title": "[evento] paula dayana",
+      "url": "https://notion.so/40882cfc4f0a810d8ca5e917dbb556a7",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-10-31",
+      "title": "[PPG] Promoção Nov/Dez — Pausa na Vila com um Presente",
+      "url": "https://notion.so/40882cfc4f0a810f9801c638c8a53aa2",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-01",
+      "title": "[PPG] S01.11 — Paula Dayana ao Vivo + Feriado de Finados",
+      "url": "https://notion.so/40882cfc4f0a81cf9b70e6c01ae81a55",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-31",
+      "title": "[evento] mercinho sanfoneiro",
+      "url": "https://notion.so/40882cfc4f0a81ddab4dca543d01bb33",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
       "date": "2026-10-17",
       "title": "[PPG] Contagem Regressiva — Oktober da Vila",
       "url": "https://notion.so/3f782cfc4f0a813584ded95ad3cfc10c",
@@ -1101,7 +1146,7 @@
     },
     {
       "date": "2026-10-31",
-      "title": "[PPG] S31.10 - HOJE NA VILA",
+      "title": "[PPG] S31.10 - HOJE NA VILA — MERCINHO SANFONEIRO",
       "url": "https://notion.so/3ec82cfc4f0a8063b1d4d4fa1824d15f",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1124,7 +1169,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-27",
@@ -1133,7 +1178,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-18",
@@ -1151,7 +1196,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-24",
@@ -1160,7 +1205,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-23",
@@ -1214,7 +1259,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-16",
@@ -1343,7 +1388,7 @@
       "done": true
     },
     {
-      "date": "2026-10-29",
+      "date": "2026-11-05",
       "title": "[reunião de alinhamento - 16h]",
       "url": "https://notion.so/3e582cfc4f0a80d48a93ffa86cc73bc1",
       "bg": "#fadec9",

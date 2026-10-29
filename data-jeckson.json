@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T09:22:39.802Z",
+  "updated": "2026-10-29T16:20:01.908Z",
   "events": [
     {
       "date": "2026-09-28",
@@ -8,7 +8,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-16",
@@ -470,6 +470,15 @@
       "done": true
     },
     {
+      "date": "2026-10-30",
+      "title": "[PPG] S31.10 — Promoção Junior — Pausa na Vila + Fondue",
+      "url": "https://notion.so/40882cfc4f0a8101a18bd61bfc7c5913",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-10-16",
       "title": "[PPG] Contagem Regressiva — Oktober da Vila",
       "url": "https://notion.so/3f782cfc4f0a813584ded95ad3cfc10c",
@@ -486,6 +495,33 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-10-30",
+      "title": "[PPG] S30.10 - SEXTA TEM MÚSICA NA VILA - Roberto Sanfoneiro",
+      "url": "https://notion.so/3ed82cfc4f0a8019a2fbe2f05129e697",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-30",
+      "title": "[PPG] S31.10 - HOJE NA VILA — MERCINHO SANFONEIRO",
+      "url": "https://notion.so/3ec82cfc4f0a8063b1d4d4fa1824d15f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-10-29",
+      "title": "[PPG] S29.10 - A MÚSICA DO FIM DE SEMANA",
+      "url": "https://notion.so/3ec82cfc4f0a8005a825feff1b05bec1",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-10-27",
