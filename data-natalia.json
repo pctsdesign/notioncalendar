@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T14:50:34.730Z",
+  "updated": "2026-10-30T19:50:47.496Z",
   "events": [
     {
       "date": "2026-09-09",
@@ -29,27 +29,252 @@
       "done": true
     },
     {
-      "date": "2026-09-03",
-      "title": "[JOC] - S27/08 -    ",
-      "url": "https://notion.so/3ca82cfc4f0a8177a45feef6018e1afa",
+      "date": "2026-11-02",
+      "title": "[JOC] - S19/11 - (1)",
+      "url": "https://notion.so/40982cfc4f0a80a3b8f4cbdbff737779",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
       "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S18/11 - ",
+      "url": "https://notion.so/40982cfc4f0a805ba55ff20fdd1ef7be",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S16/11 - Nem toda mudança precisa ser grande. (1)",
+      "url": "https://notion.so/40982cfc4f0a8074bd9af287f5c33f70",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F18/11 - ",
+      "url": "https://notion.so/40982cfc4f0a8063bbd5c0ff5e9486d4",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F16/11 - CARROSSEL | HUNTER DOUGLAS",
+      "url": "https://notion.so/40982cfc4f0a80e9bc7dc626ce34a35d",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F09/11 - CARROSSEL | CORTINAS",
+      "url": "https://notion.so/40982cfc4f0a807db65cf063a0afc17a",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F11/11 - FEED  — CARROSSEL | EXPERIÊNCIA JOCIL",
+      "url": "https://notion.so/40982cfc4f0a80819284c98861dc93d4",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F20/11 - ESTÁTICO | PROJETO",
+      "url": "https://notion.so/40982cfc4f0a80288e3cefd85d17e207",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F04/11 - FEED 02 — ESTÁTICO | TAPETES",
+      "url": "https://notion.so/40982cfc4f0a80f58b11c4195751d5dd",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F13/11 - CARROSSEL | ENXOVAL",
+      "url": "https://notion.so/40982cfc4f0a80a78215d2d9e34f7207",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F02/11 - FEED 01 — CARROSSEL | SALA PARA RECEBER",
+      "url": "https://notion.so/40982cfc4f0a8004b4f6e78a36cd51c2",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S02/11 - Antes de mudar todos os móveis, olhe para as janelas. ",
+      "url": "https://notion.so/40982cfc4f0a80e78693e7733c0f7c17",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S20/11 - ",
+      "url": "https://notion.so/40982cfc4f0a80c9a3dcf26ef5c6d068",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S16/11 - Todo novo ciclo traz a vontade de mudar alguma coisa.",
+      "url": "https://notion.so/40982cfc4f0a804499e9da74edad423f",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S13/11 - Pensando em renovar a casa antes das festas?",
+      "url": "https://notion.so/40982cfc4f0a80feba8dda7e299601b7",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S11/11 - O fim do ano sempre nos faz revisitar algumas histórias.",
+      "url": "https://notion.so/40982cfc4f0a80b0837ffefbc1b0ed20",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S10/11 - Um projeto bonito merece ser vivido.",
+      "url": "https://notion.so/40982cfc4f0a80338990ea8d78b64322",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S12/11 - Imagine sua sala pronta para os encontros de dezembro.",
+      "url": "https://notion.so/40982cfc4f0a8092be76fae74aec39d0",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S14/11 - O melhor da casa nem sempre está na decoração.",
+      "url": "https://notion.so/40982cfc4f0a80599d4dd02482ce3671",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S09/11 - Renovar a casa não significa abandonar tudo o que já existe.",
+      "url": "https://notion.so/40982cfc4f0a80b8934cdccddd2d6e93",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S07/11 - Uma casa preparada para receber também considera o conforto de quem chega.",
+      "url": "https://notion.so/40982cfc4f0a8036bc11f488d449ebc6",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S04/11 - Sua sala não precisa ser completamente transformada para ganhar uma nova identidade. ",
+      "url": "https://notion.so/40982cfc4f0a80fbbef4cf060b3662b5",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S06/11 - Que tal começar o próximo ano com um quarto renovado?",
+      "url": "https://notion.so/40982cfc4f0a80c6b35bc6b5217aed5c",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S05/11 - O Natal começa muito antes da noite do dia 24.",
+      "url": "https://notion.so/40982cfc4f0a80d0b2a8ee2c58585e63",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S03/11 - Em breve, a sala vai receber mais conversas.",
+      "url": "https://notion.so/40982cfc4f0a80db9f24c8489fd79f3a",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F06/11 - REELS | RENOVAÇÃO DA CASA",
+      "url": "https://notion.so/40982cfc4f0a80c5845ecbe440053c8f",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-01",
+      "title": "[JOC] - S31/10 - [INSTITUCIONAL] A casa se prepara para um novo tempo",
+      "url": "https://notion.so/3ca82cfc4f0a8177a45feef6018e1afa",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
     },
     {
       "date": "2026-09-03",
       "title": "[JOC] - S25/08",
       "url": "https://notion.so/3ca82cfc4f0a81918bd1d3b75f79501f",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-09-03",
-      "title": "[JOC] - S03/10 ",
-      "url": "https://notion.so/3ca82cfc4f0a81a88470f02e432a704d",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",

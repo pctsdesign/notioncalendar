@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T14:50:34.730Z",
+  "updated": "2026-10-30T19:50:47.496Z",
   "events": [
     {
       "date": "2026-09-16",
@@ -254,6 +254,87 @@
       "done": true
     },
     {
+      "date": "2026-11-02",
+      "title": "[JOC] - F09/11 - CARROSSEL | CORTINAS",
+      "url": "https://notion.so/40982cfc4f0a807db65cf063a0afc17a",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F04/11 - FEED 02 — ESTÁTICO | TAPETES",
+      "url": "https://notion.so/40982cfc4f0a80f58b11c4195751d5dd",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F02/11 - FEED 01 — CARROSSEL | SALA PARA RECEBER",
+      "url": "https://notion.so/40982cfc4f0a8004b4f6e78a36cd51c2",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S07/11 - Uma casa preparada para receber também considera o conforto de quem chega.",
+      "url": "https://notion.so/40982cfc4f0a8036bc11f488d449ebc6",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S04/11 - Sua sala não precisa ser completamente transformada para ganhar uma nova identidade. ",
+      "url": "https://notion.so/40982cfc4f0a80fbbef4cf060b3662b5",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S06/11 - Que tal começar o próximo ano com um quarto renovado?",
+      "url": "https://notion.so/40982cfc4f0a80c6b35bc6b5217aed5c",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S05/11 - O Natal começa muito antes da noite do dia 24.",
+      "url": "https://notion.so/40982cfc4f0a80d0b2a8ee2c58585e63",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - S03/11 - Em breve, a sala vai receber mais conversas.",
+      "url": "https://notion.so/40982cfc4f0a80db9f24c8489fd79f3a",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F06/11 - REELS | RENOVAÇÃO DA CASA",
+      "url": "https://notion.so/40982cfc4f0a80c5845ecbe440053c8f",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
       "date": "2026-08-31",
       "title": "[JOC] - S31.06 - Coleção Calvin Klein",
       "url": "https://notion.so/3cd82cfc4f0a8030a4bcf7e43316fca1",
@@ -279,6 +360,15 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-11-01",
+      "title": "[JOC] - S31/10 - [INSTITUCIONAL] A casa se prepara para um novo tempo",
+      "url": "https://notion.so/3ca82cfc4f0a8177a45feef6018e1afa",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
     },
     {
       "date": "2026-09-03",
