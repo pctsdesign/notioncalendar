@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T15:27:22.156Z",
+  "updated": "2026-10-31T19:28:44.237Z",
   "events": [
     {
       "date": "2026-09-28",
@@ -113,15 +113,6 @@
       "date": "2026-10-03",
       "title": "[EKO] - S02/10 - Nem todo projeto é feito apenas para olhar.",
       "url": "https://notion.so/3dc82cfc4f0a803cadcff2ed30f5edee",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-09-29",
-      "title": "[EKO] - S30/09 - A luz revela o que a matéria guarda.",
-      "url": "https://notion.so/3dc82cfc4f0a80248f7bd57b2f75907a",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
