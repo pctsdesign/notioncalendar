@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T22:44:55.320Z",
+  "updated": "2026-11-01T01:51:55.040Z",
   "events": [
     {
       "date": "2026-10-29",
@@ -461,63 +461,9 @@
       "done": true
     },
     {
-      "date": "2026-08-07",
-      "title": "[EKO] - S31/07 - A área gourmet se tornou um dos principais espaços de convivência da casa.",
-      "url": "https://notion.so/3ca82cfc4f0a8101b740e4164469ff6c",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
       "date": "2026-09-21",
       "title": "[EKO] - S22/08 - Entre o desenho e o ambiente pronto existem muitas decisões.",
       "url": "https://notion.so/3ca82cfc4f0a812b8d64cac8f13ade50",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-07",
-      "title": "[EKO] - S24/07 - Em cozinhas planejadas, cada detalhe da marcenaria é pensado para facilitar a rotina.",
-      "url": "https://notion.so/3ca82cfc4f0a814999e9dec33cd69e4b",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-19",
-      "title": "[EKO] - S03/08 - Uma sala integrada convida naturalmente para os encontros.",
-      "url": "https://notion.so/3ca82cfc4f0a817195e3f93181730773",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-17",
-      "title": "[EKO] - S21/07 - Integrar ambientes é criar continuidade entre diferentes espaços da casa.",
-      "url": "https://notion.so/3ca82cfc4f0a818984c4c696815244e1",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-31",
-      "title": "[EKO] - S11/08 - Os encontros passam. As lembranças permanecem.",
-      "url": "https://notion.so/3ca82cfc4f0a81b2add1db01ef86b503",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-11",
-      "title": "[EKO] - S12/08 - Cada material escolhido contribui para a identidade do projeto.",
-      "url": "https://notion.so/3ca82cfc4f0a81ea98e1e483b6d8e0f0",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -587,15 +533,6 @@
       "done": true
     },
     {
-      "date": "2026-08-31",
-      "title": "[EKO] - S19/08 - A escolha dos materiais interfere diretamente no resultado da marcenaria.",
-      "url": "https://notion.so/3ca82cfc4f0a8183ade9cce486f4296b",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
       "date": "2026-09-11",
       "title": "[EKO] - S29/08 - A forma de abertura também interfere no desenho do mobiliário.",
       "url": "https://notion.so/3ca82cfc4f0a81bea3f8e9a19a87a7b5",
@@ -608,60 +545,6 @@
       "date": "2026-09-01",
       "title": "[EKO] - S15/08 - Cada projeto executado pela Eko é desenvolvido para refletir a proposta do arquiteto.",
       "url": "https://notion.so/3ca82cfc4f0a81e684b7c25006dd94b1",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[EKO] - S06/08 - Os ambientes sociais ganharam ainda mais importância nos últimos anos.",
-      "url": "https://notion.so/3ca82cfc4f0a8120b5ffd851a7bab814",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-25",
-      "title": "[EKO] - S14/08 - O acabamento certo valoriza todo o conjunto.",
-      "url": "https://notion.so/3ca82cfc4f0a8144b24ffed863e7781c",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-27",
-      "title": "[EKO] - S17/08 - A marcenaria pode acompanhar a arquitetura desde a primeira definição do projeto.",
-      "url": "https://notion.so/3ca82cfc4f0a818698bbf5f37ef6e1b2",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-24",
-      "title": "[EKO] - S20/08 - A paleta de cores ajuda a definir a leitura de todo o ambiente.",
-      "url": "https://notion.so/3ca82cfc4f0a81a3bb65ca504be15eba",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-28",
-      "title": "[EKO] - S18/08 - Móveis planejados permitem aproveitar melhor as características de cada ambiente.",
-      "url": "https://notion.so/3ca82cfc4f0a81d38aced27ef759ecf7",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": true
-    },
-    {
-      "date": "2026-08-09",
-      "title": "[dia dos pais]",
-      "url": "https://notion.so/3ab82cfc4f0a8068b395daf0eae88c2a",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -911,15 +794,6 @@
       "done": true
     },
     {
-      "date": "2026-08-31",
-      "title": "[JOC] - S31.06 - Coleção Calvin Klein",
-      "url": "https://notion.so/3cd82cfc4f0a8030a4bcf7e43316fca1",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
       "date": "2026-09-07",
       "title": "[independência do brasil]",
       "url": "https://notion.so/3cb82cfc4f0a80828fbac0b0a3242350",
@@ -947,27 +821,9 @@
       "done": true
     },
     {
-      "date": "2026-08-09",
-      "title": "[JOC] - S16/07 - Toda casa conta uma história.",
-      "url": "https://notion.so/3ca82cfc4f0a81c58f3fd4d3c7f28970",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
       "date": "2026-10-08",
       "title": "[JOC] - S30/07 - Uma casa bonita chama atenção.",
       "url": "https://notion.so/3ca82cfc4f0a81e7b5fbe7d7ebbb3667",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-08-16",
-      "title": "[JOC] - S24/07 - Nem toda transformação acontece pela cor.",
-      "url": "https://notion.so/3ca82cfc4f0a81f08e8bef4e68b29057",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
@@ -1136,15 +992,6 @@
       "done": true
     },
     {
-      "date": "2026-08-28",
-      "title": "[JOC] - S05/08 - Toda casa guarda histórias.",
-      "url": "https://notion.so/3ca82cfc4f0a8122856af02282c5abe0",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
       "date": "2026-09-21",
       "title": "[JOC] - S09/08 - O quarto pode até ser silencioso.",
       "url": "https://notion.so/3ca82cfc4f0a812a8de9eb0bbe4ec294",
@@ -1181,15 +1028,6 @@
       "done": false
     },
     {
-      "date": "2026-08-31",
-      "title": "[JOC] - S25/07 - A personalidade de uma casa também está nas paredes.",
-      "url": "https://notion.so/3ca82cfc4f0a81d39e05fc48b3584163",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
       "date": "2026-09-08",
       "title": "[JOC] - S02/08 - Existem projetos que impressionam no primeiro olhar.",
       "url": "https://notion.so/3ca82cfc4f0a81d7a79afc321c1e609c",
@@ -1202,24 +1040,6 @@
       "date": "2026-09-14",
       "title": "[JOC] - S07/08 - Os melhores momentos quase sempre acontecem sem planejamento.",
       "url": "https://notion.so/3ca82cfc4f0a81ddbed2cce851a6de2b",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-08-25",
-      "title": "[JOC] - S08/08 - Uma janela pode deixar a luz entrar.",
-      "url": "https://notion.so/3ca82cfc4f0a81119a9ff29b19a782a6",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-08-27",
-      "title": "[JOC] - S06/08 - Todo quarto conta uma história.",
-      "url": "https://notion.so/3ca82cfc4f0a81259a98fbf82fe27602",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
@@ -1244,27 +1064,9 @@
       "done": true
     },
     {
-      "date": "2026-08-24",
-      "title": "[JOC] - S13/07 - Um bom projeto não chama atenção pelos excessos.",
-      "url": "https://notion.so/3ca82cfc4f0a81a4a466ddcfb76b620d",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
       "date": "2026-09-09",
       "title": "[JOC] - S01/08 - Antes de iluminar um ambiente, a luz desenha a arquitetura.",
       "url": "https://notion.so/3ca82cfc4f0a81cda89fd08440bf714f",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[JOC] - S04/08 - Há escolhas que sustentam todo o ambiente.",
-      "url": "https://notion.so/3ca82cfc4f0a81e49371fe4a00b90504",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
@@ -1658,15 +1460,6 @@
       "done": true
     },
     {
-      "date": "2026-08-26",
-      "title": "[falar com saulo sobre o site]",
-      "url": "https://notion.so/3e582cfc4f0a80a9b5d7c43ec1d2757d",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
       "date": "2026-11-25",
       "title": "[eleições]",
       "url": "https://notion.so/3e582cfc4f0a809a9aa4f8d3742bd9f2",
@@ -1757,24 +1550,6 @@
       "done": true
     },
     {
-      "date": "2026-08-26",
-      "title": "TEROIR - FALAR MAIS SOBRE",
-      "url": "https://notion.so/3e582cfc4f0a8061addde0bde0190c0b",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[reunião de alinhamento]",
-      "url": "https://notion.so/3e582cfc4f0a804e8208f44455423b9a",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
       "date": "2026-10-02",
       "title": "[evento] roberto sanfoneiro",
       "url": "https://notion.so/3dd82cfc4f0a8127b045f3a4b3380ca1",
@@ -1856,261 +1631,9 @@
       "done": true
     },
     {
-      "date": "2026-08-26",
-      "title": "[PPG] - Feed - Manual da Oktoberfest",
-      "url": "https://notion.so/3d682cfc4f0a80168eb8e4b911f94ce4",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] - Feed - REELS - Festa eu não garanto…",
-      "url": "https://notion.so/3d682cfc4f0a80a4a1bcc7c88aea68fb",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] - Feed - REELS - Repetir é a sua maior certeza! ",
-      "url": "https://notion.so/3d682cfc4f0a8020beeddbc736550012",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
       "date": "2026-10-08",
       "title": "[PPG] - Feed - Carrossel - \"Preciso de um fim de semana aqui”",
       "url": "https://notion.so/3d682cfc4f0a80efacb3eae305166828",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] - Feed - REELS - Pausa na Vila",
-      "url": "https://notion.so/3d682cfc4f0a80978dcae499b4811e0c",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] - Feed - CARROSSEL - Um dia inteiro na Vila",
-      "url": "https://notion.so/3d682cfc4f0a8002ae67c648ca081066",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] - Feed - REELS - Tem encontros que a gente espera o ano inteiro.",
-      "url": "https://notion.so/3d682cfc4f0a802084a2c23ea7580671",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S30.09 - NOTIFICAÇÕES DA SERRA ",
-      "url": "https://notion.so/3d682cfc4f0a8019b624cdac1c472fb0",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S26.09 - SÁBADO PEDE UMA BOA MESA",
-      "url": "https://notion.so/3d682cfc4f0a80e395ccc9ab8783f46b",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S27.09 - Um convite para sair da rotina sem ir tão longe.",
-      "url": "https://notion.so/3d682cfc4f0a80f18e6aca4381513809",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S29.09 - Guia para aproveitar a serra ",
-      "url": "https://notion.so/3d682cfc4f0a80639777dfb40d720e02",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S28.09 - Saudade da serra ",
-      "url": "https://notion.so/3d682cfc4f0a80e7a1aeca726b376ed3",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S25.09 - Hoje, a Vila muda de ritmo",
-      "url": "https://notion.so/3d682cfc4f0a805b8f9fc03e9c8ec0b4",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S24.09 - O FIM DE SEMANA É LOGO ALI!",
-      "url": "https://notion.so/3d682cfc4f0a80df9089ec8ca2d08f3b",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S21.09 - COMECE PELA VILA",
-      "url": "https://notion.so/3d682cfc4f0a8089bad5f86bafcbaebf",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S23.09 - O ALMOÇO VIROU DESTINO",
-      "url": "https://notion.so/3d682cfc4f0a80c8a759d3228ae4b92a",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S22.09 - O DIA COMEÇA AQUI",
-      "url": "https://notion.so/3d682cfc4f0a8025a180cd7686308118",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S16.09 - UMA PAUSA NA SERRA",
-      "url": "https://notion.so/3d682cfc4f0a8037aecacd6ab5aa60fc",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S20.09 - DOMINGO PEDE CALMA",
-      "url": "https://notion.so/3d682cfc4f0a80839083fd6f5c3e2961",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S19.09 - SÁBADO COM ROBERTO SANFONEIRO",
-      "url": "https://notion.so/3d682cfc4f0a8048a519f43c19b8b22e",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S18.09 - ESCOLHA SEU MOTIVO",
-      "url": "https://notion.so/3d682cfc4f0a801a9114c7dad7fe98ce",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S17.09 - UM ROTEIRO PARA DOIS",
-      "url": "https://notion.so/3d682cfc4f0a80edb2a1d9812d205d17",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S15.09 - UM DIA INTEIRO NA VILA",
-      "url": "https://notion.so/3d682cfc4f0a80b2881bf0a57e2fdb94",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] S14.09 - MOTIVOS PARA SUBIR A SERRA",
-      "url": "https://notion.so/3d682cfc4f0a803a8083e2dbda8cde0b",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] TARIFA ESPECIAL DE SEXTA",
-      "url": "https://notion.so/3d582cfc4f0a801e8474e6dea22951c4",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] 08.09 - Feriado acabou",
-      "url": "https://notion.so/3d482cfc4f0a8037a403ff1395b71308",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PGG] LÂMINA 1080x1350 — USO INTERNO / WHATSAPP - Noite de vinhos",
-      "url": "https://notion.so/3d482cfc4f0a80fb9b23f6b0f8732d76",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] 09.09 - Noite de Vinhos",
-      "url": "https://notion.so/3d482cfc4f0a8071bb61dd71b409f502",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] 07.09 - Feriado",
-      "url": "https://notion.so/3d482cfc4f0a808fafd6dad0a3ac8b74",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
@@ -2126,27 +1649,9 @@
       "done": true
     },
     {
-      "date": "2026-08-26",
-      "title": "[PPG] 4.09 - 5 MOTIVOS PARA VIVER A OKTOBER NA VILA",
-      "url": "https://notion.so/3d182cfc4f0a809dae68fef22c16ff0c",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
       "date": "2026-09-03",
       "title": "(sem título)",
       "url": "https://notion.so/3d082cfc4f0a80acb935f6e5012f9972",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Briefing / Estratégia de Setembro",
-      "url": "https://notion.so/3cd82cfc4f0a81faa0e2d4da1c76e98d",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
@@ -2234,78 +1739,6 @@
       "done": true
     },
     {
-      "date": "2026-08-21",
-      "title": "[evento] kauany",
-      "url": "https://notion.so/3cd82cfc4f0a811aa3c9d4d188d0f04e",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-22",
-      "title": "[evento] roberto sanfoneiro",
-      "url": "https://notion.so/3cd82cfc4f0a8123abc2ec5afa5e694c",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-07",
-      "title": "[evento] roberto sanfoneiro",
-      "url": "https://notion.so/3cd82cfc4f0a8149a3b7ffcb3197ea76",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-28",
-      "title": "[evento] roberto sanfoneiro",
-      "url": "https://notion.so/3cd82cfc4f0a814da6bce7a8c8a846c7",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-08",
-      "title": "[evento] kauany",
-      "url": "https://notion.so/3cd82cfc4f0a815294d7e5b18895335b",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-01",
-      "title": "[evento] festival de serra de são bento — kauany e banda",
-      "url": "https://notion.so/3cd82cfc4f0a8194912bdcd535005e7e",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-15",
-      "title": "[evento] kauany",
-      "url": "https://notion.so/3cd82cfc4f0a81a88701d13aa199817c",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-29",
-      "title": "[evento] kauany",
-      "url": "https://notion.so/3cd82cfc4f0a81ffaa88e74c21dbc78f",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
       "date": "2026-09-07",
       "title": "ex.: [arte] carrossel",
       "url": "https://notion.so/3cc82cfc4f0a80c38b2cea6332983ebc",
@@ -2336,33 +1769,6 @@
       "date": "2026-09-09",
       "title": "ex.: [divulgar musica da semana]",
       "url": "https://notion.so/3cc82cfc4f0a8026a7e7cb4faf472186",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] F01 — 03 pratos que você precisa experimentar",
-      "url": "https://notion.so/3ca82cfc4f0a8134b9fdc0d6a062a6d9",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[PPG] F01 — Por que nosso café da manhã faz sucesso?",
-      "url": "https://notion.so/3ca82cfc4f0a81739956c9860e53c8e7",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Gere uma nova proposta para as vendas do Natal",
-      "url": "https://notion.so/3ca82cfc4f0a812682aac16219dc78a5",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
@@ -2504,24 +1910,6 @@
       "done": true
     },
     {
-      "date": "2026-08-28",
-      "title": "Arte — desconto de 15% CB Sports na Movelaria",
-      "url": "https://notion.so/3ca82cfc4f0a8149ad4bfed4d30f5a12",
-      "bg": "#e8deee",
-      "fg": "#9065b0",
-      "name": "movelaria",
-      "done": true
-    },
-    {
-      "date": "2026-08-31",
-      "title": "Stories — Projeto Infinity | Bruna Gosson x Movelaria",
-      "url": "https://notion.so/3ca82cfc4f0a81ec96ecda91b93b0170",
-      "bg": "#e8deee",
-      "fg": "#9065b0",
-      "name": "movelaria",
-      "done": true
-    },
-    {
       "date": "2026-09-10",
       "title": "Stories — Curadoria de Poltronas | Movelaria",
       "url": "https://notion.so/3ca82cfc4f0a81fc8d58dcecc00de0ce",
@@ -2648,15 +2036,6 @@
       "done": true
     },
     {
-      "date": "2026-08-31",
-      "title": "[70% OFF EM 12X]",
-      "url": "https://notion.so/3c982cfc4f0a805ba993cae42c61a3ea",
-      "bg": "#e8deee",
-      "fg": "#9065b0",
-      "name": "movelaria",
-      "done": true
-    },
-    {
       "date": "2026-09-21",
       "title": "Produção de Material para Parceria Institucional (ASSEJUF-RN)",
       "url": "https://notion.so/3df82cfc4f0a80c5b3edfebec6af35d3",
@@ -2687,15 +2066,6 @@
       "date": "2026-09-01",
       "title": "[01/09] Stories — Rituais do Spa Amelis",
       "url": "https://notion.so/3ce82cfc4f0a81f587d6ddccbbe059b9",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-31",
-      "title": "[AMELIS] Saúde Materno-infantil",
-      "url": "https://notion.so/3cd82cfc4f0a80e284a1c8d40c4b2358",
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
@@ -2738,162 +2108,9 @@
       "done": true
     },
     {
-      "date": "2026-08-24",
-      "title": "[EXTRA] - Kur - Composto Karitê",
-      "url": "https://notion.so/3c682cfc4f0a807b8c54ca86fb7600e4",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-24",
-      "title": "[22/08] Stories — Wellness & Spa Amelis",
-      "url": "https://notion.so/3c282cfc4f0a81429159f44add3aaffc",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-21",
-      "title": "[21/08] Stories — Amelis Talk",
-      "url": "https://notion.so/3c282cfc4f0a81548692f7b70c664910",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-31",
-      "title": "[25/08] Stories — Especialidade + Amelis Talk urgente",
-      "url": "https://notion.so/3c282cfc4f0a8157b05acbf4b95e5a13",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-20",
-      "title": "[20/08] Stories — Saúde mental integrada",
-      "url": "https://notion.so/3c282cfc4f0a81b9b21ac287c0393d22",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-10",
-      "title": "[07/08] [31] B-roll Spa Amelis — conteúdo sensorial pós-lançamento",
-      "url": "https://notion.so/39c82cfc4f0a8156961df92447ba9aaf",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-15",
-      "title": "[15/08] [33] Seu sábado na Amelis — spa + yoga",
-      "url": "https://notion.so/39c82cfc4f0a8159bab5d58aca671e7d",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-27",
-      "title": "[18/08] [34] Ginecologia 40+ — saúde da mulher como jornada, não como urgência",
-      "url": "https://notion.so/39c82cfc4f0a816180eaf0052dc9ef1b",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-06",
-      "title": "[05/08] [30] Depoimento de Thierry sobre o Spa Amelis",
-      "url": "https://notion.so/39c82cfc4f0a8167968cc64ae7b56983",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-09-01",
       "title": "[30/08] [36] Fechamento de agosto — o mês que abriu o spa",
       "url": "https://notion.so/39c82cfc4f0a819b8718ea275b4f4cdf",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-25",
-      "title": "[25/08] [35] Amelis Talk — lembrete / últimas vagas",
-      "url": "https://notion.so/39c82cfc4f0a81c09778f21cd64e9e97",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-10",
-      "title": "[03/08] [29] Lançamento Spa Amelis 🚀",
-      "url": "https://notion.so/37282cfc4f0a80c6bb05e1f56e8cd35f",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-04",
-      "title": "[24/07] [26] Bruxismo → Serena SPA — você trata o sintoma, a gente trata a origem",
-      "url": "https://notion.so/36c82cfc4f0a810998c0d223044efa31",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-12",
-      "title": "[20/08] [21] Conteúdo de valor — tema relativo ao Amelis Talk",
-      "url": "https://notion.so/36c82cfc4f0a8127957ced5f89a0478f",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "[18/07] [20] Aquecimento Amélis Talk — convite + tema",
-      "url": "https://notion.so/36c82cfc4f0a8134998ec64659630327",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-20",
-      "title": "[11/08] [16] Saúde mental — ansiedade não é personalidade, é sinal",
-      "url": "https://notion.so/36c82cfc4f0a814aa133d76c43c1355b",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-22",
-      "title": "[22/08] [22] Amelis Talk — aquecimento + convite",
-      "url": "https://notion.so/36c82cfc4f0a814fbffac5c61ad804c1",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
-      "date": "2026-08-28",
-      "title": "[28/08] [23] Amelis Talk — cobertura do evento",
-      "url": "https://notion.so/36c82cfc4f0a8197870eeb06e0e1eb03",
       "bg": "#f5e0e9",
       "fg": "#c04274",
       "name": "amelis",
@@ -2909,135 +2126,9 @@
       "done": true
     },
     {
-      "date": "2026-08-12",
-      "title": "Tag do Chá/Café",
-      "url": "https://notion.so/32c82cfc4f0a80128c8de727e94f5f90",
-      "bg": "#f5e0e9",
-      "fg": "#c04274",
-      "name": "amelis",
-      "done": true
-    },
-    {
       "date": "2026-09-02",
       "title": "Reunião de ajustes",
       "url": "https://notion.so/3cb82cfc4f0a8038823cca68dd35cc0f",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Benchmarking",
-      "url": "https://notion.so/edc82cfc4f0a83c988d68130ab7521dc",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Análise mercadológica",
-      "url": "https://notion.so/0b682cfc4f0a83e88a1781c9050240a1",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Montagem de proposta",
-      "url": "https://notion.so/e5882cfc4f0a82ecae5f01b77d2ae0ef",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Escolha de mockups",
-      "url": "https://notion.so/45a82cfc4f0a83b6b06181a6bb5aba00",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Direção de fotografia",
-      "url": "https://notion.so/d3c82cfc4f0a8275a6ab8192d652ff67",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-06",
-      "title": "Protótipos e testes",
-      "url": "https://notion.so/e5582cfc4f0a82d68aba81af6546513c",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-04",
-      "title": "Estudo de direcionamento",
-      "url": "https://notion.so/de282cfc4f0a8269b2d481467ebb5e6c",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Análise de referências",
-      "url": "https://notion.so/59282cfc4f0a829ba6e781dab3d74099",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-03",
-      "title": "Direcionamento visual",
-      "url": "https://notion.so/08b82cfc4f0a83d08a6981255e031238",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-18",
-      "title": "Apresentação visual",
-      "url": "https://notion.so/9e182cfc4f0a828993178104e3cd859f",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-17",
-      "title": "Itens de ativação",
-      "url": "https://notion.so/ad282cfc4f0a8229978e011c8a1bed36",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Itens impressos",
-      "url": "https://notion.so/64c82cfc4f0a8399bdd901168f5a7a04",
-      "bg": "#fdecc8",
-      "fg": "#8a4e00",
-      "name": "ch representações",
-      "done": true
-    },
-    {
-      "date": "2026-08-26",
-      "title": "Itens visuais",
-      "url": "https://notion.so/48182cfc4f0a820c914981e50d71b807",
       "bg": "#fdecc8",
       "fg": "#8a4e00",
       "name": "ch representações",
