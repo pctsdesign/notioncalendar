@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T06:50:43.904Z",
+  "updated": "2026-11-04T15:06:32.017Z",
   "events": [
     {
       "date": "2026-10-29",
@@ -1082,13 +1082,130 @@
       "done": true
     },
     {
+      "date": "2026-11-06",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/40e82cfc4f0a810e97a5e1398ecfd0c4",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S05.11 - Pausa na Vila com fondue (vale também em 06/11)",
+      "url": "https://notion.so/40e82cfc4f0a81649b9ec8d5e2725c9a",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-13",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/40e82cfc4f0a81658d37ca552b0bdfb3",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-14",
+      "title": "[evento] zé pegado",
+      "url": "https://notion.so/40e82cfc4f0a816c8318cc0d96100bed",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[evento] mercinho sanfoneiro - pacote vila brega",
+      "url": "https://notion.so/40e82cfc4f0a816daba3d02e4351f241",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-04",
+      "title": "[PPG] F04.11 - Vila Brega & Chique: abertura da venda",
+      "url": "https://notion.so/40e82cfc4f0a81769df1d99fa1d4369f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[PPG] S06.11 - Roberto Sanfoneiro + promoção de sexta",
+      "url": "https://notion.so/40e82cfc4f0a81969773e914922839be",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-07",
+      "title": "[evento] mercinho sanfoneiro",
+      "url": "https://notion.so/40e82cfc4f0a81a38b98d7b95877e527",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-04",
+      "title": "[PPG] S04.11 - Vila Brega & Chique: mesas à venda",
+      "url": "https://notion.so/40e82cfc4f0a81b8a421cd40395885ae",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-28",
+      "title": "[evento] privado - sem música",
+      "url": "https://notion.so/40e82cfc4f0a81bb9dd2f4b724b06b5c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-21",
+      "title": "[evento] vila brega & chique - dj danilo celeste / banda rossi",
+      "url": "https://notion.so/40e82cfc4f0a81bc86f5e9fb43b0b84e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-27",
+      "title": "[evento] roberto sanfoneiro",
+      "url": "https://notion.so/40e82cfc4f0a81d99a09daf87bb462bd",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] Mapa de mesas - Vila Brega & Chique",
+      "url": "https://notion.so/40e82cfc4f0a81e5b5d0f8f98ad16e9f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
       "date": "2026-10-31",
       "title": "[PPG] S31.10 — Promoção Junior — Pausa na Vila + Fondue",
       "url": "https://notion.so/40882cfc4f0a8101a18bd61bfc7c5913",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-01",
@@ -1115,7 +1232,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-31",
@@ -1133,7 +1250,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-06",
@@ -1169,7 +1286,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-31",
@@ -1178,7 +1295,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-29",
@@ -1187,7 +1304,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-28",
@@ -1214,7 +1331,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-26",
@@ -1259,7 +1376,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-20",
@@ -1268,7 +1385,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-19",
@@ -1277,7 +1394,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-25",
@@ -1781,7 +1898,7 @@
       "bg": "#e8deee",
       "fg": "#9065b0",
       "name": "movelaria",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-02",
