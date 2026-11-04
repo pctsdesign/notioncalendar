@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T15:06:32.017Z",
+  "updated": "2026-11-04T21:24:31.107Z",
   "events": [
     {
       "date": "2026-10-29",
@@ -647,7 +647,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-02",
@@ -1082,6 +1082,60 @@
       "done": true
     },
     {
+      "date": "2026-11-20",
+      "title": "[feriado da consciência negra]",
+      "url": "https://notion.so/40e82cfc4f0a815db585c73f57c5a1df",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[feriado de finados]",
+      "url": "https://notion.so/40e82cfc4f0a817ba9e7c0e2508b2339",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-12-31",
+      "title": "[réveillon]",
+      "url": "https://notion.so/40e82cfc4f0a81a79b36c3e16c720fd6",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-21",
+      "title": "[feriado municipal em natal — nossa senhora da apresentação]",
+      "url": "https://notion.so/40e82cfc4f0a81c7854bec8ce08c4a84",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-15",
+      "title": "[feriado da proclamação da república]",
+      "url": "https://notion.so/40e82cfc4f0a81cd8d5de525353bb267",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-12-25",
+      "title": "[feriado de natal]",
+      "url": "https://notion.so/40e82cfc4f0a81d9870ed670ed0440c6",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
       "date": "2026-11-06",
       "title": "[evento] roberto sanfoneiro",
       "url": "https://notion.so/40e82cfc4f0a810e97a5e1398ecfd0c4",
@@ -1133,7 +1187,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-06",
@@ -1155,7 +1209,7 @@
     },
     {
       "date": "2026-11-04",
-      "title": "[PPG] S04.11 - Vila Brega & Chique: mesas à venda",
+      "title": "[PPG] S04.11/05.11 - Vila Brega & Chique: mesas à venda",
       "url": "https://notion.so/40e82cfc4f0a81b8a421cd40395885ae",
       "bg": "#fadec9",
       "fg": "#c47615",
@@ -1571,15 +1625,6 @@
       "date": "2026-10-06",
       "title": "[gravação com Lorena e Junior]",
       "url": "https://notion.so/3e582cfc4f0a8029a2d0e713248b58ba",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-11-25",
-      "title": "[eleições]",
-      "url": "https://notion.so/3e582cfc4f0a809a9aa4f8d3742bd9f2",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
