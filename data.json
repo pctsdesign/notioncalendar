@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T19:04:46.417Z",
+  "updated": "2026-11-04T00:04:34.210Z",
   "events": [
     {
       "date": "2026-10-29",
@@ -1773,6 +1773,15 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-11-03",
+      "title": "REUNIÃO — MOVELARIA",
+      "url": "https://notion.so/40d82cfc4f0a80e3813cec9500e7da00",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
     },
     {
       "date": "2026-11-02",
