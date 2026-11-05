@@ -1,6 +1,294 @@
 {
-  "updated": "2026-11-05T17:17:28.027Z",
+  "updated": "2026-11-05T22:45:44.616Z",
   "events": [
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S30/11 - A mesa reúne. O ambiente acolhe.",
+      "url": "https://notion.so/40f82cfc4f0a80388494d82d4d6be044",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S28/11 - O desenho encontra a matéria.",
+      "url": "https://notion.so/40f82cfc4f0a800db326c5c18196aad9",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S27/11 - A Black Eko chegou ao fim.",
+      "url": "https://notion.so/40f82cfc4f0a80a7aec1d7a0b0f4f7dc",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S26/11 - ÚLTIMO DIA.",
+      "url": "https://notion.so/40f82cfc4f0a80bc9888c4d63512e2f9",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S25/11 - A Black Eko está chegando ao fim.",
+      "url": "https://notion.so/40f82cfc4f0a805a92eddaf37d358a6e",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S24/11 - Antes do ambiente pronto, existe a montagem.",
+      "url": "https://notion.so/40f82cfc4f0a80baa061c98e8774e4ce",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S23/11 - O que você espera de um móvel planejado?",
+      "url": "https://notion.so/40f82cfc4f0a806d9fc7fffeebfa92c6",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S21/11 - Casa cheia pede praticidade.",
+      "url": "https://notion.so/40f82cfc4f0a80efbf0ce3477c9f3b39",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S20/11 - Um acabamento muda a leitura de um móvel.",
+      "url": "https://notion.so/40f82cfc4f0a801885e7d763b6ddbf87",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S19/11 - Muito além de revestir uma parede.",
+      "url": "https://notion.so/40f82cfc4f0a80698a4eeae160d4c58b",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S18/11 - Se você pudesse transformar um espaço da casa…",
+      "url": "https://notion.so/40f82cfc4f0a80acaa01f76c88620092",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S17/11 - É HOJE.",
+      "url": "https://notion.so/40f82cfc4f0a8078a14bc9ef2ead7e5b",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S16/11 - A qualidade aparece nos encontros.",
+      "url": "https://notion.so/40f82cfc4f0a804794caf5de9e9afa88",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S14/11 - Alguns planos merecem sair do papel.",
+      "url": "https://notion.so/40f82cfc4f0a803ab8f2c284a0c5154e",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S13/11 - Há espaços feitos para reunir.",
+      "url": "https://notion.so/40f82cfc4f0a805dab44ce53ec81caa6",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S12/11 - A madeira tem presença.",
+      "url": "https://notion.so/40f82cfc4f0a800cada8c4b78df705ac",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S11/11 - A cozinha ganha movimento quando a casa está cheia.",
+      "url": "https://notion.so/40f82cfc4f0a8071bc05ded964c694f3",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S10/11 - A cozinha ganha movimento quando a casa está cheia.",
+      "url": "https://notion.so/40f82cfc4f0a80e69a19f399b998f3bd",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S09/11 - Receber começa por um espaço bem resolvido.",
+      "url": "https://notion.so/40f82cfc4f0a80fd8b9dff9448f52f28",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S07/11 - O fim do ano pede espaços que aproximam.",
+      "url": "https://notion.so/40f82cfc4f0a80db96d6f4bb9f44ac96",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - S06/11 - Às vezes, renovar começa pelos detalhes.",
+      "url": "https://notion.so/40f82cfc4f0a80679d97ebbd618f8f91",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F27/11 - O resultado de uma boa marcenaria",
+      "url": "https://notion.so/40f82cfc4f0a80878afcd93552470a87",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F27/11 - Reels: Reta final Black Eko",
+      "url": "https://notion.so/40f82cfc4f0a80f0b331cc81cdc8e87c",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F25/11 - O que observar em uma boa marcenaria?",
+      "url": "https://notion.so/40f82cfc4f0a8080adacda8680e50836",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F23/11 - Reels: Projetos que inspiram",
+      "url": "https://notion.so/40f82cfc4f0a80a2b649cb65e7f3bf03",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F16/11 - A Black Eko começou (2)",
+      "url": "https://notion.so/40f82cfc4f0a80fa9ee6e76290083af2",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F18/11 - Carrossel: Qual ambiente você renovaria?",
+      "url": "https://notion.so/40f82cfc4f0a80e1ba84eee7ed3d8a1c",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F16/11 - A Black Eko começou",
+      "url": "https://notion.so/40f82cfc4f0a808da907f5c6435fa484",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F13/11 - Teaser Black Eko",
+      "url": "https://notion.so/40f82cfc4f0a80c0a068dc3fcdbbeefc",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F11/11 - ambiente com marcenaria amadeirada e iluminação aconchegante.",
+      "url": "https://notion.so/40f82cfc4f0a80449cf8e8b55bd3a1e6",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F09/11 - Receber começa pelo ambiente.",
+      "url": "https://notion.so/40f82cfc4f0a80c480d6cbbc443987f5",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
+    {
+      "date": "2026-11-06",
+      "title": "[EKO] - F06/11 - Reels: A casa se prepara para receber",
+      "url": "https://notion.so/40f82cfc4f0a80c28d6adf57b21094d9",
+      "bg": "#d3e5ef",
+      "fg": "#2e7dc7",
+      "name": "eko",
+      "done": true
+    },
     {
       "date": "2026-09-09",
       "title": "[EKO] - S16/09  - O PUXADOR MUDA A LEITURA",
@@ -270,6 +558,294 @@
       "fg": "#448361",
       "name": "jocil",
       "done": false
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] F25.11 - ",
+      "url": "https://notion.so/40f82cfc4f0a808abf34c9f98232d47f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] F23.11 - ",
+      "url": "https://notion.so/40f82cfc4f0a8017b0e0d3fe8d86994c",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] F20.11 -  É amanhã: Vila Brega & Chique",
+      "url": "https://notion.so/40f82cfc4f0a80c598fcfb5bde21a233",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] F27.11 - ",
+      "url": "https://notion.so/40f82cfc4f0a80e3b225fbff35d01803",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] F18.11 - ",
+      "url": "https://notion.so/40f82cfc4f0a80c286afcb2845495f2b",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] F16.11 - ",
+      "url": "https://notion.so/40f82cfc4f0a80668719f81e3bc81e6e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] F13.11 - 13/11 — REELS",
+      "url": "https://notion.so/40f82cfc4f0a806493a5e55312b7b7b9",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] F11.11 - ",
+      "url": "https://notion.so/40f82cfc4f0a80edb160c905f7cdd426",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] F09.11 -  ",
+      "url": "https://notion.so/40f82cfc4f0a80ec8b84d4d25a8bfef6",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S30.11 - NOVEMBRO, FOI BOM TER VOCÊ AQUI  ",
+      "url": "https://notion.so/40f82cfc4f0a80a08339e005763ca7ed",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S29.11 - O DOMINGO CHEGOU  ",
+      "url": "https://notion.so/40f82cfc4f0a80429c8adcd9ce502c48",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S28.11 -  ÚLTIMO SÁBADO DE NOVEMBRO",
+      "url": "https://notion.so/40f82cfc4f0a804a8808d4e32fdb2138",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S27.11 -  A OFERTA DE HOJE",
+      "url": "https://notion.so/40f82cfc4f0a802b992fd979382b6919",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S26.11 - DEZEMBRO ESTÁ CHEGANDO",
+      "url": "https://notion.so/40f82cfc4f0a809ea7c4fd961bfca5ae",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S25.11 - O DIA COMEÇA NO AROMA",
+      "url": "https://notion.so/40f82cfc4f0a8048ac96e0af4f91fd20",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S24.11 - O PLANO DE HOJE",
+      "url": "https://notion.so/40f82cfc4f0a805f9b93dea2fd422b32",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S23.11 - PRIMEIRO SINAL",
+      "url": "https://notion.so/40f82cfc4f0a80c2a28fc692ff869fd4",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S22.11 - DOMINGO É PARA ESTAR JUNTO",
+      "url": "https://notion.so/40f82cfc4f0a80e8ba51ca1da8556fa2",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S21.11 - O FIM DE SEMANA CONTINUA",
+      "url": "https://notion.so/40f82cfc4f0a80808be2c19ec9a1189d",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S20.11 - FERIADO NA SERRA",
+      "url": "https://notion.so/40f82cfc4f0a8029bd7de0967bd74ff9",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S19.11 - O FERIADO ESTÁ CHEGANDO",
+      "url": "https://notion.so/40f82cfc4f0a803baad7d49ce43eedd3",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S18.11 - TRÊS ETAPAS",
+      "url": "https://notion.so/40f82cfc4f0a80ceb3e7f1545c8751ac",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S17.11 - O SOM DE HOJE",
+      "url": "https://notion.so/40f82cfc4f0a80cda44ed1aea43fb58e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S16.11 - SEGUNDA SEM DESPERTADOR",
+      "url": "https://notion.so/40f82cfc4f0a802787f7e57d695bc41f",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S15.11 - 15 DE NOVEMBRO",
+      "url": "https://notion.so/40f82cfc4f0a8016927ef50ae69129b8",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S14.11 - SÁBADO PEDE VILA",
+      "url": "https://notion.so/40f82cfc4f0a8019846ffcfdb543cea3",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S13.11 - O FIM DE SEMANA COMEÇOU",
+      "url": "https://notion.so/40f82cfc4f0a808cb652c5e51b0da183",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S12.11 - QUASE SEXTA",
+      "url": "https://notion.so/40f82cfc4f0a807fbd66e47bb30fe847",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S11.11 - QUAL É O SEU ROTEIRO?",
+      "url": "https://notion.so/40f82cfc4f0a80a4b89aeadf00528a46",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S10.11 - UM DESTINO À MESA",
+      "url": "https://notion.so/40f82cfc4f0a80a39f1ff0026979e532",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S09.11 -  COMEÇOU OUTRA SEMANA",
+      "url": "https://notion.so/40f82cfc4f0a80b5bec5f6ed60b7f469",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
+    },
+    {
+      "date": "2026-11-05",
+      "title": "[PPG] S08.11 - DOMINGO POR AQUI",
+      "url": "https://notion.so/40f82cfc4f0a803aae1fffd2f102a06e",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": true
     },
     {
       "date": "2026-10-02",
