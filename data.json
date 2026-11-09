@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T10:04:23.600Z",
+  "updated": "2026-11-09T20:56:27.211Z",
   "events": [
     {
       "date": "2026-11-30",
@@ -173,7 +173,7 @@
       "done": false
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-11",
       "title": "[EKO] - S07/11 - O fim do ano pede espaços que aproximam.",
       "url": "https://notion.so/40f82cfc4f0a80db96d6f4bb9f44ac96",
       "bg": "#d3e5ef",
@@ -182,7 +182,7 @@
       "done": false
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-10",
       "title": "[EKO] - S06/11 - Às vezes, renovar começa pelos detalhes.",
       "url": "https://notion.so/40f82cfc4f0a80679d97ebbd618f8f91",
       "bg": "#d3e5ef",
@@ -296,7 +296,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-19",
@@ -629,7 +629,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-10-02",
@@ -839,6 +839,15 @@
       "done": true
     },
     {
+      "date": "2026-11-02",
+      "title": "[reposts de materiais anteriores]",
+      "url": "https://notion.so/41382cfc4f0a8011bfccc6c47910a54c",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
       "date": "2026-11-19",
       "title": "[JOC] - S19/11 - (1)",
       "url": "https://notion.so/40982cfc4f0a80a3b8f4cbdbff737779",
@@ -849,7 +858,7 @@
     },
     {
       "date": "2026-11-18",
-      "title": "[JOC] - S18/11 - ",
+      "title": "[JOC] - S18/11 - [SILHOUETTE] A luz sob uma nova perspectiva ",
       "url": "https://notion.so/40982cfc4f0a805ba55ff20fdd1ef7be",
       "bg": "#dbeddb",
       "fg": "#448361",
@@ -858,7 +867,7 @@
     },
     {
       "date": "2026-11-17",
-      "title": "[JOC] - S16/11 - Nem toda mudança precisa ser grande. (1)",
+      "title": "[JOC] - S16/11 - Nem toda mudança precisa ser grande.  ",
       "url": "https://notion.so/40982cfc4f0a8074bd9af287f5c33f70",
       "bg": "#dbeddb",
       "fg": "#448361",
@@ -894,7 +903,7 @@
     },
     {
       "date": "2026-11-11",
-      "title": "[JOC] - F11/11 - FEED  — CARROSSEL | EXPERIÊNCIA JOCIL",
+      "title": "[JOC] - F11/11 - FEED  — A delicadeza de controlar a luz.",
       "url": "https://notion.so/40982cfc4f0a80819284c98861dc93d4",
       "bg": "#dbeddb",
       "fg": "#448361",
@@ -938,7 +947,7 @@
       "done": true
     },
     {
-      "date": "2026-11-02",
+      "date": "2026-11-10",
       "title": "[JOC] - S02/11 - Antes de mudar todos os móveis, olhe para as janelas. ",
       "url": "https://notion.so/40982cfc4f0a80e78693e7733c0f7c17",
       "bg": "#dbeddb",
@@ -983,7 +992,7 @@
       "done": false
     },
     {
-      "date": "2026-11-10",
+      "date": "2026-11-17",
       "title": "[JOC] - S10/11 - Um projeto bonito merece ser vivido.",
       "url": "https://notion.so/40982cfc4f0a80338990ea8d78b64322",
       "bg": "#dbeddb",
@@ -1019,7 +1028,7 @@
       "done": false
     },
     {
-      "date": "2026-11-07",
+      "date": "2026-11-16",
       "title": "[JOC] - S07/11 - Uma casa preparada para receber também considera o conforto de quem chega.",
       "url": "https://notion.so/40982cfc4f0a8036bc11f488d449ebc6",
       "bg": "#dbeddb",
@@ -1028,7 +1037,7 @@
       "done": false
     },
     {
-      "date": "2026-11-04",
+      "date": "2026-11-12",
       "title": "[JOC] - S04/11 - Sua sala não precisa ser completamente transformada para ganhar uma nova identidade. ",
       "url": "https://notion.so/40982cfc4f0a80fbbef4cf060b3662b5",
       "bg": "#dbeddb",
@@ -1037,7 +1046,7 @@
       "done": false
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-13",
       "title": "[JOC] - S06/11 - Que tal começar o próximo ano com um quarto renovado?",
       "url": "https://notion.so/40982cfc4f0a80c6b35bc6b5217aed5c",
       "bg": "#dbeddb",
@@ -1046,7 +1055,7 @@
       "done": false
     },
     {
-      "date": "2026-11-05",
+      "date": "2026-11-13",
       "title": "[JOC] - S05/11 - O Natal começa muito antes da noite do dia 24.",
       "url": "https://notion.so/40982cfc4f0a80d0b2a8ee2c58585e63",
       "bg": "#dbeddb",
@@ -1055,7 +1064,7 @@
       "done": false
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-11",
       "title": "[JOC] - S03/11 - Em breve, a sala vai receber mais conversas.",
       "url": "https://notion.so/40982cfc4f0a80db9f24c8489fd79f3a",
       "bg": "#dbeddb",
@@ -1064,7 +1073,7 @@
       "done": false
     },
     {
-      "date": "2026-11-06",
+      "date": "2026-11-11",
       "title": "[JOC] - F06/11 - REELS | RENOVAÇÃO DA CASA",
       "url": "https://notion.so/40982cfc4f0a80c5845ecbe440053c8f",
       "bg": "#dbeddb",
@@ -1190,7 +1199,7 @@
       "done": false
     },
     {
-      "date": "2026-10-31",
+      "date": "2026-11-20",
       "title": "[JOC] - S31/10 - [INSTITUCIONAL] A casa se prepara para um novo tempo",
       "url": "https://notion.so/3ca82cfc4f0a8177a45feef6018e1afa",
       "bg": "#dbeddb",
@@ -1368,6 +1377,33 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-11-14",
+      "title": "[PPG] F14.11 - É HOJE: ALMOÇO COM SANFONA",
+      "url": "https://notion.so/41382cfc4f0a818cb367f144b84aabd1",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": "[PPG] F12.11 - O QUE PEDIR NESSE SÁBADO",
+      "url": "https://notion.so/41382cfc4f0a81b993a2ec198fe59bdf",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-10",
+      "title": "[PPG] F10.11 - SÁBADO COM ROBERTO SANFONEIRO",
+      "url": "https://notion.so/41382cfc4f0a81eba6ebc5dc4ef592be",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-11-25",
@@ -1646,7 +1682,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-08",
@@ -1655,7 +1691,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-20",
@@ -1727,7 +1763,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-13",
@@ -1772,7 +1808,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-07",
@@ -1790,7 +1826,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-28",
@@ -2511,6 +2547,15 @@
       "fg": "#c47615",
       "name": "ppg",
       "done": true
+    },
+    {
+      "date": "2026-11-09",
+      "title": "BRIEFING - CLUBE",
+      "url": "https://notion.so/41382cfc4f0a8069a742cbc4aa89d28e",
+      "bg": "#e8deee",
+      "fg": "#9065b0",
+      "name": "movelaria",
+      "done": false
     },
     {
       "date": "2026-11-03",
