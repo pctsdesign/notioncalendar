@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T03:16:48.395Z",
+  "updated": "2026-11-10T11:31:23.367Z",
   "events": [
     {
       "date": "2026-11-11",
@@ -306,6 +306,24 @@
       "fg": "#2e7dc7",
       "name": "eko",
       "done": true
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[JOC] - S31/10 - [INSTITUCIONAL] A casa se prepara para um novo tempo (1)",
+      "url": "https://notion.so/41482cfc4f0a80ef8300d9ba86377dbf",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[JOC] - S31/10 - [INSTITUCIONAL] A casa se prepara para um novo tempo (1)",
+      "url": "https://notion.so/41482cfc4f0a8067b887c9b5f5a4ce0f",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
     },
     {
       "date": "2026-11-10",
