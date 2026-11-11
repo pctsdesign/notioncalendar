@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T06:55:18.992Z",
+  "updated": "2026-11-11T14:55:21.934Z",
   "events": [
     {
       "date": "2026-11-06",
@@ -323,7 +323,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-20",
@@ -341,7 +341,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-20",
@@ -350,7 +350,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-20",
@@ -359,7 +359,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-20",
@@ -368,7 +368,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-20",
@@ -377,7 +377,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-20",
@@ -476,7 +476,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-09-11",
