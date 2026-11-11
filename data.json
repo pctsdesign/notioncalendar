@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T14:55:21.934Z",
+  "updated": "2026-11-11T21:44:54.338Z",
   "events": [
     {
       "date": "2026-11-30",
@@ -140,15 +140,6 @@
       "date": "2026-11-12",
       "title": "[EKO] - S12/11 - A madeira tem presença.",
       "url": "https://notion.so/40f82cfc4f0a800cada8c4b78df705ac",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-11-11",
-      "title": "[EKO] - S11/11 - A cozinha ganha movimento quando a casa está cheia.",
-      "url": "https://notion.so/40f82cfc4f0a8071bc05ded964c694f3",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
