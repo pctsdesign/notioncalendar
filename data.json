@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T18:41:50.302Z",
+  "updated": "2026-11-12T23:58:10.387Z",
   "events": [
     {
       "date": "2026-11-30",
@@ -1386,6 +1386,24 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
+    },
+    {
+      "date": "2026-11-12",
+      "title": "urgente 2 - 1080x1350 - Whatsapp",
+      "url": "https://notion.so/41682cfc4f0a80d3905cd8c77178abab",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
+    },
+    {
+      "date": "2026-11-12",
+      "title": "urgente",
+      "url": "https://notion.so/41682cfc4f0a80b8b4f0e35918fb9b72",
+      "bg": "#fadec9",
+      "fg": "#c47615",
+      "name": "ppg",
+      "done": false
     },
     {
       "date": "2026-11-14",
