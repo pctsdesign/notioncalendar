@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T14:47:27.146Z",
+  "updated": "2026-11-13T21:11:28.724Z",
   "events": [
     {
       "date": "2026-11-30",
@@ -1403,7 +1403,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-14",
@@ -1673,7 +1673,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-12",

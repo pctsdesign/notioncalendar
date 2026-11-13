@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T14:47:27.146Z",
+  "updated": "2026-11-13T21:11:28.724Z",
   "events": [
     {
       "date": "2026-11-06",
@@ -453,35 +453,8 @@
     },
     {
       "date": "2026-11-05",
-      "title": "[PPG] S17.11 - O SOM DE HOJE",
-      "url": "https://notion.so/40f82cfc4f0a80cda44ed1aea43fb58e",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-11-05",
-      "title": "[PPG] S16.11 - SEGUNDA SEM DESPERTADOR",
-      "url": "https://notion.so/40f82cfc4f0a802787f7e57d695bc41f",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-11-05",
       "title": "[PPG] S15.11 - 15 DE NOVEMBRO",
       "url": "https://notion.so/40f82cfc4f0a8016927ef50ae69129b8",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-11-05",
-      "title": "[PPG] S14.11 - SÁBADO PEDE VILA",
-      "url": "https://notion.so/40f82cfc4f0a8019846ffcfdb543cea3",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
