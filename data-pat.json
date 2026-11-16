@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T07:01:58.515Z",
+  "updated": "2026-11-16T17:15:51.483Z",
   "events": [
     {
       "date": "2026-11-06",
@@ -102,62 +102,8 @@
     },
     {
       "date": "2026-11-06",
-      "title": "[EKO] - S17/11 - É HOJE.",
-      "url": "https://notion.so/40f82cfc4f0a8078a14bc9ef2ead7e5b",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-11-06",
-      "title": "[EKO] - S16/11 - A qualidade aparece nos encontros.",
-      "url": "https://notion.so/40f82cfc4f0a804794caf5de9e9afa88",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-11-06",
-      "title": "[EKO] - S14/11 - Alguns planos merecem sair do papel.",
-      "url": "https://notion.so/40f82cfc4f0a803ab8f2c284a0c5154e",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-11-06",
-      "title": "[EKO] - S13/11 - Há espaços feitos para reunir.",
-      "url": "https://notion.so/40f82cfc4f0a805dab44ce53ec81caa6",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-11-06",
-      "title": "[EKO] - S12/11 - A madeira tem presença.",
-      "url": "https://notion.so/40f82cfc4f0a800cada8c4b78df705ac",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-11-06",
       "title": "[EKO] - S10/11 - A cozinha ganha movimento quando a casa está cheia.",
       "url": "https://notion.so/40f82cfc4f0a80e69a19f399b998f3bd",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-11-06",
-      "title": "[EKO] - S09/11 - Receber começa por um espaço bem resolvido.",
-      "url": "https://notion.so/40f82cfc4f0a80fd8b9dff9448f52f28",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -513,15 +459,6 @@
       "fg": "#2e7dc7",
       "name": "eko",
       "done": true
-    },
-    {
-      "date": "2026-11-20",
-      "title": "[JOC] - S16/11 - Nem toda mudança precisa ser grande.  ",
-      "url": "https://notion.so/40982cfc4f0a8074bd9af287f5c33f70",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
     },
     {
       "date": "2026-11-02",
