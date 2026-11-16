@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T00:10:10.682Z",
+  "updated": "2026-11-16T07:01:58.515Z",
   "events": [
     {
       "date": "2026-11-06",
@@ -437,15 +437,6 @@
       "date": "2026-11-05",
       "title": "[PPG] S19.11 - O FERIADO ESTÁ CHEGANDO",
       "url": "https://notion.so/40f82cfc4f0a803baad7d49ce43eedd3",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-11-05",
-      "title": "[PPG] S18.11 - TRÊS ETAPAS",
-      "url": "https://notion.so/40f82cfc4f0a80ceb3e7f1545c8751ac",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",

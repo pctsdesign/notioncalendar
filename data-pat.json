@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T00:10:10.682Z",
+  "updated": "2026-11-16T07:01:58.515Z",
   "events": [
     {
       "date": "2026-11-06",
@@ -894,21 +894,12 @@
     },
     {
       "date": "2026-11-05",
-      "title": "[PPG] S18.11 - TRÊS ETAPAS",
-      "url": "https://notion.so/40f82cfc4f0a80ceb3e7f1545c8751ac",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-11-05",
       "title": "[PPG] S15.11 - 15 DE NOVEMBRO",
       "url": "https://notion.so/40f82cfc4f0a8016927ef50ae69129b8",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-05",
