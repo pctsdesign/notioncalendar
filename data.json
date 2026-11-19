@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T15:38:02.759Z",
+  "updated": "2026-11-19T22:54:27.612Z",
   "events": [
     {
       "date": "2026-11-30",
@@ -940,15 +940,6 @@
     {
       "date": "2026-11-20",
       "title": "[JOC] - S31/10 - [INSTITUCIONAL] A casa se prepara para um novo tempo (1)",
-      "url": "https://notion.so/41482cfc4f0a80ef8300d9ba86377dbf",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-11-20",
-      "title": "[JOC] - S31/10 - [INSTITUCIONAL] A casa se prepara para um novo tempo (1)",
       "url": "https://notion.so/41482cfc4f0a8067b887c9b5f5a4ce0f",
       "bg": "#dbeddb",
       "fg": "#448361",
@@ -974,7 +965,7 @@
       "done": false
     },
     {
-      "date": "2026-11-18",
+      "date": "2026-11-24",
       "title": "[JOC] - S18/11 - [SILHOUETTE] A luz sob uma nova perspectiva ",
       "url": "https://notion.so/40982cfc4f0a805ba55ff20fdd1ef7be",
       "bg": "#dbeddb",
@@ -1736,7 +1727,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-17",
@@ -1745,7 +1736,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-16",

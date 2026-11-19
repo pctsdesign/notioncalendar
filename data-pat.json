@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T15:38:02.759Z",
+  "updated": "2026-11-19T22:54:27.612Z",
   "events": [
     {
       "date": "2026-11-06",
@@ -443,24 +443,6 @@
       "done": true
     },
     {
-      "date": "2026-11-20",
-      "title": "[JOC] - S21/11 - Antes de receber os convidados, vale olhar para a sala como um todo. ",
-      "url": "https://notion.so/41d82cfc4f0a80ed98ffd35a4480a8f1",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-11-20",
-      "title": "[JOC] - S18/11 - [SILHOUETTE] A luz sob uma nova perspectiva ",
-      "url": "https://notion.so/40982cfc4f0a805ba55ff20fdd1ef7be",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
       "date": "2026-11-02",
       "title": "[JOC] - F16/11 - CARROSSEL | HUNTER DOUGLAS",
       "url": "https://notion.so/40982cfc4f0a80e9bc7dc626ce34a35d",
@@ -522,15 +504,6 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
-    },
-    {
-      "date": "2026-11-20",
-      "title": "[JOC] - S20/11 - Nem sempre queremos abrir completamente as cortinas.",
-      "url": "https://notion.so/40982cfc4f0a80c9a3dcf26ef5c6d068",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
     },
     {
       "date": "2026-11-20",
