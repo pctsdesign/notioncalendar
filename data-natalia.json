@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T05:59:47.885Z",
+  "updated": "2026-11-19T15:38:02.759Z",
   "events": [
     {
       "date": "2026-11-06",
@@ -77,24 +77,6 @@
       "date": "2026-11-06",
       "title": "[EKO] - S20/11 - Um acabamento muda a leitura de um móvel.",
       "url": "https://notion.so/40f82cfc4f0a801885e7d763b6ddbf87",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-11-06",
-      "title": "[EKO] - S19/11 - Muito além de revestir uma parede.",
-      "url": "https://notion.so/40f82cfc4f0a80698a4eeae160d4c58b",
-      "bg": "#d3e5ef",
-      "fg": "#2e7dc7",
-      "name": "eko",
-      "done": false
-    },
-    {
-      "date": "2026-11-06",
-      "title": "[EKO] - S18/11 - Se você pudesse transformar um espaço da casa…",
-      "url": "https://notion.so/40f82cfc4f0a80acaa01f76c88620092",
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
@@ -182,9 +164,36 @@
       "done": true
     },
     {
+      "date": "2026-11-02",
+      "title": "[JOC] - F25/11 - ",
+      "url": "https://notion.so/41d82cfc4f0a8022b9e4d7ad14bfd287",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-23",
+      "title": "[JOC] - F23/11 - ",
+      "url": "https://notion.so/41d82cfc4f0a80b4b104dd1ad92be4fa",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
+      "date": "2026-11-02",
+      "title": "[JOC] - F27/11 - ",
+      "url": "https://notion.so/41d82cfc4f0a80e8a2c5e08ee9108839",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": true
+    },
+    {
       "date": "2026-11-20",
-      "title": "[JOC] - S19/11 - (1)",
-      "url": "https://notion.so/40982cfc4f0a80a3b8f4cbdbff737779",
+      "title": "[JOC] - S23/11 - (3)",
+      "url": "https://notion.so/41d82cfc4f0a80268ba8e8a7b4c3b6a2",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
@@ -192,8 +201,71 @@
     },
     {
       "date": "2026-11-20",
-      "title": "[JOC] - S18/11 - [SILHOUETTE] A luz sob uma nova perspectiva ",
-      "url": "https://notion.so/40982cfc4f0a805ba55ff20fdd1ef7be",
+      "title": "[JOC] - S01/12 - Já reparou como uma mesma sala pode parecer completamente diferente dependendo da cortina?",
+      "url": "https://notion.so/41d82cfc4f0a80eb8222e8123328459e",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[JOC] - S27/11 - A tecnologia pode fazer parte da casa sem se tornar o centro das atenções.",
+      "url": "https://notion.so/41d82cfc4f0a8024a117ed9d5ae88a0e",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[JOC] - S26/11 - Um projeto bem pensado não precisa de elementos que disputem atenção.",
+      "url": "https://notion.so/41d82cfc4f0a80e79baef05f6cd8882a",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[JOC] - S25/11 - Sua sala pode ganhar uma nova leitura sem precisar de novos móveis. ",
+      "url": "https://notion.so/41d82cfc4f0a80fdbd5bd860f3ea8f18",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[JOC] - S24/11 - Vai receber familiares em casa neste fim de ano?",
+      "url": "https://notion.so/41d82cfc4f0a80e29aaaf206bcd28618",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[JOC] - S30/11 - O fim do ano costuma despertar aquela vontade de colocar algumas mudanças em prática.",
+      "url": "https://notion.so/41d82cfc4f0a80eca8f4cd7c59f8d97e",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[JOC] - S28/11 - Uma referência salva no celular pode ser o início de um novo projeto.",
+      "url": "https://notion.so/41d82cfc4f0a802b900bde77e6a6b05a",
+      "bg": "#dbeddb",
+      "fg": "#448361",
+      "name": "jocil",
+      "done": false
+    },
+    {
+      "date": "2026-11-20",
+      "title": "[JOC] - S19/11 - Tem uma parte do Natal que começa muito antes da ceia.",
+      "url": "https://notion.so/40982cfc4f0a80a3b8f4cbdbff737779",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
@@ -225,15 +297,6 @@
       "fg": "#448361",
       "name": "jocil",
       "done": true
-    },
-    {
-      "date": "2026-11-20",
-      "title": "[JOC] - S20/11 - ",
-      "url": "https://notion.so/40982cfc4f0a80c9a3dcf26ef5c6d068",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
     },
     {
       "date": "2026-11-20",
@@ -428,15 +491,6 @@
       "date": "2026-11-05",
       "title": "[PPG] S20.11 - FERIADO NA SERRA",
       "url": "https://notion.so/40f82cfc4f0a8029bd7de0967bd74ff9",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": true
-    },
-    {
-      "date": "2026-11-05",
-      "title": "[PPG] S19.11 - O FERIADO ESTÁ CHEGANDO",
-      "url": "https://notion.so/40f82cfc4f0a803baad7d49ce43eedd3",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
