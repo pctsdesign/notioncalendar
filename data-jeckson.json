@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T03:52:03.425Z",
+  "updated": "2026-11-20T12:30:21.481Z",
   "events": [
     {
       "date": "2026-11-27",
@@ -395,7 +395,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-20",
@@ -440,7 +440,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-20",
