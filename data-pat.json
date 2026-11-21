@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T09:31:56.110Z",
+  "updated": "2026-11-21T17:06:36.567Z",
   "events": [
     {
       "date": "2026-11-06",
@@ -461,7 +461,7 @@
       "done": false
     },
     {
-      "date": "2026-11-02",
+      "date": "2026-11-23",
       "title": "[JOC] - F11/11 - FEED  — A delicadeza de controlar a luz.",
       "url": "https://notion.so/40982cfc4f0a80819284c98861dc93d4",
       "bg": "#dbeddb",
@@ -524,34 +524,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
-      "title": "[JOC] - S11/11 - O fim do ano sempre nos faz revisitar algumas histórias.",
-      "url": "https://notion.so/40982cfc4f0a80b0837ffefbc1b0ed20",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-11-20",
-      "title": "[JOC] - S12/11 - Imagine sua sala pronta para os encontros de dezembro.",
-      "url": "https://notion.so/40982cfc4f0a8092be76fae74aec39d0",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-11-20",
-      "title": "[JOC] - S14/11 - O melhor da casa nem sempre está na decoração.",
-      "url": "https://notion.so/40982cfc4f0a80599d4dd02482ce3671",
-      "bg": "#dbeddb",
-      "fg": "#448361",
-      "name": "jocil",
-      "done": false
-    },
-    {
-      "date": "2026-11-11",
+      "date": "2026-11-24",
       "title": "[JOC] - F06/11 - REELS | RENOVAÇÃO DA CASA",
       "url": "https://notion.so/40982cfc4f0a80c5845ecbe440053c8f",
       "bg": "#dbeddb",
@@ -602,7 +575,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-10",
@@ -647,7 +620,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-05",
@@ -674,7 +647,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-05",
@@ -683,7 +656,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-05",
@@ -723,66 +696,12 @@
     },
     {
       "date": "2026-11-05",
-      "title": "[PPG] S28.11 -  ÚLTIMO SÁBADO DE NOVEMBRO",
-      "url": "https://notion.so/40f82cfc4f0a804a8808d4e32fdb2138",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-11-05",
-      "title": "[PPG] S27.11 -  A OFERTA DE HOJE",
-      "url": "https://notion.so/40f82cfc4f0a802b992fd979382b6919",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-11-05",
-      "title": "[PPG] S26.11 - DEZEMBRO ESTÁ CHEGANDO",
-      "url": "https://notion.so/40f82cfc4f0a809ea7c4fd961bfca5ae",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-11-05",
-      "title": "[PPG] S25.11 - O DIA COMEÇA NO AROMA",
-      "url": "https://notion.so/40f82cfc4f0a8048ac96e0af4f91fd20",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-11-05",
-      "title": "[PPG] S24.11 - O PLANO DE HOJE",
-      "url": "https://notion.so/40f82cfc4f0a805f9b93dea2fd422b32",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-11-05",
-      "title": "[PPG] S23.11 - PRIMEIRO SINAL",
-      "url": "https://notion.so/40f82cfc4f0a80c2a28fc692ff869fd4",
-      "bg": "#fadec9",
-      "fg": "#c47615",
-      "name": "ppg",
-      "done": false
-    },
-    {
-      "date": "2026-11-05",
       "title": "[PPG] S22.11 - DOMINGO É PARA ESTAR JUNTO",
       "url": "https://notion.so/40f82cfc4f0a80e8ba51ca1da8556fa2",
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-05",
@@ -791,7 +710,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-05",
@@ -800,7 +719,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-05",
