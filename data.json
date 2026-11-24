@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T12:00:49.936Z",
+  "updated": "2026-11-24T22:39:55.132Z",
   "events": [
     {
       "date": "2026-11-30",
@@ -1073,7 +1073,7 @@
       "done": false
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-26",
       "title": "[JOC] - S16/11 - Todo novo ciclo traz a vontade de mudar alguma coisa.",
       "url": "https://notion.so/40982cfc4f0a804499e9da74edad423f",
       "bg": "#dbeddb",
@@ -1082,7 +1082,7 @@
       "done": false
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-27",
       "title": "[JOC] - S13/11 - Pensando em renovar a casa antes das festas?",
       "url": "https://notion.so/40982cfc4f0a80feba8dda7e299601b7",
       "bg": "#dbeddb",
@@ -1178,7 +1178,7 @@
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-24",
@@ -1529,7 +1529,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-25",
@@ -1673,7 +1673,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-23",
@@ -1682,7 +1682,7 @@
       "bg": "#fadec9",
       "fg": "#c47615",
       "name": "ppg",
-      "done": false
+      "done": true
     },
     {
       "date": "2026-11-22",

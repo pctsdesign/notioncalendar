@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T12:00:49.936Z",
+  "updated": "2026-11-24T22:39:55.132Z",
   "events": [
     {
       "date": "2026-11-06",
@@ -89,7 +89,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-11-06",
@@ -98,7 +98,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-11-06",
@@ -107,7 +107,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-11-06",
@@ -116,7 +116,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-11-06",
@@ -125,7 +125,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-11-06",
@@ -134,7 +134,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-11-06",
@@ -143,7 +143,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-11-06",
@@ -152,7 +152,7 @@
       "bg": "#d3e5ef",
       "fg": "#2e7dc7",
       "name": "eko",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-09-09",
@@ -173,7 +173,7 @@
       "done": true
     },
     {
-      "date": "2026-11-23",
+      "date": "2026-11-02",
       "title": "[JOC] - F23/11 - ",
       "url": "https://notion.so/41d82cfc4f0a80b4b104dd1ad92be4fa",
       "bg": "#dbeddb",
@@ -191,7 +191,7 @@
       "done": true
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S23/11 - (3)",
       "url": "https://notion.so/41d82cfc4f0a80268ba8e8a7b4c3b6a2",
       "bg": "#dbeddb",
@@ -200,7 +200,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S01/12 - Já reparou como uma mesma sala pode parecer completamente diferente dependendo da cortina?",
       "url": "https://notion.so/41d82cfc4f0a80eb8222e8123328459e",
       "bg": "#dbeddb",
@@ -209,7 +209,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S27/11 - A tecnologia pode fazer parte da casa sem se tornar o centro das atenções.",
       "url": "https://notion.so/41d82cfc4f0a8024a117ed9d5ae88a0e",
       "bg": "#dbeddb",
@@ -218,7 +218,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S26/11 - Um projeto bem pensado não precisa de elementos que disputem atenção.",
       "url": "https://notion.so/41d82cfc4f0a80e79baef05f6cd8882a",
       "bg": "#dbeddb",
@@ -227,7 +227,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S25/11 - Sua sala pode ganhar uma nova leitura sem precisar de novos móveis. ",
       "url": "https://notion.so/41d82cfc4f0a80fdbd5bd860f3ea8f18",
       "bg": "#dbeddb",
@@ -236,7 +236,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S24/11 - Vai receber familiares em casa neste fim de ano?",
       "url": "https://notion.so/41d82cfc4f0a80e29aaaf206bcd28618",
       "bg": "#dbeddb",
@@ -245,7 +245,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S30/11 - O fim do ano costuma despertar aquela vontade de colocar algumas mudanças em prática.",
       "url": "https://notion.so/41d82cfc4f0a80eca8f4cd7c59f8d97e",
       "bg": "#dbeddb",
@@ -254,7 +254,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S28/11 - Uma referência salva no celular pode ser o início de um novo projeto.",
       "url": "https://notion.so/41d82cfc4f0a802b900bde77e6a6b05a",
       "bg": "#dbeddb",
@@ -263,7 +263,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S19/11 - Tem uma parte do Natal que começa muito antes da ceia.",
       "url": "https://notion.so/40982cfc4f0a80a3b8f4cbdbff737779",
       "bg": "#dbeddb",
@@ -281,13 +281,13 @@
       "done": true
     },
     {
-      "date": "2026-11-09",
+      "date": "2026-11-02",
       "title": "[JOC] - F09/11 - CARROSSEL | CORTINAS",
       "url": "https://notion.so/40982cfc4f0a807db65cf063a0afc17a",
       "bg": "#dbeddb",
       "fg": "#448361",
       "name": "jocil",
-      "done": true
+      "done": false
     },
     {
       "date": "2026-11-02",
@@ -299,7 +299,7 @@
       "done": true
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S09/11 - Renovar a casa não significa abandonar tudo o que já existe.",
       "url": "https://notion.so/40982cfc4f0a80b8934cdccddd2d6e93",
       "bg": "#dbeddb",
@@ -308,7 +308,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S25/08",
       "url": "https://notion.so/3ca82cfc4f0a81918bd1d3b75f79501f",
       "bg": "#dbeddb",
@@ -317,7 +317,7 @@
       "done": false
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-02",
       "title": "[JOC] - S21/08 - ",
       "url": "https://notion.so/3ca82cfc4f0a8193a6efd095249610d5",
       "bg": "#dbeddb",
